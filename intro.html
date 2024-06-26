@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Course overview &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Introduction to Innovation" href="innovation/1_introduction_to_innovation.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="innovation/1_introduction_to_innovation.html">1. Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/2_business_model_canvas.html">2. Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/3_customer_discovery.html">3. Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/4_value_proposition_canvas.html">4. Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/5_experimentation.html">5. Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/6_minimum_viable_product.html">6. Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/7_prototyping.html">7. Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="innovation/10_FAQs.html">8. Subject Frequential Asked Questions (FAQs)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Course overview</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-this-course-about">What is this course about?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#course-description">Course description</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning outcomes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#but-what-does-this-mean-in-normal-words">But what does this mean in normal words?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-should-i-learn-about-innovation">Why should I learn about innovation?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-elements-of-comp1100-comp7100">Key elements of COMP1100/COMP7100</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-legends">Your legends</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment">Assessment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#communication">Communication</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expectations">Expectations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#our-expectations-from-you">Our expectations from you</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-expectations-from-us">Your expectations from us</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weekly-format">Weekly format</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#projects">Projects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">Takeaways</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="course-overview">
+<h1>Course overview<a class="headerlink" href="#course-overview" title="Link to this heading">#</a></h1>
+<section id="what-is-this-course-about">
+<h2>What is this course about?<a class="headerlink" href="#what-is-this-course-about" title="Link to this heading">#</a></h2>
+<section id="course-description">
+<h3>Course description<a class="headerlink" href="#course-description" title="Link to this heading">#</a></h3>
+<p>Introduction to innovation using computer science and information technology through a discipline-specific team project. Students will learn what innovation is, processes that innovators follow, how innovation teams work together, how to make decisions in technology projects, how to use prototyping in the innovation process and the tools required to successfully deliver and communicate an innovation project.</p>
+</section>
+<section id="learning-outcomes">
+<h3>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Link to this heading">#</a></h3>
+<p>After successfully completing this course, students should be able to</p>
+<ol class="arabic simple">
+<li><p>Work independently as part of a team with diverse backgrounds towards authentic IT innovation solutions</p></li>
+<li><p>Apply innovation processes to open ended problems</p></li>
+<li><p>Collect and analyse data about people and problems</p></li>
+<li><p>Design and prototype innovation solutions to identified open ended problems</p></li>
+<li><p>Communicate problems and solution to technical and non-technical stakeholders</p></li>
+</ol>
+</section>
+<section id="but-what-does-this-mean-in-normal-words">
+<h3>But what does this mean in normal words?<a class="headerlink" href="#but-what-does-this-mean-in-normal-words" title="Link to this heading">#</a></h3>
+<p><strong>What will I do?</strong>
+You will work in teams of 3-4 to build a prototype software system. You will follow an innovation process called <strong>Lean startup</strong>, which is commonly used in startups to ensure that they are creating products and services that people will actually want.</p>
+<p><strong>Importantly</strong> though, this course is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be <strong>open-ended</strong>, which means that there are many possible ways to approach the problem, and no fixed criteria for when we are “finished”.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Open-endedness is note the same as “vague”. A problem can be perfectly clear, but still have many potential solutions that we can continue improving on for hundreds of years. A vague project is one where we don’t know the problem. Part of this course will be your team figuring out what the problem is.</p>
+</div>
+<p><strong>This course is about real-world practice.</strong>
+In this course, we aim to emulate a real-world working environment. This means the following:</p>
+<ul class="simple">
+<li><p>There are no grades – just a <a class="reference internal" href="#sec-overview-grading"><span class="std std-ref">pass/fail</span></a>. This is similar to an annual performance review – either you are meeting expectations or you are not.</p></li>
+<li><p>There are no `answers’. The course staff don’t know the solution to the problem you will tackle any more than you do. Your team is responsible for finding good solutions.</p></li>
+<li><p>You will work in a team that you are assigned to, rather than a group of  your friends (although I hope they become your friends).</p></li>
+<li><p>All members of the team will be ultimately responsible for the outcomes of the project; but by necessity, you will need to coordinate for individuals to lead different tasks.</p></li>
+<li><p>You will work under supervision of someone who will not make decisions for you, but will help you to figure out how to make decisions.</p></li>
+<li><p>You will have to make progress regularly; e.g. weekly, rather than just waiting for an assignment and then doing it all at the last minute.</p></li>
+<li><p>You will be asked to work in a professional manner.</p></li>
+</ul>
+<p><strong>This course is about failure.</strong></p>
+<blockquote>
+<div><p>“Good decisions come from experience. Experience comes from making bad decisions.” – Mark Twain.</p>
+</div></blockquote>
+<blockquote>
+<div><p>“We hire people who have experience not just because of their successes but also because of their failures. Failures offer learning opportunities and increase the chance that you won’t make the same mistake again.” – Tina Seelig,</p>
+</div></blockquote>
+<p>Time and time again, failure has been shown to be hugely important in learning.</p>
+<p>This course, and innovation more generally, is about trying things and failing. A strong focus on the course is: fail early. If we come up with an idea that we <strong>think</strong> is good, but isn’t, how can we learn it is not a good idea before we commit a lot of resources to it.</p>
+</section>
+</section>
+<section id="why-should-i-learn-about-innovation">
+<h2>Why should I learn about innovation?<a class="headerlink" href="#why-should-i-learn-about-innovation" title="Link to this heading">#</a></h2>
+<p>You may be thinking: but I don’t want to run my own startup company – why should I learn about innovation?</p>
+<p>I believe that <em>everyone</em> should learn what innovation is, what innovation is <em>not</em>, how people innovate, and how to make innovative ideas into reality.</p>
+<p>Further, innovation is <em>not</em> the same an entrepreneurship. Entrepreneurship is about setting up businesses. Innovation is about creating value. They are clearly related – a business will not be successful if it doesn’t bring value to people.  However, all of us can be innovative in our work, whether we run a startup, lead a research lab (like me), work in a large organisation, or even just at home.</p>
+<p>Innovation is about finding out people’s problems and trying to solve them. You can do this internally within an organisation to bring value to other parts of the organisation. This is sometimes called <strong>intrapreneurship</strong>.</p>
+</section>
+<section id="key-elements-of-comp1100-comp7100">
+<h2>Key elements of COMP1100/COMP7100<a class="headerlink" href="#key-elements-of-comp1100-comp7100" title="Link to this heading">#</a></h2>
+<section id="your-legends">
+<span id="sec-overview-legends"></span><h3>Your legends<a class="headerlink" href="#your-legends" title="Link to this heading">#</a></h3>
+<p>Each time will have a <strong>legend</strong> staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won’t be grading you, they won’t be teaching you – they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends.</p>
+</section>
+<section id="grading">
+<span id="sec-overview-grading"></span><h3>Grading<a class="headerlink" href="#grading" title="Link to this heading">#</a></h3>
+<p>COMP1100/COMP7100 uses <strong>competency-based assessment</strong>, which means that it is <strong>pass/fail course</strong>. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.</p>
+<p>The grade is excluded from calculation of your GPA.</p>
+<p><strong>Why pass/fail?</strong> COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^sommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This leads to dysfunctional teams.</p>
+<p>A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required frmo the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.</p>
+<p><strong>So this means there is no assessment, right? No deadlines?!</strong> No, sorry. Like any real project, we have deliverables and those deliverables have deadlines. Intermediate deadlines are important in projects to both ensure that the project is on track, and also to help motivate us (deadlines are known to be excellent at focusing people’s attention).</p>
+<p><strong>So I can just do well for the first 6-7 weeks and then stoping trying to get to 50%?</strong> Nope, sorry. There are no grades throughout. To pass, you need to work consistently on your project, and with high quality.</p>
+<p><strong>How will I know if I’m doing enough to pass?</strong> If you need to ask that question, you are probably not doing enough. By this, I mean, if you are trying to game the system by putting in just the minimum amount of work, then yes, you risk failing. A pass is not doing 50% of the project – it is doing all of the project. You can ensure that you pass by doing what is expected of you and trying your best.</p>
+<p>Despite no grades, there will still be <strong>regular feedback</strong> on both teams and individuals as to how they are doing. Any individual who fails this course will not be surprised by this as they will have had multiple items of feedback letting them know that they are on track to fail.</p>
+</section>
+<section id="assessment">
+<h3>Assessment<a class="headerlink" href="#assessment" title="Link to this heading">#</a></h3>
+</section>
+<section id="communication">
+<h3>Communication<a class="headerlink" href="#communication" title="Link to this heading">#</a></h3>
+<p>Communication between the class and the course staff will occur in a few different ways.</p>
+<p><strong>General communication.</strong>
+First, the course discussion board will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.</p>
+<p>If you email course staff with a general question, we will ask you to post to the discussion board. If you have a question, it is quite probable that someone else in the class will have that same question.</p>
+<p><strong>Communication of a team or personal nature.</strong> If you need to communicate with staff about something sensitive about yourself or your team, you should contact the course staff. In the first instance, please discuss with your <a class="reference internal" href="#sec-overview-legends"><span class="std std-ref">COMP1100/COMP7100 legend</span></a>.</p>
+<p>If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100/COMP7100 email address <a class="reference external" href="mailto:COMP1100&#37;&#52;&#48;eecs&#46;uq&#46;edu&#46;au">COMP1100<span>&#64;</span>eecs<span>&#46;</span>uq<span>&#46;</span>edu<span>&#46;</span>au</a>.</p>
+</section>
+</section>
+<section id="expectations">
+<h2>Expectations<a class="headerlink" href="#expectations" title="Link to this heading">#</a></h2>
+<section id="our-expectations-from-you">
+<h3>Our expectations from you<a class="headerlink" href="#our-expectations-from-you" title="Link to this heading">#</a></h3>
+<p>There are some basic behaviours that we expected from everyone enrolled in this course:</p>
+<ul class="simple">
+<li><p>Attend the seminar and studio 10am-2pm every Wednesday during the semester, in studio 47A-249.</p></li>
+<li><p>Actively participate with your team in studios.</p></li>
+<li><p>Don’t stop others from learning.</p></li>
+<li><p>Work hard on the project every week.</p></li>
+<li><p>Stay open-minded.</p></li>
+<li><p>Be flexible and self-directed.</p></li>
+<li><p>Get <strong>out of the building</strong> and talk to potential users/cusomters.</p></li>
+<li><p>Behave professionally.</p></li>
+<li><p>Learn stuff!</p></li>
+</ul>
+</section>
+<section id="your-expectations-from-us">
+<h3>Your expectations from us<a class="headerlink" href="#your-expectations-from-us" title="Link to this heading">#</a></h3>
+<p>We will discuss this is week 1. For now, here are some things we imagine that you would expect from the course stuff:</p>
+<ul class="simple">
+<li><p>Attend <strong>and give</strong> the seminar at 10am-11am every Wednesday.</p></li>
+<li><p>Set some goals for studios every week.</p></li>
+<li><p>Advise on the processes that you need to follow.</p></li>
+<li><p>Providing feedback on deliverables and weekly contributions.</p></li>
+<li><p>Helping you to navigate to realistic solutions.</p></li>
+</ul>
+</section>
+</section>
+<section id="weekly-format">
+<h2>Weekly format<a class="headerlink" href="#weekly-format" title="Link to this heading">#</a></h2>
+</section>
+<section id="projects">
+<h2>Projects<a class="headerlink" href="#projects" title="Link to this heading">#</a></h2>
+</section>
+<section id="takeaways">
+<h2>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
+<div class="admonition-takeaways admonition">
+<p class="admonition-title">Takeaways</p>
+<ol class="arabic simple">
+<li><p>This course is about <strong>software innovation</strong> in small <strong>teams</strong>.</p></li>
+<li><p>You will undertake a small innovation project in a team of (about 4).</p></li>
+<li><p>The course is <strong>pass/fail</strong>.</p></li>
+<li><p>Each student is expected to <strong>attend seminars and studios</strong> every week, and to <strong>contribute</strong> to their team in a <strong>professional</strong> manner.</p></li>
+</ol>
+</div>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<p>[^sommel2023] Stommel, J. <em>Undoing the grade: Why we grade, and how to stop.</em> (2023)</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="right-next"
+       href="innovation/1_introduction_to_innovation.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">1. </span>Introduction to Innovation</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-this-course-about">What is this course about?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#course-description">Course description</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning outcomes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#but-what-does-this-mean-in-normal-words">But what does this mean in normal words?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-should-i-learn-about-innovation">Why should I learn about innovation?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-elements-of-comp1100-comp7100">Key elements of COMP1100/COMP7100</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-legends">Your legends</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment">Assessment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#communication">Communication</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expectations">Expectations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#our-expectations-from-you">Our expectations from you</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-expectations-from-us">Your expectations from us</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weekly-format">Weekly format</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#projects">Projects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">Takeaways</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
