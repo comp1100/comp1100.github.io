@@ -1,7 +1,7 @@
-# Subject overview
+# Course overview
 
 
-## What is this subject about?
+## What is this course about?
 
 ### Course description
 Introduction to innovation using computer science and information technology through a discipline-specific team project. Students will learn what innovation is, processes that innovators follow, how innovation teams work together, how to make decisions in technology projects, how to use prototyping in the innovation process and the tools required to successfully deliver and communicate an innovation project.
@@ -22,7 +22,7 @@ After successfully completing this course, students should be able to
 **What will I do?**
 You will work in teams of 3-4 to build a prototype software system. You will follow an innovation process called **Lean startup**, which is commonly used in startups to ensure that they are creating products and services that people will actually want.
 
-**Importantly** though, this subject is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be **open-ended**, which means that there are many possible ways to approach the problem, and no fixed criteria for when we are "finished". 
+**Importantly** though, this course is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be **open-ended**, which means that there are many possible ways to approach the problem, and no fixed criteria for when we are "finished". 
 
 ```{note}
 Open-endedness is note the same as "vague". A problem can be perfectly clear, but still have many potential solutions that we can continue improving on for hundreds of years. A vague project is one where we don't know the problem. Part of this course will be your team figuring out what the problem is.
@@ -31,7 +31,7 @@ Open-endedness is note the same as "vague". A problem can be perfectly clear, bu
 **This course is about real-world practice.**
 In this course, we aim to emulate a real-world working environment. This means the following:
 * There are no grades -- just a [pass/fail](sec:overview:grading). This is similar to an annual performance review -- either you are meeting expectations or you are not.
-* There are no `answers'. The subject staff don't know the solution to the problem you will tackle any more than you do. Your team is responsible for finding good solutions.
+* There are no `answers'. The course staff don't know the solution to the problem you will tackle any more than you do. Your team is responsible for finding good solutions.
 * You will work in a team that you are assigned to, rather than a group of  your friends (although I hope they become your friends).
 * All members of the team will be ultimately responsible for the outcomes of the project; but by necessity, you will need to coordinate for individuals to lead different tasks.
 * You will work under supervision of someone who will not make decisions for you, but will help you to figure out how to make decisions.
@@ -39,7 +39,7 @@ In this course, we aim to emulate a real-world working environment. This means t
 * You will be asked to work in a professional manner.
 
 
-**This subject is about failure.** 
+**This course is about failure.** 
 
 > "Good decisions come from experience. Experience comes from making bad decisions." -- Mark Twain.
 
@@ -65,7 +65,7 @@ Innovation is about finding out people's problems and trying to solve them. You 
 (sec:overview:legends)=
 ### Your legends
 
-Each time will have a **legend** staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this subject compared to others. They won't be grading you, they won't be teaching you -- they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends.
+Each time will have a **legend** staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you -- they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends.
 
 (sec:overview:grading)=
 ### Grading
@@ -76,7 +76,7 @@ The grade is excluded from calculation of your GPA.
 
 **Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^sommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This leads to dysfunctional teams. 
 
-A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required frmo the subject. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
+A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required frmo the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
 
 **So this means there is no assessment, right? No deadlines?!** No, sorry. Like any real project, we have deliverables and those deliverables have deadlines. Intermediate deadlines are important in projects to both ensure that the project is on track, and also to help motivate us (deadlines are known to be excellent at focusing people's attention).
 
@@ -94,16 +94,16 @@ Despite no grades, there will still be **regular feedback** on both teams and in
 
 ### Communication
 
-Communication between the class and the subject staff will occur in a few different ways.
+Communication between the class and the course staff will occur in a few different ways.
 
 **General communication.**
-First, the subject discussion board will be the primary mode of asking general questions about the subject; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
+First, the course discussion board will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
 
-If you email subject staff with a general question, we will ask you to post to the discussion board. If you have a question, it is quite probable that someone else in the class will have that same question.
+If you email course staff with a general question, we will ask you to post to the discussion board. If you have a question, it is quite probable that someone else in the class will have that same question.
 
-**Communication of a team or personal nature.** If you need to communicate with staff about something sensitive about yourself or your team, you should contact the subject staff. In the first instance, please discuss with your [COMP1100/COMP7100 legend](sec:overview:legends).
+**Communication of a team or personal nature.** If you need to communicate with staff about something sensitive about yourself or your team, you should contact the course staff. In the first instance, please discuss with your [COMP1100/COMP7100 legend](sec:overview:legends).
 
-If you cannot resolve this or if your legend asks you to contact the subject coordinators, please contact directly via the COMP1100/COMP7100 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au).
+If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100/COMP7100 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au).
 
 ## Expectations
 
@@ -123,7 +123,7 @@ There are some basic behaviours that we expected from everyone enrolled in this 
 
 ### Your expectations from us
 
-We will discuss this is week 1. For now, here are some things we imagine that you would expect from the subject stuff:
+We will discuss this is week 1. For now, here are some things we imagine that you would expect from the course stuff:
 
 * Attend **and give** the seminar at 10am-11am every Wednesday.
 * Set some goals for studios every week.
