@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>7. Prototyping &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'innovation/7_prototyping';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="8. Subject Frequential Asked Questions (FAQs)" href="10_FAQs.html" />
+    <link rel="prev" title="6. Minimum viable product" href="6_minimum_viable_product.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../0_subject_overview.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../0_subject_overview.html">
+                    Subject overview
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_introduction_to_innovation.html">1. Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_business_model_canvas.html">2. Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_customer_discovery.html">3. Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_value_proposition_canvas.html">4. Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_experimentation.html">5. Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_minimum_viable_product.html">6. Minimum viable product</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">7. Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_FAQs.html">8. Subject Frequential Asked Questions (FAQs)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Finnovation/7_prototyping.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/innovation/7_prototyping.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Prototyping</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-prototype">7.1. Why prototype?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-prototype">7.2. Types of prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptual-prototype">7.3. Conceptual prototype</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#low-vs-high-fidelity-conceptual-prototypes">7.3.1. Low- vs. high-fidelity conceptual prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#paper-prototypes">7.3.2. Paper prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#digital-prototypes">7.3.3. Digital prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wizard-of-oz-prototype">7.3.4. Wizard of Oz prototype</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-types-for-conceptual-prototypes">7.3.5. Practical types for conceptual prototypes</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#feasibility-prototypes">7.4. Feasibility prototypes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">7.5. Takeaways</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="prototyping">
+<span id="sec-prototyping"></span><h1><span class="section-number">7. </span>Prototyping<a class="headerlink" href="#prototyping" title="Link to this heading">#</a></h1>
+<section id="why-prototype">
+<h2><span class="section-number">7.1. </span>Why prototype?<a class="headerlink" href="#why-prototype" title="Link to this heading">#</a></h2>
+<p>The purpose of prototyping is to test ideas about solutions.</p>
+<p>These ideas can be:</p>
+<ul class="simple">
+<li><p><strong>Conceptual:</strong> testing high-level conceptual ideas about solutions</p></li>
+<li><p><strong>Technical:</strong> testing technical ideas about solutions, such as feasability</p></li>
+</ul>
+</section>
+<section id="types-of-prototype">
+<h2><span class="section-number">7.2. </span>Types of prototype<a class="headerlink" href="#types-of-prototype" title="Link to this heading">#</a></h2>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type of prototype</p></th>
+<th class="head"><p>Purpose</p></th>
+<th class="head"><p>Characteristics</p></th>
+<th class="head"><p>When to use</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Conceptual prototype</p></td>
+<td><p>Test conceptual ideas</p></td>
+<td><p>High-level, overall vision</p></td>
+<td><p>Concept definition</p></td>
+</tr>
+<tr class="row-odd"><td><p>Feasibility prototype</p></td>
+<td><p>Feasibility  of various solutions</p></td>
+<td><p>Proof of concept</p></td>
+<td><p>Concept definition</p></td>
+</tr>
+<tr class="row-even"><td><p>Functional storyboard</p></td>
+<td><p>Determine usable sequences for presenting information</p></td>
+<td><p>Demonstrate workflow</p></td>
+<td><p>Early product definition</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horizontal prototype</p></td>
+<td><p>Clarify scope and requirements</p></td>
+<td><p>User interface only</p></td>
+<td><p>Later product definition</p></td>
+</tr>
+<tr class="row-even"><td><p>Vertical prototype</p></td>
+<td><p>Test code design, componenets</p></td>
+<td><p>Working but incomplete system</p></td>
+<td><p>Even later product definition</p></td>
+</tr>
+</tbody>
+</table>
+<p>Credit: Craig Borysowich. <a class="reference external" href="https://www.globalspec.com/learnmore/contract_manufacturing_fabrication/prototyping_services">https://www.globalspec.com/learnmore/contract_manufacturing_fabrication/prototyping_services</a></p>
+<p>For this course, the main distinguishment we make is between <strong>conceptual prototypes</strong> and <strong>feasibility prototypes</strong>.</p>
+</section>
+<section id="conceptual-prototype">
+<h2><span class="section-number">7.3. </span>Conceptual prototype<a class="headerlink" href="#conceptual-prototype" title="Link to this heading">#</a></h2>
+<p>Conceptual prototypes are layouts of a solution that shows the key elements that will be created</p>
+<p>Typically done in two ways:</p>
+<ol class="arabic simple">
+<li><p><strong>Paper prototypes:</strong> drawing the ideas on paper/cardboard to demonstrate conceptual ideas</p></li>
+<li><p><strong>Digital prototypes:</strong> (AKA wireframes): digitally drawn and look more like a real application.</p></li>
+</ol>
+<p>The purpose of a conceptual prototype is to <strong>fake it before you build it</strong>.</p>
+<p>They are an inexpensive approach for testing out ideas without building something, and are key tools Human Computer Interaction (HCI).</p>
+<p>Typically, early efforts give us more value because they <strong>clarify and uncover insights</strong>.</p>
+<section id="low-vs-high-fidelity-conceptual-prototypes">
+<h3><span class="section-number">7.3.1. </span>Low- vs. high-fidelity conceptual prototypes<a class="headerlink" href="#low-vs-high-fidelity-conceptual-prototypes" title="Link to this heading">#</a></h3>
+<p>We need to consider to the fidelity of the experience vs. fidelity of prototype. Conceptual prototypes are  quick sketches of the system, so a low fidelity compared to a final product, but give can give a  high fidelity experience to the customers we test them on.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Low fidelity</p></th>
+<th class="head"><p>High fidelity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Show:</p></td>
+<td><p>Moving towards UI design territory</p></td>
+</tr>
+<tr class="row-odd"><td><p>● Major navigation elements</p></td>
+<td><p>Closer to what the final version would look like</p></td>
+</tr>
+<tr class="row-even"><td><p>● Major content elements</p></td>
+<td><p>Include navigation as click through</p></td>
+</tr>
+<tr class="row-odd"><td><p>Don’t really show:</p></td>
+<td><p>Realistic data and images are important</p></td>
+</tr>
+<tr class="row-even"><td><p>● Colours</p></td>
+<td><p>Useful only as we are finalising solutions</p></td>
+</tr>
+<tr class="row-odd"><td><p>● Images</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>● Meaningful content</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>● Accurate timing</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>It is the ﬁdelity of the experience, not the ﬁdelity of the prototype, sketch, or technology that is important for ideation and early design. The earlier that we do so the more valuable it generally is.</p>
+</section>
+<section id="paper-prototypes">
+<h3><span class="section-number">7.3.2. </span>Paper prototypes<a class="headerlink" href="#paper-prototypes" title="Link to this heading">#</a></h3>
+<p>Paper prototypes are conceptual prototypes that are a quick “drawing” of a solution that allow us to test out solutions with customers.</p>
+<p>They are typically used to explain or simulate a <strong>scenario</strong> of how the system would be used.</p>
+<p>When we use a paper prototype, we show them to customers and then:</p>
+<ul class="simple">
+<li><p>Show or ask them to perform a particular task or scenario</p></li>
+<li><p>Encourage them to talk aloud about what they are understanding and what they think is missing</p></li>
+<li><p>Ask them to explain their intentions</p></li>
+<li><p>Ask them questions</p></li>
+<li><p>Take notes about what we are learning!</p></li>
+</ul>
+<p>We can also use paper prototypes for generating ideas (ideation) — they allow us to quickly explore a concept. We can show them to friends, family, others in our team, etc., get comments, and  <strong>feedback incorporate on the spot</strong>, iterating a new version immediately.</p>
+</section>
+<section id="digital-prototypes">
+<h3><span class="section-number">7.3.3. </span>Digital prototypes<a class="headerlink" href="#digital-prototypes" title="Link to this heading">#</a></h3>
+<p><strong>Digital prototypes</strong> are a natural next step after paper prototypes. They are used quite extensively in user experience design.</p>
+<p>Like paper prototypes, digital prototypes can be used to show navigation to prospective customers/users to ensure expectations are met.</p>
+<p>Unlike paper prototypes, this enables people to interact with a solution, and is higher fidelity than paper prototypes.</p>
+<p>The fidelity of the experience that the user gets is dependent on how much the digital prototype looks like a complete MVP product.</p>
+</section>
+<section id="wizard-of-oz-prototype">
+<h3><span class="section-number">7.3.4. </span>Wizard of Oz prototype<a class="headerlink" href="#wizard-of-oz-prototype" title="Link to this heading">#</a></h3>
+<p><strong>Spoiler alert</strong></p>
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p>The Wizard of Oz was “all powerful!”</p></td>
+<td><p>… but was really just a man behind a curtain.</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/wizard_of_oz.jpg" /></p></td>
+<td><p><img alt="" src="../_images/man_behind_the_curtain_small.jpg" /></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition-definition-wizard-of-oz-prototype admonition">
+<p class="admonition-title">Definition — Wizard of Oz prototype</p>
+<p>A <strong>wizard of Oz</strong> prototype is a solution that looks like a real solution, but the underlying functionality is a person responding to user interaction.</p>
+</div>
+<p>This definition comes from the famous movie <a class="reference external" href="https://en.wikipedia.org/wiki/The_Wizard_of_Oz">The Wizard of Oz</a>, in which the all-powerful “wizard”, seen on the left, is in fact just a sophisticated puppet, controlled by a man behind a curtain. When Toto the dog pulls the curtain back to reveal the man, his charade is revealed.</p>
+<p>In the same way, when we prototype systems, we can set up some sophisticated-looking technology, but in the background, the response from user interaction is simply a person.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This does not mean that we <em>deceive</em> out customers – we can be perfectly honest that the functionality is not implemented as the responses are given by a person.</p>
+</div>
+<p>As part of prototyping, we can use anything that we want to conjure up experiences for customers.</p>
+<blockquote>
+<div><p>It is much easier, cheaper, faster, and more reliable to ﬁnd a little old man, a microphone, and some loud speakers than it is to ﬁnd a real wizard. So it is with most software products. Fake it before you build it. – Bill Buxton. <em>Sketching User Experiences: Getting the Design Right and the Right Design (Interactive Technologies)</em> 1st Edition, 2010.</p>
+</div></blockquote>
+<p>For example, instead of building a complete mobile app to send phtotos, a server to process photos, and a photo frame to display and interact with photos, we can simply implement some interfaces, and move the photos onto a tablet manually when our users are testing it.</p>
+</section>
+<section id="practical-types-for-conceptual-prototypes">
+<h3><span class="section-number">7.3.5. </span>Practical types for conceptual prototypes<a class="headerlink" href="#practical-types-for-conceptual-prototypes" title="Link to this heading">#</a></h3>
+<p>Here are some practicel types for conceptual prototypes:</p>
+<ul class="simple">
+<li><p>Keep them simple – eventually will be thrown away</p></li>
+<li><p>Use a grid to ensure that everything is well aligned</p></li>
+<li><p>Add meaningful and concise annotations – people refer to it all the time</p></li>
+<li><p>Encourage feedback</p></li>
+<li><p>People often don’t tend to criticise designs</p>
+<ul>
+<li><p>“I’m a negative person”</p></li>
+<li><p>“That’s a lot of work, I don’t to be rude”</p></li>
+<li><p>“I’m not good with computers”</p></li>
+<li><p>“Responsibility for bad performance will fall on me”
+It is harder to criticise something that looks polished</p></li>
+</ul>
+</li>
+<li><p>Beware of tools for prototyping unless you want a high-fidelity, polished look</p></li>
+</ul>
+</section>
+</section>
+<section id="feasibility-prototypes">
+<h2><span class="section-number">7.4. </span>Feasibility prototypes<a class="headerlink" href="#feasibility-prototypes" title="Link to this heading">#</a></h2>
+<p>Feasibility prototypes explores the technical constraints of design solutions, and are useful at early product development stages.</p>
+<p>Feasibility prototypes are both useful and important for innovation, but at not useful until we have found our customers, their problems, and have validated that our solution solves their problem.</p>
+</section>
+<section id="takeaways">
+<h2><span class="section-number">7.5. </span>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
+<div class="admonition-takeaways admonition">
+<p class="admonition-title">Takeaways</p>
+<ol class="arabic simple">
+<li><p>Prototypes are used to help <strong>test ideas</strong>.</p></li>
+<li><p><strong>Conceptual prototypes</strong> help us test conceptual ideas, while <strong>technical prototypes</strong> help us test technical approaches.</p></li>
+<li><p>Prototyping is an <strong>iterative process.</strong></p></li>
+<li><p><strong>Paper prototypes</strong> and <em>Wizard of Oz</em>* prototypes are cheap and quick ways to test out conceptual ideas and gain feedback.</p></li>
+<li><p><strong>Digital prototypes</strong> are more useful for testing out solutions and workflows.</p></li>
+<li><p><strong>Low-fidelity</strong> prototypes are often more useful than <strong>high-fidelity</strong> prototypes to gather feedback because they are not so polished, so people are more prone to criticising.</p></li>
+</ol>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./innovation"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="6_minimum_viable_product.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>Minimum viable product</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="10_FAQs.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">8. </span>Subject Frequential Asked Questions (FAQs)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-prototype">7.1. Why prototype?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-prototype">7.2. Types of prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptual-prototype">7.3. Conceptual prototype</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#low-vs-high-fidelity-conceptual-prototypes">7.3.1. Low- vs. high-fidelity conceptual prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#paper-prototypes">7.3.2. Paper prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#digital-prototypes">7.3.3. Digital prototypes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wizard-of-oz-prototype">7.3.4. Wizard of Oz prototype</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-types-for-conceptual-prototypes">7.3.5. Practical types for conceptual prototypes</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#feasibility-prototypes">7.4. Feasibility prototypes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">7.5. Takeaways</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

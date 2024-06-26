@@ -1,0 +1,642 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>3. Customer discovery &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'innovation/3_customer_discovery';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. Value proposition canvas" href="4_value_proposition_canvas.html" />
+    <link rel="prev" title="2. Business model canvas" href="2_business_model_canvas.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../0_subject_overview.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../0_subject_overview.html">
+                    Subject overview
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_introduction_to_innovation.html">1. Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_business_model_canvas.html">2. Business model canvas</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">3. Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_value_proposition_canvas.html">4. Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_experimentation.html">5. Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_minimum_viable_product.html">6. Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_prototyping.html">7. Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_FAQs.html">8. Subject Frequential Asked Questions (FAQs)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Finnovation/3_customer_discovery.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/innovation/3_customer_discovery.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Customer discovery</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#define-our-hypotheses">3.1. Define our hypotheses</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test-the-problem">3.2. Test the problem</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test-the-solution">3.3. Test the solution</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-pivot-or-refine">3.4. Verify, pivot, or refine</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-development-heuristics">3.5. Customer development heuristics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">3.6. Takeaways</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="customer-discovery">
+<h1><span class="section-number">3. </span>Customer discovery<a class="headerlink" href="#customer-discovery" title="Link to this heading">#</a></h1>
+<blockquote>
+<div><p>“If I had an hour to solve a problem and my life depended on the solution, I would spend the first fifty-five minutes determining the proper question to ask, for once I know the proper question, I could solve the problem in less than five minutes.” – Albert Eistein</p>
+</div></blockquote>
+<p>Recall the process for <a class="reference internal" href="1_introduction_to_innovation.html#sec-intro-customer-development"><span class="std std-ref">customer development process</span></a>:</p>
+<img alt="../_images/customer_development_process.png" src="../_images/customer_development_process.png" />
+<p>Innovation takes us from thinking about clients and users to thinking about <strong>customers</strong>.</p>
+<p>For this, we need to <strong>discover who are customers are</strong> and <strong>what they need</strong>. This is step 1 in the customer development process.</p>
+<p>Customer discovery doesn’t mean that we literally need to find the exact people who will buy or use our product. It means something different.</p>
+<p>But first, let’s define what customer discovery does NOT mean:</p>
+<ul class="simple">
+<li><p>It does not mean that we need to understand the needs and wants of everybody, or even all of our customers.</p></li>
+<li><p>It does not mean that we need to find every problem they have.</p></li>
+<li><p>It does not mean requirements engineering.</p></li>
+<li><p>It does not mean defining a product on what we think is a good idea and trying to sell it.</p></li>
+</ul>
+<div class="admonition-definition-customer-discovery admonition">
+<p class="admonition-title">Definition — Customer discovery</p>
+<p><strong>Customer discovery</strong> is the process of turning an initial idea or vision about a market or customers into a set of <strong>facts</strong>.</p>
+</div>
+<p>When we think about building a product, we have an initial guess, called a <strong>hypothesis</strong>, about people’s problems and how we can solve them. This is best considered a <strong>vision</strong> rather than a specific product. We fail when we assume that our guesses are facts.</p>
+<p>The customer discovery process, outlined in <a class="reference internal" href="#fig-customer-discovery-process"><span class="std std-numref">Fig. 3.1</span></a>, consists of four phases:</p>
+<ol class="arabic simple">
+<li><p><strong>Define hypotheses:</strong> State our guesses and assumptions as verifiable hypotheses (more on this later), putting together these on a business model canvas (also more on this later).</p></li>
+<li><p><strong>Test the problem:</strong> get out and speak to our customers to see if we have understood their problem. If not, return to step 1.</p></li>
+<li><p><strong>Create and test the solution</strong>:  gett out and speak to our customers to see if our solution solves their problem and find out whether they would be willing to use it and pay for it.</p></li>
+<li><p><strong>Verify, pivot, or refine:</strong> For those hypotheses that hold, turn them into <strong>facts</strong>. For those that don’t, <a class="reference internal" href="1_introduction_to_innovation.html#sec-intro-pivot-vs-refine"><span class="std std-ref">pivot or refine</span></a>.</p></li>
+</ol>
+<figure class="align-default" id="fig-customer-discovery-process">
+<a class="reference internal image-reference" href="../_images/customer_discovery_process.png"><img alt="../_images/customer_discovery_process.png" src="../_images/customer_discovery_process.png" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3.1 </span><span class="caption-text">The customer discovery process</span><a class="headerlink" href="#fig-customer-discovery-process" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Typically though, we want to be able to through this loop as quickly as possible, so that if we get some ideas wrong, we <strong>fail early</strong>.</p>
+<section id="define-our-hypotheses">
+<h2><span class="section-number">3.1. </span>Define our hypotheses<a class="headerlink" href="#define-our-hypotheses" title="Link to this heading">#</a></h2>
+<p>To define our hypotheses, we first have to <strong>sketch our vision</strong>.</p>
+<p>This means writing out answers  to the following questions:</p>
+<ol class="arabic simple">
+<li><p>What are our cusomters top problems?</p></li>
+<li><p>Does our idea help to solve these problems?</p></li>
+<li><p>What would a day in the life of a custom look like befure and after our product?</p></li>
+</ol>
+<p>At this point, the answers to these are <strong>guesses</strong> or <strong>assumptions</strong>. We typically do not know if the answers are true. It may be “obvious” that they are, but many projects fail because team members don’t test “obvious” assumptions that turn out to be false.</p>
+<p>This version really needs to just be a sketch. At this point, we shouldn’t be define detailed solutions to the problem, as we may be wasting valuable time desiging a solution to a problem that doesn’t exist.</p>
+<table class="table">
+<tbody>
+<tr class="row-odd"><td><p>Like this….</p></td>
+<td><p>… not like this</p></td>
+</tr>
+<tr class="row-even"><td><p><img alt="" src="../_images/vision_sketch.jpg" /></p></td>
+<td><p><img alt="" src="../_images/vision_complete.jpg" /></p></td>
+</tr>
+</tbody>
+</table>
+<p>At this point, we should be able to fill out a <a class="reference internal" href="2_business_model_canvas.html#sec-bmc-bmc"><span class="std std-ref">business model canvas</span></a> with a set of hypotheses:</p>
+<img alt="../_images/business_model_canvas_with_hypotheses.png" src="../_images/business_model_canvas_with_hypotheses.png" />
+<p>Of course, it may be that we already know the answers to some of these questions, either because there are other products that have demonstrated this – either produts from other organisations or even our own. However, there must be <strong>some</strong> questions we don’t have verified answers to. If we did already, it is because someone has already validated these by building the product, and we are therefore not really innovating at all. There is presumably something that we plan to differently to competitors or to improve on earlier versions of our product, and those are based on customer problems that are usually not verified (yet).</p>
+</section>
+<section id="test-the-problem">
+<h2><span class="section-number">3.2. </span>Test the problem<a class="headerlink" href="#test-the-problem" title="Link to this heading">#</a></h2>
+<p>Next, we need to get some data to test whether our customers really do have the problem we think they do.</p>
+<p>For this, we will use  hypothesis testing, which we discuss further in  <a class="reference internal" href="5_experimentation.html#sec-experimentation"><span class="std std-ref">Experimentation: Testing and validation</span></a>.</p>
+<p>Effectively though, we go out and speak to customers about their problems to gather data that can be used to confirm whether our guesses/assumptions are correct or not.</p>
+<p>If the data we gather refutes our guesses, we need to redefine our hypotheses.</p>
+<p>If the data we gather supports our guess, most to the next step.</p>
+</section>
+<section id="test-the-solution">
+<h2><span class="section-number">3.3. </span>Test the solution<a class="headerlink" href="#test-the-solution" title="Link to this heading">#</a></h2>
+<p>Next, we need to get some data to evaluate whether our solution really does solve the problem.</p>
+<p>Again, the test the hypotheses using the same process: going out to speak with customers.</p>
+<p>What we take to these meetings depends on how much information we already have, how solid our idea is, and how easy it is to generate some material (e.g. a prototype) to gain feedback.</p>
+</section>
+<section id="verify-pivot-or-refine">
+<h2><span class="section-number">3.4. </span>Verify, pivot, or refine<a class="headerlink" href="#verify-pivot-or-refine" title="Link to this heading">#</a></h2>
+<p>At this point in the process, we should have a set of hypotheses that are either support (they become <strong>facts</strong>) or refuted:</p>
+<figure class="align-default">
+<img alt="A business model canvas with a some post-it notes showing some refuted hypotheses and some facts in the value propositions, customer relationships, channels, and customer segments." src="../_images/business_model_canvas_with_facts_and_refuted_hypotheses.png" />
+</figure>
+<p>Similar to our initial questions, we end the customer discovery process when we have <strong>facts</strong> that answer ‘yes’ the following questions:</p>
+<ol class="arabic simple">
+<li><p>What are our customers top problems?</p></li>
+<li><p>Do they recognise that they have this problem?</p></li>
+<li><p>If there was a solution, would they buy it?</p></li>
+<li><p>Can we build a solution at a price that they would pay for it?</p></li>
+</ol>
+<p>If we answer ‘no’ to answer of these, we need to <a class="reference internal" href="1_introduction_to_innovation.html#sec-intro-pivot-vs-refine"><span class="std std-ref">pivot or refine</span></a>:</p>
+<ul class="simple">
+<li><p>Change our strategy and repeat the cycle of customer discovery again.</p></li>
+<li><p>refine our product and repeat the cycle of customer discovery again.</p></li>
+</ul>
+<p>Once we have a set of facts describing our customers and solutions to their problems that are verified, we can move on to the <a class="reference internal" href="8_customer_validation.html#sec-customer-validation"><span class="std std-ref">customer validation step</span></a>.</p>
+<p><strong>What is a verifiable hypothesis?</strong> We’ll discuss more in the chapter on <a class="reference internal" href="5_experimentation.html#sec-experimentation"><span class="std std-ref">Experimentation: Testing and validation</span></a>.</p>
+</section>
+<section id="customer-development-heuristics">
+<h2><span class="section-number">3.5. </span>Customer development heuristics<a class="headerlink" href="#customer-development-heuristics" title="Link to this heading">#</a></h2>
+<div class="admonition-definition-early-adopter admonition">
+<p class="admonition-title">Definition — Early adopter</p>
+<p><strong>Early adopters</strong> are people typically adopt new solutions because they like being on the cutting edge. They understand that they have a problem, want a solution, usually have an interim solution, and have the funds to purchase a solution.</p>
+</div>
+<p>There are a few good heuristics to go by when doing customer development:</p>
+<ol class="arabic simple">
+<li><p>There are no facts inside your building, so get outside.</p></li>
+<li><p>Develop for the few, not the many.</p></li>
+<li><p>Early adopters make your product.</p></li>
+<li><p>And are smarter than you.</p></li>
+<li><p>Focus Groups are for big companies, not startups.</p></li>
+<li><p>The goal for release 1 is the minimum feature set for early adopters.</p></li>
+</ol>
+</section>
+<section id="takeaways">
+<h2><span class="section-number">3.6. </span>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
+<div class="admonition-takeaways admonition">
+<p class="admonition-title">Takeaways</p>
+<ol class="arabic simple">
+<li><p>Customer discovery is a process for setting out a vision based on some hypotheses, and turning (some of) those <strong>hypotheses into facts.</strong></p></li>
+<li><p>It requires us to <strong>get out of the building</strong> and work with potential customer segments.</p></li>
+<li><p>It is an <strong>iterative process.</strong></p></li>
+<li><p>At the end of each iteration, we decide whether we can continue to customer customer validation, or whether the need to <em>pivot or refine</em>.</p></li>
+<li><p><strong>Early adopters</strong> will be our first customers, so focusing on them can be valuable.</p></li>
+</ol>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./innovation"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="2_business_model_canvas.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>Business model canvas</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="4_value_proposition_canvas.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">4. </span>Value proposition canvas</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#define-our-hypotheses">3.1. Define our hypotheses</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test-the-problem">3.2. Test the problem</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test-the-solution">3.3. Test the solution</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-pivot-or-refine">3.4. Verify, pivot, or refine</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-development-heuristics">3.5. Customer development heuristics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">3.6. Takeaways</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
