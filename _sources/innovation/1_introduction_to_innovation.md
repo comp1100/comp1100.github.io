@@ -173,7 +173,9 @@ The design thinking process is an iterative process broken into five steps:
 
 1. **Empathise** with people who are our prospective users/customers. To **empathise** with someone is not to **sympathise** with someone; or just to **care** about someone. Empathy is an understanding that we develop aobut another person, and is empathy is built by deeply **listening** to someone to understand their thoughts and the reasons for their behaviour. In innovation, empathising is the process of understanding people's problems, why they consider them problems, and how these issues impact their lives. Empathising helps use to gain insights into the needs and desires of people, which can really help us to come up with meaningful solutions.
 
-    Watch [this killer 5-minute video of what empathy really means](https://vimeo.com/manage/videos/271035075) from our colleague Professor Tim Kastelle, Director of the Andrew N. Liveris Academy for Innovation and Leadership at the University of Queensland.
+    Watch [this killer 5-minute video of what empathy really means](https://vimeo.com/manage/videos/271035075) from our colleague Professor Tim Kastelle, Director of the Andrew N. Liveris Academy for Innovation and Leadership at the University of Queensland:
+
+    <iframe src="https://player.vimeo.com/video/271035075?h=eef0e60f2e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 
 2. **Define** the problems that our demographic has, based on the understanding that we got from emphasising. Be sure to pay attention to the people and what they said; and importantly, this is not about up with solutions. We will discuss later how to make these definitions specific and actionable.

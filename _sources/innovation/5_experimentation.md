@@ -223,7 +223,7 @@ We need to prepare for the experiment: research the market and other competitors
 
 Remember that we should:
 * **Listen!**
-* Observe people's behaviour and reactions.
+* Observe people's behaviour, tone, and reactions, not just what they say.
 * Ask "why" and "why not"
 * Ask who else we should talk to.
 * Ask if we can follow up with them later.

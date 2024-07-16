@@ -3,7 +3,7 @@
 ## Busines models and customer development
 
 
-The lovely model below in Figure {numref}`fig:business_model_canvas_overview`, thanks for Alexander Osterwalder from Strategyzer, gives us an overview of the nine key parts of a business model, and how they relate.
+The lovely model below in {numref}`fig:business_model_canvas_overview`, thanks for Alexander Osterwalder from Strategyzer, gives us an overview of the nine key parts of a business model, and how they relate.
 
 ```{figure} ./figs/business_model_canvas_overview.jpg
 ---
@@ -18,7 +18,7 @@ Let's define each of these:
 
 2. **Value propositions** are statements (either guesses or verified facts) that describe how to solve customer problems. For this, we need to answer the question: "What are the solutions that we canmaek to solve our customers' problems in each segment?"
 
-3. **Channels** are the mechanisms by which solutions are delivered to customers; e.g. a web application, via distribution to small businesses, via Youtube! For this, we need to answer the question: "How do our customers in each segment want to be reached to learn about this and use it?"
+3. **Channels** are the mechanisms by which solutions are delivered to customers; e.g. a web application, via distribution to small businesses, via Youtube. For this, we need to answer the question: "How do our customers in each segment want to be reached to learn about this and use it?"
 
 4. **Customer relationships** are the mechanisms that are used to engage and build trust between organisations and customer segments. These may be different for different customer segments. For this, we need to answer the question: "How do our customers want to interact with us and how do we want them to 'see' us?"
 
@@ -28,7 +28,7 @@ Let's define each of these:
 
 7. **Key activities** identify what is need to be done to successful operate. For this, we need to answer the question:  "What are the things we need to do to delivery our value propositions?"
 
-8. **Key partners** identify groups outside of the organisation that help the product to be successful; e.g. suppliers, distributors, etc. These are typically people or organisations who can help do key activities, or give access to key resources. For this, we need to answer the question: "Who are the people we need to work with to deliver our value propositions?"
+8. **Key partners** identify groups outside of the organisation that help the product to be successful; e.g. suppliers, distributors, etc. These are typically people or organisations who can help do key activities, or give access to key resources. It was look at our channels, often we see that the delivery is via *indirect channels*, meaning not via us directly, but via another organisation. These organisations are partners. For this, we need to answer the question: "Who are the people we need to work with to deliver our value propositions?"
 
 9. **Cost structures** identify the expenses that are needed to operate; e.g. for salaries, rent, utilities, services, and technology. For this, we need to answer the question:  "What are the costs that we will incur to deliver our value propositions?"
 
@@ -64,6 +64,20 @@ The business model canvas is something that we should complete for any innovatio
 We do not need to use this format directly -- business models canvases can just be represented on pieces of paper, as notes on a Miro board, as cards on a Trello board, or as activities on a Jira board. However, the format in {numref}`fig:business_model_canvas` allow us to easily visualise the core components on our business model, so can be useful to get a high-level snap shot and to help other people (e.g. investors, collaborators) quickly understand the business model.
 
 You can [download this template for the business model canvas (and several other templates we use in this course)](./assets/business_model_and_testing_templates.pptx).
+
+## Cusomter development and the business model canvas
+
+Effectively, the customer development process is what helps us to "fill out" our business model canvas.
+
+Focusing on customer discovery, we start with our vision, and brainstorm a set of hypotheses around our vision. We should have at least one in each of the cells of the business model canvas --- and often, multiple. There is no set number of even "common" number of hypothesies -- it depends on your vision and what you have found.
+
+Customer development helps us to do three main things:
+
+1. Turn some of our hypotheses that into verified "facts", which effectively means that we collect enough data such that we are confident that our hypotheses (our guesses) are accurate.
+2. Turn some of our hypotheses into into rejected hypotheses, which effectively means that we collect enough data such that we are confident that our hypotheses (our guesses) are inaccurate.
+3. Create new hypothesis out of what we learn.
+
+Throughout these course, the business model canvas (and the related [value proposition canvas](sec:value_proposition_canvas) are focus to guide what we do. We express what we think is true (hypotheses) and add them to the canvases, we test them by [experimentation](sec:experimentation), and then iterate until we have a business model canvas with a set of accepted hypotheses that are sufficient for us to move on to the next step.
 
 ## Takeaways
 

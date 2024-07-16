@@ -9,7 +9,7 @@ A **value proposition canvas** is a visual description of our customer segments,
 ---
 name: fig:value_proposition_canvas
 ---
-The structure of a value proposition canvas. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
+The structure of a value proposition canvas. Source: reproduced from [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
 
 {numref}`fig:value_proposition_canvas` shows the structure of a value proposition model. It contains two parts: 
@@ -23,13 +23,21 @@ Value proposition canvases are used to define the value propositions and custome
 name: fig:business_model_canvas_plus_value_proposition_canvas.
 ```
 
+## The four types of startup markets
+
+When we are starting up a new product or company, there a four broad types markets:
+1. Entering an existing market: The market is well-established and we are simply providing something with a different slant.
+2. Creating an entirely new market: There is currently no market and we are establishing it.
+3. Resegment an existing market as a low-cost provider: There is a well-established market, and we are providing a surface at a lower price than competitors.
+4. Resegment an existing market as a niche player: There is a well-established market, and we are appealing to a niche part of the market via e.g. higher quality.
+
 ## Customer profile
 
 ```{figure} ./figs/customer_profile.png
 ---
 name: fig:customer_profile
 ---
-The structure of a customer profile. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
+The structure of a customer profile. Source: reproduced from  [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
 
 ### Customer jobs: Trigger questions[^strategyzer]
