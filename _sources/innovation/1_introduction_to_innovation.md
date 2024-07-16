@@ -149,9 +149,19 @@ Customer development has four steps:
 
 Note that, as outlined in {numref}`fig:customer_development_process`, step is itself iterative --- developing customers is not a one-off or even a linear process. Further, going back from customer validation to customer discover is encouraged when we find that we have not understood our customers properly.
 
-In this course, we will focus on the first two steps: customer discovery and customer validation.
+At the end of the process, we want to be able to answer four questions:
+* Have we identified a problem that a set of customers wants solved?
+* Have we identified a product that solves this problems?
+* Do we have a profitable and viable business model to produce this product?
+* Do we know enough about our product and customers to go out and sell this?
 
-These two steps are crucial to any innovation project, whether to start up a new company, innovation new products in existing companies, or internal projects at organisations.
+### This course
+
+In this course, we will focus on just the first step: customer discovery, given that we have just 15 weeks and most people enrolled in the course have three other courses.
+
+This step is crucial to any innovation project, whether to start up a new company, innovation new products in existing companies, or internal projects at organisations.
+
+However, the ideas and processes around testing, learning, and failing early that are crucial in customer discovery are similar to the remaining steps --- it's just that activities that we use them on that vary.
 
 ## Design thinking
 
@@ -210,7 +220,7 @@ The above table summarises the differences between the Lean startup approach, de
 (sec:intro:pivot_vs_refine)=
 ## Pivot vs. refine
 
-What happens if we test an idea and it turns out we are wrong about our customers and their problems?
+What happens if we test an idea and it turns out we are wrong about our customers, their problems, and/or our solution?
 
 Well, we need to come up with new ideas!
 

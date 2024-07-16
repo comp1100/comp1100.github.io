@@ -31,6 +31,8 @@ When we are starting up a new product or company, there a four broad types marke
 3. Resegment an existing market as a low-cost provider: There is a well-established market, and we are providing a surface at a lower price than competitors.
 4. Resegment an existing market as a niche player: There is a well-established market, and we are appealing to a niche part of the market via e.g. higher quality.
 
+The features of a product are driven by how well they satisfy a market: the **product/market fit**. Larger companies tend to be market-driven, while startups tend to be product-driven.
+
 ## Customer profile
 
 ```{figure} ./figs/customer_profile.png

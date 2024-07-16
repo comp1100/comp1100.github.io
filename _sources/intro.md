@@ -71,7 +71,7 @@ Innovation is about finding out people's problems and trying to solve them. You 
 (sec:overview:legends)=
 ### Your legends
 
-Each time will have a **legend** staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you -- they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends.
+Each time will have a **legend** staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you directly -- they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends by the end of this course.
 
 (sec:overview:grading)=
 ### Grading

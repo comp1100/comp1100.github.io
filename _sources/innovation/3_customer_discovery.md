@@ -138,6 +138,7 @@ If we answer 'no' to answer of these, we need to [pivot or refine](sec:intro:piv
 Be careful to distinguish between an individual customer not recognising that they have a problem (which would, in fact, mean they are probably not really a customer), and an entire segment of the market not recognising that they have a problem. If an individual customer does not see a problem, we move on to the next person (and maybe return to this customer later once early adopters are using our solution). If an entire market segment does not see a problem, we need to refine or pivot: either find a new market segment who does have this problem, or work towards a different problem.
 ```
 
+
 Once we have a set of facts describing our customers and solutions to their problems that are verified, we can move on to the [customer validation step](sec:customer_validation).
 
 **What is a verifiable hypothesis?** We'll discuss more in the chapter on [Experimentation: Testing and validation](sec:experimentation).
