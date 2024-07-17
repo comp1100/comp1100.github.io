@@ -41,7 +41,7 @@ The term **innovation** can also refer to the process for creating value. This i
 
 ## The Innovation Process
 
-In this course, we will follow an innovation processed called **Lean startup**, based on the book by Steve Blank[^four-steps], and with inspiration throughout the course from other innovation experts such as Tina Seelig[^seelig] and Alexander Osterwalder and Yves Pigneur[^osterwalder].
+In this course, we will follow an innovation processed called **Lean startup**, based on the book by Steve Blank[^four_steps], and with inspiration throughout the course from other innovation experts such as Tina Seelig[^seelig] and Alexander Osterwalder and Yves Pigneur[^osterwalder].
 
 **Why do we need to follow a process? What we just come up with ideas?** Ideas are simple. Implementation is hard. What happens if we take the time to implement our idea, and it turns out that *nobody wants it*? What a waste of time! (And perhaps a waster of money/funds too!). 
 
@@ -60,7 +60,7 @@ The Lean Startup approach is a collection of methods for helping us objectively 
 width: 600px
 name: fig:product_development_process
 ---
-The product development process[^four-steps]
+The product development process[^four_steps]
 ```
 
 {numref}`fig:product_development_process` shows the standard product development process: (1) come up with a concept for a product that we think is good; (2) develop the product; (3) test and evaluate it; and (4) launch it. 
@@ -137,7 +137,7 @@ The customer development proess, shown in {numref}`fig:customer_development_proc
 ---
 name: fig:customer_development_process
 ---
-The customer development process[^four-steps]
+The customer development process[^four_steps]
 ```
 
 Customer development has four steps:
@@ -242,7 +242,42 @@ Pivoting vs. refining when we learn our ideas won't work[^ries]
 
 When we test our ideas and find out they are wrong, **we should treat this as an opportunity to learn, not as a complete failure**.
 
+(sec:introduction:medical_alert)=
+## Running example: Medical alert systems for older people living independently
 
+Throughout these notes, we'll use the following running example, which is a project that I worked on with some colleagues at Swinburne University when I was at The University of Melbourne.
+
+**Background:** Older people living independently can occasionally have other medical issues that require medical support, but they are unable to get to a phone. For example, they fall and are unable to get up. Medical alert systems, such as the example in {numref}`fig:emergency_alarm` can be used to mitigate these issues. A medical alert has two components:
+
+1. a wireless emergency alarm, such as a wrist band (as shown in {numref}`fig:emergency_alarm` ) or a "necklace" worn around the neck that has a button that, when pressed, raises an alarm with a specialised care company, who calls for an ambulance; and 
+
+2. a base station with a *wellness check*. This often contains an red emergency button that connects the person to the care company (same as pressing the emergency alarm), and also a green button that they are asked to press each day before a fixed time. If they fail to press the green button before that time, the care company call them to check that they are ok.
+
+The main aims of this are: (a) keep the person safe; and (b) give peace of mind to their family that if anything happens, they will know quickly.
+
+```{figure} ./figs/emergency_alarm.jpg
+---
+height: 300px
+name: fig:emergency_alarm
+---
+An emergency alarm for older people living at home independently. Source: https://en.wikipedia.org/wiki/Medical_alarm#/media/File:Rufhilfeger%C3%A4t-vitaris_S.A.M._4_GSM.jpg. License:CC-BY-3.0
+```
+
+**Challenge**: The challenge is that *most older people hate these medical alert systems*. They are typically forced upon them by their family, who give them an ultimatum of having an alarm or going into an care home. Their family clearly care about them and want them to be safe, but older people feel that they are under surveillance. In our study, we found that most people hate the wireless transmitter they wear around their neck, calling it a "cowbell" (allowed people to keep tabs on them), and they often didn't even wear it unless their family were coming to visit (the only time it was not useful). Many older people also disliked the concept of the green button. If they forgot to press it (which must be so easy to forget as it is not meaningful to them),  they would receive a call and feel that they were forgetful and wasting people's time. In short: they felt a lack of control/agency in their lives. The company providing the service didn't view this as a waste of time; and in fact, the people calling them were trained specifically to take the time to talk to them and not rush them off the phone --- quite unusual for most call centres. Some older people didn't mind the system. We saw the the people who *opted in* (that is, they proposed the idea of getting a medical alarm) were much more accepting than those who were given an ultimatum by their family.
+
+**Our thoughts:** When one of our team gained second-hand experience in these systems, having  purchased one for his mother, he discussed his and his mother's experience and noted that there must be an opportunity for better-designed medical alert systems that can achieve the goals of: (a) giving peace of mind to family members who are worried about older relatives living on their own; and (b) giving control/autonomy back to people living independently.
+
+But what would this be?
+
+Without learning about the experience, needs, and desires of older people who live independently and their families, any design we came up with was speculative. We had to **get out of the building and talk to people**.
+
+We spoke with several groups of people:
+1. Older people who lived on their own and had an existing medical alert systems.
+2. Older people who lived on their own and did not have an existing medical alert system.
+3. Families of older people who lived on their own.
+4. Two existing medical alert companies, including their executive staff and (quite informally) some call centre staff.
+
+Throughout these notes, we'll use our journey to make the innovation concepts discussed more concrete.
 
 ## Takeaways
 
@@ -256,16 +291,17 @@ When we test our ideas and find out they are wrong, **we should treat this as an
 4. Successful innovation is about **generating and testing ideas early** so we can **fail early**.
 
 5. When our ideas fail, we can **use this as an opportunity to learn**, and then either **refine our product** or  **pivot our strategy**.
-```          
+```
 
 ## References
 
-[^four-steps] Blank, Steve. *The four steps to the epiphany: successful strategies for products that win*. John Wiley & Sons, 2020.
 
-[^blank_and_dorf] Blank, Steve, and Bob Dorf. *The startup owner's manual: The step-by-step guide for building a great company*. John Wiley & Sons, 2020.
+[^four_steps]: Blank, Steve. *The four steps to the epiphany: successful strategies for products that win*. John Wiley & Sons, 2020.
 
-[^seelig] Seelig, Tina. *inGenius: A crash course on creativity*. Hay House, Inc, 2012.
+[^blank_and_dorf]: Blank, Steve, and Bob Dorf. *The startup owner's manual: The step-by-step guide for building a great company*. John Wiley & Sons, 2020.
 
-[^osterwalder] Osterwalder, Alexander, and Yves Pigneur. *Business model generation: a handbook for visionaries, game changers, and challengers*. Vol. 1. John Wiley & Sons, 2010. [https://www.strategyzer.com/](https://www.strategyzer.com/)
+[^seelig]: Seelig, Tina. *inGenius: A crash course on creativity*. Hay House, Inc, 2012.
 
-[^ries] Ries, Eric. *The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses*. Crown Currency, 2011.
+[^osterwalder]: Osterwalder, Alexander, and Yves Pigneur. *Business model generation: a handbook for visionaries, game changers, and challengers*. Vol. 1. John Wiley & Sons, 2010. [https://www.strategyzer.com/](https://www.strategyzer.com/)
+
+[^ries]: Ries, Eric. *The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses*. Crown Currency, 2011.

@@ -83,11 +83,13 @@ The structure of a customer profile. Source: reproduced from  [https://www.strat
 
 ### Prioritisation
 
+Once we have a list of jobs, pains and gains, we prioritise them:
+
 * Rank the jobs: what are the high-value jobs?
 
-* Rank the Gains: what is the relevance of the gain?
+* Rank the gains: what is the relevance of the gain?
 
-* Rank the Pains: what is the significance of the pain?
+* Rank the pains: what is the significance of the pain?
 
 
 ## Value map
@@ -179,4 +181,4 @@ Alex Osterwalder outlines six ways to innovate from customer profiles[^strategyz
 
 ## References
 
-[^strategyzer] Alex Osterwalder. *Achieve product-market fit with our brand-new Value Proposition Canvas*. https://www.strategyzer.com/library/achieve-product-market-fit-with-our-brand-new-value-proposition-designer-canvas
+[^strategyzer]: Alex Osterwalder. *Achieve product-market fit with our brand-new Value Proposition Canvas*. https://www.strategyzer.com/library/achieve-product-market-fit-with-our-brand-new-value-proposition-designer-canvas

@@ -87,12 +87,31 @@ At this point, we should be able to fill out a [business model canvas](sec:bmc:b
 
 Of course, it may be that we already know the answers to some of these questions, either because there are other products that have demonstrated this -- either produts from other organisations or even our own. However, there must be **some** questions we don't have verified answers to. If we did already, it is because someone has already validated these by building the product, and we are therefore not really innovating at all. There is presumably something that we plan to differently to competitors or to improve on earlier versions of our product, and those are based on customer problems that are usually not verified (yet).
 
-```{note} Customer vs. user
+```{note} **Customer vs. user**
+
 Note that we need to think broadly when we say "customer". Importantly, we need to consider both our users and our customers --- these two segments may be different. The users of a product are the people who will use it as part of their job, their life, etc. The customers are the people who pay for it. Consider the example of a person working in sales support, who would use sale support software, vs. the people who approve the purchase of this software, which may include the chief technology officer (CTO) or IT manager, the chief executive officer (CEO), or the  chief financial officer (CFO); and maybe all of the above.
 
 We will use the term "customers" with the assumption that we also need to talk to non-paying users as well.
 ```
 
+```{admonition} Example -- Medical alert system initial hypotheses
+In our [medical alert system](sec:introduction:medical_alert) example, we had some initial hypotheses that helped to defined out vision:
+
+1. Older people want to be safe.
+
+2. Families of older people want to know, on a daily basis, that their older family member was safe.
+
+3. Older people want to be able to initiate a call for help and cancel any call for help.
+
+4. Older people want to maintain their independence/autonomy.
+
+5. Older people want to be cared for.
+
+6. Older people do not want to have to press the green button each day to let the care company know that they are alive.
+
+7. Older people do not to wear a visible (and ugly!) emergency alarm around their neck or wrist.
+
+```
 
 ## Test the problem
 
@@ -143,6 +162,45 @@ Once we have a set of facts describing our customers and solutions to their prob
 
 **What is a verifiable hypothesis?** We'll discuss more in the chapter on [Experimentation: Testing and validation](sec:experimentation).
 
+
+```{admonition} Example --- Medical alert system refined hypotheses
+
+In our medical alert example, after some interviews with various stakeholders, we were able to verify:
+
+1. Older people want to be safe.
+
+2. Families of older people want to know, on a daily basis, that their older family member was safe.
+
+3. Older people want to be able to initiate a call for help and cancel any call for help.
+
+4. Older people want to maintain their independence/autonomy.
+
+6. Older people do not want to have to press the green button each day to let the care company know that they are alive.
+
+
+In the interview, hypothesis 5 was refuted:
+
+5. Older people want to be cared for.
+
+We found that older people wanted to be *cared about*, and otherwise rejected the idea that family and service providers should care for their safety, which is somewhat in conflict with the goal of being independent. Thus, we replace this with:
+
+5. Older people want to be cared about.
+
+We also partially refuted hypothesis 7:
+
+7. Older people do not to wear an emergency alarm around their neck or wrist.
+
+We discovered that:
+
+8. Some older people wouldn't mind wearing an wireless transmitter if it was not visible to others.
+
+We also discovered some new hypotheses:
+
+9. Older people wanted to be *in touch* with their family members, rather than a service provider.
+
+10. Older people would prefer an medical alert that allowed them to be mobile (the alarms were attached to a phone line and the wireless transmitters have a short range).
+``` 
+
 ## Customer adoption patterns
 
 
@@ -175,6 +233,8 @@ What makes early adopters so crucial? There are a few things:
 1. They tend to spread the word about your product if it works for them.
 
 So, early adopters are "easier" to sell to, and help us to establish ourselves in the market. As such, focus on their needs first, and iteratively build a product that reaches the rest of the market.
+
+In our medical alert project, many of our initial interviews were with people who were existing customers, and many of them (both older people and their families) told us stories to indicate that they thought there was sufficient room for improvement in these systems.
 
 ## Customer development heuristics
 

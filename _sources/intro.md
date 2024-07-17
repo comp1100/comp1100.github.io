@@ -168,11 +168,11 @@ There are some basic behaviours that we expected from everyone enrolled in this 
 * Actively participate with your team in studios.
 * Don't stop others from learning.
 * Work hard on the project most weeks.
-* Stay open-minded.
-* Be flexible and self-directed.
 * Get **out of the building** and talk to potential users/customers.
+* Stay open-minded.
+* Be flexible and **self-directed**.
 * Be curious.
-* Behave professionally.
+* Behave professionally and ethically.
 * Learn stuff and have fun while doing it!
 
 ### What can you expect from us?

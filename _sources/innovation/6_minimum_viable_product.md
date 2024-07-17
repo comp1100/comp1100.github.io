@@ -85,6 +85,20 @@ However, this Airbnb site was crucial for testing out the founders' initial hypo
 I still don't understand the requirement of only giving air beds -- perhaps that was an early marketing trick.
 ```
 
+```{admonition} Medical alert system -- In Touch
+To fulfill the 'keep in touch' idea for our cohort of older people and their families, we implemented a simple photo-sharing app to be run on a tablet. We recruited some customers from our initial interviews.
+
+Family members each had an email address that they could send photos to, allowing them to capture photos of their daily life; e.g. photos of their children (the grandchildren of their older family members). This allowed us to use existing mobile applications on the family side, so came at little cost and was easy to implement.
+
+The older family members received a tablet with a small stand and were asked to place this in a visible place, much like a photo frame. The tablet would show photos that has been sent. Any time new photos were sent, these would be displayed. If no new photos were sent on a day, a previous photo would be shown. However, to access the photos each day, the older person needed to touch the screen, where their was a notification letting them know a new photo was ready. When this occured, a nominated family member would receive a message, thus letting them know their family member was ok.
+
+This allow us to test the hypotheses that both the older people and their family members would stay in touch using this type of device.
+
+Note that this particular MVP did not allow the older person to send an emergency alert, or did it enable mobility. 
+
+However, it took just a couple of weeks to implement and ran on stanard tablets and smart phones, enabling us to test the idea. Further, as this was part of a research project, it gave us access to data about frequency and interactions between family members.
+```
+
 ## Types of MVP
 
 **Pre-Order:** e.g. [Kickstarter](https://www.kickstarter.com/). As in the Dropbox example above, asking customers to pay for a product before it is made is a way to test market demand. Kickstarter campaigns that don't reach a pre-set fundraising target don't go ahead, and customers get a full refund.

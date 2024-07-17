@@ -85,7 +85,7 @@ This is falsifiable:
 
 Framing our assumptions like this treats innovation as a scientific process. Just like designing a scientific experiment, we design an experiment to test our hypotheses; and further, the aim of the experiment should be to try to prove that the hypothesis is wrong!
 
-> "The point is that, whenever we propose a solution to a problem, we ought to try as hard as we can to overthrow our solution, rather than defend it. Few of us, unfortunately, practice this precept; but other people, fortunately, will supply the criticism for us if we fail to supply it ourselves."
+> "The point is that, whenever we propose a solution to a problem, we ought to try as hard as we can to overthrow our solution, rather than defend it. Few of us, unfortunately, practice this precept; but other people, fortunately, will supply the criticism for us if we fail to supply it ourselves." -- Karl Popper, The Logic of Scientific Discovery.
 
 ## Test cards 
 
@@ -138,8 +138,8 @@ We can see here that these statements make it clear to determine whether to acce
 
 Steve Blank states that we should make bets with ourselves (or with each other if in teams) to help make the success/failure definition clear. By framing it as a bet, it helps us to make these concrete.
 
-```{admonition} Example -- Test card
-**We believe that** our end users are people over 65 who live on their own who would like interact digitally with their family more often because they do not see them much.
+```{admonition} Example -- Medical alert system test card: users
+**We believe that** our end users are people over 65 who live on their own who would use technology to keep in touch with their family more often because they do not see them much.
 
 **To verify that**, we will interview 50 people over 65 who live on their own.
 
@@ -149,8 +149,8 @@ Steve Blank states that we should make bets with ourselves (or with each other i
 ```
 
 
-```{admonition} Example -- Test card
-*We believe** that our paying customers are close family members of our end users who would like to interact digitally with older family members using a photo-sharing app rather than delegate to a service because they would like assurance that their family members are doing well in a more personal manner.
+```{admonition} Example -- Medical alert system test card: paying customer
+*We believe** that our paying customers are close family members of our end users who would use technology to keep in touch with older family members using a photo-sharing app rather than delegate to a service because they would like assurance that their family members are doing well in a more personal manner.
 
 **To verify that**, we will interview 50 people who have family members over 65 that live on their own and have an existing emergency alarm system.
 
@@ -159,7 +159,7 @@ Steve Blank states that we should make bets with ourselves (or with each other i
 **We are right if**  70% of family members say that they would like more regular digital interaction with their family member rather than delegating to a service.
 ```
 
-We can see above that we don't need to use an actual card format: we can just use standard text to record these.
+We can see above that we don't need to use an actual card: we can just use standard text to record these. The format of the card is what helps us to structure our thinking and to document our findings.
 
 ## Learning cards for capture learnings
 
@@ -174,7 +174,7 @@ The structure of a learning card. Source: [https://www.strategyzer.com/](https:/
 
 The structure for these is pretty clear: it reflects the language in the test card. 
 
-```{admonition} Example -- Learning card
+```{admonition} Example -- Medical alert system learning card: users
 **We believed that** our end users are people over 65 who live on their own who would like interact digitally with their family more often because they do not see them much.
 
 **We observed** that 44 out of 50 people we interview confirmed that they would like more regular digital interaction with their family.
@@ -184,7 +184,7 @@ The structure for these is pretty clear: it reflects the language in the test ca
 **Therefore, we will** accept this hypothesis.
 ```
 
-```{admonition} Example -- Learning card
+```{admonition} Example -- Medical alert system learning card: paying customers
 "**We believed that** close family members who would like to interact digitally with older family members using a photo-sharing app.
 
 **We observed** that 12 out of 50 people we interview confirmed that they would use such an app.
@@ -194,7 +194,7 @@ The structure for these is pretty clear: it reflects the language in the test ca
 **Therefore, we will** reject this hypothesis, and test a new hypothesis about how family members would take and send photos for their older family member.
 ```
 
-Note in the above example that at some point during the interviews, some additional data (about using smartphones) was found. We haven't yet tested this hypothesis formally
+Note in the above example that at some point during the interviews, some additional data (about using smartphones) was found. We haven't yet tested this hypothesis formally -- for now, it becomes a new hypothesis (which we eventually did test).
 
 ## Types of experiments
 
@@ -292,3 +292,7 @@ Ries[^ries] notes that it is unusual for organisations to change their **vision*
 
 5. If a hypothesis is refuted, we can still gain insights by asking "why?" and paying attention to the data we gathered.
 ```    
+
+## References
+
+[^ries]: Ries, Eric. *The lean startup: How today's entrepreneurs use continuous innovation to create radically successful businesses*. Crown Currency, 2011.

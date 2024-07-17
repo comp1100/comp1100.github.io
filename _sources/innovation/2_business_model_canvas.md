@@ -3,7 +3,7 @@
 ## Busines models and customer development
 
 
-The lovely model below in {numref}`fig:business_model_canvas_overview`, thanks for Alexander Osterwalder from Strategyzer, gives us an overview of the nine key parts of a business model, and how they relate.
+The lovely model below in {numref}`fig:business_model_canvas_overview`, thanks to Alexander Osterwalder from Strategyzer, gives us an overview of the nine key parts of a business model, and how they relate.
 
 ```{figure} ./figs/business_model_canvas_overview.jpg
 ---
@@ -63,7 +63,7 @@ The business model canvas is something that we should complete for any innovatio
 
 We do not need to use this format directly -- business models canvases can just be represented on pieces of paper, as notes on a Miro board, as cards on a Trello board, or as activities on a Jira board. However, the format in {numref}`fig:business_model_canvas` allow us to easily visualise the core components on our business model, so can be useful to get a high-level snap shot and to help other people (e.g. investors, collaborators) quickly understand the business model.
 
-You can [download this template for the business model canvas (and several other templates we use in this course)](./assets/business_model_and_testing_templates.pptx).
+You can [download this template for the business model canvas (and several other templates we use in this course)](../assets/business_model_and_testing_templates.pptx).
 
 ## Cusomter development and the business model canvas
 
