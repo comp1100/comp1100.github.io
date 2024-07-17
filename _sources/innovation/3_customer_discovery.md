@@ -1,6 +1,6 @@
 # Customer discovery
 
-> "If I had an hour to solve a problem and my life depended on the solution, I would spend the first fifty-five minutes determining the proper question to ask, for once I know the proper question, I could solve the problem in less than five minutes." -- Albert Eistein
+> "If I had an hour to solve a problem and my life depended on the solution, I would spend the first fifty-five minutes determining the proper question to ask, for once I know the proper question, I could solve the problem in less than five minutes." -- Albert Einstein
 
 Recall the process for [customer development process](sec:intro:customer_development):
 
