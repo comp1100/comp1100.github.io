@@ -111,12 +111,34 @@ In addition, for deliverables 2-4, each individual will submit a short self-refl
 
 The late penalty for assessment is 100% -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, it will be given a failing mark, and the team will be asked to improve and re-submit.
 
+## Generative AI policy
+
+Students are permitted to use generative AI or any machine translation technology as part of this course. This use must be clearly referenced.
+
+Generative AI cannot be used to:
+
+1. Fabricate data as part of the innovation process.
+
+2. Write a self-reflection piece (although can be used to provide feedback on your writing).
+
+3. Deceive a person that they are communicating with a real person when they are not.
+
+In can be used to:
+
+1. Help generate ideas for solutions (but will not be very good at it in many cases).
+
+2. Provide ideas on how to structure interviews, documents, reports, etc.
+
+3. Help to generate source code.
+
+4. Provide direction on how to solve problems.
+
 
 ## Competency criteria
 
-In this course, we use a competency-based assessment approach. This means that a pass is not possible just by mastering some of the context: individuals must master all criteria up to a particular standard. This is similar to how employees are assessed in annual reviews, for example. 
+In this course, we use a competency-based assessment approach. This means that a pass is not possible just by mastering some of the content: individuals must master all criteria up to a particular standard. This is similar to how employees are assessed in annual reviews.
 
-We have to groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **Teamwork** criteria.
+We have to groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **teamwork** criteria.
 
 
 **Innovation**: The innovation criteria specify that each individual demonstrates *via their behaviour* that they understand and can apply the Lean Startup process to an open-ended problem:
