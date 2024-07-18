@@ -80,7 +80,7 @@ COMP1100/COMP7100 uses **competency-based assessment**, which means that it is *
 
 The grade is excluded from calculation of your GPA.
 
-**Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^sommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This leads to dysfunctional teams. 
+**Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This leads to dysfunctional teams. 
 
 A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required from the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
 
@@ -234,4 +234,4 @@ Each week, the course will be broken into four components:
 
 ## References
 
-[^sommel2023] Stommel, J. *Undoing the grade: Why we grade, and how to stop.* (2023)
+[^stommel2023]: Stommel, J. *Undoing the grade: Why we grade, and how to stop.* (2023)
