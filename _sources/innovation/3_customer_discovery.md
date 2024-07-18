@@ -60,9 +60,9 @@ To define our hypotheses, we first have to **sketch our vision**.
 
 This means writing out answers  to the following questions:
 
-1. What are our cusomters top problems?
+1. What are our customers top problems?
 2. Does our idea help to solve these problems?
-3. What would a day in the life of a custom look like befure and after our product?
+3. What would a day in the life of a customer look like before and after our product?
 
 At this point, the answers to these are **guesses** or **assumptions**. We typically do not know if the answers are true. It may be "obvious" that they are, but many projects fail because team members don't test "obvious" assumptions that turn out to be false.
 
@@ -99,7 +99,7 @@ In our [medical alert system](sec:introduction:medical_alert) example, we had so
 
 1. Older people want to be safe.
 
-2. Families of older people want to know, on a daily basis, that their older family member was safe.
+2. Families of older people want to know, on a daily basis, that their older family member is safe.
 
 3. Older people want to be able to initiate a call for help and cancel any call for help.
 
@@ -113,17 +113,21 @@ In our [medical alert system](sec:introduction:medical_alert) example, we had so
 
 ```
 
+These are usually high-level for a product vision. At this stage, we had many ideas for potentialy products, but these were not our focus just yet -- we first wanted to go out and test our hypotheses that the issues our team member and his mother were having were widespread.
+
 ## Test the problem
 
 Next, we need to get some data to test whether our customers really do have the problem we think they do.
 
-For this, we will use  hypothesis testing, which we discuss further in  [Experimentation: Testing and validation](sec:experimentation).
+To test these, we use experimentation, which we discuss further in  [Experimentation: Testing and validation](sec:experimentation).
 
-Effectively though, we go out and speak to customers about their problems to gather data that can be used to confirm whether our guesses/assumptions are correct or not.
+Effectively though, we gather data that can be used to confirm whether our guesses/assumptions are correct or not.
 
-If the data we gather refutes our guesses, we need to redefine our hypotheses.
+Typically, this involves going out and speaking to potential customers about their problems.
 
-If the data we gather supports our guess, most to the next step.
+If the data we gather refutes our guesses, we need to re-visit our hypotheses.
+
+If the data we gather supports our guess, move to the next step.
 
 ## Test the solution
 
@@ -198,7 +202,7 @@ We also discovered some new hypotheses:
 
 9. Older people wanted to be *in touch* with their family members, rather than a service provider.
 
-10. Older people would prefer an medical alert that allowed them to be mobile (the alarms were attached to a phone line and the wireless transmitters have a short range).
+10. Older people would prefer a medical alert that allowed them to be mobile (the alarms were attached to a phone line and the wireless transmitters have a short range).
 ``` 
 
 ## Customer adoption patterns
@@ -243,9 +247,10 @@ There are a few good heuristics to go by when doing customer development:
 1. There are no facts inside your building, so get outside.
 2. Develop for the few, not the many.
 3. Early adopters make your product.
-4. And are smarter than you.
-5. Focus Groups are for big companies, not startups.
-6. The goal for release 1 is the minimum feature set for early adopters.
+4. And know more than you.
+5. Focus groups are for big companies, not startups.
+6. Surveys don't give insight compared to interviews --- follow-up questions are difficult.
+7. The goal for release 1 is the minimum feature set for early adopters.
 
 
 ## Takeaways
