@@ -8,6 +8,7 @@ A **value proposition canvas** is a visual description of our customer segments,
 ```{figure} ./figs/value_proposition_canvas.png
 ---
 name: fig:value_proposition_canvas
+alt: "A visual tool divided into two main sections. On the right, a cricle representing 'Customer Profile' section includes three parts: 'Customer Jobs', 'Pains', and 'Gains'. On the left, a square representating the 'Value Proposition Map' section includes three parts: 'Products & Services', 'Pain Relievers', and 'Gain Creators'. An arrow from each meet in the middle, representing the product-market fit."
 ---
 The structure of a value proposition canvas. Source: reproduced from [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
@@ -21,6 +22,7 @@ Value proposition canvases are used to define the value propositions and custome
 ```{figure} ./figs/business_model_canvas_plus_value_proposition_canvas.png
 ---
 name: fig:business_model_canvas_plus_value_proposition_canvas.
+alt: "A business model canvas with several value proposition canvases sitting inside"
 ```
 
 ## The four types of startup markets
@@ -28,8 +30,8 @@ name: fig:business_model_canvas_plus_value_proposition_canvas.
 When we are starting up a new product or company, there a four broad types markets:
 1. Entering an existing market: The market is well-established and we are simply providing something with a different slant.
 2. Creating an entirely new market: There is currently no market and we are establishing it.
-3. Resegment an existing market as a low-cost provider: There is a well-established market, and we are providing a surface at a lower price than competitors.
-4. Resegment an existing market as a niche player: There is a well-established market, and we are appealing to a niche part of the market via e.g. higher quality.
+3. Re-segment an existing market as a low-cost provider: There is a well-established market, and we are providing a surface at a lower price than competitors.
+4. Re-segment an existing market as a niche player: There is a well-established market, and we are appealing to a niche part of the market via e.g. higher quality.
 
 The features of a product are driven by how well they satisfy a market: the **product/market fit**. Larger companies tend to be market-driven, while startups tend to be product-driven.
 
@@ -38,6 +40,7 @@ The features of a product are driven by how well they satisfy a market: the **pr
 ```{figure} ./figs/customer_profile.png
 ---
 name: fig:customer_profile
+alt: "A customer profile canvas"
 ---
 The structure of a customer profile. Source: reproduced from  [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
@@ -97,6 +100,7 @@ Once we have a list of jobs, pains and gains, we prioritise them:
 ```{figure} ./figs/value_map.png
 ---
 name: fig:value_map
+alt: "A value map canvas"
 ---
 The structure of a value map. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
@@ -136,8 +140,8 @@ Alex Osterwalder outlines six ways to innovate from customer profiles[^strategyz
 |-------------------------|------------|
 | Address more jobs?      | Can we help customers complete more jobs in their day? |
 | More important jobs?    | Can we help customers do something more valuable?      |
-| Beyond functional jobs? | Can we help customers create value by fulfulling important social and emotional jobs? |
-| Help more customers?    | Can we help more customers by making jobs easiers or cheaper? |
+| Beyond functional jobs? | Can we help customers create value by fulfilling important social and emotional jobs? |
+| Help more customers?    | Can we help more customers by making jobs easier or cheaper? |
 | Do a job better?        | Can we help customers do a higher quality on existing jobs?   |
 
 ## Ground rules for interviewing customers

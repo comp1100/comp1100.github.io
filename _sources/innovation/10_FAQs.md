@@ -1,8 +1,8 @@
-# Subject Frequential Asked Questions (FAQs)
+# Subject Frequently Asked Questions (FAQs)
 
 **How will teams be allocated?**
 
-Individuals will submit preferences for particular projecst on offer, and for people to work with. Teams will then be allocation by staff, taking these preferences into account. People will be expected to work with people they don't know -- just like a real workplace.
+Individuals will submit preferences for particular projects on offer, and for people to work with. Teams will then be allocation by staff, taking these preferences into account. People will be expected to work with people they don't know -- just like a real workplace.
 
 **Can I do the project on my own instead of in a team?**
 

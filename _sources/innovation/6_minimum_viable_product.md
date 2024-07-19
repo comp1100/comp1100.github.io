@@ -54,6 +54,7 @@ Identifying bugs in a product is also good, but as above: it is not as valuable 
 ```{figure} ./figs/mvp_donut.png
 ---
 name: fig:mvp_donut
+alt: "The use of two donuts to represent a minimum viable product. On the left: a plain cinnamon donut with the label 'Minimum viable product'. On the right, eight fancy donuts with glaze and sprinkles, with the label 'Product vision'."
 ---
 Keep the MDP simple!
 ```
@@ -107,7 +108,7 @@ However, it took just a couple of weeks to implement and ran on stanard tablets 
 
 **Show and Tell:** Explainer Video. Again, the Dropbox example above is an example MVP -- so simple, yet so effective.
 
-**Prototypes:** Paper prototypes, Wizard-of-Oz prototypes, and wireframes can make excellent MDPs for software products. Tools like [Axure](https://www.axure.com/) can be used to build simple mockup MVPs that realistic prototypes with some basic functionality.
+**Prototypes:** Paper prototypes, Wizard-of-Oz prototypes, and wire frames can make excellent MVPs for software products. Tools like [Axure](https://www.axure.com/) can be used to build simple mockup MVPs that realistic prototypes with some basic functionality.
 
 **Partial Product:** Implementing just some features of a product -- the most important ones --, such as landing page-single feature websites.
 

@@ -22,19 +22,19 @@ After successfully completing this course, students should be able to
 **What will I do?**
 You will work in teams of 3-4 to build a minimum viable product. You will follow an innovation process called **Lean startup**, which is commonly used in startups to ensure that they are creating products and services that people will actually want.
 
-**Importantly** though, this course is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be **open-ended**, which means that there are many possible ways to approach the problem, and no fixed criteria for when we are "finished". 
+**Importantly** though, this course is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be **open-ended**, which means that there are many possible ways to approach the problem, no fixed criteria for when we are "finished", and the teaching staff don't know what the best answer is.
 
 ```{note}
-Open-endedness is note the same as "vague". A vague project is one in which the vision is unclear or imprecise. A problem or vision can be perfectly clear, but still have many potential solutions that we can continue improving on for hundreds of years. A vague project is one where we don't know the vision, the problem, and results in confusion and incomplete answers. Part of this course will be applying processes and techinques to help clarify problems and solutions. 
+Open-endedness is note the same as "vague". A vague project is one in which the vision is unclear or imprecise. A problem or vision can be perfectly clear, but still have many potential solutions that we can continue improving on for many years. A vague project is one where we don't have a vision, and don't know the problem. This results in confusion and incomplete answers. Part of this course will be applying processes and techinques to help clarify problems and solutions. 
 ```
 
 **This course is about real-world practice.**
 In this course, we aim to emulate a real-world working environment. This means the following:
 * There are no grades -- just a [pass/fail](sec:overview:grading). This is similar to an annual performance review -- either you are meeting expectations or you are not.
-* There are no `answers'. The course staff don't know the solution to the problem you will tackle any more than you do. Your team is responsible for finding good solutions.
+* There are no 'answers'. The course staff don't know the solution to the problem you will tackle any more than you do. Your team is responsible for finding good solutions. 
+* You will work under supervision of someone who will not make decisions for you, but will help you to figure out how to make decisions.
 * You will work in a team that you are assigned to, rather than a group of  your friends (although I hope they become your friends).
 * All members of the team will be ultimately responsible for the outcomes of the project; but by necessity, you will need to coordinate for individuals to lead different tasks.
-* You will work under supervision of someone who will not make decisions for you, but will help you to figure out how to make decisions.
 * You will have to make progress regularly; e.g. weekly, rather than just waiting for an assignment and then doing it all at the last minute.
 * You will be asked to work in a professional manner.
 
@@ -49,7 +49,7 @@ Time and time again, failure has been shown to be hugely important in learning.
 
 This course, and innovation more generally, is about trying things and failing. 
 
-A strong focus on the course is: **fail early**. The ideas in these notes come from people who have tried and failed. People like Steve Blank, Tina Seelig, and Eric Ries thought they had good ideas, built products and services, and then failed. They learnt the hard way that building a product and failing is costly and time consuming. However, they realised from experience that the reasons they failed *could* have been known earlier --- they just weren't asking the right questions at the right time.
+A strong focus on the course is: **fail early**. The ideas in these notes come from people who have tried and failed. People like Steve Blank, Tina Seelig, and Eric Ries thought they had good ideas, built products and services, and then failed. They learnt the hard way that building a product and failing is costly and time consuming. However, they realised from experience that the reasons why their products failed *could* have been known earlier --- they just weren't asking the right questions at the right time.
 
 If we come up with an idea that we **think** is good, but isn't, how can we learn it is not a good idea before we commit a lot of resources to it?
 
@@ -71,7 +71,7 @@ Innovation is about finding out people's problems and trying to solve them. You 
 (sec:overview:legends)=
 ### Your legends
 
-Each time will have a **legend** staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you directly -- they will be more like a manager within an organisation. They will be of such use to you that you will consider them legends by the end of this course.
+Each team will have a **legend**. A legend is a staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you directly -- they will be more like a mentor and manager within an organisation. They will be of such use to you that you will consider them legends by the end of this course.
 
 (sec:overview:grading)=
 ### Grading
@@ -80,63 +80,24 @@ COMP1100/COMP7100 uses **competency-based assessment**, which means that it is *
 
 The grade is excluded from calculation of your GPA.
 
-**Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This leads to dysfunctional teams. 
+**Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
 
 A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required from the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
 
 **So this means there is no assessment, right? No deadlines?!** No, sorry. Like any real project, we have deliverables and those deliverables have deadlines. Intermediate deadlines are important in projects to both ensure that the project is on track, and also to help motivate us (deadlines are known to be excellent at focusing people's attention).
 
-**So I can just do well for the first 6-7 weeks and then stoping trying to get to 50%?** Nope, sorry. There are no grades throughout. To pass, you need to work consistently on your project, and with high quality.
+**So I can just do well for the first 6-7 weeks and then stopping trying to get to 50%?** Nope, sorry. There are no grades throughout. To pass, you need to work consistently on your project, and with high quality.
 
 
-**How will I know if I'm doing enough to pass?** If you need to ask that question, you are probably not doing enough. By this, I mean, if you are trying to game the system by putting in just the minimum amount of work, then yes, you risk failing. A pass is not doing 50% of the project -- it is doing all of the project. You can ensure that you pass by doing what is expected of you and trying your best.
+**How do I know if I'm doing enough to pass?** If you need to ask that question, you are probably not doing enough. By this, I mean, if you are trying to game the system by putting in just the minimum amount of work, then yes, you risk failing. A pass is not doing 50% of the project -- it is doing all of the project. You can ensure that you pass by doing what is expected of you and trying your best.
 
 Despite no grades, there will still be **regular feedback** on both teams and individuals as to how they are doing. Any individual who fails this course will not be surprised by this as they will have had multiple items of feedback letting them know that they are on track to fail.
 
 
-### Assessment deliverables
 
-The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
+### Competency criteria
 
-1. **Weekly:** Attend and *participate in* the weekly studios.
-2. **16:00, Tuesday 03/09/2024 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
-3. **16:00, Tuesday 01/10/2024: -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictires, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Tuesday 07/11/2024:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
-
-Deliverables 2-4 will be submitted via Github. Details on submissions will be discussed in the seminars and studios.
-
-In addition, for deliverables 2-4, each individual will submit a short self-reflection.
-
-**Late penalty:** 100%. 
-
-The late penalty for assessment is 100% -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, it will be given a failing mark, and the team will be asked to improve and re-submit.
-
-## Generative AI policy
-
-Students are permitted to use generative AI or any machine translation technology as part of this course. This use must be clearly referenced.
-
-Generative AI cannot be used to:
-
-1. Fabricate data as part of the innovation process.
-
-2. Write a self-reflection piece (although can be used to provide feedback on your writing).
-
-3. Deceive a person that they are communicating with a real person when they are not.
-
-In can be used to:
-
-1. Help generate ideas for solutions (but will not be very good at it in many cases).
-
-2. Provide ideas on how to structure interviews, documents, reports, etc.
-
-3. Help to generate source code.
-
-4. Provide direction on how to solve problems.
-
-
-## Competency criteria
-
-In this course, we use a competency-based assessment approach. This means that a pass is not possible just by mastering some of the content: individuals must master all criteria up to a particular standard. This is similar to how employees are assessed in annual reviews.
+In this course, we use a competency-based assessment approach. This means that a pass is not possible just by demonstrate some of the content: individuals must demonstrate all criteria up to a particular standard. This is similar to how employees are assessed in annual reviews.
 
 We have to groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **teamwork** criteria.
 
@@ -152,9 +113,9 @@ We have to groups of competency  criteria that we expect each student to demonst
 1. *Refine or pivot*: Make informed decisions about whether to refine and/or pivot based on data.
 1. *Prototype*: Prototype product ideas for the purpose of feedback.
 1. *Communication*: Communicate product ideas to an audience.
-1. *Software implementation*: Give it your best shot at digital implementation of an MVP. As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
+1. *Software implementation*: Give it your best shot at a digital implementation of an MVP. As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
 
-Importantly, the innovation competency criteria above are not tied to the quality of a final product. This is a *time-bounded* project (15 weeks), and if teams continue to work and test their ideas, but by the end of the project they have not found a good solution that fits a market, this is ok. Innovation sometimes takes time -- longer than we have in course. What matters is that you successfully *apply* innovation methods to *fail early and learn*. The key word in criterion 3 above is *compelling*: your ideas must be consistent with what you konw so far and the ideas you generate must be serious and compelling.
+Importantly, the innovation competency criteria above are not tied to the quality of a final product. This is a *time-bounded* project (15 weeks), and if teams continue to work and test their ideas, but by the end of the project they have not found a good solution that fits a market, this is OK. Innovation sometimes takes time -- longer than we have in course. What matters is that you successfully *apply* innovation methods to *fail early and learn*. The key word in criterion 3 above is "compelling": your ideas must be consistent with what you know so far and the ideas you generate must be serious and compelling.
 
 **Teamwork:** The teamwork criteria specify that each individual demonstrates *via their behaviour* that they can work as an independent person as part of a larger team:
 
@@ -163,8 +124,48 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 1. *Tools*: Use appropriate tools to work effectively in a team.
 1. *Self reflection*: Reflect on your own performance as part of a team.
 1. *Responsibility*: Take responsibility for assigned tasks and hold yourself accountable to meeting deadlines and delivering.
-1. *Professionality and ethics*: Behave professionally, respetfully, inclusively, and ethically towards team members, customers, users, and others involved in the project.
+1. *Professionalism and ethics*: Behave professionally, respectfully, inclusively, and ethically towards team members, customers, users, and others involved in the project.
 
+
+
+### Assessment deliverables
+
+The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
+
+1. **Weekly:** Attend and *participate in* the weekly studios.
+2. **16:00, Tuesday 03/09/2024 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
+3. **16:00, Tuesday 01/10/2024: -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
+4. **16:00, Tuesday 07/11/2024 -- Minimum viable product:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
+
+Deliverables 2-4 will be submitted via Github. Details on submissions will be discussed in the seminars and studios.
+
+In addition, for deliverables 2-4, each individual will submit a short self-reflection.
+
+**Late penalty:** 100%. 
+
+The late penalty for assessment is 100% -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, it will be given a failing mark, and the team will be asked to improve and re-submit.
+
+## Generative AI policy
+
+Students are permitted to use generative AI or any machine translation technology as part of this course. This use must be clearly referenced.
+
+Generative AI cannot be used to:
+
+1. Fabricate data as part of the innovation process.
+
+2. Write a self-reflection piece (although can be used to provide feedback on your writing).
+
+3. Deceive a person that they are communicating with a real person when they are not.
+
+It can be used to:
+
+1. Help generate ideas for solutions (but will not be very good at it in many cases).
+
+2. Provide ideas on how to structure interviews, documents, reports, etc.
+
+3. Help to generate source code.
+
+4. Provide direction on how to solve problems.
 
 
 ### Communication
@@ -172,13 +173,15 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 Communication between the class and the course staff will occur in a few different ways.
 
 **General communication.**
-First, the course discussion board will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
+The course Ed Discussion board will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
 
 If you email course staff with a general question, we will ask you to post to the discussion board. If you have a question, it is quite probable that someone else in the class will have that same question.
 
 **Communication of a team or personal nature.** If you need to communicate with staff about something sensitive about yourself or your team, you should contact the course staff. In the first instance, please discuss with your [COMP1100/COMP7100 legend](sec:overview:legends).
 
 If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100/COMP7100 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au). NOTE: email this even if you are enrolled in COMP7110.
+
+**Communication with your team.** We will set up a class Slack workspace and create private channels for each team and their legend. This can be used for day-to-day team communication, including with the team legend.
 
 ## Expectations
 
@@ -204,7 +207,7 @@ We will discuss this is week 1. For now, here are some things we imagine that yo
 * Attend **and give** the seminar at 10am-11am every Wednesday.
 * Set some goals for studios every week.
 * Give some pointers and directions to achieve those goals when you are stuck.
-* Advise on the processes that you need to follow.
+* Give advice on the processes that you need to follow.
 * Providing regular (positive and negative) feedback on deliverables and weekly contributions.
 * Helping you to navigate to realistic solutions.
 
@@ -225,7 +228,7 @@ Each week, the course will be broken into four components:
 ```{admonition} Takeaways
 1. This course is about **software innovation** in small **teams**.
 
-2. You will undertake a small innovation project in a team of (about 4).
+2. You will undertake a small innovation project in a team of (about) 4.
 
 3. The course is **pass/fail**.
 

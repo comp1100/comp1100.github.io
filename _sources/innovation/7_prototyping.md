@@ -7,7 +7,7 @@ The purpose of prototyping is to test ideas about solutions.
 
 These ideas can be:
 * **Conceptual:** testing high-level conceptual ideas about solutions
-* **Technical:** testing technical ideas about solutions, such as feasability
+* **Technical:** testing technical ideas about solutions, such as feasibility
 
 
 ## Types of prototype
@@ -18,11 +18,11 @@ These ideas can be:
 | Feasibility prototype   | Feasibility  of various solutions | Proof of concept  | Concept definition |
 | Functional storyboard   | Determine usable sequences for presenting information | Demonstrate workflow | Early product definition |
 | Horizontal prototype    | Clarify scope and requirements  | User interface only   | Later product definition |
-| Vertical prototype      | Test code design, componenets  | Working but incomplete system | Even later product definition|
+| Vertical prototype      | Test code design, components  | Working but incomplete system | Even later product definition|
 
 Credit: Craig Borysowich. https://www.globalspec.com/learnmore/contract_manufacturing_fabrication/prototyping_services
 
-For this course, the main distinguishment we make is between **conceptual prototypes** and **feasibility prototypes**.
+For this course, the main distinction we make is between **conceptual prototypes** and **feasibility prototypes**.
 
 ## Conceptual prototype
 
@@ -30,7 +30,7 @@ Conceptual prototypes are layouts of a solution that shows the key elements that
 
 Typically done in two ways:
 1. **Paper prototypes:** drawing the ideas on paper/cardboard to demonstrate conceptual ideas
-2. **Digital prototypes:** (AKA wireframes): digitally drawn and look more like a real application.
+2. **Digital prototypes:** (AKA wire frames): digitally drawn and look more like a real application.
 
 The purpose of a conceptual prototype is to **fake it before you build it**.
 
@@ -114,11 +114,11 @@ As part of prototyping, we can use anything that we want to conjure up experienc
 
 > It is much easier, cheaper, faster, and more reliable to ﬁnd a little old man, a microphone, and some loud speakers than it is to ﬁnd a real wizard. So it is with most software products. Fake it before you build it. -- Bill Buxton. *Sketching User Experiences: Getting the Design Right and the Right Design (Interactive Technologies)* 1st Edition, 2010.
 
-For example, instead of building a complete mobile app to send phtotos, a server to process photos, and a photo frame to display and interact with photos, we can simply implement some interfaces, and move the photos onto a tablet manually when our users are testing it.
+For example, instead of building a complete mobile app to send photos, a server to process photos, and a photo frame to display and interact with photos, we can simply implement some interfaces, and move the photos onto a tablet manually when our users are testing it.
 
 ### Practical types for conceptual prototypes
 
-Here are some practicel types for conceptual prototypes:
+Here are some practical types for conceptual prototypes:
 
 * Keep them simple -- eventually will be thrown away
 * Use a grid to ensure that everything is well aligned

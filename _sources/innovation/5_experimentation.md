@@ -20,6 +20,7 @@ The process of experimentation is summed up with this excellent process model fr
 ```{figure} ./figs/experimentation_process.png
 ---
 name: fig:experimentation_process
+alt: "An overview of the experimentation process. Seven stages: extract hypotheses, prioritise hypotheses, design tests, prioritise tests, run tests, capture learnings, and make progress."
 ---
 The process model for experimentation, according to Steve Blank. Source: https://steveblank.com/2014/10/24/17577/
 ```
@@ -94,19 +95,20 @@ Framing our assumptions like this treats innovation as a scientific process. Jus
 ```{figure} ./figs/test_card.png
 ---
 name: fig:test_card
+alt: "A test card containing four sections: hypothesis, test, metric, and criteria."
 ---
 The structure of a test card. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
 
 Each card has four parts:
-* **"We believe that ... "** is the hypothesis that we have --- the assumption that we have about a customer segement, their problem, etc. -- anything on the business model canvas!
+* **"We believe that ... "** is the hypothesis that we have --- the assumption that we have about a customer segment, their problem, etc. -- anything on the business model canvas!
 * **"To verify that, we will ... "** what we will do to test the hypothesis, which almost always involves finding data; e.g. talking to customers, finding existing data, etc.
 * **"And measure ... "** specifies exactly what we want to measure; e.g. number of customers who say X, or number of sales of existing product Y.
 * **"We are right if ..."** specifies the criteria for either accepting or rejecting the hypothesis. 
 
 ### Structuring hypotheses
 
-A good hypothesis statement (the "We believe that ..." statement) should identify a target, a behaviour or observable phenomenom, and a reason for the behaviour/phenomenom:
+A good hypothesis statement (the "We believe that ..." statement) should identify a target, a behaviour or observable phenomenon, and a reason for the behaviour/phenomenon:
 
 > We believe that **[target]** are **[showing behaviour / display interest in ]** **[for reason Y]**.
 
@@ -134,7 +136,7 @@ A good accept/reject statement (the "We are right if ...") should have a clear a
 > We are right if **[some measurable statement]**.
 
 
-We can see here that these statements make it clear to determine whether to accept or reject the hypothesis: we count the number of people who said something, and then calcluate the percentage. 
+We can see here that these statements make it clear to determine whether to accept or reject the hypothesis: we count the number of people who said something, and then calculate the percentage. 
 
 Steve Blank states that we should make bets with ourselves (or with each other if in teams) to help make the success/failure definition clear. By framing it as a bet, it helps us to make these concrete.
 
@@ -168,6 +170,7 @@ Similar to test cards, we can structure the outcomes from our experiments in a f
 ```{figure} ./figs/learning_card.png
 ---
 name: fig:learning_card
+alt: "A learning card containing four sections: hypothesis, observation, learning & insights,  and decisions & actions."
 ---
 The structure of a learning card. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
@@ -263,10 +266,11 @@ Once we have gained some insights, recall that there are a few things we can do 
 
 Recall Eric Ries's model for innovation from {numref}`fig:pivot_vs_refine`, re-produced below:
 
-```{image} ./figs/pivot_vs_refine.png
+```{figure} ./figs/pivot_vs_refine.png
 ---
-height: 300px
+height: 400px
 name: fig:pivot_vs_refine_in_experimentation
+alt: "The pivot vs refine pyramid: A pyramid with three layers. The lowest layer is 'Vision', the middle layer is 'Strategy', and the top layer is 'Product'. From Strategy is an arrow to the word 'Pivot'; and from Product is an arrow to the word 'Refine'."
 ```
 
 In cases where a pivot is required, this typically indicates a setback -- we have rejected some hypotheses and have concluded that we do not have a market fit.
@@ -274,12 +278,14 @@ In cases where a pivot is required, this typically indicates a setback -- we hav
 We can react to a setback in three ways:
 1. Ignore what our testing showed us and press on with our idea. This is commonly done; but also, note that businesses and product commonly fail, and this is a key reason why. Why do people press on despite the facts telling them they are wrong? Because it is difficult to give up on an idea that we have invested so much time and effort on. 
 2. We can **refine** our product ideas. Typically, we can have a good understanding of our customers' problems, but our product idea did not quite solve their problem; or at least, not enough that they would buy it or invest in it. However, we can fine-tune our product ideas, prototype these, and test them again.
-3. We can **pivot** our strategy. This happens when we have fundamentally mis-understood what our customers' problems were or what we thought could help solve them. Again, we use what we learnt from our test to improve our understanding and come up with new ideas.
+3. We can **pivot** our strategy. This happens when we have fundamentally misunderstood what our customers' problems were or what we thought could help solve them. Again, we use what we learnt from our test to improve our understanding and come up with new ideas.
 
 Ries[^ries] notes that it is unusual for organisations to change their **vision** -- this is usually the dream to which they are committed, and often the insights gained from data are sufficient.
 
 
 ## Takeaways
+
+
 
 ```{admonition} Takeaways
 1. **Experiments** help us gain insights about our customers and products by testing our hypotheses.
