@@ -1,5 +1,9 @@
 # Subject Frequently Asked Questions (FAQs)
 
+**How many people will be in a team?**
+
+Teams will be mostly four people, except of course if the number of enrolments is not a multiple of 4, we will have some 3 person teams or 5 person teams.
+
 **How will teams be allocated?**
 
 Individuals will submit preferences for particular projects on offer, and for people to work with. Teams will then be allocation by staff, taking these preferences into account. People will be expected to work with people they don't know -- just like a real workplace.

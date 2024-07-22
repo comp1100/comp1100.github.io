@@ -222,6 +222,28 @@ Each week, the course will be broken into four components:
 
 ## Projects
 
+This semester, we present two challenges for teams to focus their projects on.
+
+### War on waste
+
+Food waste is estimated to cost the Australian economy around $20 billion each year. Australian consumers throw away around 3.1 million tonnes of edible food a year. Another 2.2 million tonnes are disposed by the commercial and industrial sector.
+
+In recent decades, the combined effects of consumer demand, supermarket policies and cynicism about the effectiveness of waste and recycling campaigns has seen a surge in the volume of waste we produce as a nation. Fast fashion waste is becoming increasingly prevalent. We can, as a nation, do better.
+
+**Challenge:** The challenge is to innovate a technology-based solution to assist consumers, manufactures, retailers, or government, reduce the amount of waste we generate or increase reuse and recycling.
+
+If you would like some inspiration for this,  Craig Reucassel's [War on Waste series on ABC iview](https://iview.abc.net.au/show/war-on-waste) is brilliant.
+
+
+### Cost of living
+
+Cost of living in Australia (and around the world) is exploding. Food prices in Australia have inflated over 20% in just three years. If you’ve shopped at the supermarket recently, you’ll agree it may feel like it is even more than that. The average rent for a detached houses in Australia capital cities has gone from $550 in 2021, to $850 today; and for units it’s not much better: from $420 to $600.The Australian volume-weighted average price for energy was $50 MWh. in February 2022. In May 2024, it is just over $150 MWh. 
+
+Many people are living in severe financial stress, and the effect is particularly felt on younger demographics. We can, as a nation, do better.
+
+**Challenge:** The challenge is to innovate a technology-based solution to assist consumers, retailers, or government, to help people reduce their cost of living.
+
+
 
 ## Takeaways
 
