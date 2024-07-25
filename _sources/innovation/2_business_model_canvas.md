@@ -42,12 +42,25 @@ We can see that this is **customer focused**, not product focused. It targets th
 
 **Will we need to do all of these in this course?**
 
-In this course, we will focus mostly on the first three items: 
-* Who are our customers? 
-* What can we do for them? 
-* How will we deliver it?
+In this course, we will focus mostly on the first five items: 
+1. Customer segments: who are our customers? 
+2. Value propositions: what can we do for them?
+3. Channels: how will we deliver our product/service?
+4. Customer relationship: how do we interact with our customers?
+5. Revenue streams: will customer pay for it? If yes, how?
  
-These are the so-called **front stage** of the business model canvas. The remaining steps 4-9, called the **back stage** of the business model canvas, are valuable, and we will be investigating these but will only have time to scratch the surface in going out and verifying them.
+These are the so-called **front stage** of the business model canvas. The remaining steps 6-9 are called the **back stage** of the business model canvas. 
+See {numref}`fig:front_stage_vs_back_stage`.
+
+```{figure} ./figs/front_stage_vs_back_stage.png
+---
+name: fig:front_stage_vs_back_stage
+alt: "A business model canvas split into two parts: the front stage, consisting of customer segments, value propositions, channels, customer relationships, and revenue streams; and the back stage, consiting of key resources, key activities, key partnerships, and cost structure."
+---
+Front stage vs. back stage of a business model canvas.
+```
+
+The back stage activities are crucial in building and scaling a business. We will be discussing these but will only have time to scratch the surface in going out and verifying them.
 
 
 (sec:bmc:bmc)=
