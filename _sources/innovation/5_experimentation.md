@@ -152,7 +152,7 @@ Steve Blank states that we should make bets with ourselves (or with each other i
 
 
 ```{admonition} Example -- Medical alert system test card: paying customer
-*We believe** that our paying customers are close family members of our end users who would use technology to keep in touch with older family members using a photo-sharing app rather than delegate to a service because they would like assurance that their family members are doing well in a more personal manner.
+**We believe** that our paying customers are close family members of our end users who would use technology to keep in touch with older family members using a photo-sharing app rather than delegate to a service because they would like assurance that their family members are doing well in a more personal manner.
 
 **To verify that**, we will interview 50 people who have family members over 65 that live on their own and have an existing emergency alarm system.
 
