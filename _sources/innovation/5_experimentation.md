@@ -22,7 +22,7 @@ The process of experimentation is summed up with this excellent process model fr
 name: fig:experimentation_process
 alt: "An overview of the experimentation process. Seven stages: extract hypotheses, prioritise hypotheses, design tests, prioritise tests, run tests, capture learnings, and make progress."
 ---
-The process model for experimentation, according to Steve Blank. Source: https://steveblank.com/2014/10/24/17577/
+The process model for experimentation. Right click and open in new tab to see a larger version. Adapted from: https://steveblank.com/2014/10/24/17577/
 ```
 
 **Step 1**: Extract the hypotheses from your business model canvas (or define them if you haven't yet!)
