@@ -188,7 +188,7 @@ The structure for these is pretty clear: it reflects the language in the test ca
 ```
 
 ```{admonition} Example -- Medical alert system learning card: paying customers
-"**We believed that** close family members who would like to interact digitally with older family members using a photo-sharing app.
+**We believed that** close family members who would like to interact digitally with older family members using a photo-sharing app.
 
 **We observed** that 12 out of 50 people we interview confirmed that they would use such an app.
 

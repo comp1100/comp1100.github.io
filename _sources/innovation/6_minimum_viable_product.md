@@ -10,7 +10,6 @@ A **minimum viable product** (MVP) is a version of a new product that contains t
 ```
 
 
-> "You’re selling the vision and delivering the minimum feature set to visionaries, not everyone." -- Steve Blank
 
 
 ## Purpose of the MVP
@@ -39,17 +38,22 @@ If we test a hypothesis about market demand and this test *also results in us ga
 Identifying bugs in a product is also good, but as above: it is not as valuable at this early stage as testing whether our product meets customer needs.
 
 
+> "You’re selling the vision and delivering the minimum feature set to visionaries, not everyone." -- Steve Blank
+
+
 ## Principles for an MVP
 
 **Principle 1:** KISS (Keep it simple, stupid!). Do not add "bells and whistles" -- just add enough features to test the hypotheses that you want to test.
 
-**Principle 2:** Positive user Experience.  Although it is simple, make an MVP a positive experience for the people we test it on. It should be usable, simple, and intuitive -- remember that these people are our future customers!
+**Principle 2:** Fast to build.  We should spend weeks, not months, to build an MVP.
 
-**Principle 3:** Close the Loop for the user. Test an MVP that shows ours users what the final steps are of your MVP. Testing  out partial ideas that don't result in the user seeing e.g. the end of a transaction, make it difficult for them to see the value.
+**Principle 3:** Positive user Experience.  Although it is simple, make an MVP a positive experience for the people we test it on. It should be usable, simple, and intuitive -- remember that these people are our future customers!
 
-**Principle 4:** Iterate and Refine. Pay attention to user feedback and be prepared to refine this and iterate over it multiple times. It is rare to get everything right in even the first few versions.
+**Principle 4:** Early adopters. An MVP should appear just to early adopters.
 
-**Principle 5:** Set success metrics. An MVP is still used to [test hypotheses](sec:experimentation), so set metrics for those hypotheses. It is not just something for users to play with.
+**Principle 5:** Iterate and Refine. Pay attention to user feedback and be prepared to refine this and iterate over it multiple times. It is rare to get everything right in even the first few versions.
+
+**Principle 6:** Set success metrics. An MVP is still used to [test hypotheses](sec:experimentation), so set metrics for those hypotheses. It is not just something for users to play with.
 
 ```{figure} ./figs/mvp_donut.png
 ---
@@ -91,11 +95,11 @@ To fulfill the 'keep in touch' idea for our cohort of older people and their fam
 
 Family members each had an email address that they could send photos to, allowing them to capture photos of their daily life; e.g. photos of their children (the grandchildren of their older family members). This allowed us to use existing mobile applications on the family side, so came at little cost and was easy to implement.
 
-The older family members received a tablet with a small stand and were asked to place this in a visible place, much like a photo frame. The tablet would show photos that has been sent. Any time new photos were sent, these would be displayed. If no new photos were sent on a day, a previous photo would be shown. However, to access the photos each day, the older person needed to touch the screen, where their was a notification letting them know a new photo was ready. When this occured, a nominated family member would receive a message, thus letting them know their family member was ok.
+The older family members received a tablet with a small stand and were asked to place this in a visible place, much like a photo frame. The tablet would show photos that have been sent. Any time new photos were sent, these would be displayed. If no new photos were sent on a day, a previous photo that the older person had liked would be shown. However, to access the photos each day, the older person needed to touch the screen, where their was a notification letting them know a new photo was ready. When this occured, a nominated family member would receive a message, thus letting them know their family member was ok.
 
 This allow us to test the hypotheses that both the older people and their family members would stay in touch using this type of device.
 
-Note that this particular MVP did not allow the older person to send an emergency alert, or did it enable mobility. 
+Note that this particular MVP did not allow the older person to send an emergency alert, nor did it enable mobility. 
 
 However, it took just a couple of weeks to implement and ran on stanard tablets and smart phones, enabling us to test the idea. Further, as this was part of a research project, it gave us access to data about frequency and interactions between family members.
 ```
