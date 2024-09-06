@@ -20,8 +20,8 @@ If a student fails, the subject counts as a 2.
 
 **What programming languages and frameworks will we use?**
 
-Whatever is required for you to build your prototype! This is a real project, and you have the flexibility to make decisions about technology.
+Whatever is required for you to build your product! This is a real project, and you have the flexibility to make decisions about technology.
 
 **I have a clash -- can I skip the seminar or studio and just catch up from my team?**
 
-Unfortunately not. The seminar and studios are the place where the groundwork is laid for the project. They are also the only place we run ID verified assessment in the course, which is consistent with UQ policy.
+Unfortunately not. The seminar and studios are the place where the groundwork is laid for the project. They are also the only place we run ID verified assessment in the course, which is required by UQ policy.

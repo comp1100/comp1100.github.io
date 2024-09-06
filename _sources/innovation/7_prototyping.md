@@ -149,7 +149,7 @@ Feasibility prototypes are both useful and important for innovation, but at not 
 
 3. Prototyping is an **iterative process.** 
 
-4. **Paper prototypes** and *Wizard of Oz** prototypes are cheap and quick ways to test out conceptual ideas and gain feedback.
+4. **Paper prototypes** and **Wizard of Oz** prototypes are cheap and quick ways to test out conceptual ideas and gain feedback.
 
 5. **Digital prototypes** are more useful for testing out solutions and workflows.
 

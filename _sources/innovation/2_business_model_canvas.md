@@ -1,3 +1,4 @@
+(sec:business-model-canvas)=
 # Business model canvas
 
 In this chapter, we look at the **business model canvas**, which is a simple yet useful tool for describing and visualising a business model.
@@ -81,7 +82,7 @@ alt: "A blank business model canvas"
 The structure of a business model canvas. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
 
-The business model canvas is something that we should complete for any innovation project. The value of a business model canvas is not just in *having* it (although it is useful to vaisualise our business model). The value comes in the *doing* the activities that we need to fill out the different sections. By asking the right questions and gathering the right data to fill in the canvas, we learn about our customers, their problems, what we can do to solve, and what we need to solve them.
+The business model canvas is something that we should complete for any innovation project. The value of a business model canvas is not just in *having* it (although it is useful to visualise our business model). The value comes in the *doing* the activities that we need to fill out the different sections. By asking the right questions and gathering the right data to fill in the canvas, we learn about our customers, their problems, what we can do to solve, and what we need to solve them.
 
 We do not need to use this format directly -- business models canvases can just be represented on pieces of paper, as notes on a Miro board, as cards on a Trello board, or as activities on a Jira board. However, the format in {numref}`fig:business_model_canvas` allow us to easily visualise the core components on our business model, so can be useful to get a high-level snap shot and to help other people (e.g. investors, collaborators) quickly understand the business model. 
 

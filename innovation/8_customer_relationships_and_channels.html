@@ -1,0 +1,789 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>8. Customer relationships and channels &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'innovation/8_customer_relationships_and_channels';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="9. Subject Frequently Asked Questions (FAQs)" href="10_FAQs.html" />
+    <link rel="prev" title="7. Prototyping" href="7_prototyping.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_introduction_to_innovation.html">1. Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_business_model_canvas.html">2. Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_customer_discovery.html">3. Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_value_proposition_canvas.html">4. Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_experimentation.html">5. Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_minimum_viable_product.html">6. Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7_prototyping.html">7. Prototyping</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">8. Customer relationships and channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10_FAQs.html">9. Subject Frequently Asked Questions (FAQs)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Finnovation/8_customer_relationships_and_channels.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/innovation/8_customer_relationships_and_channels.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Customer relationships and channels</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-relationships-get-keep-and-grow">8.1. Customer relationships: Get, keep, and grow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#foundations-for-customer-relationships">8.2. Foundations for customer relationships</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-web-and-mobile-product">8.3. Example: A web and mobile product</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-customers">8.3.1. Getting customers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keeping-customers">8.3.2. Keeping customers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#growing-customers">8.3.3. Growing customers</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#channels">8.4. Channels</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#product-channel-fit">8.4.1. Product-channel fit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#channel-complexity">8.4.2. Channel complexity</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-feedback">8.5. Customer feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">8.6. Takeaways</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="customer-relationships-and-channels">
+<h1><span class="section-number">8. </span>Customer relationships and channels<a class="headerlink" href="#customer-relationships-and-channels" title="Link to this heading">#</a></h1>
+<p>Customer relationship and channels are the links between our value propositions and our customer segments. Recall these from the model in <a class="reference internal" href="#fig-business-model-canvas-overview-in-channels-and-customer-relationships"><span class="std std-numref">Fig. 8.1</span></a>, described  in the <a class="reference internal" href="2_business_model_canvas.html#sec-business-model-canvas"><span class="std std-ref">chapter on the business model canvas</span></a>:</p>
+<figure class="align-default" id="fig-business-model-canvas-overview-in-channels-and-customer-relationships">
+<img alt="A business model canvas" src="../_images/business_model_canvas_overview.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 8.1 </span><span class="caption-text">Overview of the business model canvas. Source: <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-business-model-canvas-overview-in-channels-and-customer-relationships" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p><strong>Channels</strong>  the mechanisms by which solutions are delivered to customers.</p>
+<p><strong>Customer relationships</strong> are the mechanisms that are used to engage and build trust between organisations and customer segments.</p>
+<section id="customer-relationships-get-keep-and-grow">
+<h2><span class="section-number">8.1. </span>Customer relationships: Get, keep, and grow<a class="headerlink" href="#customer-relationships-get-keep-and-grow" title="Link to this heading">#</a></h2>
+<p><a class="reference internal" href="#fig-get-keep-grow"><span class="std std-numref">Fig. 8.2</span></a> outlines the three main stages to gain customers via customer relationships:</p>
+<ol class="arabic simple">
+<li><p><strong>Get</strong>: bring initial customers into our product; e.g. early adopters.</p></li>
+<li><p><strong>Keep</strong>: keep the customers that we have.</p></li>
+<li><p><strong>Grow</strong>: grow into new customers; e.g. the early and then late majorities.</p></li>
+</ol>
+<figure class="align-default" id="fig-get-keep-grow">
+<a class="reference internal image-reference" href="../_images/get_keep_grow.png"><img alt="An overview of the 'get, keep, grow' model. The figure is sort of like two funnels, with their large ends on either side, meeting at the small ends. The left funnel is 'Get', the middle part is 'Keep', and the right funnel is 'Grow'. An abstract line graph underneath shows the relative cost and effort of the three parts: getting has the highest cost and effort, then keeping is much less, while growing is more effort/cost again, but not as much as the initial getting stage. There is an arrow going from the small part of the 'get' funnel back to the start, with the label 'Viral loop'. Similarly, there is a viral loop from the large part of the 'grow' funnel all the way back to the 'Get' funnel." src="../_images/get_keep_grow.png" style="width: 700px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.2 </span><span class="caption-text">An overview of the ‘get, keep, grow’ model.</span><a class="headerlink" href="#fig-get-keep-grow" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>As we can see from <a class="reference internal" href="#fig-get-keep-grow"><span class="std std-numref">Fig. 8.2</span></a>, typically, getting the initial customers takes a lot of cost and effort. Keeping them is less effort and cost, provided we have a good product. Growing is more costly than keeping, but if we have a good product and this spreads via word of mouth from existing to new customers, this growth can be sharp. In fact, this can often cause problems for startups as they cannot keep up with the new demand. While this is less of a problem for software applications than say, physical products, it can still be difficult to e.g. find the necessary computational resources, or find the staff to provide customisations for particular customers.</p>
+<p>The two viral loops indicate situations in which we get lucky and the ‘getting’ and ‘growing’ happen with minimum effort from us: our customers using the product raises awareness with new customers. For example, customers telling other people about the product; or if our customers are businesses using our product to serve their own customers, their customers may see our product, raising awareness.</p>
+</section>
+<section id="foundations-for-customer-relationships">
+<h2><span class="section-number">8.2. </span>Foundations for customer relationships<a class="headerlink" href="#foundations-for-customer-relationships" title="Link to this heading">#</a></h2>
+<p>Customer relationships are important for getting, keeping, and growing our customer base. This includes both users and paying customers.</p>
+<p>If we want strong customer relationships, we need to be able to answer the following questions:</p>
+<ol class="arabic simple">
+<li><p>Who are our customers?</p></li>
+<li><p>What is their motivation for using our product? What matters to them?</p></li>
+<li><p>Where do they get their information about products?</p></li>
+<li><p>What (or who) influences them?</p></li>
+<li><p>How do they buy things?</p></li>
+</ol>
+<p>Hopefully, our customer discovery process has given us a clear idea of the first two questions.</p>
+<p>The latter questions can be framed as hypotheses and tested, in the same way that we frame and test hypotheses about customer segments and value propositions.</p>
+<p>However, we can see that different types of customers have different needs. An older person using a medical alarm is less likely to use social media to research products than younger users of educational apps. Similarly, they are influenced by different people, and buy things differently. For example, younger demographics are much more likely to buy on their mobile device, while generation X would be more likely to use a laptop/desktop computer for large purchases. Older people may prefer to purchase things in physical stores — although this preference is starting to reduce as everyone becomes more digitally literate.</p>
+</section>
+<section id="example-a-web-and-mobile-product">
+<h2><span class="section-number">8.3. </span>Example: A web and mobile product<a class="headerlink" href="#example-a-web-and-mobile-product" title="Link to this heading">#</a></h2>
+<section id="getting-customers">
+<h3><span class="section-number">8.3.1. </span>Getting customers<a class="headerlink" href="#getting-customers" title="Link to this heading">#</a></h3>
+<p>Consider the example of a product we are releasing on the web to be used on desktop and mobile devices. What does the ‘get’ phase look like?</p>
+<figure class="align-default" id="fig-get-web-and-mobile-products">
+<a class="reference internal image-reference" href="../_images/get_web_and_mobile_products.png"><img alt="An example strategy for the 'get' stage for a mobile product. The 'funnel' is broken into three parts: 'awareness' at the widest part, 'interest' at the middle part, and 'activation' at the small part." src="../_images/get_web_and_mobile_products.png" style="width: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.3 </span><span class="caption-text">An example strategy for the ‘get’ stage of a web and mobile application.</span><a class="headerlink" href="#fig-get-web-and-mobile-products" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p><a class="reference internal" href="#fig-get-web-and-mobile-products"><span class="std std-numref">Fig. 8.3</span></a> shows the strategies we could take:</p>
+<ol class="arabic simple">
+<li><p><strong>Awareness</strong>: this represents the initial stage where customers become aware of a product or service.</p></li>
+<li><p><strong>Interest</strong>: the middle stage  where those who are aware of the product or service show interest in it.</p></li>
+<li><p><strong>Activation</strong>: the third stage where interested individuals take action, such as signing up, purchasing, or engaging further.</p></li>
+</ol>
+<figure class="align-default" id="fig-get-paid-advertising">
+<a class="reference internal image-reference" href="../_images/get_paid_advertising.png"><img alt="Approaches for implementing the strategies of  a 'get' stage for a mobile product. The 'funnel' is broken into three parts: '10 cents per person, 50,000 clicks' at the widest part, '10% interest' at the middle part, and '2% activation' at the small part." src="../_images/get_paid_advertising.png" style="width: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.4 </span><span class="caption-text">An example of the ‘get’ stage of a web and mobile application.</span><a class="headerlink" href="#fig-get-paid-advertising" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>How do we implement these strategies?
+<a class="reference internal" href="#fig-get-paid-advertising"><span class="std std-numref">Fig. 8.4</span></a> outlines some approaches we could use:</p>
+<ol class="arabic simple">
+<li><p>Pay for Internet advertising at 10c per click, at a maximum of 50,000 clicks.</p></li>
+<li><p>10% of people who see the advert show some interest.</p></li>
+<li><p>2% of people who see it activate by signing up to our product.</p></li>
+</ol>
+<p>There are other ways to raise awareness. Some strategies are <strong>paid</strong> demand creation:</p>
+<ol class="arabic simple">
+<li><p>Use a public relations agency.</p></li>
+<li><p>Attend trade shows.</p></li>
+<li><p>Use email campaigns.</p></li>
+<li><p>Social media engagement.</p></li>
+</ol>
+<p>We can also use <strong>earned</strong> demand creation:</p>
+<ol class="arabic simple">
+<li><p>Publication in peer-reviewed journals.</p></li>
+<li><p>Conference appearances.</p></li>
+<li><p>Blogging and guest articles for media.</p></li>
+<li><p>Search Engine Optimisation.</p></li>
+<li><p>Social media presence.</p></li>
+</ol>
+</section>
+<section id="keeping-customers">
+<h3><span class="section-number">8.3.2. </span>Keeping customers<a class="headerlink" href="#keeping-customers" title="Link to this heading">#</a></h3>
+<p>As noted, if we have a good value proposition, keeping customers is lower cost and effort than getting them initially. In short: the customers we have are easier to keep than getting customers we don’t have. The reason is that these customers have already acted on their problem, so they have signalled clearly that they are in our customer segment.</p>
+<figure class="align-default" id="fig-get-keep-web-and-mobile-products">
+<a class="reference internal image-reference" href="../_images/get_keep_web_and_mobile_products.png"><img alt="../_images/get_keep_web_and_mobile_products.png" src="../_images/get_keep_web_and_mobile_products.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.5 </span><span class="caption-text">An example strategy for the ‘keep’ stage of a web and mobile application.</span><a class="headerlink" href="#fig-get-keep-web-and-mobile-products" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>There are several strategies that we can use to keep customers:</p>
+<ol class="arabic simple">
+<li><p>Loyalty programs.</p></li>
+<li><p>Product updates to keep their interest and continue adding value.</p></li>
+<li><p>Contests and events to keep engagement.</p></li>
+<li><p>Horizontal and vertical offerings.</p></li>
+<li><p>Customer engagement and satisfaction programs; e.g. blogs, community support, email.</p></li>
+<li><p>Social media</p></li>
+</ol>
+<p>However, this leads to a question: <strong>Why should we focus on ‘keeping’ existing customers that we already have, instead of gaining new ones?</strong></p>
+<p>The answer is: it is more expensive to get new customers than keep existing ones.</p>
+<p>This is known as <strong>churn</strong>, and it comes at a cost.</p>
+<p>For example, consider monthly churn of 1%, 5%, and 10%. After 3 years, how many of the original customers will be left?</p>
+<p>We can calculate the remaining customers as <span class="math notranslate nohighlight">\(Remaining\ percentage=(1−Monthly\ attrition\ rate)^n\)</span>, where <span class="math notranslate nohighlight">\(n\)</span> is the number of months.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Monthly customer churn</p></th>
+<th class="head"><p>Remaining customers after 3 years</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1%</p></td>
+<td><p><span class="math notranslate nohighlight">\((1−0.01)^{36} = 69.8\%\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p>5%</p></td>
+<td><p><span class="math notranslate nohighlight">\((1−0.05)^{36} = 16.6\%\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p>10%</p></td>
+<td><p><span class="math notranslate nohighlight">\((1−0.10)^{36} = 3.14\%\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<p>This is a massive difference: reducing attrition from 5% to 1% will result in over four times as many of our original customers, and from 10% to 1%, over 22 times as many.</p>
+<p>Similarly, we can see calculate the average duration that a customer stays with different churn rates:</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Monthly customer churn</p></th>
+<th class="head"><p>Average Duration (Months)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1%</p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{1}{0.01} = 100\)</span> months</p></td>
+</tr>
+<tr class="row-odd"><td><p>5%</p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{1}{0.05} = 20\)</span> months</p></td>
+</tr>
+<tr class="row-even"><td><p>10%</p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{1}{0.10} = 10\)</span> months</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="growing-customers">
+<h3><span class="section-number">8.3.3. </span>Growing customers<a class="headerlink" href="#growing-customers" title="Link to this heading">#</a></h3>
+<figure class="align-default" id="fig-grow-web-and-mobile-products">
+<a class="reference internal image-reference" href="../_images/grow_web_and_mobile_products.png"><img alt="../_images/grow_web_and_mobile_products.png" src="../_images/grow_web_and_mobile_products.png" style="width: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.6 </span><span class="caption-text">An example strategy for the ‘grow’ stage of a web and mobile application.</span><a class="headerlink" href="#fig-grow-web-and-mobile-products" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>To grow customers with our web and mobile product, we can use several different tactics, such as:</p>
+<ol class="arabic simple">
+<li><p>Un-bundling: split products into several smaller products.</p></li>
+<li><p>Freemium: give away a basic product at no cost, but a premium product that customers pay for.</p></li>
+<li><p>Up-sell and next-sell (vertical): one base product with multiple brands and features.</p></li>
+<li><p>Cross-sell (horizontal): companion products to go with a product.</p></li>
+<li><p>Referral programs: give incentives for customers to introduce new customers.</p></li>
+</ol>
+<p>Recall from <a class="reference internal" href="#fig-get-keep-grow"><span class="std std-numref">Fig. 8.2</span></a> that good strategies for growing can result in viral loops and grow further – which can be great (more income) and painful (the demand can grow quicker than our ability to service it).</p>
+</section>
+</section>
+<section id="channels">
+<h2><span class="section-number">8.4. </span>Channels<a class="headerlink" href="#channels" title="Link to this heading">#</a></h2>
+<p>With regards to distribution channels, there are two main types: <strong>direct</strong> distribution and <strong>indirect</strong> distribution.</p>
+<p><strong>Direct Distribution Channels</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Dedicated e-Commerce</strong>: This involves selling products or services directly to customers through a company’s own online platform, such as a dedicated website or mobile application. This channel allows for direct customer interaction and control over the sales process.</p></li>
+<li><p><strong>Social Commerce</strong>: This refers to the use of social media platforms to promote and sell products directly to consumers. Social commerce leverages the reach and engagement of platforms like Instagram, Facebook, or TikTok to drive sales directly within the app or by linking to external e-commerce sites.</p></li>
+</ol>
+<p><strong>Indirect Distribution Channels</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Marketplace (e.g., App Store)</strong>: Selling products or services through third-party platforms like an app store (e.g., Apple’s App Store, Google Play). These provide access to a large customer base but usually involve sharing revenue or paying fees to the platform provider.</p></li>
+<li><p><strong>2-Step Distribution</strong>: This involves selling products through intermediaries, such as wholesalers or retailers, who then sell the products to the end customers. Common in industries where large-scale distribution networks are necessary to reach a broad audience.</p></li>
+<li><p><strong>Aggregators</strong>: These are platforms that gather offerings from multiple providers into a single platform (for a price), making it easier for customers to compare and purchase products. Examples include travel booking sites or food delivery apps.</p></li>
+</ol>
+<section id="product-channel-fit">
+<h3><span class="section-number">8.4.1. </span>Product-channel fit<a class="headerlink" href="#product-channel-fit" title="Link to this heading">#</a></h3>
+<p>Much like we have a product-market fit in our business model, we should also have a product-channel fit — that is, the product (value proposition) and the distribution channels must fit together, as illustrated in <a class="reference internal" href="#fig-product-channel-fit"><span class="std std-numref">Fig. 8.7</span></a>.</p>
+<figure class="align-default" id="fig-product-channel-fit">
+<a class="reference internal image-reference" href="../_images/product_channel_fit.png"><img alt="A diagram of product-market fit. It shows the value propositions and channels on a business model canvas, but a value proposition map in the value propositions and a mobile device in the channels, with an arrow from each that meets in the middle, and the label 'Product-channel fit'." src="../_images/product_channel_fit.png" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.7 </span><span class="caption-text">Product-market fit.</span><a class="headerlink" href="#fig-product-channel-fit" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>While software was once sold on DVDs, people will not buy mobile apps on DVDs! It is sometimes easy to spot a product-market fit for software-related solutions; e.g. the easiest way to sell mobile applications is to place them on app stores. However, desktop applications may require a set of different channels, such as direct purchase from a company website, upload to a software centre, via package managers, etc.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p><strong>Physical Channel</strong></p></th>
+<th class="head"><p><strong>Virtual (e.g. Web/Mobile) Channel</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Physical Product</strong></p></td>
+<td><p>Cars, Clothes, Books, Groceries</p></td>
+<td><p>Clothes, Books, Groceries</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Virtual Product</strong></p></td>
+<td><p>PC Games, DVDs</p></td>
+<td><p>Digital music, Online Games, Podcasts, eBooks</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="channel-complexity">
+<h3><span class="section-number">8.4.2. </span>Channel complexity<a class="headerlink" href="#channel-complexity" title="Link to this heading">#</a></h3>
+<p>One final lesson that we can learn from the experience of others, is that there is a relationship between solution complexity and marketing complexity.</p>
+<p><a class="reference internal" href="#fig-distribution-complexity"><span class="std std-numref">Fig. 8.8</span></a> illustrates that as distrubution complexity increases, often too does marketing complexity. Further, this correlates with a higher value add, and negatively correlates with the ability to scale volume.</p>
+<figure class="align-default" id="fig-distribution-complexity">
+<a class="reference internal image-reference" href="../_images/distribution_complexity.png"><img alt="A graph showing a relationship between distribution complexity, solution value, and marketing complexity." src="../_images/distribution_complexity.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8.8 </span><span class="caption-text">Relationship between distribution complexity, solution value, and marketing complexity.</span><a class="headerlink" href="#fig-distribution-complexity" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>For example:</p>
+<ul class="simple">
+<li><p>Web sales: Simple products that can be easily sold online can usually be advertises online with simple marketing via online ads and social media.</p></li>
+<li><p>Retail: This requires a bit more effort to market due to the need for physical presence and in-store promotions.</p></li>
+<li><p>Value Added Resellers (VAR): A value-aded reseller takes another organisation’s product and adds new features/services before reselling; e.g. they sell someone’s product and offer support, installation, etc. This often requires more detailed marketing to explain the added value.</p></li>
+<li><p>Direct Sales: Tnis involves personalised selling, requiring tailored marketing approaches.</p></li>
+<li><p>Systems Integrators: Organisations who integrator other sytems often handle the most complex solutions, needing specialised marketing strategies to communicate the benefits of the integration. Often the integration can be personalised to specific organisations/people, meaning much higher complexity in marketing.</p></li>
+</ul>
+<p>Of course, this is not a law of physics: it can be that some simple solutions are difficult to market, and vice-versa, but the trend is common.</p>
+<p>What does this mean for our startup? It is a lesson that keeping the solution simple, especially early on, helps us to get marketing up and running more quickly.  This leads to earlier sales to our early adopters and early majority customers.</p>
+</section>
+</section>
+<section id="customer-feedback">
+<h2><span class="section-number">8.5. </span>Customer feedback<a class="headerlink" href="#customer-feedback" title="Link to this heading">#</a></h2>
+<p>Finally, it is important to note that, just like every other part of our customer discovery process, we should actively seek out input from our customers about our distribution channels and relationship strategies. This includes testing out hypotheses early with e.g. interviews, and analysing customer feedback after release.</p>
+</section>
+<section id="takeaways">
+<h2><span class="section-number">8.6. </span>Takeaways<a class="headerlink" href="#takeaways" title="Link to this heading">#</a></h2>
+<div class="admonition-takeaways admonition">
+<p class="admonition-title">Takeaways</p>
+<ol class="arabic simple">
+<li><p><strong>Customer relationships</strong> are required to help you <strong>get</strong> cusomters, <strong>keep</strong> customers, and <strong>grow</strong> our customer base.</p></li>
+<li><p><strong>Keeping</strong> existing customers is <strong>easier and cheaper</strong> than getting new customers – we shouldn’t neglect our existing customers in the race to gain new customers.</p></li>
+<li><p><strong>Customer channels</strong> allow us to distribute our products. We should aim for a good <strong>product-channel fit</strong>.</p></li>
+<li><p>More complex solutions are often more complex to <strong>market and distribute</strong>. Another reason to <strong>keep it simple</strong> for our <a class="reference internal" href="6_minimum_viable_product.html#sec-minimum-viable-product"><span class="std std-ref">minimum viable product</span></a>.</p></li>
+</ol>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./innovation"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="7_prototyping.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">7. </span>Prototyping</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="10_FAQs.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">9. </span>Subject Frequently Asked Questions (FAQs)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-relationships-get-keep-and-grow">8.1. Customer relationships: Get, keep, and grow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#foundations-for-customer-relationships">8.2. Foundations for customer relationships</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-a-web-and-mobile-product">8.3. Example: A web and mobile product</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-customers">8.3.1. Getting customers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keeping-customers">8.3.2. Keeping customers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#growing-customers">8.3.3. Growing customers</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#channels">8.4. Channels</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#product-channel-fit">8.4.1. Product-channel fit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#channel-complexity">8.4.2. Channel complexity</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customer-feedback">8.5. Customer feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#takeaways">8.6. Takeaways</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
