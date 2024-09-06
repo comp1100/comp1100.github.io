@@ -120,9 +120,9 @@ There are several strategies that we can use to keep customers:
 1. Contests and events to keep engagement.
 1. Horizontal and vertical offerings.
 1. Customer engagement and satisfaction programs; e.g. blogs, community support, email.
-1. Social media
+1. Social media.
 
-However, this leads to a question: **Why should we focus on 'keeping' existing customers that we already have, instead of gaining new ones?**
+However, this leads to a question: **Why should we focus on 'keeping' existing customers that we already have, instead of gaining new ones that bring new income?**
 
 The answer is: it is more expensive to get new customers than keep existing ones.
 
@@ -181,9 +181,9 @@ With regards to distribution channels, there are two main types: **direct** dist
 
 **Indirect Distribution Channels**
 
-1. **Marketplace (e.g., App Store)**: Selling products or services through third-party platforms like an app store (e.g., Apple's App Store, Google Play). These provide access to a large customer base but usually involve sharing revenue or paying fees to the platform provider.
+1. **Marketplace (e.g., App Store)**: Selling products or services through third-party platforms like an app store (e.g., Apple's App Store, Google Play, Microsoft Software Centre). These provide access to a large customer base but usually involve sharing revenue or paying fees to the platform provider.
 
-1. **2-Step Distribution**: This involves selling products through intermediaries, such as wholesalers or retailers, who then sell the products to the end customers. Common in industries where large-scale distribution networks are necessary to reach a broad audience.
+1. **Two-Step Distribution**: This involves selling products through intermediaries, such as wholesalers or retailers, who then sell the products to the end customers. Common in industries where large-scale distribution networks are necessary to reach a broad audience.
 
 1. **Aggregators**: These are platforms that gather offerings from multiple providers into a single platform (for a price), making it easier for customers to compare and purchase products. Examples include travel booking sites or food delivery apps. 
 
@@ -203,7 +203,7 @@ Product-market fit.
 ```
 
 
-While software was once sold on DVDs, people will not buy mobile apps on DVDs! It is sometimes easy to spot a product-market fit for software-related solutions; e.g. the easiest way to sell mobile applications is to place them on app stores. However, desktop applications may require a set of different channels, such as direct purchase from a company website, upload to a software centre, via package managers, etc.
+While software was once sold on DVDs, people will not buy mobile apps on DVDs! In fact, they are highly unlikely to download one and install if there is an alternative via an app store. It is sometimes easy to see a product-market fit for software-related solutions; e.g. the easiest way to sell mobile applications is to place them on app stores. However, desktop applications may require a set of different channels, such as direct purchase from a company website, upload to a software centre, via package managers, etc.
 
 
 |                        | **Physical Channel**                  | **Virtual (e.g. Web/Mobile) Channel**       |
@@ -217,7 +217,7 @@ While software was once sold on DVDs, people will not buy mobile apps on DVDs! I
 
 One final lesson that we can learn from the experience of others, is that there is a relationship between solution complexity and marketing complexity.
 
-{numref}`fig:distribution_complexity` illustrates that as distrubution complexity increases, often too does marketing complexity. Further, this correlates with a higher value add, and negatively correlates with the ability to scale volume.
+{numref}`fig:distribution_complexity` illustrates that as distrubution complexity increases, often marketing complexity does too. Further, this correlates with a higher value add, and negatively correlates with the ability to scale volume.
 
 ```{figure} ./figs/distribution_complexity.png
 ---
@@ -229,19 +229,19 @@ Relationship between distribution complexity, solution value, and marketing comp
 ```
 
  For example:
-* Web sales: Simple products that can be easily sold online can usually be advertises online with simple marketing via online ads and social media.
+* Web sales: Simple products that can be easily sold online can usually be advertised online with simple marketing via online ads and social media.
 * Retail: This requires a bit more effort to market due to the need for physical presence and in-store promotions.
-* Value Added Resellers (VAR): A value-aded reseller takes another organisation's product and adds new features/services before reselling; e.g. they sell someone's product and offer support, installation, etc. This often requires more detailed marketing to explain the added value.
-* Direct Sales: Tnis involves personalised selling, requiring tailored marketing approaches.
+* Value Added Resellers (VAR): A value-added reseller takes another organisation's product and adds new features/services before reselling; e.g. they sell someone's product and offer support, installation, etc. This often requires more detailed marketing to explain the added value.
+* Direct Sales: This involves personalised selling, requiring tailored marketing approaches.
 * Systems Integrators: Organisations who integrator other sytems often handle the most complex solutions, needing specialised marketing strategies to communicate the benefits of the integration. Often the integration can be personalised to specific organisations/people, meaning much higher complexity in marketing.
 
 Of course, this is not a law of physics: it can be that some simple solutions are difficult to market, and vice-versa, but the trend is common.
 
-What does this mean for our startup? It is a lesson that keeping the solution simple, especially early on, helps us to get marketing up and running more quickly.  This leads to earlier sales to our early adopters and early majority customers.
+**What does this mean for our startup product?** It is a lesson that keeping the solution simple, especially early on, helps us to get marketing up and running more quickly.  This leads to earlier sales to our early adopters and early majority customers.
 
 ## Customer feedback
 
-Finally, it is important to note that, just like every other part of our customer discovery process, we should actively seek out input from our customers about our distribution channels and relationship strategies. This includes testing out hypotheses early with e.g. interviews, and analysing customer feedback after release.
+Finally, it is important to note that, just like every other part of our customer discovery process, **we should actively seek out input from our customers about our distribution channels and relationship strategies**. This includes testing out hypotheses early with e.g. interviews, and analysing customer feedback after release.
 
 ## Takeaways
 
