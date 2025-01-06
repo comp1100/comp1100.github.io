@@ -78,7 +78,7 @@ Each team will have a **legend**. A legend is a staff member that is assigned to
 
 COMP1100/COMP7100 uses **competency-based assessment**, which means that it is **pass/fail course**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
 
-The grade is excluded from calculation of your GPA.
+The grade is excluded from calculation of your GPA, **unless** you receive a failing grade, in which case it is counted as a 2 for your GPA.
 
 **Why pass/fail?** COMP1100/COMP7100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
 
