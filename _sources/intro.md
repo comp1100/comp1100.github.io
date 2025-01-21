@@ -3,17 +3,16 @@
 ## What is this course about?
 
 ### Course description
-Introduction to innovation using computer science and information technology through a discipline-specific team project. 
-Students will learn what innovation is, processes that innovators follow, how innovation teams work together, how to make decisions in technology projects, how to use prototyping in the innovation process and the tools required to successfully deliver and communicate an innovation project.
+
 
 Introduction to innovation using computer science, information technology and critical thinking through a discipline-specific team project to address open-ended problems with real-world relevance and personal impact. 
 Students will 
-learn what innovation is (and isn't), learn processes that innovators follow, 
-conduct interviews with real-world customers to gather important decision requirements and guidance, 
-experience how innovation teams work together to overcome technical, philosophical and resource-based conflicts, 
-learn how to make difficult decisions in technology projects,
-use prototyping and refinement in the innovation process, 
-and apply the tools required to successfully deliver and communicate an innovation project at various stages.
+* learn what innovation is (and isn't), learn processes that innovators follow, 
+* conduct interviews with real-world customers to gather important decision requirements and guidance, 
+* experience how innovation teams work together to overcome technical, philosophical and resource-based conflicts, 
+* learn how to make difficult decisions in technology projects,
+* use prototyping and refinement in the innovation process, and
+* apply the tools required to successfully deliver and communicate an innovation project at various stages.
 
 ### Learning outcomes
 
