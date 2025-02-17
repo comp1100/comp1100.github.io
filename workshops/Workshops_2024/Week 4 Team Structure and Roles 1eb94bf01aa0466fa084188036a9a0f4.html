@@ -1,0 +1,937 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Week 4: Team Structure and Roles &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Workshops_2024/Week 4 Team Structure and Roles 1eb94bf01aa0466fa084188036a9a0f4';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I: INTRODUCTION</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/1_introduction_to_innovation.html">Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/2_business_model_canvas.html">Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/3_customer_discovery.html">Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/4_value_proposition_canvas.html">Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/5_experimentation.html">Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/6_minimum_viable_product.html">Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/7_prototyping.html">Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/8_customer_relationships_and_channels.html">Customer relationships and channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../innovation/10_FAQs.html">Subject Frequently Asked Questions (FAQs)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II: Workshops</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
+
+
+
+
+
+
+
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Workshops_2024/Week 4 Team Structure and Roles 1eb94bf01aa0466fa084188036a9a0f4.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/workshops/Workshops_2024/Week 4 Team Structure and Roles 1eb94bf01aa0466fa084188036a9a0f4.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Week 4: Team Structure and Roles</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Week 4: Team Structure and Roles</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#foundation-of-team-dynamics">Foundation of Team Dynamics</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#myers-briggs-and-teamwork">Myers-Briggs and Teamwork</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-guess-the-type">Exercise 1: Guess the Type</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#istj-the-inspector"><strong>ISTJ (The Inspector)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#isfj-the-protector"><strong>ISFJ (The Protector)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infj-the-advocate"><strong>INFJ (The Advocate)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intj-the-mastermind"><strong>INTJ (The Mastermind)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#istp-the-virtuoso"><strong>ISTP (The Virtuoso)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#isfp-the-adventurer"><strong>ISFP (The Adventurer)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infp-the-mediator"><strong>INFP (The Mediator)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intp-the-thinker"><strong>INTP (The Thinker)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estp-the-entrepreneur"><strong>ESTP (The Entrepreneur)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esfp-the-performer"><strong>ESFP (The Performer)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enfp-the-campaigner"><strong>ENFP (The Campaigner)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entp-the-debater"><strong>ENTP (The Debater)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estj-the-executive"><strong>ESTJ (The Executive)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esfj-the-consul"><strong>ESFJ (The Consul)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enfj-the-protagonist"><strong>ENFJ (The Protagonist)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entj-the-commander"><strong>ENTJ (The Commander)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-team-structure">Effective Team Structure</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-smeac">Exercise 2: SMEAC</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#situation"><strong>1. Situation</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mission"><strong>2. Mission</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#execution"><strong>3. Execution</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#administration"><strong>4. Administration</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command"><strong>5. Command</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simulation-plan-a-mission">Simulation: Plan a Mission</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-and-feedback">Presentation and Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-wrap-up-5-minutes"><strong>Workshop Wrap-Up (5 minutes)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-jack-sheehan-on-strategic-leadership-smeac">General Jack Sheehan on Strategic Leadership (SMEAC)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#whats-your-type-jean-kummerow">What’s Your Type? Jean Kummerow</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="week-4-team-structure-and-roles">
+<h1>Week 4: Team Structure and Roles<a class="headerlink" href="#week-4-team-structure-and-roles" title="Link to this heading">#</a></h1>
+<blockquote>
+<div><p>In this fourth workshop, we will investigate team management and roles to provide more structure to your teams and make your group more cohesive and effective</p>
+</div></blockquote>
+<p>We will address the following activities and exercises in workshop 4</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Grasp the fundamentals of the Myers-Briggs model</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Identify how personality influences team roles and interactions</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Reflect on personal contributions and areas for growth within a team setting</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Develop strategies for assigning roles in teams based on personality and skills</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Practice creating actionable team plans</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Identify common pitfalls in planning and how to overcome them</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="foundation-of-team-dynamics">
+<h1>Foundation of Team Dynamics<a class="headerlink" href="#foundation-of-team-dynamics" title="Link to this heading">#</a></h1>
+<aside>
+⏱️
+<p>10 minutes - Class</p>
+</aside>
+<p>Teams are the foundation of innovation. A well-functioning team can overcome obstacles, adapt to challenges, and amplify creativity. However, a poorly functioning team often struggles with conflict, inefficiency, and stagnation. Understanding team roles and planning processes can transform a collection of individuals into a cohesive, high-performing unit.</p>
+<p>Throughout history, mankind is continued to iterate on the team development and implementation model ranging from society, to government and to warfare. One of the greatest examples of highly cohesive and effective teams was the roman legion</p>
+<p>Throughout history, mankind has continually iterated on team development and implementation models, ranging from society to government and warfare. One of the greatest examples of highly cohesive and effective teams was the Roman legion.</p>
+<p>The Roman legion was not just a military force; it was an organizational masterpiece. Each legion, comprising thousands of soldiers, was divided into smaller, specialized units such as centuries and cohorts, each with clear roles and responsibilities. This division allowed for flexibility, adaptability, and precise coordination on the battlefield. Every soldier understood their role and how it contributed to the larger mission, creating a sense of shared purpose and accountability. Leaders within the legion were selected based on merit and experience, fostering trust and respect among the ranks.</p>
+<p>What set the Roman legion apart was its emphasis on training, discipline, and communication. Soldiers drilled tirelessly to perfect their formations and manoeuvres, ensuring that they could respond quickly and cohesively to changing conditions. This level of preparation allowed them to outmanoeuvre larger or more chaotic forces. Moreover, the legion’s standardized equipment and organizational structure made it easier to replace losses, maintain morale, and sustain long campaigns. These principles of role specialization, rigorous preparation, and effective communication remain fundamental to successful team-based organizations today, offering timeless lessons in teamwork and leadership.</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="myers-briggs-and-teamwork">
+<h1>Myers-Briggs and Teamwork<a class="headerlink" href="#myers-briggs-and-teamwork" title="Link to this heading">#</a></h1>
+<p><img alt="csm_Roman_Army___Chariot_Experience_c0b6a6ec1b.jpg" src="workshops/Workshops_2024/Week%204%20Team%20Structure%20and%20Roles%201eb94bf01aa0466fa084188036a9a0f4/csm_Roman_Army___Chariot_Experience_c0b6a6ec1b.jpg" /></p>
+<aside>
+⏱️
+<p>10 minutes - Class</p>
+</aside>
+<p>The Myers-Briggs Type Indicator (MBTI) was developed by Katharine Cook Briggs and her daughter Isabel Briggs Myers in the mid-20th century, based on Carl Jung’s theory of psychological types. While initially created for personal development, MBTI quickly gained traction in the workplace for its ability to provide insights into how people think, communicate, and collaborate.</p>
+<p>Understanding the diversity of personality types within a team provides a lens to appreciate strengths and anticipate challenges. Whether you’re leading a project or contributing to a team effort, recognizing these dynamics is critical to effective team management.</p>
+<p>The Myers-Briggs Type Indicator (MBTI) is built around four key dichotomies: Introversion (I) vs. Extraversion (E), Sensing (S) vs. Intuition (N), Thinking (T) vs. Feeling (F), and Judging (J) vs. Perceiving (P). Together, these traits create 16 unique personality types, each with its own distinct way of processing information, making decisions, and interacting with others. This framework provides a structured yet flexible approach to understanding personality, making it accessible and applicable across various contexts. Importantly, MBTI does not label traits as “good” or “bad” but instead emphasizes how different types contribute unique strengths to a team.</p>
+<p>The value of MBTI lies in its ability to foster self-awareness and empathy within teams. By understanding their own preferences, individuals can identify areas where they naturally excel and areas where they may need support. Similarly, by recognizing the traits of their teammates, they can tailor their communication and collaboration strategies to suit different personalities. For example, while an Extravert may thrive in brainstorming sessions, an Introvert might contribute more effectively through reflective planning. By acknowledging these differences, MBTI helps reduce misunderstandings, improve team dynamics, and enable more balanced decision-making. Its enduring popularity stems from its ability to unlock the potential of diverse groups, transforming personality differences into strategic assets.</p>
+<p><img alt="why-is-mbti-split-into-these-4-groups-v0-rijx4cxbot8b1.webp" src="workshops/Workshops_2024/Week%204%20Team%20Structure%20and%20Roles%201eb94bf01aa0466fa084188036a9a0f4/why-is-mbti-split-into-these-4-groups-v0-rijx4cxbot8b1.webp" /></p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="exercise-1-guess-the-type">
+<h1>Exercise 1: Guess the Type<a class="headerlink" href="#exercise-1-guess-the-type" title="Link to this heading">#</a></h1>
+<aside>
+⌛ 30 minutes - Pair or Group
+</aside>
+<blockquote>
+<div><p><strong>Objective:</strong> Build curiosity about personality types.</p>
+</div></blockquote>
+<p>It’s important to remember that MBTI is not a fixed label—it’s a snapshot of your preferences at a particular point in time. As you grow, experience new situations, and develop different skills, your MBTI profile can shift and evolve. Life events, personal growth, and changing priorities often influence how you think, communicate, and make decisions. This fluidity is a strength, reflecting your ability to adapt and expand beyond your natural tendencies. Rather than defining you, MBTI serves as a tool for understanding your journey and how your preferences may develop over time.</p>
+<p>If you have taken an MBTI test in the past in a professional or casual setting, the results of that test may be outdated. In the following exercise we will attempt to guess your MBTI, even if you may think you know what your type is or if you have taken the test before.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Form a pair or, if you prefer, you can do this exercise in a group</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  On a piece of paper, write down your MBTI personality if you have taken the test before, or if you haven’t write down a guess of which personality you believe you fit. Make sure your partner or group do not see what you have written.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Your partner or the group will then ask the following questions. Note down your answers to start building your profile.</p></li>
+<li><p><strong>Introversion (I) vs. Extraversion (E):</strong></p>
+<ul>
+<li><p>Are you someone who recharges by spending time alone or with a small group? That’s <strong>Introversion</strong>.</p></li>
+<li><p>Or do you feel energized when you’re around people, engaging in conversation and activity? That’s <strong>Extraversion</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Sensing (S) vs. Intuition (N):</strong></p>
+<ul>
+<li><p>Do you prefer focusing on facts, details, and things you can see and touch? That’s <strong>Sensing</strong>.</p></li>
+<li><p>Or do you enjoy looking at possibilities, big-picture ideas, and patterns? That’s <strong>Intuition</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Thinking (T) vs. Feeling (F):</strong></p>
+<ul>
+<li><p>When you make decisions, do you lean on logic and objective reasoning? That’s <strong>Thinking</strong>.</p></li>
+<li><p>Or do you tend to prioritize values, emotions, and how decisions affect people? That’s <strong>Feeling</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Judging (J) vs. Perceiving (P):</strong></p>
+<ul>
+<li><p>Do you prefer to have structure, plans, and everything organized? That’s <strong>Judging</strong>.</p></li>
+<li><p>Or do you like to keep things flexible, adaptable, and open-ended? That’s <strong>Perceiving</strong>.</p></li>
+</ul>
+</li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Think about the following questions and discuss with your partner or group which of these four aspects apply to you. Write them down on your piece of paper.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Consider the following examples of MBTI personalities and decide whether your personality fits with these famous individuals.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="istj-the-inspector">
+<h2><strong>ISTJ (The Inspector)</strong><a class="headerlink" href="#istj-the-inspector" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Angela Merkel</strong> – Known for her analytical, detail-oriented leadership.</p></li>
+<li><p><strong>Marie Curie</strong> – Focused, disciplined, and meticulous in her ground-breaking scientific work.</p></li>
+</ul>
+</section>
+<section id="isfj-the-protector">
+<h2><strong>ISFJ (The Protector)</strong><a class="headerlink" href="#isfj-the-protector" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Florence Nightingale</strong> – Devoted to improving healthcare with compassion and practicality.</p></li>
+<li><p><strong>Jimmy Carter</strong> – A humanitarian with a strong sense of duty and service.</p></li>
+</ul>
+</section>
+<section id="infj-the-advocate">
+<h2><strong>INFJ (The Advocate)</strong><a class="headerlink" href="#infj-the-advocate" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Mahatma Gandhi</strong> – Visionary leader driven by deep convictions and a focus on justice.</p></li>
+<li><p><strong>Carl Jung</strong> – Psychologist who developed theories of personality with profound insight.</p></li>
+</ul>
+</section>
+<section id="intj-the-mastermind">
+<h2><strong>INTJ (The Mastermind)</strong><a class="headerlink" href="#intj-the-mastermind" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Isaac Newton</strong> – Strategic and visionary, advancing physics and mathematics.</p></li>
+<li><p><strong>Elon Musk</strong> – Innovator with a clear, futuristic vision for humanity’s future.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="istp-the-virtuoso">
+<h2><strong>ISTP (The Virtuoso)</strong><a class="headerlink" href="#istp-the-virtuoso" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Richard Feynman</strong> – Experimental physicist who thrived on hands-on problem-solving.</p></li>
+<li><p><strong>Amelia Earhart</strong> – Adventurous and skilled, with a pragmatic approach to challenges.</p></li>
+</ul>
+</section>
+<section id="isfp-the-adventurer">
+<h2><strong>ISFP (The Adventurer)</strong><a class="headerlink" href="#isfp-the-adventurer" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Jacques Cousteau</strong> – Environmentalist and filmmaker, passionate about exploring the world.</p></li>
+<li><p><strong>Princess Diana</strong> – Known for her empathy, grace, and unconventional approach to royal duties.</p></li>
+</ul>
+</section>
+<section id="infp-the-mediator">
+<h2><strong>INFP (The Mediator)</strong><a class="headerlink" href="#infp-the-mediator" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>John Lennon</strong> – Idealistic and creative, advocating for peace and change.</p></li>
+<li><p><strong>J.R.R. Tolkien</strong> – Author and linguist with a deep inner world and imaginative vision.</p></li>
+</ul>
+</section>
+<section id="intp-the-thinker">
+<h2><strong>INTP (The Thinker)</strong><a class="headerlink" href="#intp-the-thinker" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Albert Einstein</strong> – Theoretical physicist with an insatiable curiosity and love for ideas.</p></li>
+<li><p><strong>Charles Darwin</strong> – Naturalist who revolutionized biology with his ground-breaking theory of evolution.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="estp-the-entrepreneur">
+<h2><strong>ESTP (The Entrepreneur)</strong><a class="headerlink" href="#estp-the-entrepreneur" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Theodore Roosevelt</strong> – Dynamic and action-oriented, excelling in leadership and diplomacy.</p></li>
+<li><p><strong>Michael Bloomberg</strong> – A pragmatic and results-driven entrepreneur and politician.</p></li>
+</ul>
+</section>
+<section id="esfp-the-performer">
+<h2><strong>ESFP (The Performer)</strong><a class="headerlink" href="#esfp-the-performer" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Bill Clinton</strong> – Charismatic, sociable, and skilled at engaging with people.</p></li>
+<li><p><strong>Richard Branson</strong> – Adventurous businessman with a flair for innovation and entertainment.</p></li>
+</ul>
+</section>
+<section id="enfp-the-campaigner">
+<h2><strong>ENFP (The Campaigner)</strong><a class="headerlink" href="#enfp-the-campaigner" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Barack Obama</strong> – Inspiring and visionary, connecting deeply with diverse groups of people.</p></li>
+<li><p><strong>Jane Goodall</strong> – Environmentalist with a passionate, exploratory spirit.</p></li>
+</ul>
+</section>
+<section id="entp-the-debater">
+<h2><strong>ENTP (The Debater)</strong><a class="headerlink" href="#entp-the-debater" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Thomas Edison</strong> – Inventor who thrived on innovation and challenging the status quo.</p></li>
+<li><p><strong>Benjamin Franklin</strong> – Polymath with an endless curiosity and knack for clever solutions.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="estj-the-executive">
+<h2><strong>ESTJ (The Executive)</strong><a class="headerlink" href="#estj-the-executive" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Margaret Thatcher</strong> – Decisive, organized, and pragmatic in her leadership.</p></li>
+<li><p><strong>George Washington</strong> – A disciplined leader who valued structure and tradition.</p></li>
+</ul>
+</section>
+<section id="esfj-the-consul">
+<h2><strong>ESFJ (The Consul)</strong><a class="headerlink" href="#esfj-the-consul" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Mother Teresa</strong> – Compassionate, devoted, and focused on serving others.</p></li>
+<li><p><strong>Joe Biden</strong> – Warm and people-focused, with a strong sense of duty.</p></li>
+</ul>
+</section>
+<section id="enfj-the-protagonist">
+<h2><strong>ENFJ (The Protagonist)</strong><a class="headerlink" href="#enfj-the-protagonist" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Nelson Mandela</strong> – Inspiring, empathetic leader focused on unity and justice.</p></li>
+<li><p><strong>Jacinda Ardern</strong> – Compassionate and visionary, with a focus on progressive policies.</p></li>
+</ul>
+</section>
+<section id="entj-the-commander">
+<h2><strong>ENTJ (The Commander)</strong><a class="headerlink" href="#entj-the-commander" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Alexander Hamilton</strong> – Strategic and assertive, driving change through leadership.</p></li>
+<li><p><strong>Franklin D. Roosevelt</strong> – Bold and visionary, leading during critical moments in history.</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Allow your group or your partner to guess the MBTI personality written on the other side of your piece of paper and then reveal your answer. Was their guess correct or not? Reflect and discuss on your outcomes.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  If your new MBTI personality is different from a previous test, consider what may have changed since taking the previous test in your professional or personal life. Discuss this with your partner or group.</p></li>
+</ul>
+<p>Now that you have gained some understanding of the MBTI structure, head to the website below and take the test to see if your guess was correct.</p>
+<aside>
+🌐
+<p><a class="reference external" href="https://www.16personalities.com/free-personality-test">MBTI Personality Test</a></p>
+</aside>
+</section>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="take-a-break">
+<h1>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h1>
+<aside>
+⏱️ 5 minutes
+</aside>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="effective-team-structure">
+<h1>Effective Team Structure<a class="headerlink" href="#effective-team-structure" title="Link to this heading">#</a></h1>
+<aside>
+⏱️
+<p>10 minutes - Class</p>
+</aside>
+<p>A well-structured team is the backbone of any successful project. Team hierarchy and defined roles are not just formalities; they are essential tools that ensure clarity, efficiency, and accountability. When everyone understands their responsibilities and how they fit into the larger framework, collaboration becomes more seamless, and decision-making is faster and more effective.</p>
+<p>Effective team structures foster a balance of leadership and delegation. A clear hierarchy helps avoid confusion by providing a chain of command for decisions and conflict resolution, while defined roles ensure that tasks are distributed according to individual strengths and expertise. Without these elements, teams risk duplication of effort, overlooked tasks, or conflicting priorities; all of which can derail a project.</p>
+<p>Ultimately, team structure directly impacts project outcomes. Teams with clear roles and a functional hierarchy are better equipped to adapt to challenges, align their goals, and achieve results efficiently. Whether it’s a small group or a large organization, structuring the team properly lays the foundation for innovation and success.</p>
+<p><img alt="navy-teamwork-training.jpg" src="workshops/Workshops_2024/Week%204%20Team%20Structure%20and%20Roles%201eb94bf01aa0466fa084188036a9a0f4/navy-teamwork-training.jpg" /></p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="exercise-2-smeac">
+<h1>Exercise 2: SMEAC<a class="headerlink" href="#exercise-2-smeac" title="Link to this heading">#</a></h1>
+<aside>
+⌛ 30 minutes - Team
+</aside>
+<p>SMEAC is a structured planning and communication tool commonly used in military and tactical environments but also highly effective in project management and team operations. It stands for <strong>Situation, Mission, Execution, Administration, and Command</strong> and provides a framework to ensure clear, concise, and actionable plans.</p>
+<hr class="docutils" />
+<section id="situation">
+<h2><strong>1. Situation</strong><a class="headerlink" href="#situation" title="Link to this heading">#</a></h2>
+<p>This is where you set the stage.</p>
+<ul class="simple">
+<li><p><strong>What’s happening?</strong> Clearly outline the current conditions and context of the task or operation.</p></li>
+<li><p>Include relevant background information, challenges, and any factors that may affect the mission.</p></li>
+<li><p>Example: “The team is behind schedule on delivering a key component due to resource constraints.”</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="mission">
+<h2><strong>2. Mission</strong><a class="headerlink" href="#mission" title="Link to this heading">#</a></h2>
+<p>The mission defines the objective—the “what” and “why.”</p>
+<ul class="simple">
+<li><p><strong>What needs to be achieved?</strong> Keep it concise and specific.</p></li>
+<li><p>The mission statement should be actionable and align with the team’s goals.</p></li>
+<li><p>Example: “Deliver a functional prototype to the client by the end of the month to secure the next phase of funding.”</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="execution">
+<h2><strong>3. Execution</strong><a class="headerlink" href="#execution" title="Link to this heading">#</a></h2>
+<p>Here’s the <strong>“how”</strong> of the plan.</p>
+<ul class="simple">
+<li><p>Outline the steps, strategies, and assignments required to accomplish the mission.</p></li>
+<li><p>Include timelines, priorities, and contingency plans.</p></li>
+<li><p>Example: “Divide the team into two groups: one focused on prototyping hardware, the other on finalizing software integration. Daily stand-ups will track progress and address blockers.”</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="administration">
+<h2><strong>4. Administration</strong><a class="headerlink" href="#administration" title="Link to this heading">#</a></h2>
+<p>This section covers resources, logistics, and support.</p>
+<ul class="simple">
+<li><p><strong>What do we need?</strong> List tools, personnel, and other assets required for success.</p></li>
+<li><p>Address logistics like deadlines, budgets, and communication channels.</p></li>
+<li><p>Example: “Allocate additional budget for expedited shipping of materials. Ensure key team members are available for client reviews.”</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="command">
+<h2><strong>5. Command</strong><a class="headerlink" href="#command" title="Link to this heading">#</a></h2>
+<p>This is the chain of command and communication protocols.</p>
+<ul class="simple">
+<li><p><strong>Who’s in charge?</strong> Clearly define roles, responsibilities, and points of contact.</p></li>
+<li><p>Establish escalation protocols for issues or changes in the plan.</p></li>
+<li><p>Example: “The project manager is responsible for overall delivery, while team leads will handle specific tasks. Escalate any delays or risks directly to the project manager.”</p></li>
+</ul>
+<p>Using SMEAC ensures that plans are clear, comprehensive, and easy to follow. It eliminates ambiguity, reduces errors, and enhances coordination by providing a structured approach to organizing tasks and responsibilities. Whether in high-stakes operations or collaborative projects, SMEAC is a powerful tool to keep teams aligned and focused on their goals.</p>
+</section>
+<hr class="docutils" />
+<section id="simulation-plan-a-mission">
+<h2>Simulation: Plan a Mission<a class="headerlink" href="#simulation-plan-a-mission" title="Link to this heading">#</a></h2>
+<p><strong>Objective:</strong> Apply planning principles in a practical scenario.</p>
+<p><strong>Scenario:</strong> Increased global weather instability has caused a natural disaster on Tuvalu (Pacific Island). Your team is aboard the HMS Canbarra, a landing helicopter dock, and is tasked with planning a humanitarian aid mission to deliver critical supplies to the main land.</p>
+<p><strong>Instructions:</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Assign team roles based on the MBTI insights from Session 1.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Choose a leader, second in command, flight officer and pilot. You can assume that smaller tasks can be delegated to sailors and soldiers.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Using SMEAC (above), create a detailed plan covering tasks, timelines and contingencies.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Sketch an outline of the plan on A3 / butchers paper.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Upon completion, share your plan with a Legend for feedback and advice.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Reflect on your teamwork and planning, and how the personality types and team roles affected the overall plan.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="presentation-and-feedback">
+<h2>Presentation and Feedback<a class="headerlink" href="#presentation-and-feedback" title="Link to this heading">#</a></h2>
+<aside>
+⏱️
+<p>10 minutes  - Two Groups</p>
+</aside>
+<p><strong>Objective:</strong> Foster peer learning and constructive critique.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Find another team and present your mission plan to them.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  The other team provide structured feedback including:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Alignment of roles to tasks.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Clarity and feasibility of the plan.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Creativity and thoroughness in addressing the challenge.</p></li>
+</ul>
+</li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once the first team has completed their feedback, switch roles and allow the other team to present.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="workshop-wrap-up-5-minutes">
+<h2><strong>Workshop Wrap-Up (5 minutes)</strong><a class="headerlink" href="#workshop-wrap-up-5-minutes" title="Link to this heading">#</a></h2>
+<aside>
+⏱️
+<p>5 minutes  - Class</p>
+</aside>
+<p><strong>Key Takeaways:</strong></p>
+<ul class="simple">
+<li><p>Understanding team roles through personality insights fosters stronger collaboration.</p></li>
+<li><p>Effective planning is the backbone of successful teamwork.</p></li>
+<li><p>Both personality awareness and structured planning are tools to navigate challenges and maximize team potential.</p></li>
+</ul>
+<p><strong>Next Steps:</strong></p>
+<ul class="simple">
+<li><p>Reflect on your MBTI type and team role. How can you leverage your strengths and apply them to your team?</p></li>
+<li><p>Prepare for Week 5: Building on these concepts with reflective practices and tools.</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="bonus-its-dangerous-to-go-alone-take-this">
+<h1>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h1>
+<aside>
+⏱️
+<p><strong>∞</strong></p>
+</aside>
+<p>Here is a collection of valuable knowledge and insight that may help you along in this course. Feel free to review this content in your own time.</p>
+<section id="general-jack-sheehan-on-strategic-leadership-smeac">
+<h2>General Jack Sheehan on Strategic Leadership (SMEAC)<a class="headerlink" href="#general-jack-sheehan-on-strategic-leadership-smeac" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=M5OpfgXfSrg">https://www.youtube.com/watch?v=M5OpfgXfSrg</a></p>
+</section>
+<section id="whats-your-type-jean-kummerow">
+<h2>What’s Your Type? Jean Kummerow<a class="headerlink" href="#whats-your-type-jean-kummerow" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=gBkIyJ7kf_I">https://www.youtube.com/watch?v=gBkIyJ7kf_I</a></p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workshops/Workshops_2024"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Week 4: Team Structure and Roles</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#foundation-of-team-dynamics">Foundation of Team Dynamics</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#myers-briggs-and-teamwork">Myers-Briggs and Teamwork</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-guess-the-type">Exercise 1: Guess the Type</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#istj-the-inspector"><strong>ISTJ (The Inspector)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#isfj-the-protector"><strong>ISFJ (The Protector)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infj-the-advocate"><strong>INFJ (The Advocate)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intj-the-mastermind"><strong>INTJ (The Mastermind)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#istp-the-virtuoso"><strong>ISTP (The Virtuoso)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#isfp-the-adventurer"><strong>ISFP (The Adventurer)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infp-the-mediator"><strong>INFP (The Mediator)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intp-the-thinker"><strong>INTP (The Thinker)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estp-the-entrepreneur"><strong>ESTP (The Entrepreneur)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esfp-the-performer"><strong>ESFP (The Performer)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enfp-the-campaigner"><strong>ENFP (The Campaigner)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entp-the-debater"><strong>ENTP (The Debater)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estj-the-executive"><strong>ESTJ (The Executive)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esfj-the-consul"><strong>ESFJ (The Consul)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enfj-the-protagonist"><strong>ENFJ (The Protagonist)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entj-the-commander"><strong>ENTJ (The Commander)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-team-structure">Effective Team Structure</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-smeac">Exercise 2: SMEAC</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#situation"><strong>1. Situation</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mission"><strong>2. Mission</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#execution"><strong>3. Execution</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#administration"><strong>4. Administration</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command"><strong>5. Command</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simulation-plan-a-mission">Simulation: Plan a Mission</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-and-feedback">Presentation and Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-wrap-up-5-minutes"><strong>Workshop Wrap-Up (5 minutes)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-jack-sheehan-on-strategic-leadership-smeac">General Jack Sheehan on Strategic Leadership (SMEAC)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#whats-your-type-jean-kummerow">What’s Your Type? Jean Kummerow</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

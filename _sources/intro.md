@@ -68,7 +68,7 @@ This course uses well-known processes and methods from innovation to help us det
 
 You may be thinking: but I don't want to run my own startup company -- why should I learn about innovation?
 
-I believe that *everyone* should learn what innovation is, what innovation is *not*, how people innovate, and how to make innovative ideas into reality.
+I believe that *everyone* should learn what innovation is, what innovation is *not*, how people innovate, and how to turn innovative ideas into reality.
 
 Further, innovation is *not* the same an entrepreneurship. Entrepreneurship is about setting up businesses. Innovation is about creating value. They are clearly related -- a business will not be successful if it doesn't bring value to people.  However, all of us can be innovative in our work, whether we run a startup, lead a research lab (like me), work in a large organisation, or even just at home. 
 
