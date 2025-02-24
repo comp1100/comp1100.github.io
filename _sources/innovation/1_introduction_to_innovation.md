@@ -199,6 +199,12 @@ The design thinking process is an iterative process broken into five steps:
 
 3. **Ideate** to come up with concrete ideas that address the problem. "Ideation" is a term that sounds like it comes from a charlatan's toolbox because a lot of people use it meaninglessly, but it just means to generate and communicate ideas. We can use a range of creativity techniques, such as brainstorming, mind mapping, collaborative workshops, and co-design. The important part of this step is to first generate as many ideas as possible without critiquing them, and then after this, select the set of most promising ideas.
 
+   Our research collaborator of mine, Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology points out that "creativity" is not a magic process --- all of us can be and are creative.
+
+   Marek talks about ideating by **crafting** ideas using simple techniques. Check out [Marek's awesome TEDx talk "Creativity not required: how great minds craft ideas"](https://www.youtube.com/watch?v=iJU3KoZcUKU) on this topic.
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/iJU3KoZcUKU?si=jXhJp9ZZpNsXogSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 4. **Prototype** the best ideas into simple, inexpensive prototypes. A prototype is a preliminary version of a product that is used to gain feedback on ideas. Even in software products, a prototype need not be an actually piece of software. Simple prototypes such as storyboards, or even simply statements of what the problem is, can be tested with our customers.
 
 5. **Test** our prototype with potential customers to get feedback on whether we have understood the problem and generated useful ideas. It is important at this step that we **do not try to sell** our idea or prototype --- we simple want to get feedback.
@@ -217,12 +223,16 @@ The design thinking process is **iterative**. When we test prototypes with our d
 | Assumptions | Initially, we know nothing | We know our customers/users | We know what product to build |
 | Iteration |	Rapid, continuous  | Regular, feedback-driven prototyping | Often limited, but can be agile |
 | Time to Market | Short, focuses quick feedback |	Variable, depends on iteration cycles | Longer, detailed planning and development phases |
-| Techniques |	Hypothesis testing, MVP, |	Empathy maps, journey maps, brainstorming, prototyping	| Requirements analysis, detailed design, testing |
+| Techniques |	Hypothesis testing, MVP |	Empathy maps, journey maps, brainstorming, prototyping	| Requirements analysis, detailed design, testing |
 | Outcome	| Product with validated market fit | Innovative solutions that address user needs |	Fully developed, feature-rich product |
 
 The above table summarises the differences between the Lean startup approach, design thinking, and product development. Each process has a different philosophy, goals, approaches, techniques, etc. 
 
-**However**, we needn't think of these as competing processes -- they are complementary. When starting-up a  new product, we need to work closely with a product development team, and we can use design thinking for many of the steps that we use.
+However, we needn't think of these as competing processes -- they are **complementary**. 
+We use design thinking and related techniques throughout the innovation process.
+Once we our product ideae is well tested and we have a design that is both a good product-market fit and useful for users,
+we use product development processes to product a quality product.
+
 
 (sec:intro:pivot_vs_refine)=
 ## Pivot vs. refine
