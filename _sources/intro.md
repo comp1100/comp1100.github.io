@@ -217,6 +217,7 @@ We will discuss this is week 1. For now, here are some things we imagine that yo
 * Give some pointers and directions to achieve those goals when you are stuck.
 * Give advice on the processes that you need to follow.
 * Providing regular (positive and negative) feedback on deliverables and weekly contributions.
+* Respond to queries on MS Teams within one working day.
 * Helping you to navigate to realistic solutions.
 
 ## Weekly format
@@ -227,6 +228,26 @@ Each week, the course will be broken into four components:
 2. **Teamwork studio (2 hours) [Compulsory attendance]**: This is a studio where teams will build the key skills required to work as a team on an innovation project. Regular participation is in the studios is one of the assessment items.
 3. **Planning and working hour (1 hour) [Optional attendance]**: At the end of the teamwork studio, teams will an hour available in the studio spaces to work on their project with the presence of their legends.
 3. **Project work [No attendance]**: For the rest of the work, the team is expected to spend 6-7 hours working on their project; e.g. gathering data, meeting with each other, planning, designing, implementing, etc.
+
+## Schedule
+
+| Week | Start  | Seminar date | Seminar topic                                      | Studio                                                | Course deliverables                   | What should teams be doing this week?                                               |
+|------|--------|-------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
+| 1    | 24-Feb | 27-Feb      | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        | Finding someone to form a team with                                                |
+| 2    | 03-Mar | 6-Mar       | The customer discovery process                     | Team dynamics  |                                        | Meet your team, Start coming up with ideas to solve your challenge, Sketching customer problem hypotheses |
+| 3    | 10-Mar | 13-Mar      | Business model canvas, Value proposition canvas    | Team planning, planning tools |                                        | Identify some interview questions, Each team member interview 2-3 customers       |
+| 4    | 17-Mar | 20-Mar      | Experimentation: Testing and validation           | Reflective Practice, Repositories and version control |                                        | Refine your product ideas, Update questions, Each team member interview 3-4 more customers |
+| 5    | 24-Mar | 27-Mar      | Minimal viable products and competitor analysis   | Use of repositories for COMP1100, Markdown           |               | Start formulating solutions, Research your competitors, Formalise your hypotheses using test cards |
+| 6    | 31-Mar | 3-Apr       | Prototyping                                       | Feedback                                             | Business model canvas iteration 1    | Validate your customer segment and value proposition hypotheses, Define a clear value proposition |
+| 7    | 07-Apr | 10-Apr      | Customer relationships and channels               | Paper prototyping                                    |                                        | Identifying MVP hypotheses using test cards, Defining first paper prototypes, Gathering data to test MVP hypotheses |
+| 8    | 14-Apr | 17-Apr      | Personal planning and getting things done         | MVP definition                                       |                  | Sketching out the main features of an MVP, Finalising MVP hypotheses using learning cards, Sketching early digital prototypes (if using) |
+|      | 21-Apr |             | Mid-semester break                                |                                                       |                                        | Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc., Starting implementing MVP |
+| 9    | 28-Apr | 1-May       | Prompt engineering                                | Cross-team MVP prototype validation                 | Business model canvas iteration 2    | Continuing implementing MVP                                                  |
+| 10   | 05-May | 8-May       | Scoping                                          | Labour day holiday: no workshops on any day                   |                                        | Continuing implementing MVP                                                  |
+| 11   | 12-May | 15-May      | History of computing                             | How to give a pitch                           |                                        | Continuing implementing MVP, First draft of 1-minute pitch |
+| 12   | 19-May | 22-May      | No lecture                                       |                                                       |                                        | Continuing implementing MVP, Finalise 1-minute pitch and 5-minute presentation |
+| 13   | 25-May | 29-May      | No lecture                                       | Team presentations                                       |                                        | Continuing implementing MVP                                                  |
+| Exams week 1 | 9-Jun  |             |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
 ## Projects
 

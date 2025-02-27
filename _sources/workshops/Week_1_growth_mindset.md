@@ -37,7 +37,7 @@ In each workshops, Legends will guide you through the workshop activities and wi
 
 **If you get stuck or are unsure about any information or learning material in these outlines, please don’t hesitate to alert any staff member.**
 
-## What do bring
+## What do I bring
 
 Many activities will not require any devices, and we will actively encourage you to *close your devices* and focus on the tasks at hand. It is well documented that people learn more when devices are not on an distracting them.
 
