@@ -247,7 +247,7 @@ Each week, the course will be broken into four components:
 | 11   | 12-May | 15-May      | History of computing                             | How to give a pitch                           |                                        | Continuing implementing MVP, First draft of 1-minute pitch |
 | 12   | 19-May | 22-May      | No lecture                                       |                                                       |                                        | Continuing implementing MVP, Finalise 1-minute pitch and 5-minute presentation |
 | 13   | 25-May | 29-May      | No lecture                                       | Team presentations                                       |                                        | Continuing implementing MVP                                                  |
-| Exams week 1 | 9-Jun  |             |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
+| Exams week 1  | 9-Jun       |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
 ## Projects
 

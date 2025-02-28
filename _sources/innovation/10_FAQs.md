@@ -6,7 +6,7 @@ Teams will be mostly four people, except of course if the number of enrolments i
 
 **How will teams be allocated?**
 
-Individuals will submit preferences for particular projects on offer, and for people to work with. Teams will then be allocation by staff, taking these preferences into account. People will be expected to work with people they don't know -- just like a real workplace.
+Individuals will submit preferences for particular projects on offer, and for people to work with. Teams will then be allocation by staff, taking these preferences into account. People will be expected to work with people they don't know -- just like a real workplace. But we also give a chance for you to nominate one other person who you'd like to work with.
 
 **Can I do the project on my own instead of in a team?**
 
@@ -21,7 +21,8 @@ If a student fails, the subject counts as a 2.
 **What programming languages and frameworks will we use?**
 
 Whatever is required for you to build your product! This is a real project, and you have the flexibility to make decisions about technology.
+We won't be teaching any of these technologies -- it's up to you to figure them out. But we also won't be evaluating how well you use them.
 
-**I have a clash -- can I skip the seminar or studio and just catch up from my team?**
+**I have a clash -- can I skip the  studio and just catch up from my team?**
 
-Unfortunately not. The seminar and studios are the place where the groundwork is laid for the project. They are also the only place we run ID verified assessment in the course, which is required by UQ policy.
+Unfortunately not. The seminar and studios are the place where the groundwork is laid for the project. Studios are also the only place we run ID verified assessment in the course, which is required by UQ policy.
