@@ -2,17 +2,17 @@
 
 ---
 
-### Workshop Abstract
+### Overview
 
 ---
 
-> In this first workshop, you will meet your legends, learn about the idea of a Growth Mindset, and prepare you to start selecting team members with whom you will work with throughout the rest of the course.
+> In this first studio, you will meet your legends, learn about the idea of a Growth Mindset, and prepare you to start selecting team members with whom you will work with throughout the rest of the course.
 > 
 
-We will address the following activities and exercises in workshop 1.
+We will address the following activities and exercises in studio 1.
 
 - [ ]  Introduce the your legends
-- [ ]  Understand how the workshops will be run
+- [ ]  Understand how the studios will be run
 - [ ]  Understand the growth mindset
 - [ ]  Start thinking about forming your team
 
@@ -29,11 +29,11 @@ Legends (formerly known as tutors) will be your most valuable resource in this c
 
 Each team will have a specific Legend that "manages" their team. A Legend should be thought of as a friendly and helpful manager, but one that is too busy to do any work for you. They will give advice, ask questions, and provide feedback, but ultimately, you will make all of the decisions.
 
-Each workshop will have multiple Legends, and you are free to ask questions to *any* of them throughout the workshops.
+Each studio will have multiple Legends, and you are free to ask questions to *any* of them throughout the studios.
 
-But! Your primary Legend is the one that you should contact outside of the workshop.
+But! Your primary Legend is the one that you should contact outside of the studio.
 
-In each workshops, Legends will guide you through the workshop activities and will assist with any queries. These outlines are designed for in-class face-to-face learning, but for students that missed a session or want to review the materials, the materials will always be available.
+In each studios, Legends will guide you through the studio activities and will assist with any queries. These outlines are designed for in-class face-to-face learning, but for students that missed a session or want to review the materials, the materials will always be available.
 
 **If you get stuck or are unsure about any information or learning material in these outlines, please don’t hesitate to alert any staff member.**
 
@@ -45,18 +45,18 @@ As such, we request that you bring alone a paper notebook and a pen to write on.
 
 ---
 
-# How these Workshops will run
+# How these studios will run
 
 <aside>
 ⏱️ 10 minutes - Class
 
 </aside>
 
-During these workshops, Legends will introduce outline learning material and highlight exercises and workshop goals. When prompted, read the exercises and tasks and complete the required sections either individually or with team mates. 
+During these studios, Legends will introduce outline learning material and highlight exercises and studio goals. When prompted, read the exercises and tasks and complete the required sections either individually or with team mates. 
 
-These workshops will run for multiple hours. Legends will provide short 5-10 minute breaks every hour, but feel free to take short breaks if you need them.
+These studios will run for multiple hours. Legends will provide short 5-10 minute breaks every hour, but feel free to take short breaks if you need them.
 
-each workshop will run for up to 2 hours and will include exercises, activities and content to reinforce what was learned in the seminar. After the workshop, there is an additional hour in the workshop space set aside for teams to plan and work. During this time Legends will be available for consultation, but won't be running any formal activities.
+Each studio will run for up to 2 hours and will include exercises, activities and content to reinforce what was learned in the seminar. After the studio, there is an additional hour in the studio space set aside for teams to plan and work. During this time Legends will be available for consultation, but won't be running any formal activities.
 
 ---
 
@@ -94,8 +94,8 @@ Think about how the answers to these questions will impact your participation in
 Decide how you plan on approaching the course based on your thoughts from the previous exercise. Consider if you are:
 
 - **Beginner (limited team and innovation experience):**
-    - Ensure you immerse yourself in course content including seminar and workshops.
-    - If you miss a seminar or a workshop, make sure you revise them in your own time before the next session.
+    - Ensure you immerse yourself in course content including seminar and studios.
+    - If you miss a seminar or a studio, make sure you revise them in your own time before the next session.
     - Don’t feel overwhelmed, the Course Coordinator and Legends are available to answer questions, chat and break down course content. Feel free to discuss your progress with the teaching team.
     - Focus on producing consistent and incremental progress, rather then shooting for overly ambitious goals and not producing any results.
 - **Intermediate (some team and innovation experience):**
@@ -284,7 +284,7 @@ Speak with your fellow students, and take the opportunity to ask questions to th
 </aside>
 
 
-We hope this studio workshop was helpful in understanding what the growth mindset is, and where your own mindset sets compared to others.
+We hope this studio was helpful in understanding what the growth mindset is, and where your own mindset sets compared to others.
 
 Innovation is a lot about learning from failure. The thing we encourage in this course is: fail quickly! 
 If we have an idea that is terrible, but we don't know it, we surely want to know sooner rather than later. 
@@ -304,12 +304,12 @@ Most importantly, we want you to think about this throughout the course, especia
 
     Either:
 
-    * Form a team of two people from your allocated workshop time and have one person submit preferences; OR
+    * Form a team of two people from your allocated studio time and have one person submit preferences; OR
     * Submit a team of one person (yourself) and you will be allocated to a team.
 
    We will form teams of four people, maybe five, depending on enrolments.
 
-   Teams will all have to be enrolled in the same workshop timeslot, so pick someone from THIS session or move yourself to another workshop before you submit your preferences.
+   Teams will all have to be enrolled in the same studio timeslot, so pick someone from THIS session or move yourself to another studio before you submit your preferences.
 
    **Note**: you will NOT be allocated to a team if you or the other person in your pair do not submit this form.
 
