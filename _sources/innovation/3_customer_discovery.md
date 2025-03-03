@@ -198,7 +198,7 @@ We also partially refuted hypothesis 7:
 
 We discovered that:
 
-8. Some older people wouldn't mind wearing an wireless transmitter if it was not visible to others.
+8. Some older people wouldn't mind wearing a wireless transmitter if it was not visible to others.
 
 We also discovered some new hypotheses:
 
