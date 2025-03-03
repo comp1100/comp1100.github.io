@@ -1,6 +1,6 @@
-# Week 3: Feedback and Effective Team Planning
+# Week 3: Small-team Project Management
 
-### Studio Abstract
+## Studio Abstract
 
 ---
 
@@ -17,7 +17,7 @@ We will address the following activities and exercises in studio 3.
 
 ---
 
-# Effective Small-Team Planning
+## Effective Small-Team Planning
 
 
 ⏱️ 15 minutes - Group
