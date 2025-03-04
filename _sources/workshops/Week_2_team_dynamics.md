@@ -20,6 +20,8 @@ We will address the following activities and exercises in studio 2.
 
 ⏱️ 15 minutes - Class
 
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
 
 Your legends will announce which team each student is in. Once you meet your team, sit together at a table.
 
@@ -28,6 +30,7 @@ Your legends will announce which team each student is in. Once you meet your tea
 
 ⏱️20 minutes - Group
 
+<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
 
 
 [TimeGuessr](https://timeguessr.com/) is a game where (built on the popular [GeoGuessr](https://www.geoguessr.com/) game) where you need to specify in what year and which location are particular photo has been taken.
@@ -46,7 +49,7 @@ Do the following steps:
 
 ⏱️20 minutes - Group
 
-
+<p style="text-align:center; font-weight:bold;"> Devices can be used for this exercise </p> 
 
 For the next task, your legend will guide you through a team problem solving exercise, which has been provided by employability team in the Faculty of Engineering, IT, and Architecture.
 
@@ -69,7 +72,7 @@ Reflect on the questions in the activity.
 
 ⏱️ 10 minutes - Class
 
-
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 > Your beliefs become your thoughts. Your thoughts become your words. Your words become your actions. Your actions become your habits. Your habits become your values. Your values become your destiny. - Mahatma Gandhi (1869 - 1948)
 > 
@@ -100,7 +103,7 @@ Tips: Avoid using nouns for your team values, instead think about actionable ver
 
 ⏱️ 20 minutes - Group
 
-
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 There are two problems you will solve with this exercise:
 
@@ -124,7 +127,7 @@ Once your group has completed the task, move onto the next task.
 
 ⏱️ 15 minutes - Group
 
-
+<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
 
 With team values having been identified, chosen and ranked, discuss and write up a short 1 page sample of a team contract:
 

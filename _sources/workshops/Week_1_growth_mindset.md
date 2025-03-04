@@ -20,10 +20,10 @@ We will address the following activities and exercises in studio 1.
 
 # Meet the Teaching Team
 
-<aside>
 ⏱️ 10 minutes - Class
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
 
 Legends (formerly known as tutors) will be your most valuable resource in this course. Ensure you know their names and how to contact them. You will find their contact details on the blackboard page. Remember that the staff are here to help and that you shouldn’t feel reserved about asking questions. If you need to speak to a Legend, raise your hand to get their attention. 
 
@@ -47,10 +47,9 @@ As such, we request that you bring alone a paper notebook and a pen to write on.
 
 # How these studios will run
 
-<aside>
 ⏱️ 10 minutes - Class
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 During these studios, Legends will introduce outline learning material and highlight exercises and studio goals. When prompted, read the exercises and tasks and complete the required sections either individually or with team mates. 
 
@@ -63,11 +62,9 @@ Each studio will run for up to 2 hours and will include exercises, activities an
 # Exercise 1: Familiarising Yourself with ... Yourself and Your Group
 
 
-<aside>
 ⏱️ 5 minutes - Individual
 
-</aside>
-
+<p style="text-align:center; font-weight:bold;"> Devices can be used for this exercise </p> 
 
 ### What is your current skill level?
 
@@ -86,10 +83,10 @@ Think about how the answers to these questions will impact your participation in
 
 ## Nothing in Excess
 
-<aside>
+
 ⏱️ 5 minutes - Individual
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices can be used for this exercise </p> 
 
 Decide how you plan on approaching the course based on your thoughts from the previous exercise. Consider if you are:
 
@@ -113,10 +110,9 @@ Be aware that your learning approach or level may develop during the course of t
 
 ## Give a Pledge when Trouble is at Hand
 
-<aside>
-⏱️ 5 minutes - Class
+⏱️ 5 minutes - Group
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 Equipped with the knowledge and tools from the previous two exercises, bring your attention to the people at your table.
 
@@ -134,26 +130,19 @@ You only have 1 minute to introduce yourself. Additionally, ensure everyone gets
 
 # Take a break
 
-<aside>
 ⏱️ 5 minutes
 
-</aside>
 
 ---
 
 # Exercise 2: Understanding the Growth Mindset
 
-<aside>
-⏱️ 50 minutes - Individual & Group
-
-</aside>
 
 ## Background
 
-<aside>
 ⏱️ 20 minutes - Individual
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 According to Carol Dweck, individuals are placed on a spectrum according to their implicit beliefs about the origins of ability and capabilities; those that believe that success is based on innate ability are described as having a ‘fixed’ theory of intelligence (fixed mindset), while those that believe their success is based on training, learning and hard work are described as having a ‘growth’ theory of intelligence (growth mindset). In 2012, Dweck defined the growth mindsets in an interview:
 
@@ -162,16 +151,16 @@ According to Carol Dweck, individuals are placed on a spectrum according to thei
 
 ![figs/growthVsFixed.png](figs/growthVsFixed.png)
 
-Watch the following video in which Carol Dweck talks about her work. The video is embedded for reference.
+As a lass, watch the following video in which Carol Dweck talks about her work. The video is embedded for reference.
 
 [https://www.youtube.com/watch?v=_X0mgOOSpLU](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 
 ## Mindset Diagnostic Test
 
-<aside>
 ⏱️ 5 minutes - Individual
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
+
 
 Now that you have developed an understanding of the growth mindset, we will use the link below to gauge where your personal mindset falls on the mindset spectrum. Once you have completed the test, reflect on the outcome and ask yourself whether you want to change your mindset or whether you are comfortable the way you are now.
 
@@ -182,10 +171,10 @@ Now that you have developed an understanding of the growth mindset, we will use 
 
 ## Awareness Circle
 
-<aside>
 ⏱️ 20 minutes  - Group (combine two tables)
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
 
 At your table and one table near you, conduct a group exercise called the ‘Awareness Circle’ to gain an understanding of where your mindset is compared to your fellow students’ mindsets. 
 
@@ -256,10 +245,9 @@ For reference, these are the questions for this exercise.
 
 ## Discussion
 
-<aside>
 ⏱️ 10 minutes - Group (table)
 
-</aside>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 In your group, have a short discussion about what you observed and learnt.
 
@@ -278,11 +266,9 @@ Speak with your fellow students, and take the opportunity to ask questions to th
 # Discussion
 
 
-<aside>
 ⏱️ 5 minutes - Class
 
-</aside>
-
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 We hope this studio was helpful in understanding what the growth mindset is, and where your own mindset sets compared to others.
 

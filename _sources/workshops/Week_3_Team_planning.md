@@ -22,6 +22,7 @@ We will address the following activities and exercises in studio 3.
 
 ⏱️ 15 minutes - Group
 
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 
 Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.
@@ -113,9 +114,26 @@ Basic team management planning means knowing:
    c. Shorter deadlines drive behaviour.
    d. Update deadline if missed.
 
+
+## Task planning exercises
+
+⏱️ 15 minutes - Group
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
+As a team, get together, brainstorm, and write down ALL of the tasks that you can think of for your team for the coming two weeks. (Hint: look at the [course schedule](https://comp1100.github.io/intro.html#schedule)).
+
+Think about things to do with setup, project work, even scheduling meetings.
+
+For each one, write down: who does what by when.
+
+Your legends will be working with you to give feedback on your task breakdown.
+
 ## Trello Setup
 
-⏱️ 40 minutes - Group
+⏱️ 30 minutes - Group
+
+<p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
 
 As noted, we encourage the use of [Trello](https://trello.com/home) in this course. It allows us to define tasks, assign them to people, and give them due dates: **who does what by when**!.
 
@@ -187,8 +205,8 @@ Now that you have become somewhat familiar with Trello, with your group try to c
 
 - [ ]  Add all team members to your Trello board.
 - [ ]  Create at least three Trello boards for your project: Upcoming tasks, In-progress tasks, and Done tasks (or choose your own if you want).
-- [ ]  Add all of the tasks that you can think of for your team for the coming two weeks. (Hint: look at the [course schedule](https://comp1100.github.io/intro.html#schedule)).
 - [ ]  Change your Trello board background to something that represents your team.
+- [ ]  To your Trello, add all of the tasks that you identified in the earlier exercise.
 - [ ]  Create at least one Trello automation (Button, Due Date or Rule).
 
 Once all these tasks have been completed, signal to a Legend and show them your board.
@@ -197,6 +215,8 @@ Once all these tasks have been completed, signal to a Legend and show them your 
 ## Reflection
 
 ⏱️ 10 Minutes - Class
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 Now that you have completed this, reflect on the following with the class:
 
