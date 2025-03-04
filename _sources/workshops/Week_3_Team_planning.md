@@ -103,16 +103,18 @@ Some tips on deadlines:
 Basic team management planning means knowing:
 
 1. **Who** is doing each task.
-   a. One person per task.
-   b. Hold people to account.
+   * One person per task.
+   * Hold people to account.
+
 2. **What** each task is.
-   a. Make tasks measurable.
-   b. Make reporting part of the tasks.
+   * Make tasks measurable.
+   * Make reporting part of the tasks.
+
 3. **When** each tasks is due.
-   a. Five working days *maximum*.
-   b. Make deadlines specific.
-   c. Shorter deadlines drive behaviour.
-   d. Update deadline if missed.
+   * Five working days *maximum*.
+   * Make deadlines specific.
+   * Shorter deadlines drive behaviour.
+   * Update deadline if missed.
 
 
 ## Task planning exercises
