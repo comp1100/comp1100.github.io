@@ -1,4 +1,4 @@
-# Week 3: Small-team Project Management
+# Week 4: Small-team Project Management
 
 ## Studio Abstract
 
