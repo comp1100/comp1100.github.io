@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -198,9 +198,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_3_cancelled.html">Week 3: Cancelled</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_3_team_planning.html">Week 4: Small-team Project Management</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_4_repositories.html">Week 5: Repositories and Version Control</a></li>
-
-
-
 </ul>
 
     </div>
@@ -401,6 +398,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-verification-statements">Structuring verification statements</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-measurement-statements">Structuring measurement statements</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-accept-reject-statements">Structuring accept/reject statements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-interview-question-statements">Structuring interview question statements</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-cards-for-capture-learnings">Learning cards for capture learnings</a></li>
@@ -509,13 +507,19 @@ document.write(`
 <p><span class="caption-number">Fig. 19 </span><span class="caption-text">The structure of a test card. Source: <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-test-card" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Each card has four parts:</p>
+<p>Each card has five parts:</p>
 <ul class="simple">
 <li><p><strong>“We believe that … “</strong> is the hypothesis that we have — the assumption that we have about a customer segment, their problem, etc. – anything on the business model canvas!</p></li>
 <li><p><strong>“To verify that, we will … “</strong> what we will do to test the hypothesis, which almost always involves finding data; e.g. talking to customers, finding existing data, etc.</p></li>
 <li><p><strong>“And measure … “</strong> specifies exactly what we want to measure; e.g. number of customers who say X, or number of sales of existing product Y.</p></li>
 <li><p><strong>“We are right if …”</strong> specifies the criteria for either accepting or rejecting the hypothesis.</p></li>
+<li><p><strong>“Therefore, we will ask …”</strong> defines what interview questions we will ask our interviewees to test the hypothesis.</p></li>
 </ul>
+<p>This final part (interview questions) is not typical to see on test cards, such as those used by Strategyzer. It was an innovation that one of the early COMP1100 teams added to their test cards that I thought brought value, so I adopted it.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that we often gather data from sources other than interviews, but if we cannot, it helps to have a clear set of initial questions to ask.</p>
+</div>
 <section id="structuring-hypotheses">
 <h3>Structuring hypotheses<a class="headerlink" href="#structuring-hypotheses" title="Link to this heading">#</a></h3>
 <p>A good hypothesis statement (the “We believe that …” statement) should identify a target, a behaviour or observable phenomenon, and a reason for the behaviour/phenomenon:</p>
@@ -543,6 +547,13 @@ document.write(`
 <blockquote>
 <div><p>We are right if <strong>[some measurable statement]</strong>.</p>
 </div></blockquote>
+</section>
+<section id="structuring-interview-question-statements">
+<h3>Structuring interview question statements<a class="headerlink" href="#structuring-interview-question-statements" title="Link to this heading">#</a></h3>
+<p>A good set of questions  (the “Therefore, we will ask …” statement) should identify the questions that we will need answers to, in order to gather the data</p>
+<blockquote>
+<div><p>And ask <strong>[specific questions]</strong>.</p>
+</div></blockquote>
 <p>We can see here that these statements make it clear to determine whether to accept or reject the hypothesis: we count the number of people who said something, and then calculate the percentage.</p>
 <p>Steve Blank states that we should make bets with ourselves (or with each other if in teams) to help make the success/failure definition clear. By framing it as a bet, it helps us to make these concrete.</p>
 <div class="admonition-example-medical-alert-system-test-card-users admonition">
@@ -551,6 +562,7 @@ document.write(`
 <p><strong>To verify that</strong>, we will interview 50 people over 65 who live on their own.</p>
 <p><strong>And measure</strong> how many would like more regular digital interaction with their family.</p>
 <p><strong>We are right if</strong> 70% of older people say that they would like more regular digital interaction with their family.</p>
+<p><strong>Therefore, we will ask</strong> “how often would you like to interact with your family members?”</p>
 </div>
 <div class="admonition-example-medical-alert-system-test-card-paying-customer admonition">
 <p class="admonition-title">Example – Medical alert system test card: paying customer</p>
@@ -558,8 +570,9 @@ document.write(`
 <p><strong>To verify that</strong>, we will interview 50 people who have family members over 65 that live on their own and have an existing emergency alarm system.</p>
 <p><strong>And measure</strong> how many would prefer  regular digital interaction with their family member rather than delegating to a service.</p>
 <p><strong>We are right if</strong>  70% of family members say that they would like more regular digital interaction with their family member rather than delegating to a service.</p>
+<p><strong>Therefore, we will ask</strong> “how often would you like to interact with your older family member?”</p>
 </div>
-<p>We can see above that we don’t need to use an actual card: we can just use standard text to record these. The format of the card is what helps us to structure our thinking and to document our findings.</p>
+<p>We can see above that we don’t need to use an actual card: we can just use standard text and Markdown to record these. The format of the card is what helps us to structure our thinking and to document our findings.</p>
 </section>
 </section>
 <section id="learning-cards-for-capture-learnings">
@@ -592,14 +605,12 @@ document.write(`
 <h2>Types of experiments<a class="headerlink" href="#types-of-experiments" title="Link to this heading">#</a></h2>
 <p>Experiments gather evidence for transforming hypotheses into facts – or into refuted hypotheses.</p>
 <p>There are several ways to collect evidence:</p>
-<ul class="simple">
-<li><p>Interviews.</p></li>
-<li><p>Observations.</p></li>
-<li><p>Immersion.</p></li>
-<li><p>Low fidelity solutions such as paper prototypes.</p></li>
-<li><p>High fidelity solutions such as implementing new functionality in an existing product.</p></li>
-<li><p>Data collected by others.</p></li>
-</ul>
+<figure class="align-default" id="fig-types-of-experiments">
+<img alt="Six ways to gather data: interviews, observations, immersion, low fidelity solutions such as paper prototypes, high fidelity solutions such as implementing new functionality in an existing product, and data collected by others." src="../_images/types_of_experiments.png" />
+<figcaption>
+<p><span class="caption-text">Types of experiments</span><a class="headerlink" href="#fig-types-of-experiments" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="tips-for-designing-and-executing-experiments">
 <h2>Tips for designing and executing experiments<a class="headerlink" href="#tips-for-designing-and-executing-experiments" title="Link to this heading">#</a></h2>
@@ -762,6 +773,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-verification-statements">Structuring verification statements</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-measurement-statements">Structuring measurement statements</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-accept-reject-statements">Structuring accept/reject statements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-interview-question-statements">Structuring interview question statements</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-cards-for-capture-learnings">Learning cards for capture learnings</a></li>

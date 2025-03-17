@@ -100,11 +100,18 @@ alt: "A test card containing four sections: hypothesis, test, metric, and criter
 The structure of a test card. Source: [https://www.strategyzer.com/](https://www.strategyzer.com/)
 ```
 
-Each card has four parts:
+Each card has five parts:
 * **"We believe that ... "** is the hypothesis that we have --- the assumption that we have about a customer segment, their problem, etc. -- anything on the business model canvas!
 * **"To verify that, we will ... "** what we will do to test the hypothesis, which almost always involves finding data; e.g. talking to customers, finding existing data, etc.
 * **"And measure ... "** specifies exactly what we want to measure; e.g. number of customers who say X, or number of sales of existing product Y.
 * **"We are right if ..."** specifies the criteria for either accepting or rejecting the hypothesis. 
+* **"Therefore, we will ask ..."** defines what interview questions we will ask our interviewees to test the hypothesis.
+
+This final part (interview questions) is not typical to see on test cards, such as those used by Strategyzer. It was an innovation that one of the early COMP1100 teams added to their test cards that I thought brought value, so I adopted it.
+
+```{note}
+Note that we often gather data from sources other than interviews, but if we cannot, it helps to have a clear set of initial questions to ask.
+```
 
 ### Structuring hypotheses
 
@@ -135,6 +142,13 @@ A good accept/reject statement (the "We are right if ...") should have a clear a
 
 > We are right if **[some measurable statement]**.
 
+### Structuring interview question statements
+
+A good set of questions  (the "Therefore, we will ask ..." statement) should identify the questions that we will need answers to, in order to gather the data
+
+> And ask **[specific questions]**.
+
+
 
 We can see here that these statements make it clear to determine whether to accept or reject the hypothesis: we count the number of people who said something, and then calculate the percentage. 
 
@@ -148,6 +162,8 @@ Steve Blank states that we should make bets with ourselves (or with each other i
 **And measure** how many would like more regular digital interaction with their family.
 
 **We are right if** 70% of older people say that they would like more regular digital interaction with their family.
+
+**Therefore, we will ask** "how often would you like to interact with your family members?"
 ```
 
 
@@ -159,9 +175,11 @@ Steve Blank states that we should make bets with ourselves (or with each other i
 **And measure** how many would prefer  regular digital interaction with their family member rather than delegating to a service.
 
 **We are right if**  70% of family members say that they would like more regular digital interaction with their family member rather than delegating to a service.
+
+**Therefore, we will ask** "how often would you like to interact with your older family member?"
 ```
 
-We can see above that we don't need to use an actual card: we can just use standard text to record these. The format of the card is what helps us to structure our thinking and to document our findings.
+We can see above that we don't need to use an actual card: we can just use standard text and Markdown to record these. The format of the card is what helps us to structure our thinking and to document our findings.
 
 ## Learning cards for capture learnings
 
@@ -204,12 +222,17 @@ Note in the above example that at some point during the interviews, some additio
 Experiments gather evidence for transforming hypotheses into facts -- or into refuted hypotheses.
 
 There are several ways to collect evidence:
-* Interviews.
-* Observations.
-* Immersion.
-* Low fidelity solutions such as paper prototypes.
-* High fidelity solutions such as implementing new functionality in an existing product.
-* Data collected by others.
+
+```{figure} ./figs/types_of_experiments.png
+---
+name: fig:types_of_experiments
+alt: "Six ways to gather data: interviews, observations, immersion, low fidelity solutions such as paper prototypes, high fidelity solutions such as implementing new functionality in an existing product, and data collected by others."
+---
+Types of experiments
+```
+
+
+
 
 ## Tips for designing and executing experiments
 
