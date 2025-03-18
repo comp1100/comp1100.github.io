@@ -37,11 +37,10 @@ Your legends will announce which team each student is in. Once you meet your tea
 
 We'll play this in today's studio
 
-Do the following steps:
+**In your team**, choose one person to keep their laptop open for the task. Then, do the following steps:
   - [ ] Go to the [TimeGuessr daily challenge](https://timeguessr.com/roundonedaily)
   - [ ] Solve the five tasks, but after each one, wait on the results page for the other teams to catch up. Your legend will guide you.
   - [ ] Record your final score after the fifth task.
-
 
 
 ## Exercise 3: Team problem solving

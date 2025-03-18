@@ -124,6 +124,20 @@ In this part of the studio, you will set up and start using your team repository
 
 We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.
 
+### Installing a Git client
+
+⏱️ 10 minutes - Individual
+
+The first thing each team member needs to do is install the software for Git.
+
+There are three main options for you to use, and the staff have no particular recommendation: the decision is up to your preference. However, if you are new to coding and have minimal experience using command-line tools, we recommend option 3 below. The three general options are:
+
+1. If you use an existing integrated development environment (IDE), such as VSCode, you will be able to install a Git client within that (if you haven't already). This means you can use Git from within your IDE. Find the documentation for how to install it within your IDE. If you don't, go to 2 or 3.
+
+2. Use a Git command-line tool. This is for those who like to use Linux (either natively or via Windows SL) or the MacOS underlying Unix command line. If you want to do this, you can install it locally. One way to do this is to install the Github desktop client (see option 3), which will also install the command-line tool for you.
+
+3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop).
+
 ### Setting up a GitHub repository for your team
 
 ⏱️ 10 minutes - Group
