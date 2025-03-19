@@ -26,7 +26,7 @@ We will address the following activities and exercises in this studio:
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion</p> 
 
 Source code repositories (which can be used for much more than source code!) using tools such as Git and Mercurial are commonplace in software projects.
-They allow teams to create, store, manage and share their code and other documentation. But they are much more than tools like Google Drive, OneDrive, or DropBox -- they help to resolve **conflicts** in editing, and to create sub-projects so that you can work on part of a product without affecting the rest.
+They allow teams to create, store, manage and share their code and other documentation, but they are much more than tools like Google Drive, OneDrive, or DropBox -- they help to resolve **conflicts** in editing, and to create sub-projects so that you can work on part of a product without affecting the rest.
 
 [Git](https://git-scm.com/), originally created by Linus Torvalds, creator of Linux, is the most commonly-used repository tool. It is a distributed version control system to track versions of files. 
 
@@ -34,17 +34,17 @@ They allow teams to create, store, manage and share their code and other documen
 
 ### Why use repositories?
 
-Surely we can just share source code via email or a messaging app by zipping it up; or just share it on Google Docs, OneDrive, DropBox, etc.
+Surely, we can just share source code via email or a messaging app by zipping it up, or just share it on Google Docs, OneDrive, DropBox, etc!
 
-Well... we **can** do that; but it is a Very Bad Idea (VBI)!
+Well... we **can** do that, but it is a Very Bad Idea (VBI)!
 
 Consider Imogen and Zac working collaboratively on a software project using a shared drive, such as Google Drive. One day, Imogen downloads a file to work on. A bit later, Zac does too. Imogen makes some changes and then copies the file back to the server. Her changes are all there! A bit later, Zac uploads his copy of the file. His changes are all there! After lunch, Imogen needs to make some further changes, so she gets the file again, knowing that Zac had worked on it. What would she find??
 
 ![figs/file_overwrite_without_repository.png](figs/file_overwrite_without_repository.png)
 
-After Imogen recovers from her extreme disappointment, she will have to work with Zac --- despite the fact she will resent him! --- to merge the changes and update them. 
+After Imogen recovers from her extreme disappointment, she will have to work with Zac despite the fact she will resent him! They will have to merge the changes and update them. 
 
-**How can we solve this?** One option is to only allow one person to work on one file at a time. This is OK, but it can cause blocks -- sometimes people want to make minor changes to the same files. What if Zac is working on something for a week and Imogen just needs to correct a small bug?
+**How can we solve this?** One option is to only allow one person to work on one file at a time. This is okay, but it can cause blocks; sometimes people want to make minor changes to the same files. What if Zac is working on something for a week and Imogen just needs to correct a small bug?
 
 *Source code repositories* help us with all this with several pieces of functionality:
 
@@ -55,14 +55,14 @@ After Imogen recovers from her extreme disappointment, she will have to work wit
   * If Zac or someone else has made changes to the same file and some are at the lines, a repository tool like Git will prevent Imogen copying the file back, will merge any lines that do not conflict, and will show her lines that do conflict. She then needs to **resolve** those conflicts.
   ![figs/file_overwrite_with_conflict_detection.png](figs/file_overwrite_with_conflict_detection.png)
   As a quick note, Git has both **commits** and **pushes**. Each user maintains a local copy of a repository on their machine. They *commit* code to the local repository, and then when they are happy, they *push* it to the server.
-3. **Branches and merges**: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren't complete or she hasn't tested them -- this would interfere with others' code. In this case, she can create a **branch** of the repository, where she can continue to push changes just to that branch, which doesn't affect everyone else. Once she is happy, she can **merge** her branch into the main branch of the repository. Again, if there are conflicts, she will not be able to merge until she resolved them.
+3. **Branches and merges**: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren't complete or she hasn't tested them, this would interfere with others' code. In this case, she can create a **branch** of the repository, where she can continue to push changes just to that branch, which doesn't affect everyone else. Once she is happy, she can **merge** her branch into the main branch of the repository. If there are conflicts, she will not be able to merge until she resolved them.
 
 ### Branches
 
-As an example of using **branches**, consider Imogen working for an organisation that has a successful web application. They want to add new features, fix bugs, etc., regularly. They release new versions every few days on average to fix bugs. Imagine they want to go from version V1 to version V1.1 by adding two features, which we'll call features A and B. Imogen estimates it will take about 4 weeks to implement these. 
+As an example of using **branches**, consider Imogen working for an organisation that has a successful web application. They want to add new features, fix bugs, etc., regularly. They release new versions every few days on average to fix bugs. Imagine, they want to go from version V1 to version V1.1 by adding two features, which we'll call features A and B. Imogen estimates it will take about 4 weeks to implement these. 
 
 They may have (at least) three branches:
-1. **Main branch**: This is the primary branch where the stable, production-ready code resides. Changes here are thoroughly tested and reviewed. It would be a VBI (very bad idea) for Imogen to start coding those new features directly on the main branch --- customers would see partially implemented features, probably with bugs.
+1. **Main branch**: This is the primary branch where the stable, production-ready code resides. Changes here are thoroughly tested and reviewed. It would be a VBI (very bad idea) for Imogen to start coding those new features directly on the main branch; customers would see partially implemented features, probably with bugs.
 2. **Development branch**: Used for integrating new features and bug fixes before they are merged into the main branch. This branch is less stable than the main branch but more stable than feature branches. However, it would be a bad idea (BI) for Imogen to start adding features directly to this, as other developers in the organisation are also making changes, and it will be difficult for her to test her features while other source code is changing as well.
 3. **Feature branches**: These are created from the development branch for specific features or fixes. Developers work on these branches independently, allowing them to make changes without affecting the main or development branches. Imogen can create a **feature branch** from the development branch, that is implementing just her features.  
 
@@ -74,17 +74,17 @@ Once Imogen has implemented and tested feature A, she **merges** this. There are
 2. **Conflict resolution**: During merging, conflicts may arise if changes overlap. A tool like Git will highlight these conflicts, and developers must resolve them before completing the merge.
 3. **Final merge to main branch**: After thorough testing and review, changes from the development branch are merged into the main branch. This ensures that only stable and tested code is deployed to production.
 
-Each time these merges happen, conflicts will be detected, and non-conflicting code will be merged. Brilliant! This means that Imogen will actually want to continue working with Zac, rather than resenting him forever and leaving the organisation after six months because she need a break.
+Each time these merges happen, conflicts will be detected, and non-conflicting code will be merged. Brilliant! This means that Imogen will actually want to continue working with Zac, rather than resenting him forever and leaving the organisation after six months because she needs a break.
 
 ### Commit messages
 
 When someone commits changes to a local repository, they are asked to (and should!) use a **commit message**. A commit message is a brief description that explains what changes were made and why. This provides context and clarity for other developers to help team members why changes are made, who made them, to track progress, and to help rollback when changes introduce new problems. 
 
 A good commit message should:
-1. Clearly describe what changes have been made. Messages like "Fixed a bug" or "Updated the code" are not good.
-2. Start with a verb; e.g. "Add password encryption"
+1. Clearly describe what changes have been made. Messages like "Fixed a bug" or "Updated the code" are not good enough.
+2. Start with a verb; e.g. "Added password encryption"
 3. Be concise. Keep it to a few words per small change.
-4. Reference any issues/tickets that it fixes.
+4. Reference any issues / tickets that it fixes.
 5. Focus on a single thing; that is, avoid committing changes across many features of the software at once -- just make one change or group of changes in each commit.
 
 
@@ -93,10 +93,10 @@ An example of a nice commit message:
 ```
 Add user authentication feature
 
-- Implement login and registration forms
-- Add password encryption
-- Update user model to include authentication fields
-- Fix related bugs in user session management
+- Implemented login and registration forms
+- Added password encryption
+- Updated user model to include authentication fields
+- Fixed related bugs in user session management
 ```
 
 ### Summary
@@ -132,11 +132,11 @@ The first thing each team member needs to do is install the software for Git.
 
 There are three main options for you to use, and the staff have no particular recommendation: the decision is up to your preference. However, if you are new to coding and have minimal experience using command-line tools, we recommend option 3 below. The three general options are:
 
-1. If you use an existing integrated development environment (IDE), such as VSCode, you will be able to install a Git client within that (if you haven't already). This means you can use Git from within your IDE. Find the documentation for how to install it within your IDE. If you don't, go to 2 or 3.
+1. If you use an existing integrated development environment (IDE), such as VSCode, you will be able to install a Git client within that (if you haven't already). This means you can use Git from within your IDE. Find the documentation for how to install it within your IDE. If you don't use an IDE, go to 2 or 3.
 
 2. Use a Git command-line tool. This is for those who like to use Linux (either natively or via Windows SL) or the MacOS underlying Unix command line. If you want to do this, you can install it locally. One way to do this is to install the Github desktop client (see option 3), which will also install the command-line tool for you.
 
-3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop).
+3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are othet desktop clients available, and you are also free to use those.
 
 ### Setting up a GitHub repository for your team
 
@@ -157,7 +157,7 @@ We have already created the repositories for you using Github education, so, you
 
 Git repositories are known as **distributed repositories**. This means that each person has a copy of the repository (including its entire history, etc.) on their local computer, which they need to **sync** with a remote repository so others can see their changes.
 
-The following tasks require you to understand how to add and commit files to your local repository and how to sync those with a remote repository --- in our case, the remote repository on Github.
+The following tasks require you to understand how to add and commit files to your local repository and how to sync those with a remote repository; in our case, the remote repository on Github.
 
 Use the following documentation to help you with this:
 
@@ -167,16 +167,16 @@ Use the following documentation to help you with this:
 
 GitHub repositories, like any file storage, require a logical file structure. Complete the following tasks:
 
-- [ ]  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar -- just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. Call this file `team_values.md`.
+- [ ]  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. You will convert this file to markup by renaming it to `team_values.md`.
 - [ ]  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.
 - [ ]  Next, as a group, work together to figure out how this team member should `add` and `commit` this change to their local repository, and then `push` it to the Github remote repository. Don't forget to add a good commit message!
 - [ ]  Now, each team member should pull from the remote Github repository.
 
-The end result should be that each team member should be able to see the file `team_values.md` and open/edit it on their local computer.
+**Goal**: The end result should be that each team member should be able to see the file `team_values.md` and open/edit it on their local computer.
 
 If each member cannot see this, trace back to see what you have missed.
 
-Show your legend that you have successfully completed this task before moving on to the next task. 
+**Deliverable**: Show your legend that you have successfully completed this task before moving on to the next task. 
 
 **Common mistakes**: 
 - You need to explicitly tell git when you want to add a file to your local repository. This allows us to have files in the folder where your repository is on your local computer without putting them in the repository itself.
@@ -192,6 +192,8 @@ In this exercise, we will learn how to branch and merge. Use the following docum
 
 - [Atlassian's Git Merge documentation](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
+**You will be using the transcripts from the interviews that you have done so far.**
+
 Complete the following task, which gets each member to create a branch, make changes, and merge it back into the main branch:
 
 - [ ]  One team member should create a new folder called `Interviews`, which is where you will store your interview data. Commit and push this to the remote repository.
@@ -203,11 +205,11 @@ Complete the following task, which gets each member to create a branch, make cha
 - [ ]  Now, each team member should switch to the main branch and pull all of the changes from the other team members.
 - [ ]  Finally, each team member should delete the branch they have created as the changes are in the main branch, so the development branches are no longer required. HINT: you need to use the `branch` command to delete a branch.
 
-The end result of this task should be that all team members, on their local machine, have each others' interview transcripts.
+**Goal**: The end result of this task should be that all team members, on their local machine, have each others' interview transcripts.
 
 If each team member cannot see all of the other team members' transcripts, trace back to see what you have missed.
 
-Show your legend that you have successfully completed this task before moving on to the next task. 
+**Deliverable**: Show your legend that you have successfully completed this task before moving on to the next task. 
 
 **Common mistakes**: 
 - Make sure to pull the repository after your team member has pushed the change with the `Interviews` folder.
@@ -226,7 +228,9 @@ Use the following documentation to help with this task:
 
 Using the `team_values.md` file, use your own creativity to come up with a merge conflict between two team members by changing: (a) the same line of the file; and (b) each a different line of the file. This can be just a spelling correction or a small change in wording -- or add a whole new team value!
 
-Show your legend that you have successfully completed this task before moving on to the next task. 
+**Goal**: The end result should be an updated repository with the conflicting changes resolved.
+
+**Deliverable**: Show your legend that you have successfully completed this task before moving on to the next task. 
 
 ### One quick point on terminology
 
@@ -270,7 +274,9 @@ In this task, you will format your team values using Markdown. Together, go back
 - Commit, and push these changes to the remote repository on Github.
 - Go to the URL for your Github repository, which should be at [http://<insert>], where you should be able to click on `team_values.md` and see your values nicely formatted!
 
-Show your legend your beautifully-formatted team values.
+**Goal**: The end result should be your team values, formatted properly and looking professional.
+
+**Deliverable**: Show your legend your beautifully-formatted team values.
 
 ---
 

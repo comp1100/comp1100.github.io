@@ -450,17 +450,17 @@ document.write(`
 <p>⏱️ 15 minutes - Class discussion</p>
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion</p> 
 <p>Source code repositories (which can be used for much more than source code!) using tools such as Git and Mercurial are commonplace in software projects.
-They allow teams to create, store, manage and share their code and other documentation. But they are much more than tools like Google Drive, OneDrive, or DropBox – they help to resolve <strong>conflicts</strong> in editing, and to create sub-projects so that you can work on part of a product without affecting the rest.</p>
+They allow teams to create, store, manage and share their code and other documentation, but they are much more than tools like Google Drive, OneDrive, or DropBox – they help to resolve <strong>conflicts</strong> in editing, and to create sub-projects so that you can work on part of a product without affecting the rest.</p>
 <p><a class="reference external" href="https://git-scm.com/">Git</a>, originally created by Linus Torvalds, creator of Linux, is the most commonly-used repository tool. It is a distributed version control system to track versions of files.</p>
 <p><a class="reference external" href="https://github.com/">GitHub</a> is a company that provides a browser or desktop based user interface for Git. There are many ways to use Git, and there are other companies that provide Git services, but GitHub is one of the more popular services. In this course, we will use Github for our projects, because it is a well-known tool, and because the course staff can set up a shared space for all projects in the course.</p>
 <section id="why-use-repositories">
 <h3>Why use repositories?<a class="headerlink" href="#why-use-repositories" title="Link to this heading">#</a></h3>
-<p>Surely we can just share source code via email or a messaging app by zipping it up; or just share it on Google Docs, OneDrive, DropBox, etc.</p>
-<p>Well… we <strong>can</strong> do that; but it is a Very Bad Idea (VBI)!</p>
+<p>Surely, we can just share source code via email or a messaging app by zipping it up, or just share it on Google Docs, OneDrive, DropBox, etc!</p>
+<p>Well… we <strong>can</strong> do that, but it is a Very Bad Idea (VBI)!</p>
 <p>Consider Imogen and Zac working collaboratively on a software project using a shared drive, such as Google Drive. One day, Imogen downloads a file to work on. A bit later, Zac does too. Imogen makes some changes and then copies the file back to the server. Her changes are all there! A bit later, Zac uploads his copy of the file. His changes are all there! After lunch, Imogen needs to make some further changes, so she gets the file again, knowing that Zac had worked on it. What would she find??</p>
 <p><img alt="figs/file_overwrite_without_repository.png" src="../_images/file_overwrite_without_repository.png" /></p>
-<p>After Imogen recovers from her extreme disappointment, she will have to work with Zac — despite the fact she will resent him! — to merge the changes and update them.</p>
-<p><strong>How can we solve this?</strong> One option is to only allow one person to work on one file at a time. This is OK, but it can cause blocks – sometimes people want to make minor changes to the same files. What if Zac is working on something for a week and Imogen just needs to correct a small bug?</p>
+<p>After Imogen recovers from her extreme disappointment, she will have to work with Zac despite the fact she will resent him! They will have to merge the changes and update them.</p>
+<p><strong>How can we solve this?</strong> One option is to only allow one person to work on one file at a time. This is okay, but it can cause blocks; sometimes people want to make minor changes to the same files. What if Zac is working on something for a week and Imogen just needs to correct a small bug?</p>
 <p><em>Source code repositories</em> help us with all this with several pieces of functionality:</p>
 <ol class="arabic simple">
 <li><p><strong>Pulls</strong>: Multiple people can work on the same file at the same time. They first <strong>pull</strong> any other changes made from the repository since they last used it.</p></li>
@@ -474,15 +474,15 @@ They allow teams to create, store, manage and share their code and other documen
 As a quick note, Git has both <strong>commits</strong> and <strong>pushes</strong>. Each user maintains a local copy of a repository on their machine. They <em>commit</em> code to the local repository, and then when they are happy, they <em>push</em> it to the server.</p></li>
 </ul>
 <ol class="arabic simple" start="3">
-<li><p><strong>Branches and merges</strong>: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren’t complete or she hasn’t tested them – this would interfere with others’ code. In this case, she can create a <strong>branch</strong> of the repository, where she can continue to push changes just to that branch, which doesn’t affect everyone else. Once she is happy, she can <strong>merge</strong> her branch into the main branch of the repository. Again, if there are conflicts, she will not be able to merge until she resolved them.</p></li>
+<li><p><strong>Branches and merges</strong>: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren’t complete or she hasn’t tested them, this would interfere with others’ code. In this case, she can create a <strong>branch</strong> of the repository, where she can continue to push changes just to that branch, which doesn’t affect everyone else. Once she is happy, she can <strong>merge</strong> her branch into the main branch of the repository. If there are conflicts, she will not be able to merge until she resolved them.</p></li>
 </ol>
 </section>
 <section id="branches">
 <h3>Branches<a class="headerlink" href="#branches" title="Link to this heading">#</a></h3>
-<p>As an example of using <strong>branches</strong>, consider Imogen working for an organisation that has a successful web application. They want to add new features, fix bugs, etc., regularly. They release new versions every few days on average to fix bugs. Imagine they want to go from version V1 to version V1.1 by adding two features, which we’ll call features A and B. Imogen estimates it will take about 4 weeks to implement these.</p>
+<p>As an example of using <strong>branches</strong>, consider Imogen working for an organisation that has a successful web application. They want to add new features, fix bugs, etc., regularly. They release new versions every few days on average to fix bugs. Imagine, they want to go from version V1 to version V1.1 by adding two features, which we’ll call features A and B. Imogen estimates it will take about 4 weeks to implement these.</p>
 <p>They may have (at least) three branches:</p>
 <ol class="arabic simple">
-<li><p><strong>Main branch</strong>: This is the primary branch where the stable, production-ready code resides. Changes here are thoroughly tested and reviewed. It would be a VBI (very bad idea) for Imogen to start coding those new features directly on the main branch — customers would see partially implemented features, probably with bugs.</p></li>
+<li><p><strong>Main branch</strong>: This is the primary branch where the stable, production-ready code resides. Changes here are thoroughly tested and reviewed. It would be a VBI (very bad idea) for Imogen to start coding those new features directly on the main branch; customers would see partially implemented features, probably with bugs.</p></li>
 <li><p><strong>Development branch</strong>: Used for integrating new features and bug fixes before they are merged into the main branch. This branch is less stable than the main branch but more stable than feature branches. However, it would be a bad idea (BI) for Imogen to start adding features directly to this, as other developers in the organisation are also making changes, and it will be difficult for her to test her features while other source code is changing as well.</p></li>
 <li><p><strong>Feature branches</strong>: These are created from the development branch for specific features or fixes. Developers work on these branches independently, allowing them to make changes without affecting the main or development branches. Imogen can create a <strong>feature branch</strong> from the development branch, that is implementing just her features.</p></li>
 </ol>
@@ -493,26 +493,26 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p><strong>Conflict resolution</strong>: During merging, conflicts may arise if changes overlap. A tool like Git will highlight these conflicts, and developers must resolve them before completing the merge.</p></li>
 <li><p><strong>Final merge to main branch</strong>: After thorough testing and review, changes from the development branch are merged into the main branch. This ensures that only stable and tested code is deployed to production.</p></li>
 </ol>
-<p>Each time these merges happen, conflicts will be detected, and non-conflicting code will be merged. Brilliant! This means that Imogen will actually want to continue working with Zac, rather than resenting him forever and leaving the organisation after six months because she need a break.</p>
+<p>Each time these merges happen, conflicts will be detected, and non-conflicting code will be merged. Brilliant! This means that Imogen will actually want to continue working with Zac, rather than resenting him forever and leaving the organisation after six months because she needs a break.</p>
 </section>
 <section id="commit-messages">
 <h3>Commit messages<a class="headerlink" href="#commit-messages" title="Link to this heading">#</a></h3>
 <p>When someone commits changes to a local repository, they are asked to (and should!) use a <strong>commit message</strong>. A commit message is a brief description that explains what changes were made and why. This provides context and clarity for other developers to help team members why changes are made, who made them, to track progress, and to help rollback when changes introduce new problems.</p>
 <p>A good commit message should:</p>
 <ol class="arabic simple">
-<li><p>Clearly describe what changes have been made. Messages like “Fixed a bug” or “Updated the code” are not good.</p></li>
-<li><p>Start with a verb; e.g. “Add password encryption”</p></li>
+<li><p>Clearly describe what changes have been made. Messages like “Fixed a bug” or “Updated the code” are not good enough.</p></li>
+<li><p>Start with a verb; e.g. “Added password encryption”</p></li>
 <li><p>Be concise. Keep it to a few words per small change.</p></li>
-<li><p>Reference any issues/tickets that it fixes.</p></li>
+<li><p>Reference any issues / tickets that it fixes.</p></li>
 <li><p>Focus on a single thing; that is, avoid committing changes across many features of the software at once – just make one change or group of changes in each commit.</p></li>
 </ol>
 <p>An example of a nice commit message:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Add</span> <span class="n">user</span> <span class="n">authentication</span> <span class="n">feature</span>
 
-<span class="o">-</span> <span class="n">Implement</span> <span class="n">login</span> <span class="ow">and</span> <span class="n">registration</span> <span class="n">forms</span>
-<span class="o">-</span> <span class="n">Add</span> <span class="n">password</span> <span class="n">encryption</span>
-<span class="o">-</span> <span class="n">Update</span> <span class="n">user</span> <span class="n">model</span> <span class="n">to</span> <span class="n">include</span> <span class="n">authentication</span> <span class="n">fields</span>
-<span class="o">-</span> <span class="n">Fix</span> <span class="n">related</span> <span class="n">bugs</span> <span class="ow">in</span> <span class="n">user</span> <span class="n">session</span> <span class="n">management</span>
+<span class="o">-</span> <span class="n">Implemented</span> <span class="n">login</span> <span class="ow">and</span> <span class="n">registration</span> <span class="n">forms</span>
+<span class="o">-</span> <span class="n">Added</span> <span class="n">password</span> <span class="n">encryption</span>
+<span class="o">-</span> <span class="n">Updated</span> <span class="n">user</span> <span class="n">model</span> <span class="n">to</span> <span class="n">include</span> <span class="n">authentication</span> <span class="n">fields</span>
+<span class="o">-</span> <span class="n">Fixed</span> <span class="n">related</span> <span class="n">bugs</span> <span class="ow">in</span> <span class="n">user</span> <span class="n">session</span> <span class="n">management</span>
 </pre></div>
 </div>
 </section>
@@ -549,9 +549,9 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <p>The first thing each team member needs to do is install the software for Git.</p>
 <p>There are three main options for you to use, and the staff have no particular recommendation: the decision is up to your preference. However, if you are new to coding and have minimal experience using command-line tools, we recommend option 3 below. The three general options are:</p>
 <ol class="arabic simple">
-<li><p>If you use an existing integrated development environment (IDE), such as VSCode, you will be able to install a Git client within that (if you haven’t already). This means you can use Git from within your IDE. Find the documentation for how to install it within your IDE. If you don’t, go to 2 or 3.</p></li>
+<li><p>If you use an existing integrated development environment (IDE), such as VSCode, you will be able to install a Git client within that (if you haven’t already). This means you can use Git from within your IDE. Find the documentation for how to install it within your IDE. If you don’t use an IDE, go to 2 or 3.</p></li>
 <li><p>Use a Git command-line tool. This is for those who like to use Linux (either natively or via Windows SL) or the MacOS underlying Unix command line. If you want to do this, you can install it locally. One way to do this is to install the Github desktop client (see option 3), which will also install the command-line tool for you.</p></li>
-<li><p>Use the <a class="reference external" href="https://github.com/apps/desktop">GitHub Desktop Client</a>. This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, <a class="reference external" href="https://github.com/apps/desktop">download from here</a>.</p></li>
+<li><p>Use the <a class="reference external" href="https://github.com/apps/desktop">GitHub Desktop Client</a>. This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, <a class="reference external" href="https://github.com/apps/desktop">download from here</a>. There are othet desktop clients available, and you are also free to use those.</p></li>
 </ol>
 </section>
 <section id="setting-up-a-github-repository-for-your-team">
@@ -568,7 +568,7 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <h3>Adding, committing, and pushing files and folders<a class="headerlink" href="#adding-committing-and-pushing-files-and-folders" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Group</p>
 <p>Git repositories are known as <strong>distributed repositories</strong>. This means that each person has a copy of the repository (including its entire history, etc.) on their local computer, which they need to <strong>sync</strong> with a remote repository so others can see their changes.</p>
-<p>The following tasks require you to understand how to add and commit files to your local repository and how to sync those with a remote repository — in our case, the remote repository on Github.</p>
+<p>The following tasks require you to understand how to add and commit files to your local repository and how to sync those with a remote repository; in our case, the remote repository on Github.</p>
 <p>Use the following documentation to help you with this:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/saving-changes">Atlassian’s documentation for saving changes in Git</a></p></li>
@@ -577,14 +577,14 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 </ul>
 <p>GitHub repositories, like any file storage, require a logical file structure. Complete the following tasks:</p>
 <ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar – just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. Call this file <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code>.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. You will convert this file to markup by renaming it to <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code>.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Next, as a group, work together to figure out how this team member should <code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code> this change to their local repository, and then <code class="docutils literal notranslate"><span class="pre">push</span></code> it to the Github remote repository. Don’t forget to add a good commit message!</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Now, each team member should pull from the remote Github repository.</p></li>
 </ul>
-<p>The end result should be that each team member should be able to see the file <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code> and open/edit it on their local computer.</p>
+<p><strong>Goal</strong>: The end result should be that each team member should be able to see the file <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code> and open/edit it on their local computer.</p>
 <p>If each member cannot see this, trace back to see what you have missed.</p>
-<p>Show your legend that you have successfully completed this task before moving on to the next task.</p>
+<p><strong>Deliverable</strong>: Show your legend that you have successfully completed this task before moving on to the next task.</p>
 <p><strong>Common mistakes</strong>:</p>
 <ul class="simple">
 <li><p>You need to explicitly tell git when you want to add a file to your local repository. This allows us to have files in the folder where your repository is on your local computer without putting them in the repository itself.</p></li>
@@ -599,6 +599,7 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches">Atlassian’s Git Branch documentation</a></p></li>
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches/git-merge">Atlassian’s Git Merge documentation</a></p></li>
 </ul>
+<p><strong>You will be using the transcripts from the interviews that you have done so far.</strong></p>
 <p>Complete the following task, which gets each member to create a branch, make changes, and merge it back into the main branch:</p>
 <ul class="contains-task-list simple">
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  One team member should create a new folder called <code class="docutils literal notranslate"><span class="pre">Interviews</span></code>, which is where you will store your interview data. Commit and push this to the remote repository.</p></li>
@@ -610,9 +611,9 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Now, each team member should switch to the main branch and pull all of the changes from the other team members.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Finally, each team member should delete the branch they have created as the changes are in the main branch, so the development branches are no longer required. HINT: you need to use the <code class="docutils literal notranslate"><span class="pre">branch</span></code> command to delete a branch.</p></li>
 </ul>
-<p>The end result of this task should be that all team members, on their local machine, have each others’ interview transcripts.</p>
+<p><strong>Goal</strong>: The end result of this task should be that all team members, on their local machine, have each others’ interview transcripts.</p>
 <p>If each team member cannot see all of the other team members’ transcripts, trace back to see what you have missed.</p>
-<p>Show your legend that you have successfully completed this task before moving on to the next task.</p>
+<p><strong>Deliverable</strong>: Show your legend that you have successfully completed this task before moving on to the next task.</p>
 <p><strong>Common mistakes</strong>:</p>
 <ul class="simple">
 <li><p>Make sure to pull the repository after your team member has pushed the change with the <code class="docutils literal notranslate"><span class="pre">Interviews</span></code> folder.</p></li>
@@ -628,7 +629,8 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts">Atlassian’s documentation on merge conflicts in Git</a></p></li>
 </ul>
 <p>Using the <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code> file, use your own creativity to come up with a merge conflict between two team members by changing: (a) the same line of the file; and (b) each a different line of the file. This can be just a spelling correction or a small change in wording – or add a whole new team value!</p>
-<p>Show your legend that you have successfully completed this task before moving on to the next task.</p>
+<p><strong>Goal</strong>: The end result should be an updated repository with the conflicting changes resolved.</p>
+<p><strong>Deliverable</strong>: Show your legend that you have successfully completed this task before moving on to the next task.</p>
 </section>
 <section id="one-quick-point-on-terminology">
 <h3>One quick point on terminology<a class="headerlink" href="#one-quick-point-on-terminology" title="Link to this heading">#</a></h3>
@@ -664,7 +666,8 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p>Commit, and push these changes to the remote repository on Github.</p></li>
 <li><p>Go to the URL for your Github repository, which should be at [http://<insert>], where you should be able to click on <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code> and see your values nicely formatted!</p></li>
 </ul>
-<p>Show your legend your beautifully-formatted team values.</p>
+<p><strong>Goal</strong>: The end result should be your team values, formatted properly and looking professional.</p>
+<p><strong>Deliverable</strong>: Show your legend your beautifully-formatted team values.</p>
 </section>
 <hr class="docutils" />
 <section id="bonus-its-dangerous-to-go-alone-take-this">
