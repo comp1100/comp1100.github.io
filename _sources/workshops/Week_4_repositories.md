@@ -171,6 +171,8 @@ GitHub repositories, like any file storage, require a logical file structure. Co
 - [ ]  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.
 - [ ]  Next, as a group, work together to figure out how this team member should `add` and `commit` this change to their local repository, and then `push` it to the Github remote repository. Don't forget to add a good commit message!
 - [ ]  Now, each team member should pull from the remote Github repository.
+- [ ]  In the file README.md in the top folder of the repository, add the following for each team member: Name, Github username, and UQ email address.
+- [ ]  Commit and push this file to the repository. 
 
 **Goal**: The end result should be that each team member should be able to see the file `team_values.md` and open/edit it on their local computer.
 
