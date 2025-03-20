@@ -12,7 +12,7 @@ We will address the following activities and exercises in this studio:
 - [ ]  Overview of repositories and GitHub
 - [ ]  Setting up a team repository on GitHub
 - [ ]  Adding files and managing directories
-- [ ]  Understanding branch, merge, and pull requests
+- [ ]  Understanding branch and merge
 - [ ]  Repository conflict resolution
 - [ ]  Using Markdown for documentation
 
@@ -182,7 +182,7 @@ If each member cannot see this, trace back to see what you have missed.
 - You need to explicitly tell git when you want to add a file to your local repository. This allows us to have files in the folder where your repository is on your local computer without putting them in the repository itself.
 - Remember that when you make a change, you need to first commit it to your local repository and then push it to the remote repository on Github.
 
-### Understanding branch, merge and pull requests
+### Understanding branch and merge
 
 ⏱️ 20 minutes - Group
 
