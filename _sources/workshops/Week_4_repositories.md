@@ -116,6 +116,8 @@ Repositories have several important features:
 
 3. Commit messages
 
+
+
 ## Your team repository
 
 <p style="text-align:center; font-weight:bold;"> Devices required for all exercises in this section </p> 
@@ -123,6 +125,15 @@ Repositories have several important features:
 In this part of the studio, you will set up and start using your team repository.
 
 We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.
+
+
+### Set up account and accept COMP1100-2025-s1 invite
+
+⏱️ 10 minutes - Individual
+
+You will have received an invite to the Github organisation called COMP1100-2025-s1.
+
+Accept this invite, creating an account on Github if you do not have one already.
 
 ### Installing a Git client
 
@@ -138,10 +149,32 @@ There are three main options for you to use, and the staff have no particular re
 
 3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are othet desktop clients available, and you are also free to use those.
 
+
 ### Setting up a GitHub repository for your team
 
 ⏱️ 10 minutes - Group
 
+One team member should create a repository for the team. This MUST be follow the following format:
+
+```[Day]_[Time]_Team_[XY]```
+
+where Day is either Mon, Tue or Wed, and time is either 11am or 2pm, and XY is your team number using **two digits**.
+
+For example: ```Mon_11am_Team_02``` --- so the same format as your MS Teams channel name.
+
+**Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.**
+
+When creating this, choose the following settings:
+1. The repository is **private**.
+2. A readme file is created.
+
+For other settings, you can leave the default values (or choose other options if you like).
+
+This team member should invite ALL team members AND your legend to the repository. From the top menu, select *Settings*, then from the left select *Collaborators and teams*, and under *Manage access* you can *Add people*.
+
+### Clone your repository
+
+⏱️ 10 minutes - Group
 
 Each member of the group should **clone** their repository, which means to take an existing repository and create a copy on your local machine.
 
@@ -149,7 +182,7 @@ Use the following documentation to help you with this task:
 
 - [Atlassian's documentation for setting up a Git repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 
-We have already created the repositories for you using Github education, so, you should start at the section: "Cloning an existing repository: git clone"
+
 
 ### Adding, committing, and pushing files and folders
 

@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_4_repositories';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Week 7: Giving and Receiving Feedback" href="Week_6_feedback.html" />
     <link rel="prev" title="Week 4: Small-team Project Management" href="Week_3_team_planning.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -197,6 +198,7 @@
 <li class="toctree-l1"><a class="reference internal" href="Week_3_cancelled.html">Week 3: Cancelled</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_3_team_planning.html">Week 4: Small-team Project Management</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 5: Repositories and Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_6_feedback.html">Week 7: Giving and Receiving Feedback</a></li>
 </ul>
 
     </div>
@@ -399,8 +401,10 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-team-repository">Your team repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-account-and-accept-comp1100-2025-s1-invite">Set up account and accept COMP1100-2025-s1 invite</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-a-git-client">Installing a Git client</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-a-github-repository-for-your-team">Setting up a GitHub repository for your team</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-your-repository">Clone your repository</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-committing-and-pushing-files-and-folders">Adding, committing, and pushing files and folders</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-branch-and-merge">Understanding branch and merge</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-merge-conflicts">Managing merge conflicts</a></li>
@@ -543,6 +547,12 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <p style="text-align:center; font-weight:bold;"> Devices required for all exercises in this section </p> 
 <p>In this part of the studio, you will set up and start using your team repository.</p>
 <p>We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.</p>
+<section id="set-up-account-and-accept-comp1100-2025-s1-invite">
+<h3>Set up account and accept COMP1100-2025-s1 invite<a class="headerlink" href="#set-up-account-and-accept-comp1100-2025-s1-invite" title="Link to this heading">#</a></h3>
+<p>⏱️ 10 minutes - Individual</p>
+<p>You will have received an invite to the Github organisation called COMP1100-2025-s1.</p>
+<p>Accept this invite, creating an account on Github if you do not have one already.</p>
+</section>
 <section id="installing-a-git-client">
 <h3>Installing a Git client<a class="headerlink" href="#installing-a-git-client" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Individual</p>
@@ -557,12 +567,27 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <section id="setting-up-a-github-repository-for-your-team">
 <h3>Setting up a GitHub repository for your team<a class="headerlink" href="#setting-up-a-github-repository-for-your-team" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Group</p>
+<p>One team member should create a repository for the team. This MUST be follow the following format:</p>
+<p><code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code></p>
+<p>where Day is either Mon, Tue or Wed, and time is either 11am or 2pm, and XY is your team number using <strong>two digits</strong>.</p>
+<p>For example: <code class="docutils literal notranslate"><span class="pre">Mon_11am_Team_02</span></code> — so the same format as your MS Teams channel name.</p>
+<p><strong>Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.</strong></p>
+<p>When creating this, choose the following settings:</p>
+<ol class="arabic simple">
+<li><p>The repository is <strong>private</strong>.</p></li>
+<li><p>A readme file is created.</p></li>
+</ol>
+<p>For other settings, you can leave the default values (or choose other options if you like).</p>
+<p>This team member should invite ALL team members AND your legend to the repository. From the top menu, select <em>Settings</em>, then from the left select <em>Collaborators and teams</em>, and under <em>Manage access</em> you can <em>Add people</em>.</p>
+</section>
+<section id="clone-your-repository">
+<h3>Clone your repository<a class="headerlink" href="#clone-your-repository" title="Link to this heading">#</a></h3>
+<p>⏱️ 10 minutes - Group</p>
 <p>Each member of the group should <strong>clone</strong> their repository, which means to take an existing repository and create a copy on your local machine.</p>
 <p>Use the following documentation to help you with this task:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/setting-up-a-repository">Atlassian’s documentation for setting up a Git repository</a></p></li>
 </ul>
-<p>We have already created the repositories for you using Github education, so, you should start at the section: “Cloning an existing repository: git clone”</p>
 </section>
 <section id="adding-committing-and-pushing-files-and-folders">
 <h3>Adding, committing, and pushing files and folders<a class="headerlink" href="#adding-committing-and-pushing-files-and-folders" title="Link to this heading">#</a></h3>
@@ -730,6 +755,15 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
         <p class="prev-next-title">Week 4: Small-team Project Management</p>
       </div>
     </a>
+    <a class="right-next"
+       href="Week_6_feedback.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Week 7: Giving and Receiving Feedback</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -754,8 +788,10 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-team-repository">Your team repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-account-and-accept-comp1100-2025-s1-invite">Set up account and accept COMP1100-2025-s1 invite</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-a-git-client">Installing a Git client</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-a-github-repository-for-your-team">Setting up a GitHub repository for your team</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-your-repository">Clone your repository</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-committing-and-pushing-files-and-folders">Adding, committing, and pushing files and folders</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-branch-and-merge">Understanding branch and merge</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-merge-conflicts">Managing merge conflicts</a></li>
