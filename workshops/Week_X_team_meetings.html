@@ -1,0 +1,645 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Creating Effective Meetings &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_X_team_meetings';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I: INNOVATION</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../innovation/1_introduction_to_innovation.html">Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/2_business_model_canvas.html">Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/3_customer_discovery.html">Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/4_value_proposition_canvas.html">Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/5_experimentation.html">Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/6_minimum_viable_product.html">Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/7_prototyping.html">Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/8_customer_relationships_and_channels.html">Customer relationships and channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/10_FAQs.html">Subject Frequently Asked Questions (FAQs)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II: Studios</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_3_cancelled.html">Week 3: Cancelled</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_3_team_planning.html">Week 4: Small-team Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 5: Repositories and Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 6: Reflective practice and using repositories</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_X_team_meetings.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workshops/Week_X_team_meetings.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Creating Effective Meetings</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Effective Meetings</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-and-rules">Universal Meeting Structure and Rules</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-agenda">Universal Meeting Structure (Agenda)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-rules">Universal Meeting Rules</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-agenda-draft">Meeting Agenda Draft</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#saving-the-world-from-bad-meetings-david-grady">Saving the world from bad meetings - David Grady</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#core-values-bob-keiller">Core Values - Bob Keiller</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">Three ways to create a work culture that brings out the best in employees - Chris White</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Creating effective meetings</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Understanding different kind of meetings</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Universal meeting structure (Agenda)</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Universal meeting rules</p></li>
+</ul>
+<section id="creating-effective-meetings">
+<h1>Creating Effective Meetings<a class="headerlink" href="#creating-effective-meetings" title="Link to this heading">#</a></h1>
+<p>⏱️ 20 minutes - Individual</p>
+<p>The thought of meetings can send some people into existential dread, either through bad prior experiences or having to deal talking with people for an hour (or longer). Unfortunately, meetings have developed a bad reputation because they are often misused by management, administrators and leaders.</p>
+<p><img alt="meetings.jpeg" src="../_images/meetings.jpeg" /></p>
+<hr class="docutils" />
+</section>
+<section id="universal-meeting-structure-and-rules">
+<h1>Universal Meeting Structure and Rules<a class="headerlink" href="#universal-meeting-structure-and-rules" title="Link to this heading">#</a></h1>
+<p>There is a generalised meeting structure that can be applied to any meeting to improve flow and ensure the meeting achieves all its objectives. Additionally, there are a set of specific general ground rules for meetings to guarantee meeting members and facilitator stay focused and on task.</p>
+<section id="universal-meeting-structure-agenda">
+<h2>Universal Meeting Structure (Agenda)<a class="headerlink" href="#universal-meeting-structure-agenda" title="Link to this heading">#</a></h2>
+<ul>
+<li><p><strong>Purpose</strong>: What does you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.</p></li>
+<li><p><strong>Participants</strong>: Who is expected to  be there? Assign a chair (who will run the meeting) and a note-taker.</p></li>
+<li><p><strong>Discussion Points</strong>: What are the topics, issues or problems? Identify who will lead each discussion point.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Research shows that if you write the discussion point item on your agenda as what <strong>outcome</strong> you want from the meeting, it focuses the attendees. So instead of: “Prototype” or even “Discuss prototype features”, write the point as: “Identify which features we will prototype”.</p>
+</div>
+</li>
+<li><p><strong>Times</strong>: Assign a start time each item, and stick to it! If it is clear this needs more time, ‘park’ it until the end of the meeting, and defer to another meeting if you don’t have time at the end.</p></li>
+<li><p><strong>Action Items</strong>: Those things that need to be done after the meeting. These are things that should go on your team please, such as on Trello. So, an action item should say: <strong>who does what by when?</strong></p></li>
+<li><p><strong>Supporting Documentation &amp; Materials</strong>: Anything else you need; e.g. if you want to discuss how you are going to assign software features to be implemented by team members, have the list of features.her multimedia.</p></li>
+</ul>
+<p>Every meeting type will be different, but in general these are the most critical requirements of a meeting. This structure is a suggestion and should be moulded to requirements.</p>
+</section>
+<section id="universal-meeting-rules">
+<h2>Universal Meeting Rules<a class="headerlink" href="#universal-meeting-rules" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Pre-publish an agenda: An agenda gives the meeting facilitator and members an idea of what the meeting will be about and what to plan for if they are presenting. This ensures the smooth flow of the meeting and keeps it focused on required aims and goals. The general structure of an agenda will include:</p>
+<ul>
+<li><p>Meeting start time.</p></li>
+<li><p>A list of items to be discussed.</p></li>
+<li><p>Start times for each specific item.</p></li>
+<li><p>Meeting end time.</p></li>
+</ul>
+</li>
+<li><p>Start on time: This maintains the integrity of the meeting and holds members accountable, and it is very simple to accomplish. When a meeting is set for a certain time, the meeting must start at that time. There are a few additional rules to ensure the meeting starts on time.</p>
+<ul>
+<li><p>Be early: It takes time to settle. If the meeting starts at 1100h, show up 2-3 minutes early so you can settle and prepare yourself.</p></li>
+<li><p>Assign a co-facilitator: Usually the facilitator will kick off the meeting, but there is always a chance they are late, so ensure someone else can take the reigns that being the case.</p></li>
+<li><p>Use a time-keeper: This can either be a smartphone, watch or an assigned member. The time-keeper lets the facilitator know the exact time for the meeting to start.</p></li>
+</ul>
+</li>
+<li><p>Follow the agenda: Don’t deviate from the agenda or allow facilitator / team members to go over their allotted time. Don’t be afraid to cut someone off if they are talking too much. Usually the facilitator will manage this, but if the facilitator does this themselves, the co-facilitator can remind them about time management.</p></li>
+<li><p>Use a parking lot: A parking lot is storage for long-winded or off-topic discussions that are not on the agenda. If a member or facilitator is deviating from the agenda, their deviation can be moved to the parking lot for future review in other meeting or privately with those the topic concerns.</p></li>
+<li><p>Fix responsibilities: When an agenda item is completed, an execution order needs to be delegated to a team member. Depending on the agenda item, a concrete order of execution needs to be assigned. This may look like a list of things that need to be done and who needs to do them. Assign responsibility and lay out exactly what needs to be done to get to the desired outcome.</p></li>
+<li><p>Finish before time: If there are meetings back to back, or a student needs to get to class, or a member has somewhere else to be, give time so they can be at their scheduled appointment. How early to finish depends on the environment. At university, 10 minutes may be the right amount, as a student might need to get to the other side of campus. At a small business office, 5 minutes may be enough. Do not let meetings run over time. Close them out quickly and give members time to prepare for their next scheduled activity or action.</p></li>
+<li><p>Publish notes: Notes are not minutes. Minutes are usually a legal requirement and are done by professional stenographers. Notes a memory aid for members when they need to write up their tasks or plan their execution orders. Notes can be written by a dedicated scribe (note-taker) or by members themselves. In Short, notes are simply:</p>
+<ul>
+<li><p>What was decided?</p></li>
+<li><p>Who said they would do what and by when?</p></li>
+</ul>
+</li>
+<li><p>Continuously Improve: Be adaptable and evolve. Periodically revisit how your meetings work and whether they are working well. Are the agendas accurate and being followed? Are the ground rules appropriate? Are the right people at the meeting? Is the meeting even needed? Don’t be afraid to experiment or mix things up.</p></li>
+<li><p>Use Facilitator/Co-facilitator: A facilitator is not necessarily the manager or leader, they are tasked with running the meeting and could be anyone in the team or organisation. Tasks such as starting, timing, enforcement (cutting people off), notes and follow-ups can be managed by the facilitator (in small teams) or delegated to other members (for big teams / organisations). Often a co-facilitator will be chosen if the facilitator is late, sick or leaves the team / organisation altogether (hand-over). Co-facilitators can also share delegated tasks. Remember, facilitators may be members and also need to contribute to the meeting, if all they are doing is facilitating, their contribution won’t be heard.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+<section id="meeting-agenda-draft">
+<h1>Meeting Agenda Draft<a class="headerlink" href="#meeting-agenda-draft" title="Link to this heading">#</a></h1>
+<aside>
+⏱️ 30 minutes - Team
+</aside>
+<p>Now that you have an understanding of meeting types, a general meeting structure and general meeting rules, it is good practice to develop a draft meeting agenda for your first team meeting.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Take the butchers paper from the previous exercise and flip it around onto the empty side.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Nominate a facilitator for the exercise.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  The facilitator draws two equidistant lines across the paper (now you have 3 sections) and titles each section with ‘Meeting Type’, ‘Meeting Structure’ and ‘Meeting Rules’.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  From the meeting type list above, each member chooses the most appropriate meeting for the first team meeting agenda, but does not tell anyone what they chose. Instead, each member draws their interpretation (without words) onto a sticky note in 6 minutes or less. Drawn interpretations can use symbols, icons, images and sketches, but no letters, words or numbers.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  When complete, place sticky notes into the ‘Meeting Type’ section.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  As a team, vote on which sticky note you would like to set as the meeting type, without the author revealing its actual meaning. Once chosen, the author can reveal the intended meeting type and it will be set as the agenda’s meeting type.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Based on the chosen meeting type, use sticky notes to create a specific agenda structure as a team. This should be managed by the facilitator and can be done as delegations or free form. Decide whether you need a basic meeting structure, or if some meeting points in the general structure are not necessary, or if you need more. The end result is up to you.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once the type and structure have been completed, once again use drawn sticky notes to decide the meeting rules. Try to select them without revealing what the author’s original intent was with the drawing (like in the first stage).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  When complete, be sure to make notes (digital or physical) on the outcome so the agenda draft can be drawn up more formally later.</p></li>
+</ul>
+<p>This exercise is only to get the ball rolling. It doesn’t need to represent the final agenda. Use it as a guide and an activity to experiment.</p>
+</section>
+<section id="discussion">
+<h1>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">#</a></h1>
+<aside>
+⏱️ 5 minutes - Team (table)
+</aside>
+<p>Discuss your draft agenda with your team members and ask your Legends for feedback. Ensure you have developed an effective meeting agenda draft as you will need to use it in the future.</p>
+</section>
+<section id="bonus-its-dangerous-to-go-alone-take-this">
+<h1>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h1>
+<p>⏱️ <strong>∞</strong></p>
+<section id="saving-the-world-from-bad-meetings-david-grady">
+<h2>Saving the world from bad meetings - David Grady<a class="headerlink" href="#saving-the-world-from-bad-meetings-david-grady" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=F6Qo8IDsVNg">https://www.youtube.com/watch?v=F6Qo8IDsVNg</a></p>
+<p>Bad meetings make people miserable. Here are some ideas to stop it.</p>
+</section>
+<section id="core-values-bob-keiller">
+<h2>Core Values - Bob Keiller<a class="headerlink" href="#core-values-bob-keiller" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=ulWkN0k0MVE">https://www.youtube.com/watch?v=ulWkN0k0MVE</a></p>
+<p>Benefits of clear guiding purposes and running businesses on sound principles.</p>
+</section>
+<section id="three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">
+<h2>Three ways to create a work culture that brings out the best in employees - Chris White<a class="headerlink" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=2y8SA6cLUys">https://www.youtube.com/watch?v=2y8SA6cLUys</a></p>
+<p>Chris highlights three points to improve work culture.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workshops"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Effective Meetings</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-and-rules">Universal Meeting Structure and Rules</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-agenda">Universal Meeting Structure (Agenda)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-rules">Universal Meeting Rules</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-agenda-draft">Meeting Agenda Draft</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#saving-the-world-from-bad-meetings-david-grady">Saving the world from bad meetings - David Grady</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#core-values-bob-keiller">Core Values - Bob Keiller</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">Three ways to create a work culture that brings out the best in employees - Chris White</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

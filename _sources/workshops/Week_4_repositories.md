@@ -1,3 +1,4 @@
+(studio:repositories)=
 # Week 5: Repositories and Version Control
 
 ## Studio Abstract
