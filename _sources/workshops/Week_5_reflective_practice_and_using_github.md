@@ -25,7 +25,7 @@ We will address the following activities and exercises:
 
 <p style="text-align:center; font-weight:bold;">The self reflection is a requirement for each of the three major submissions in COMP1100.</p>
 
-The foundational principle of personal growth is learning from mistakes. This self-reflection allows us to witness and evaluate our own cognitive, emotional and behavioural processes to help us grow. Self-reflection depends on a range of functions including introspection and metacognition; and it is important in professional practice as it allows us to continually improve our effectiveness.
+The foundational principle of personal growth is learning from mistakes. This self-reflection allows us to witness and evaluate our own cognitive, emotional and behavioural processes to help us grow. Self-reflection depends on a range of functions including introspection and meta-cognition; and it is important in professional practice as it allows us to continually improve our effectiveness.
 
 **Graham Gibbs** developed a self-reflection framework called ‘Gibbs’ Reflective Cycle’ in 1988 to give structure to learning from experiences. This is one of the most famous cyclical models of reflection and is used pervasively in professional settings. The structure is circular and a closed loop:
 
@@ -65,7 +65,7 @@ This will require you to revisit the 'Helpful questions' from the article above.
 - [ ]  Once you have completed your six questions, within your group, number each post-it note from 1 to X (depending on how many people in your group). Then:
 - [ ]  **Odd number:** If your post-it note is odd, stand up and **move to another table**. Pair up with another person who has an even numbered post-it note, who should be seated. 
 - [ ]  **Even number:** If your post-it note is even, stay seated at your table for another person to approach you and pair up.   After you answer all the questions, swap post-it notes and move on to another table.
-- [ ]  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on **your** post-it note (note: you should be asking the questions your chose, NOT what the person choose for themsevles). 
+- [ ]  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on **your** post-it note (note: you should be asking the questions your chose, NOT what the person choose for themselves). 
 - [ ]  Once they have finished, swap roles.
 - [ ]  When you answer the questions, relate it to a specific reflection from the past few weeks in COMP1100. 
 - [ ]  After about 10 minutes, your legends will stop the discussion, and the person with the odd number will switch tables again to a new table. Repeat.
@@ -113,7 +113,7 @@ The basic structure we expect for your repository is below, where each of these 
      -  learning_cards.md
   - Iteration_2
      -  ...
-- Prototypes   -- when you design protypes in future
+- Prototypes   -- when you design prototypes in future
 - Meetings    -- for any meeting agenda, notes, etc.
 - Code        -- the source code for your final product
 
@@ -200,7 +200,7 @@ In Markdown, we can use hyperlinks to link to other documents. This can be effec
 
 The syntax for a Markdown link is: `[text](link)`.
 
-This can be used to link to an external webpage, such as the `[COMP1100 notes](https://comp1100.github.io/)`, which displays as [COMP1100 notes](https://comp1100.github.io/).
+This can be used to link to an external web-page, such as the `[COMP1100 notes](https://comp1100.github.io/)`, which displays as [COMP1100 notes](https://comp1100.github.io/).
 
 It can also be used to link internally. To do this, you need to:
 1. Label things. For example, if you have a hypothesis, you would make the title `(hypothesis:older-people-dislike-the-green-button)=## Hypothesis 1: Older people dislike the green button`. The stuff between `()` is the name of the link, and the rest is just a normal Markdown heading.
@@ -213,7 +213,7 @@ You can use this to great effect.
 - Link the test cards to the corresponding learning card.
 - Link the learning cards to the set of interviews that you did.
 
-**Goal**: The end result should be Markdown that allows someone to seemlessly read your business model canvas, value proposition canvases, test cards, learning cards, and interviews; linking to various parts when they want.
+**Goal**: The end result should be Markdown that allows someone to seamlessly read your business model canvas, value proposition canvases, test cards, learning cards, and interviews; linking to various parts when they want.
 
 **Deliverable**: Show your legend your beautifully-formatted business model canvas.
 
