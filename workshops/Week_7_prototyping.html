@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Week 2: Team Dynamics &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+    <title>Week 8: Software prototyping &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -57,11 +57,10 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_2_team_dynamics';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_7_prototyping';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Week 3: Cancelled" href="Week_3_cancelled.html" />
-    <link rel="prev" title="Week 1: Growth Mindset and Personal Goals" href="Week_1_growth_mindset.html" />
+    <link rel="prev" title="Week 7: Giving &amp; receiving feedback, and having effective meetings" href="Week_6_feedback_and_team_meetings.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -194,13 +193,13 @@
 
 
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 2: Team Dynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_3_cancelled.html">Week 3: Cancelled</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_3_team_planning.html">Week 4: Small-team Project Management</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 5: Repositories and Version Control</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 6: Reflective practice and using repositories</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_6_feedback_and_team_meetings.html">Week 7: Giving &amp; receiving feedback, and having effective meetings</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 8: Paper prototyping</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 8: Software prototyping</a></li>
 </ul>
 
     </div>
@@ -272,7 +271,7 @@
       
       
       
-      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_2_team_dynamics.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_7_prototyping.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -302,7 +301,7 @@
       
       
       
-      <li><a href="../_sources/workshops/Week_2_team_dynamics.md" target="_blank"
+      <li><a href="../_sources/workshops/Week_7_prototyping.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -384,7 +383,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 2: Team Dynamics</h1>
+    <h1>Week 8: Software prototyping</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -394,16 +393,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-meet-your-team">Exercise 1: Meet your team</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-timeguessr-team-building-exercise">Exercise 2: TimeGuessr Team-building exercise</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-team-problem-solving">Exercise 3: Team problem solving</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-identifying-and-ratifying-team-values">Exercise 4: Identifying and Ratifying Team Values</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dimension-team-value-builder">Dimension Team Value Builder</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ratification-process">Ratification Process</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-application-keep-in-touch">The application: Keep in touch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-paper-prototype">Exercise 1: Paper prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2a-feedback">Exercise 2a: Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2b-feedback">Exercise 2b: Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-digital-prototype">Exercise 3: Digital prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-discussion">Exercise 4: Discussion</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
 </ul>
             </nav>
         </div>
@@ -415,109 +412,88 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-2-team-dynamics">
-<h1>Week 2: Team Dynamics<a class="headerlink" href="#week-2-team-dynamics" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="week-8-software-prototyping">
+<h1>Week 8: Software prototyping<a class="headerlink" href="#week-8-software-prototyping" title="Link to this heading">#</a></h1>
+<section id="studio-abstract">
+<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <hr class="docutils" />
-<section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><p>In this second studio, you will meet you team and together we will all investigate team dynamics including managing teams and concepts for effective teamwork, providing a solid framework to develop your projects throughout the semester.</p>
+<div><p>In this studio, we will experiment with paper prototyping, and look at how to gain feedback from paper prototyping.</p>
 </div></blockquote>
-<p>We will address the following activities and exercises in studio 2.</p>
+<p>We will do the following  exercises:</p>
 <ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Getting to know your team</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Team values and their purpose</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to identify and ratify team values</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Ratifying team values into a team contract</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Design and prototype a simple application</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Gain feedback on the prototype from other teams</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Use a digital prototyping tool</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Compare paper and digital prototyping</p></li>
 </ul>
 </section>
 <hr class="docutils" />
-<section id="exercise-1-meet-your-team">
-<h2>Exercise 1: Meet your team<a class="headerlink" href="#exercise-1-meet-your-team" title="Link to this heading">#</a></h2>
-<p>⏱️ 15 minutes - Class</p>
+<section id="the-application-keep-in-touch">
+<h2>The application: Keep in touch<a class="headerlink" href="#the-application-keep-in-touch" title="Link to this heading">#</a></h2>
+<p>⏱️ 5 minutes - Group discussion</p>
+<p>We will use the product that is the running example discussed in the seminars: the `emergency alarm’ system.</p>
+<p>There are two main aims for the application that you will prototype:</p>
+<ol class="arabic simple">
+<li><p>Older people keeping in touch with the family members.</p></li>
+<li><p>Families of older people knowing their older family member is OK each day.</p></li>
+</ol>
+<p>You can choose the design of the system, but it has to support the following features:</p>
+<ol class="arabic simple">
+<li><p>Family members must be able to take and send photos from a mobile device.</p></li>
+<li><p>Those photos must be shown on a digital `photo frame’ or tablet in the older person’s house.</p></li>
+<li><p>The older person must touch the photo frame to see new photos that arrive.</p></li>
+<li><p>If there is no photo by 11am on any day, show a previous photo that the older person has `liked’.</p></li>
+<li><p>When the older person interacts with the photo frame for the first time each day, a notification is sent to the family members letting them know.</p></li>
+</ol>
+</section>
+<section id="exercise-1-paper-prototype">
+<h2>Exercise 1: Paper prototype<a class="headerlink" href="#exercise-1-paper-prototype" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes - Teams</p>
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Your legends will announce which team each student is in. Once you meet your team, sit together at a table.</p>
+<p>Design an application that implements the above features and construct a paper prototype for it using the resources provided.</p>
+<p>Note that you need to define BOTH sides of the application: sending photos, receiving photos, and receiving notifications.</p>
 </section>
-<section id="exercise-2-timeguessr-team-building-exercise">
-<h2>Exercise 2: TimeGuessr Team-building exercise<a class="headerlink" href="#exercise-2-timeguessr-team-building-exercise" title="Link to this heading">#</a></h2>
-<p>⏱️20 minutes - Group</p>
-<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
-<p><a class="reference external" href="https://timeguessr.com/">TimeGuessr</a> is a game where (built on the popular <a class="reference external" href="https://www.geoguessr.com/">GeoGuessr</a> game) where you need to specify in what year and which location are particular photo has been taken.</p>
-<p>We’ll play this in today’s studio</p>
-<p><strong>In your team</strong>, choose one person to keep their laptop open for the task. Then, do the following steps:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Go to the <a class="reference external" href="https://timeguessr.com/roundonedaily">TimeGuessr daily challenge</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Solve the five tasks, but after each one, wait on the results page for the other teams to catch up. Your legend will guide you.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Record your final score after the fifth task.</p></li>
-</ul>
-</section>
-<section id="exercise-3-team-problem-solving">
-<h2>Exercise 3: Team problem solving<a class="headerlink" href="#exercise-3-team-problem-solving" title="Link to this heading">#</a></h2>
-<p>⏱️20 minutes - Group</p>
-<p style="text-align:center; font-weight:bold;"> Devices can be used for this exercise </p> 
-<p>For the next task, your legend will guide you through a team problem solving exercise, which has been provided by employability team in the Faculty of Engineering, IT, and Architecture.</p>
-<p>Work through the <a class="reference external" href="https://learn.uq.edu.au/bbcswebdav/courses/COMP1100_7520_22597/Workshop_content/Worksheet%20-%20Teamwork%20Workshop.docx">problems on this worksheet</a> (requires UQ login).</p>
-<p>Reflect on the questions in the activity.</p>
-</section>
-<hr class="docutils" />
-<section id="take-a-break">
-<h2>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes</p>
-</section>
-<section id="exercise-4-identifying-and-ratifying-team-values">
-<h2>Exercise 4: Identifying and Ratifying Team Values<a class="headerlink" href="#exercise-4-identifying-and-ratifying-team-values" title="Link to this heading">#</a></h2>
+<section id="exercise-2a-feedback">
+<h2>Exercise 2a: Feedback<a class="headerlink" href="#exercise-2a-feedback" title="Link to this heading">#</a></h2>
 <p>⏱️ 10 minutes - Class</p>
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<blockquote>
-<div><p>Your beliefs become your thoughts. Your thoughts become your words. Your words become your actions. Your actions become your habits. Your habits become your values. Your values become your destiny. - Mahatma Gandhi (1869 - 1948)</p>
-</div></blockquote>
-<p><img alt="figs/ghandi.webp" src="../_images/ghandi.webp" /></p>
-<p>Values underpin how we work and interact with others.</p>
-<p>Mahatma Gandhi, the Indian lawyer, anti-colonial nationalist and political ethicist, was able to use his understanding of law, culture and the human psyche lead to develop a deep mastery of shared values and leverage that knowledge to connect a nation together.</p>
-<p>Simon Sinek is an American leadership and teams expert. In the studio, we will watch the following two short videos where Simon gives some high-level observations:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTo9e3ILmms?si=mlcayCd3XZCpQVju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zP9jpxitfb4?si=iVIAb-fg0KMqJDKL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>Sinek identifies two critical team values: belief (trust) and support (encourage). He also makes an important observation about making values verbs so they can become <strong>actionable</strong>. Specifically, we should focus on observable behaviour as much as possible. That way, we can easily tell whether we are adhering to our team’s values.</p>
-<p>A value such as ‘be thoughtful’ is not helpful, because it is difficult to tell whether someone is being thoughtful (except by referring to specific observable behaviour that demonstrates it). Instead, stating, “show up on time”, “email the team if we will miss a meeting” are  easy to observe, and therefore, we can say whether we are adhering to the values”.</p>
-<p>Tips: Avoid using nouns for your team values, instead think about actionable verbs.</p>
-<hr class="docutils" />
-<section id="dimension-team-value-builder">
-<h3>Dimension Team Value Builder<a class="headerlink" href="#dimension-team-value-builder" title="Link to this heading">#</a></h3>
-<p>⏱️ 20 minutes - Group</p>
+<p>Now that each team has a prototype, two members of the team will take this to one other team, ask <strong>each person</strong> in that other team  to use it to complete the tasks of sending photos, receiving photos, and sending notifications.</p>
+<p>Watch how the other team uses your paper prototype and see if there are design choices that would improve it.</p>
+<p>Also, pay attention to how different teams have made different design choices for the same features.</p>
+</section>
+<section id="exercise-2b-feedback">
+<h2>Exercise 2b: Feedback<a class="headerlink" href="#exercise-2b-feedback" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes - Class</p>
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>There are two problems you will solve with this exercise:</p>
-<ol class="arabic simple">
-<li><p>Identifying effective values for your team</p></li>
-<li><p>Ratifying those values into a written contract (signing or giving formal consent to a contract or agreement)</p></li>
-</ol>
-<p>Follow these steps to complete the exercise:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Select one group member either through volunteering or vote.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  This group member will draw an 6x6 grid on paper or a whiteboard (ensure there is some space on the margins to write)</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  As a group, start brainstorming team values and writing them on the margins.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once every member has thought of 6-10 values (as verbs), each member gets to choose any value written in the margin and write them in a single square in the grid (can be any square). Go around the group round-robin, allowing each member to place a value in the grid until the entire grid is filled.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Now, each team member should ‘vote’ on the values. You get exactly four votes: draw a tick on the two values that are most important to you, and a cross on the two that you find least important (even if you agree with them). The rest, leave blank.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once every team member has voted, analyse the grid and decide on six core values. (Ticks are worth 1 point, cross worth -1 point; values are ranked by number of points)</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Circle core values and rank them by number (1 for highest to 6 for lowest)</p></li>
-</ul>
-<p>Once your group has completed the task, move onto the next task.</p>
+<p>Now, switch roles. Those who moved tables should return to their previous table, and the remaining members take the prototype to gain feedback for another team.</p>
 </section>
-<section id="ratification-process">
-<h3>Ratification Process<a class="headerlink" href="#ratification-process" title="Link to this heading">#</a></h3>
-<p>⏱️ 15 minutes - Group</p>
+<section id="exercise-3-digital-prototype">
+<h2>Exercise 3: Digital prototype<a class="headerlink" href="#exercise-3-digital-prototype" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes - Teams</p>
 <p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
-<p>With team values having been identified, chosen and ranked, discuss and write up a short 1 page sample of a team contract:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> The  contract should outline the standards that are expected to be met by all team members.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Use the core values to serve as a foundation for your contract.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> You are free to come up with rules of conduct, conflict resolution, communication and other team obligations, but these are just examples.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> If you are having trouble coming up with a team contract, do some research on team contract templates and adapt them to your needs.</p></li>
-</ul>
-<p>Team contracts serve as insurance for team conflict resolution and issues. They may never be used in a cohesive and well integrated team, but are invaluable when issues arise.</p>
-<p>If you are struggling, you can use the core values to serve as a foundation for the document. Remember, focus on verbs / behaviours.</p>
-<p><strong>Outcome:</strong> Share this contract with your legend before you leave the studio.</p>
-<hr class="docutils" />
+<p>The digital prototyping tool <a class="reference external" href="https://www.figma.com">Figma</a> is an excellent tool for digital prototyping. It produces clean and beautiful interfaces.</p>
+<p>Split your team into two sub-teams. Then:</p>
+<ol class="arabic simple">
+<li><p>One sub-team should create a digital prototype for the photo frame part of the application used by older people.</p></li>
+<li><p>The other sub-team should create a digital prototype for the part of the application that sends the photos and received notifications.</p></li>
+</ol>
 </section>
+<section id="exercise-4-discussion">
+<h2>Exercise 4: Discussion<a class="headerlink" href="#exercise-4-discussion" title="Link to this heading">#</a></h2>
+<p>⏱️ 5-10 minutes - Class</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>The legends will lead a discussion about your experience. Think about these questions:</p>
+<ol class="arabic simple">
+<li><p>Which type of prototyping did you prefer? Paper or digital?</p></li>
+<li><p>What are the advantages and disadvantages of each?</p></li>
+<li><p>When would you use one instead of the other?</p></li>
+<li><p>Which was more fun?</p></li>
+</ol>
+</section>
+<section id="exit-ticket">
+<h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
+<p>You exit ticket is to have your legend use your paper and digital prototypes.</p>
 </section>
 </section>
 
@@ -552,22 +528,13 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="Week_1_growth_mindset.html"
+       href="Week_6_feedback_and_team_meetings.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Week 1: Growth Mindset and Personal Goals</p>
+        <p class="prev-next-title">Week 7: Giving &amp; receiving feedback, and having effective meetings</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="Week_3_cancelled.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Week 3: Cancelled</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -584,16 +551,14 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-meet-your-team">Exercise 1: Meet your team</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-timeguessr-team-building-exercise">Exercise 2: TimeGuessr Team-building exercise</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-team-problem-solving">Exercise 3: Team problem solving</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-identifying-and-ratifying-team-values">Exercise 4: Identifying and Ratifying Team Values</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dimension-team-value-builder">Dimension Team Value Builder</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ratification-process">Ratification Process</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-application-keep-in-touch">The application: Keep in touch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-paper-prototype">Exercise 1: Paper prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2a-feedback">Exercise 2a: Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2b-feedback">Exercise 2b: Feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-digital-prototype">Exercise 3: Digital prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-discussion">Exercise 4: Discussion</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
 </ul>
   </nav></div>
 
