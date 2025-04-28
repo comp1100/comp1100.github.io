@@ -40,14 +40,14 @@ Image source: [Anna Delendik](https://agentestudio.com/blog/how-to-wireframe-an-
 ```
 
 
-You need to think of the following:
+Think of the following:
 1. What are the features that will implement our value proposition?
 2. How do they fit together in an application?
 3. What is the flow between different features?
 4. Are these really the *minimum* set of features required for an MVP?
 
 ```{note}
-It is a *minimal* viable product -- you do not need to define every idea that you have nor sketch out future functionality.
+It is a *minimal* viable product -- you do NOT need to define every idea that you have nor sketch out functionality that you plan to add in the future.
 ```
 
 Show your legend your sketch before the break.
@@ -75,7 +75,7 @@ As a team, write down three specific tasks a user should be able to complete usi
 Two members of the team will take the paper prototype to one other team, ask **each person** in that other team  to use it to complete the three tasks identified above.
 
 ```{tip}
-Give the tester a task one at a time.
+Give the tester one task at a time.
 
 Don't help them — just observe.
 
