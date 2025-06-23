@@ -10,6 +10,7 @@ These ideas can be:
 * **Technical:** testing technical ideas about solutions, such as feasibility
 
 
+(sec:prototyping:types-of-prototype)=
 ## Types of prototype
 
 | Type of prototype       | Purpose    |  Characteristics  | When to use |
@@ -116,7 +117,7 @@ As part of prototyping, we can use anything that we want to conjure up experienc
 
 For example, instead of building a complete mobile app to send photos, a server to process photos, and a photo frame to display and interact with photos, we can simply implement some interfaces, and move the photos onto a tablet manually when our users are testing it.
 
-### Practical types for conceptual prototypes
+### Practical tips for conceptual prototypes
 
 Here are some practical types for conceptual prototypes:
 

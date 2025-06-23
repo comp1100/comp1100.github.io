@@ -84,20 +84,20 @@ Each team will have a **legend**. A legend is a staff member that is assigned to
 (sec:overview:grading)=
 ### Grading
 
-COMP1100 uses **competency-based assessment**, which means that it is **pass/fail course**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
+COMP1100 uses **competency-based assessment**, and is a straightforward **pass/fail course**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
 
 The grade is excluded from calculation of your GPA, **unless** you receive a failing grade, in which case it is counted as a 2 for your GPA.
 
-**Why pass/fail?** COMP1100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on marking rubrics and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
+**Why pass/fail?** COMP1100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on grading rubrics/criteria and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
 
-A pass/fail grading scheme avoids the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required from the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
+A pass/fail grading scheme mitigates the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required from the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
 
 **So this means there is no assessment, right? No deadlines?!** No, sorry. Like any real project, we have deliverables and those deliverables have deadlines. Intermediate deadlines are important in projects to both ensure that the project is on track, and also to help motivate us (deadlines are known to be excellent at focusing people's attention).
 
-**So I can just do well for the first 6-7 weeks and then stopping trying to get to 50%?** Nope, sorry. There are no grades throughout. To pass, you need to work consistently on your project, and with high quality.
+**So I can just do well for the first 6-7 weeks and then stopping trying to get to 50%?** Nope, sorry. There are no grades throughout. To pass, you need to work consistently on your project, and with high quality. You also need to demonstrate on ALL competency criteria.
 
 
-**How do I know if I'm doing enough to pass?** If you need to ask that question, you are probably not doing enough. By this, I mean, if you are trying to game the system by putting in just the minimum amount of work, then yes, you risk failing. A pass is not doing 50% of the project -- it is doing all of the project. You can ensure that you pass by doing what is expected of you and trying your best.
+**How do I know if I'm doing enough to pass?** If you need to ask that question, you are probably not doing enough. By this, I mean, if you are trying to game the system by putting in just the minimum amount of work, then yes, you risk failing. A pass is not doing 50% of the project -- it is doing all of the project and doing it well. You can ensure that you pass by doing what is expected of you and trying your best.
 
 Despite no grades, there will still be **regular feedback** on both teams and individuals as to how they are doing. Any individual who fails this course will not be surprised that they fail as they will have had multiple items of feedback letting them know that they are on track to fail.
 
@@ -112,27 +112,35 @@ We have to groups of competency  criteria that we expect each student to demonst
 
 **Innovation**: The innovation criteria specify that each individual demonstrates *via their behaviour* that they understand and can apply the Lean Startup process to an open-ended problem:
 
-1. *Problem and solution identification*: Formulate and clearly articulate hypotheses about customers, markets, and products of open-ended problems
-1. *Customer discovery*: Interview and/or observe customers and users to gain data about hypotheses.
-1. *Value proposition*: Develop a compelling value proposition that identifies customer needs and a solution that meets these.
-1. *Minimum viable product (MVP)*: Design an MVP for the high priority features to test the value proposition.
-1. *Experiment design*: Design and execute experiments about hypothesis.
-1. *Data collection*: Collect and analyse data to find actionable insights about hypotheses.
-1. *Refine or pivot*: Make informed decisions about whether to refine and/or pivot based on data.
-1. *Prototype*: Prototype product ideas for the purpose of feedback.
-1. *Communication*: Communicate product ideas to an audience.
-1. *Software implementation*: Give it your best shot at a digital implementation of an MVP. As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
+| **Competency**                     | **Description** |
+|-----------------------------------|-----------------|
+| Problem and solution identification | Demonstrate the ability to frame open-ended problems by articulating well-reasoned, testable hypotheses about customers, markets, and products. |
+| Customer discovery                 | Critically design and conduct customer/user research (using techniques including interviews) that yields meaningful insights. |
+| Value proposition                  | Construct and justify a unique value proposition that clearly aligns customer needs with a feasible and innovative solution. |
+| Minimum viable product (MVP)      | Design an MVP that prioritises features for testing the core assumptions of the value proposition, and explain the rationale behind those choices. |
+| Experiment design                  | Design and justify experiments that effectively test key hypotheses, demonstrating an understanding of experimental design principles. |
+| Refine or pivot                    | Use evidence from data to make and justify decisions about refining or pivoting the product or strategy. |
+| Prototype                          | Create prototypes that are purposefully designed to elicit specific feedback, and reflect on how the feedback informs next steps. |
+| Communication                      | Communicate product ideas clearly and persuasively to a target audience, using appropriate formats and storytelling techniques. |
+| Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills, with reflection on challenges faced and lessons learned. |
+
+**Note**: As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
+
+**But!** *Every team member* must contribute to the implementation/coding of their project, irrelevant of their experience.
 
 Importantly, the innovation competency criteria above are not tied to the quality of a final product. This is a *time-bounded* project (15 weeks), and if teams continue to work and test their ideas, but by the end of the project they have not found a good solution that fits a market, this is OK. Innovation sometimes takes time -- longer than we have in course. What matters is that you successfully *apply* innovation methods to *fail early and learn*. The key word in criterion 3 above is "compelling": your ideas must be consistent with what you know so far and the ideas you generate must be serious and compelling.
 
 **Teamwork:** The teamwork criteria specify that each individual demonstrates *via their behaviour* that they can work as an independent person as part of a larger team:
 
-1. *Collaboration*: Actively collaborate with members of your team, including contributing to group discussions, decision making, and project groundwork.
-1. *Planning*: Successfully plan for yourself and for/with your team.
-1. *Tools*: Use appropriate tools to work effectively in a team.
-1. *Self reflection*: Reflect on your own performance as part of a team.
-1. *Responsibility*: Take responsibility for assigned tasks and hold yourself accountable to meeting deadlines and delivering.
-1. *Professionalism and ethics*: Behave professionally, respectfully, inclusively, and ethically towards team members, customers, users, and others involved in the project.
+| **Competency**               | **Description** |
+|-----------------------------|-----------------|
+| Collaboration               | Actively collaborate with members of your team by contributing ideas, supporting others, and participating in shared decision-making processes. |
+| Planning                    | Demonstrate the ability to plan effectively for both individual and team tasks, including setting goals, anticipating challenges, and adapting plans as needed. |
+| Tools                       | Select and use appropriate collaboration tools to enhance team communication, coordination, and productivity, with reflection on their effectiveness. |
+| Self-reflection             | Reflect critically on your role and performance within the team, identifying strengths, areas for growth, and strategies for improvement. |
+| Responsibility              | Take ownership of assigned tasks, meet deadlines reliably, and demonstrate accountability to the team through consistent follow-through. |
+| Professionalism and ethics  | Act with professionalism, respect, inclusivity, and integrity in all team, staff and customer interactions, and reflect on how your behavior contributed to a positive team culture. |
+
 
 
 
@@ -141,9 +149,9 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
 
 1. **Weekly:** Attend and *participate in* the weekly studios.
-2. **16:00, Thursday 03/04/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
-3. **16:00, Thursday 01/05/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Thursday 12/06/2025 -- Minimum viable product:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
+2. **16:00, Thursday 04/09/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
+3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
+4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
 
 Deliverables 2-4 will be submitted via Github and Blackbaord. Details on submissions will be discussed in the seminars and studios.
 
@@ -153,6 +161,7 @@ In addition, for deliverables 2-4, each individual will submit a short self-refl
 
 The late penalty for assessment is 100% -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
 
+(sec:intro:generative-AI-policy)=
 ## Generative AI policy
 
 Students are permitted to use generative AI or any machine translation technology as part of this course. This use must be clearly referenced.
@@ -161,9 +170,7 @@ Generative AI cannot be used to:
 
 1. Fabricate data as part of the innovation process.
 
-2. Write a self-reflection piece (although can be used to provide feedback on your writing).
-
-3. Deceive a person that they are communicating with a real person when they are not.
+2. Deceive a person that they are communicating with a real person when they are not.
 
 It can be used to:
 
@@ -174,6 +181,8 @@ It can be used to:
 3. Help to generate source code.
 
 4. Provide direction on how to solve problems.
+
+5. Guide you in writing a self reflection.
 
 
 ### Communication
@@ -189,7 +198,7 @@ If you email course staff with a general question, we will ask you to post to th
 
 If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au). 
 
-**Communication with your team.** We will set up a class Slack workspace and create private channels for each team and their legend. This can be used for day-to-day team communication, including with the team legend.
+**Communication with your team.** We will set up a class MS Teams workspace and create private channels for each team and their legend. This can be used for day-to-day team communication, including with the team legend.
 
 ## Expectations
 
@@ -244,50 +253,14 @@ Each week, the course will be broken into four components:
 |      | 21-Apr |             | Mid-semester break                                |                                                       |                                        | Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc., Starting implementing MVP |
 | 9    | 28-Apr | 1-May       | Prompt engineering                                | MVP definition                  | Business model canvas iteration 2    | Continuing implementing MVP                                                  |
 | 10   | 05-May | 8-May       | Scoping                                          | Labour day holiday: no workshops on any day                   |                                        | Continuing implementing MVP                                                  |
-| 11   | 12-May | 15-May      | History of computing                             | Cross-team MVP prototype validation                            |                                        | Continuing implementing MVP |
-| 12   | 19-May | 22-May      | No lecture                                       |  How to give a pitch                                                     |                                        | Continuing implementing MVP, First draft of 1-minute pitch and 5-minute presentation | 
+| 11   | 12-May | 15-May      | No lecture                                      | How to give a pitch                             |                                        | Continuing implementing MVP |
+| 12   | 19-May | 22-May      | History of computing, final submission requiremetns |  Teams work on MVP implementation          |                                        | Continuing implementing MVP, First draft of 1-minute pitch and 5-minute presentation | 
 | 13   | 25-May | 29-May      | No lecture                                       | Team presentations                                       |                                        | Continuing implementing MVP, Finalise 1-minute pitch and 5-minute presentation                                                 |
 | Exams week 1  | 9-Jun       |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
 ## Projects
 
-This semester, we present five challenges for teams to focus their projects on.
-
-### War on waste
-
-Food waste is estimated to cost the Australian economy around $20 billion each year. Australian consumers throw away around 3.1 million tonnes of edible food a year. Another 2.2 million tonnes are disposed by the commercial and industrial sector. We discard millions of tonnes of plastic, and our "fast fashion" habit means we throw out tonnes of perfectly wearable clothes instead.
-
-In recent decades, the combined effects of consumer demand, supermarket policies and cynicism about the effectiveness of waste and recycling campaigns has seen a surge in the volume of waste we produce as a nation. We can, as a nation, do better.
-
-**Challenge:** The challenge is to innovate a software-based solution to assist consumers, manufactures, retailers, or government, reduce the amount of waste we generate or increase reuse and recycling.
-
-If you would like some inspiration for this,  Craig Reucassel's [War on Waste series on ABC iview](https://iview.abc.net.au/show/war-on-waste) is brilliant.
-
-###	Digital Learning Tools
-
-With the rise of online and hybrid learning, what new digital tools or platforms can we develop to enhance the learning experience for students and teaching staff?  How can we ensure the both students and staff cognitively engage with  tools such as generative AI to continue building their skills, rather than over-relying on them and not developing new skills?
-
-**Challenge:** The challenge is to innovate a software-based solution to help teaching staff and/or students to enhance learning.
-
-
-###	Food Insecurity
-
-Some students struggle with access to affordable, nutritious food. Many others are also feeling the bite of the high cost of good food. 
-
-**Challenge:** The challenge is to innovate a software-based solution that can help to address food insecurity on campus, perhaps through innovative food distribution systems or partnerships with local businesses.
-
-### Reimagining Social Media
-
-Many current social media platforms have negative mental health impacts. Further, almost all of them are designed simply to get us to "engage" with the platforms so that they can show us more ads. What would a better social media platform look like? How can we design a platform that fosters genuine connections, and promotes well-being? Can we really run a social media platform that does not resorting to tricks that make us click on ads?
-
-**Challenge:** The challenge is to innovate some form of software-based social media platform that fosters genuine connections between people and makes it easy to emotionally and cognitive disconnect from the platform if users want to.
-
-###	Combating Social Isolation
-
-Many students experience feelings of loneliness and social isolation. How can we create innovative solutions to foster a sense of community and connection on campus? This could involve developing new social platforms, organising events, or creating support networks that encourage meaningful interactions and where everyone can feel included.
-
-**Challenge:** The challenge is to innovate a software-based solution to help connect students on campus and foster a sense of community and cohort.
-
+This semester, we present the following challenges for teams to focus their projects on.
 
 
 ## Takeaways

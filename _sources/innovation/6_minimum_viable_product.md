@@ -112,10 +112,26 @@ However, it took just a couple of weeks to implement and ran on stanard tablets 
 
 **Show and Tell:** Explainer Video. Again, the Dropbox example above is an example MVP -- so simple, yet so effective.
 
-**Prototypes:** Paper prototypes, Wizard-of-Oz prototypes, and wire frames can make excellent MVPs for software products. Tools like [Axure](https://www.axure.com/) can be used to build simple mockup MVPs that realistic prototypes with some basic functionality.
+**Partial Product:** Perhaps the best MVP are working products, perhaps with just some (not all) of the features of a product -- the most important ones (minimum viable!) --, such as landing page-single feature websites. In the software world, these can be cheap and easy to build for many MVPs, and we can then release an MVP to early adopters to test the market.
 
-**Partial Product:** Implementing just some features of a product -- the most important ones --, such as landing page-single feature websites.
+(sec:mvp:mvp-vs-prototyping)=
+## MVP vs prototyping
 
+In terms of partial products, a minimum viable product is a **product**, not a prototype. That is, it must be something that we can sell/give to early adopters that they can use to solve their problems. A [prototype](sec:prototyping) designed using wireframes or even paper prototypes are not products.
+
+While [software prototypes are useful](sec:prototyping:types-of-prototype) for gaining feedback about the features, look and feel, etc., of an MVP, ultimately they are not products. For example, we can use tools such as [Figma](https://www.figma.com/) can be used to wireframes, which can be used to gain concrete feedback, they are not products that are customer can use to solve their problem. Consider the emergency alarm system, discussed above and [in the earlier chapter](sec:introduction:medical_alert). A wireframe prototype can be shown to potential customers to gain feedback about the design, features, etc. However, they cannot download this and use it to stay in contact with their families, so it is not a product. Ultimately, using a prototype, we cannot gain feedback about important parts of our value proposition, such as whether it gives older people the independence/autonomy that they crave; or whether their family members get a sense of whether the older person is safe; or whether either will pay for it!
+
+Below, we compare prototypes and partial-product MVPs, across five dimensions:
+
+| Prototype | Product |
+|-----------|---------|
+| Aims to test and refine test design ideas | Aims to test market fit |
+| Visualises core product ideas | Implementants core product features |
+| Often not actually functional | Must be functional (even if minimal) |
+| Super fast to build and test | Requires working code, deployment, etc. so slower to build |
+| Ideas tested in a ‘controlled’ environment | Released to the market    |
+
+The final point is perhaps the one that makes it easy to tell whether something is a partial-product MVP: if we are testing our ideas in a 'controlled' environment; that is, showing a customer features and gaining feedback, then it is a prototype. On the other hand, if a customer is installing an application or accessing a web application and using it to help solve their pains, it is a product.
 
 ## Takeaways
 
@@ -125,4 +141,6 @@ However, it took just a couple of weeks to implement and ran on stanard tablets 
 2. We should keep them **simple**, **iterate**, and if possible, **return to customers** to test refinements. 
 
 3. Different MVPs have different purposes, based on the hypotheses we test with them.
+
+4. Prototypes are typically not MVPs.
 ```         
