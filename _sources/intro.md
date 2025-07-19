@@ -153,7 +153,7 @@ The "assessment" in this course is done throughout the semester. However, to be 
 3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
 4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
 
-Deliverables 2-4 will be submitted via Github and Blackbaord. Details on submissions will be discussed in the seminars and studios.
+Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios.
 
 In addition, for deliverables 2-4, each individual will submit a short self-reflection.
 
@@ -254,13 +254,82 @@ Each week, the course will be broken into four components:
 | 9    | 28-Apr | 1-May       | Prompt engineering                                | MVP definition                  | Business model canvas iteration 2    | Continuing implementing MVP                                                  |
 | 10   | 05-May | 8-May       | Scoping                                          | Labour day holiday: no workshops on any day                   |                                        | Continuing implementing MVP                                                  |
 | 11   | 12-May | 15-May      | No lecture                                      | How to give a pitch                             |                                        | Continuing implementing MVP |
-| 12   | 19-May | 22-May      | History of computing, final submission requiremetns |  Teams work on MVP implementation          |                                        | Continuing implementing MVP, First draft of 1-minute pitch and 5-minute presentation | 
+| 12   | 19-May | 22-May      | History of computing, final submission requirements |  Teams work on MVP implementation          |                                        | Continuing implementing MVP, First draft of 1-minute pitch and 5-minute presentation | 
 | 13   | 25-May | 29-May      | No lecture                                       | Team presentations                                       |                                        | Continuing implementing MVP, Finalise 1-minute pitch and 5-minute presentation                                                 |
 | Exams week 1  | 9-Jun       |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
-## Projects
+## Project challenges
 
-This semester, we present the following challenges for teams to focus their projects on.
+All projects this semester will focus on improving the student experience at the University of Queensland, and potentially other universities too.
+
+We invite teams to improve the experience of our students by focusing on problems that students have while at UQ (and before!).
+
+Here are the challenges that we propose, although you are free to discuss with your legend whether another challenge on students experience is possible:
+
+### Finding the right degree program
+
+Before students start at university, they need to choose which degree program to apply for. This can be difficult as static web pages often need to simplify, and therefore omit detail --- and that assumes people can find the right page first. How do we know which page to look at if we aren't sure what we want to study?
+
+**Challenge:** The challenge is to innovate a software-based solution to assist prospective students to find which courses they may want to study.
+
+### Applying for a degree program
+
+Once prospective students have selected a degree program, they need to apply. This can be a long and stressful process, requiring different documentation depending on which program, where you studied previously, whether you are domestic or international, etc.
+
+**Challenge:** The challenge is to innovate a software-based solution to guide applicants through the process of applying for their courses of choice.
+
+### Accepting an offer and enrolling
+
+If a student is lucky enough to receive an offer, they need to navigate the acceptance and enrolment processes, which can be as difficult as applying!
+
+**Challenge:** The challenge is to innovate a software-based solution to help students to accept their offers and later enrol into their program.
+
+### Selecting courses
+
+Once enrolled in a program, students receive a course plan. However, still many choices remain: can I switch do core courses in a different order to the plan? Which electives should I take? Which major and courses should I take for specific career paths?
+
+**Challenge:** The challenge is to innovate a software-based solution to help students to navigate selection of majors, courses, etc., throughout various stages of their degree program.
+
+### Orientation
+
+Students new to universities often have an overwhelming amount of questions and possibilities. How can they navigate around campus? What facilities are available? What is university life even like?
+
+**Challenge:** The challenge is to innovate a software-based solution to introduce students to university, its resources, facilities, and opportunities.
+
+### Finding a peer network
+
+Many students feel isolated and disconnected during parts of their study, especially when they are new. Finding a network of friends and peers can be difficult, and once such a network is found, student experience often improves.
+
+**Challenge:** The challenge is to innovate a software-based solution to foster a sense of community and connection on campus.
+
+### Student well-being
+
+What well-being programs are available for students? What about student supports? How can they access them? What if they have food security, or mental health issues? Do they need know where to look?
+
+**Challenge:** The challenge is to innovate a software-based solution to help students find and access well-being services. The application is NOT a platform to provide all support itself, but could play a role by connecting students with support and making follow-up easier, especially outside of standard hours.
+
+### Extra curricular activities
+
+What extra curricular activities are available at UQ? Have many could you name? How many do you think there are? How can students learn more?
+
+**Challenge:** The challenge is to innovate a software-based solution to help students explore and find extra curricular activities, both social and educational.
+
+### Employment opportunities
+
+Employment opportunities, both during study and after graduation, can be tricky to navigate. Finding opportunities, preparing students to be prepared to take opportunities, and make decisions if they receive multiple offers
+
+**Challenge:** The challenge is to innovate a software-based solution to find and prepare for employment opportunities, both part-time during study and for graduate positions.
+
+### Other challenges?
+
+If you have other challenges related to student experience that you would like to tackle, talk to your legend or the course coordinators about whether it is suitable.
+
+### Stuff that is out of scope
+
+**We will probably not accept projects focused on learning technologies**. Why? This is an incredibly rich yet difficult field, where people with decades of experience struggle to have meaningful impact. It is not suitable for a semester-long innovation project. The exception will be if you can find an expert (or group) who are willing to support your project. Talk to the course coordinators if you find such an expert and want to consider this.
+
+
+
 
 
 ## Takeaways
