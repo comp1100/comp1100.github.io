@@ -1,10 +1,8 @@
 # Week 1: Growth Mindset and Personal Goals
 
----
 
-### Overview
+## Overview
 
----
 
 > In this first studio, you will meet your legends, learn about the idea of a Growth Mindset, and prepare you to start selecting team members with whom you will work with throughout the rest of the course.
 > 
@@ -14,11 +12,9 @@ We will address the following activities and exercises in studio 1.
 - [ ]  Introduce the your legends
 - [ ]  Understand how the studios will be run
 - [ ]  Understand the growth mindset
-- [ ]  Start thinking about forming your team
 
----
 
-# Meet the Teaching Team
+## Meet the Teaching Team
 
 ⏱️ 10 minutes - Class
 
@@ -43,9 +39,8 @@ Many activities will not require any devices, and we will actively encourage you
 
 As such, we request that you bring alone a paper notebook and a pen to write on.
 
----
 
-# How these studios will run
+## How these studios will run
 
 ⏱️ 10 minutes - Class
 
@@ -55,11 +50,10 @@ During these studios, Legends will introduce outline learning material and highl
 
 These studios will run for multiple hours. Legends will provide short 5-10 minute breaks every hour, but feel free to take short breaks if you need them.
 
-Each studio will run for up to 2 hours and will include exercises, activities and content to reinforce what was learned in the seminar. After the studio, there is an additional hour in the studio space set aside for teams to plan and work. During this time Legends will be available for consultation, but won't be running any formal activities.
+Each studio will run for up to 3 hours and will include exercises, activities, content to reinforce what was learned in the seminar, and time to work on your project.
 
----
 
-# Exercise 1: Familiarising Yourself with ... Yourself and Your Group
+## Exercise 1: Familiarising Yourself with ... Yourself and Your Group
 
 
 ⏱️ 5 minutes - Individual
@@ -81,7 +75,7 @@ Write down answers for the following:
 
 Think about how the answers to these questions will impact your participation in this course.
 
-## Nothing in Excess
+### Nothing in Excess
 
 
 ⏱️ 5 minutes - Individual
@@ -108,7 +102,7 @@ Decide how you plan on approaching the course based on your thoughts from the pr
 
 Be aware that your learning approach or level may develop during the course of the semester. Re-evaluate yourself based on your progress during the semester and don’t be afraid to push your own boundaries.
 
-## Give a Pledge when Trouble is at Hand
+### Give a Pledge when Trouble is at Hand
 
 ⏱️ 5 minutes - Group
 
@@ -126,19 +120,17 @@ Take a moment to introduce yourself by taking 1 minute to share:
 
 You only have 1 minute to introduce yourself. Additionally, ensure everyone gets a chance to speak and be mindful of taking up too much time.
 
----
 
-# Take a break
+## Take a break
 
-⏱️ 5 minutes
-
-
----
-
-# Exercise 2: Understanding the Growth Mindset
+⏱️  10 minutes
 
 
-## Background
+
+## Exercise 2: Understanding the Growth Mindset
+
+
+### Background
 
 ⏱️ 20 minutes - Individual
 
@@ -155,9 +147,9 @@ As a lass, watch the following video in which Carol Dweck talks about her work. 
 
 [https://www.youtube.com/watch?v=_X0mgOOSpLU](https://www.youtube.com/watch?v=_X0mgOOSpLU)
 
-## Mindset Diagnostic Test
+### Mindset Diagnostic Test
 
-⏱️ 5 minutes - Individual
+⏱⏱️ 5-10 minutes - Individual
 
 <p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
 
@@ -169,7 +161,7 @@ Now that you have developed an understanding of the growth mindset, we will use 
 
 </aside>
 
-## Awareness Circle
+### Awareness Circle
 
 ⏱️ 20 minutes  - Group (combine two tables)
 
@@ -243,7 +235,7 @@ For reference, these are the questions for this exercise.
 
 </aside>
 
-## Discussion
+### Discussion
 
 ⏱️ 10 minutes - Group (table)
 
@@ -261,9 +253,8 @@ Use this  to reflect on the growth mindset, the exercises and your personal obse
 
 Speak with your fellow students, and take the opportunity to ask questions to the Legends roaming the room. 
 
----
 
-# Discussion
+## Discussion
 
 
 ⏱️ 5 minutes - Class
@@ -278,7 +269,7 @@ So go out and test your ideas before going ahead and implementing them.
 
 Most importantly, we want you to think about this throughout the course, especially when you are struggling with something difficult. This is where learning happens!
 
-# Homework
+## Homework
 
 1. Decide THIS WEEK whether you want to do this course; and if not, unenroll.
 
@@ -286,6 +277,7 @@ Most importantly, we want you to think about this throughout the course, especia
 
 3. Read Chapter 1, Introduction to innovation: https://comp1100.github.io/innovation/1_introduction_to_innovation.html 
 
+<!--
 4. By 7pm on Thursday, submit your team preferences at https://forms.office.com/r/PpEczetPAi
 
     Either:
@@ -298,10 +290,12 @@ Most importantly, we want you to think about this throughout the course, especia
    Teams will all have to be enrolled in the same studio timeslot, so pick someone from THIS session or move yourself to another studio before you submit your preferences.
 
    **Note**: you will NOT be allocated to a team if you or the other person in your pair do not submit this form.
+--!>
 
----
 
-# Bonus: It’s dangerous to go alone! Take this.
+
+
+## Bonus: It’s dangerous to go alone! Take this.
 
 
 Here is a collection of valuable knowledge and insight that may help you along in this course. Feel free to review this content in your own time. 
@@ -316,7 +310,7 @@ Sometimes success is not about how hard you try, but by being in the right place
 
 [https://www.youtube.com/watch?v=gq8-9jSCJr8](https://www.youtube.com/watch?v=gq8-9jSCJr8)
 
-Innovation can often end in failure, but if the focus shifts away from the outcome, success may just be around the next pivot.
+Innovation can often end in failure, but if the focus shifts away from the outcome to what we learnt, success may just be around the next pivot.
 
 ### Failing Forward - John C. Maxwell
 
