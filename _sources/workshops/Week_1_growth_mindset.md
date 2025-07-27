@@ -277,23 +277,6 @@ Most importantly, we want you to think about this throughout the course, especia
 
 3. Read Chapter 1, Introduction to innovation: https://comp1100.github.io/innovation/1_introduction_to_innovation.html 
 
-<!--
-4. By 7pm on Thursday, submit your team preferences at https://forms.office.com/r/PpEczetPAi
-
-    Either:
-
-    * Form a team of two people from your allocated studio time and have one person submit preferences; OR
-    * Submit a team of one person (yourself) and you will be allocated to a team.
-
-   We will form teams of four people, maybe five, depending on enrolments.
-
-   Teams will all have to be enrolled in the same studio timeslot, so pick someone from THIS session or move yourself to another studio before you submit your preferences.
-
-   **Note**: you will NOT be allocated to a team if you or the other person in your pair do not submit this form.
---!>
-
-
-
 
 ## Bonus: It’s dangerous to go alone! Take this.
 

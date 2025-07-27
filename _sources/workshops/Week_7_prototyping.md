@@ -1,4 +1,4 @@
-# Week 8: Software prototyping
+# Week 7: Software prototyping
 
 ## Studio Abstract
 

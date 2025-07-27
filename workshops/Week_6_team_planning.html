@@ -1,0 +1,769 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Week 6: Small-team Project Management &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_6_team_planning';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Week 7: Software prototyping" href="Week_7_prototyping.html" />
+    <link rel="prev" title="Week 5: Reflective practice and using repositories" href="Week_5_reflective_practice_and_using_github.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I: INNOVATION</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../innovation/1_introduction_to_innovation.html">Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/2_business_model_canvas.html">Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/3_customer_discovery.html">Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/4_value_proposition_canvas.html">Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/5_experimentation.html">Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/6_minimum_viable_product.html">Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/7_prototyping.html">Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/8_customer_relationships_and_channels.html">Customer relationships and channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/9_interviews.html">Interviews</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/10_FAQs.html">Subject Frequently Asked Questions (FAQs)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II: Studios</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_3_no_studio.html">Week 3: Homework exercise – no studio due to Ekka holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflective practice and using repositories</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 6: Small-team Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 7: Software prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_8_feedback_and_presentations.html">Week 8: Giving &amp; receiving feedback, and having effective meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_10_no_studio.html">Week 10: No studios this week due to King’s birthday holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_11_pitching.html">Week 11: Giving a 1-minute pitch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Weeks_12_and_13_presentations.html">Weeks 12-13: Presentations</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_6_team_planning.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workshops/Week_6_team_planning.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Week 6: Small-team Project Management</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#does-what">Does what</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#by-when">By when</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-setup">Trello Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-exercise">Trello Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="week-6-small-team-project-management">
+<h1>Week 6: Small-team Project Management<a class="headerlink" href="#week-6-small-team-project-management" title="Link to this heading">#</a></h1>
+<section id="studio-abstract">
+<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
+<hr class="docutils" />
+<blockquote>
+<div><p>In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up Trello and how to set up tasks and notifications.</p>
+</div></blockquote>
+<p>We will address the following activities and exercises in studio 3.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Basics of managing a small-team project</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Trello</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to create tasks</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to set up notifications</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Trello Start-up Activity</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="effective-small-team-planning">
+<h2>Effective Small-Team Planning<a class="headerlink" href="#effective-small-team-planning" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes - Group</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.</p>
+<p>In this studio, we’ll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called <em>Trello</em> for managing your team.</p>
+<figure class="align-default" id="id1">
+<img alt="../_images/teamwork.jpg" src="../_images/teamwork.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Teamwork!</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>In this course we recommend the use of Trello, a free to use team scheduling and planning application, but there are many other suitable tools.</p>
+<blockquote>
+<div><p>Trello is a web-based, Kanban-style, list-making application developed originally by Fog Creek Software and later acquired by Atlassian. Trello can be used to create task boards with different columns and move the tasks between them. Typically columns include task statuses such as To Do, In Progress, and Done. The tool can be used for personal and business purposes including real estate management, software project management, school bulleting boards, accounting, web design, gaming and law office case management.</p>
+</div></blockquote>
+</section>
+<section id="managing-a-small-team-who-does-what-by-when">
+<h2>Managing a small team: <em>Who Does What By When</em><a class="headerlink" href="#managing-a-small-team-who-does-what-by-when" title="Link to this heading">#</a></h2>
+<p>The model of <strong>who does what by when</strong> is a simplified project management model, proposed by Manager Tools owner Mark Horstman. He agrees it is over-simplified, but the who, what, when trilogy is the most important three parts of project management.</p>
+<p>All projects are completed by completing a series of tasks. It is difficult to know up front what all of those tasks will be. As a result, project management is a discipline in itself. For large-scale projects, even in the software industry, we may need multiple people to manage different parts of a project, and that could require using sophisticated project management tools, overview charts, etc.</p>
+<p>But for projects with small teams of about 5 or less people, such sophistication is usually not necessary.</p>
+<p>Further, all tasks are completed by people who are on the project. And people’s behaviour is often driven by deadlines.</p>
+<p>So, during a small-team project, we just need to know three things: <strong>who does what by when</strong>.</p>
+<p>No budget, no critical path, and no lengthy reporting. Note that budget IS important, but in small-team projects, especially start-ups, we see that: (a) budget is almost entirely taken up by the cost of people, so focus on people and the budget takes care of itself; and (b) budget is typically so front of mind that it does not need managing like our time.</p>
+<section id="who">
+<h3>Who<a class="headerlink" href="#who" title="Link to this heading">#</a></h3>
+<p>People do tasks on projects. Tasks don’t get done without people. Great project managers know who is in the project and what they are doing.</p>
+<p>As a team, we need to know who is completing each task so we can discuss with them, ask questions, follow up, and, ultimately, hold them accountable.</p>
+<p>For each task on a project, ONE person should be assigned to do that, and that person is accountable for ensuring it is completed on time. If you see a task that requires more than one person, break it into smaller tasks (see more in the next step below).</p>
+<p>Tips on defining who:</p>
+<ol class="arabic simple">
+<li><p><strong>Each task should have one person responsible</strong>. If we have more than one, break it into smaller tasks.</p></li>
+<li><p><strong>Hold people accountable</strong> for completing tasks.</p></li>
+</ol>
+</section>
+<section id="does-what">
+<h3>Does what<a class="headerlink" href="#does-what" title="Link to this heading">#</a></h3>
+<p>Tasks are what make up a project. No project gets done if its constituent  tasks are not done.</p>
+<p>It is important to identify the tasks that need to be done in a project. We shouldn’t identify every task at the start of the project. This is a waste of time, especially in software projects, and doubly for innovation projects. Things change! Instead, we should have a high-level idea of where the project is going, and have clear tasks identified for the next 1-2 weeks.</p>
+<p>Some tips on defining tasks:</p>
+<ol class="arabic simple">
+<li><p><strong>Each task should be</strong> <em>measurable</em>. That is, it should be easy to tell whether it is done or not. For example, “Think about customer interview format” is not measurable because you can’t see my thinking. “Send draft interview questions to person X” is measurable, because it is clear whether I have sent it to X or not.</p></li>
+<li><p><strong>Make reporting part of the task</strong>. It is great when tasks are finished. It is much better when others in the team <strong>know</strong> that tasks are finished, especially if they are waiting on them. As part of a task, make reporting part of the task; e.g. “Check user story 7 into the repository and report this to person X”.</p></li>
+</ol>
+</section>
+<section id="by-when">
+<h3>By when<a class="headerlink" href="#by-when" title="Link to this heading">#</a></h3>
+<p>People hate deadlines. Actually, people hate having deadlines, but like other people sticking to their own deadlines. The fact is, deadlines drive behaviour. If university courses didn’t have deadlines, would you still submit all your work by the end of the semester?</p>
+<p>Some tips on deadlines:</p>
+<ol class="arabic simple">
+<li><p><strong>Make tasks that require no more than 5 working days</strong>; even less for most tasks. A week is about as far ahead as we tend to think.
+For example, if a task will take about 6 weeks, it is certain that there are smaller sub-tasks that can be done. “Conduct 70 customer interviews” could start with “Define customer interview questions”, then “Ask person X to check questions”, then “Interview first 5 customers to validate questions”, etc.</p></li>
+<li><p><strong>Make deadlines specific</strong>. For example, not “Next week” or even “Thursday 27th”, but “1pm on Thursday 27th”.</p></li>
+<li><p><strong>Shorter deadlines are often more effective</strong>. The famous Parkinson’s law is “work expands as to fill the time available for its completion”, which means: the more time we give people/ourselves, the longer we take. People will resist shorter deadlines, but seem to respond well to them. Longer deadlines do not drive behaviour. So keep deadlines short, but not so short that quality is affected.</p></li>
+<li><p><strong>Update the deadline if it is missed</strong>. We all miss deadlines sometimes. In such a case, don’t just say “Ok, please submit it soon” – assign a new deadline <strong>immediately</strong>: “Ok, thanks for letting us know. Can you please get it to us by 1pm on Thursday?”</p></li>
+</ol>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h3>
+<p>Basic team management planning means knowing:</p>
+<ol class="arabic simple">
+<li><p><strong>Who</strong> is doing each task.</p>
+<ul class="simple">
+<li><p>One person per task.</p></li>
+<li><p>Hold people to account.</p></li>
+</ul>
+</li>
+<li><p><strong>What</strong> each task is.</p>
+<ul class="simple">
+<li><p>Make tasks measurable.</p></li>
+<li><p>Make reporting part of the tasks.</p></li>
+</ul>
+</li>
+<li><p><strong>When</strong> each tasks is due.</p>
+<ul class="simple">
+<li><p>Five working days <em>maximum</em>.</p></li>
+<li><p>Make deadlines specific.</p></li>
+<li><p>Shorter deadlines drive behaviour.</p></li>
+<li><p>Update deadline if missed.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+<section id="task-planning-exercises">
+<h2>Task planning exercises<a class="headerlink" href="#task-planning-exercises" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes - Group</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>As a team, get together, brainstorm, and write down ALL of the tasks that you can think of for your team for the coming two weeks. (Hint: look at the <a class="reference external" href="https://comp1100.github.io/intro.html#schedule">course schedule</a>).</p>
+<p>Think about things to do with setup, project work, even scheduling meetings.</p>
+<p>For each one, write down: who does what by when.</p>
+<p>Your legends will be working with you to give feedback on your task breakdown.</p>
+</section>
+<section id="trello-setup">
+<h2>Trello Setup<a class="headerlink" href="#trello-setup" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes - Group</p>
+<p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
+<p>As noted, we encourage the use of <a class="reference external" href="https://trello.com/home">Trello</a> in this course. It allows us to define tasks, assign them to people, and give them due dates: <strong>who does what by when</strong>!.</p>
+<p>To create a Trello board, you need to visit the <a class="reference external" href="https://trello.com/home">Trello website and sign-up</a>. Use the ‘Get Trello for free’ button in the top left corner to get started.</p>
+<p>🌐 <a class="reference external" href="https://trello.com/home">https://trello.com/home</a></p>
+<p><img alt="Trello.png" src="../_images/Trello.png" /></p>
+<p>Once you have created your account, either manually or through a linked account, use the following tutorials to learn how to use Trello.</p>
+<section id="trello-boards-lists-and-cards">
+<h3>Trello boards, lists, and cards<a class="headerlink" href="#trello-boards-lists-and-cards" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://trello.com/guide/trello-101">https://trello.com/guide/trello-101</a></p>
+</section>
+<section id="how-to-create-a-trello-board">
+<h3>How to Create a Trello Board<a class="headerlink" href="#how-to-create-a-trello-board" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/creating-a-new-board/">https://support.atlassian.com/trello/docs/creating-a-new-board/</a></p>
+</section>
+<section id="how-to-create-a-trello-project">
+<h3>How to Create a Trello project<a class="headerlink" href="#how-to-create-a-trello-project" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://trello.com/guide/create-project">https://trello.com/guide/create-project</a></p>
+</section>
+<section id="how-to-add-team-members-to-your-trello-boards">
+<h3>How to Add Team Members to Your Trello Boards<a class="headerlink" href="#how-to-add-team-members-to-your-trello-boards" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://trello.com/guide/onboard-team">https://trello.com/guide/onboard-team</a></p>
+</section>
+<section id="due-date-notifications-in-trello">
+<h3>Due Date Notifications in Trello<a class="headerlink" href="#due-date-notifications-in-trello" title="Link to this heading">#</a></h3>
+<p>You will need to setup notifications in Trello to your chosen device (Android or IPhone) for things like schedule updates, milestones and deadlines. Use the following link to learn how to add due dates:</p>
+<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/adding-dates-to-cards/">https://support.atlassian.com/trello/docs/adding-dates-to-cards/</a></p>
+<p>And how to setup notifications for due dates:</p>
+<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/receiving-trello-notifications/">https://support.atlassian.com/trello/docs/receiving-trello-notifications/</a></p>
+</section>
+<section id="additional-resources">
+<h3>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
+<p>More tutorial videos can be found at Trello’s official YouTube channel or their official online guide.</p>
+<p>🌐 <a class="reference external" href="https://www.youtube.com/&#64;trello/videos">https://www.youtube.com/&#64;trello/videos</a></p>
+<p>🌐 <a class="reference external" href="https://trello.com/guide">https://trello.com/guide</a></p>
+</section>
+</section>
+<section id="take-a-break">
+<h2>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes</p>
+</section>
+<section id="trello-exercise">
+<h2>Trello Exercise<a class="headerlink" href="#trello-exercise" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 Minutes - Group</p>
+<p>Now that you have become somewhat familiar with Trello, with your group try to complete the following tasks to prepare your Trello board for the course:</p>
+<p>💡 Remember to delegate tasks between team members for efficient use of your time. Multiple team members can work on different tasks at the same time.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Add all team members to your Trello board.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Create at least three Trello boards for your project: Upcoming tasks, In-progress tasks, and Done tasks (or choose your own if you want).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Change your Trello board background to something that represents your team.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  To your Trello, add all of the tasks that you identified in the earlier exercise.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Create at least one Trello automation (Button, Due Date or Rule).</p></li>
+</ul>
+<p>Once all these tasks have been completed, signal to a Legend and show them your board.</p>
+</section>
+<section id="reflection">
+<h2>Reflection<a class="headerlink" href="#reflection" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 Minutes - Class</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>Now that you have completed this, reflect on the following with the class:</p>
+<ol class="arabic simple">
+<li><p>What is one key thing you will take away from this studio for your project and why?</p></li>
+<li><p>In what ways did this studio change your understanding of managing team dynamics?</p></li>
+<li><p>Have you used Trello or any other tools similar to Trello? If so, share your experience with the class.</p></li>
+</ol>
+</section>
+<section id="bonus-its-dangerous-to-go-alone-take-this">
+<h2>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h2>
+<p>⏱️ <strong>∞</strong></p>
+<section id="how-to-build-great-teams-jocko-willink-dr-andrew-huberman">
+<h3>How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman<a class="headerlink" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=7eAh7uEFhdg">https://www.youtube.com/watch?v=7eAh7uEFhdg</a></p>
+</section>
+<section id="trusting-teams-the-5-practices-simon-sinek">
+<h3>Trusting Teams - The 5 Practices - Simon Sinek<a class="headerlink" href="#trusting-teams-the-5-practices-simon-sinek" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=W5qQJhe7sLE">https://www.youtube.com/watch?v=W5qQJhe7sLE</a></p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workshops"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Week_5_reflective_practice_and_using_github.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Week 5: Reflective practice and using repositories</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Week_7_prototyping.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Week 7: Software prototyping</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#does-what">Does what</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#by-when">By when</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-setup">Trello Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-exercise">Trello Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

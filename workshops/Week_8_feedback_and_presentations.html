@@ -1,0 +1,785 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Week 8: Giving &amp; receiving feedback, and having effective meetings &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_8_feedback_and_presentations';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Week 9: Defining your MVP and prototyping" href="Week_9_sketching_your_MVP.html" />
+    <link rel="prev" title="Week 7: Software prototyping" href="Week_7_prototyping.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I: INNOVATION</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../innovation/1_introduction_to_innovation.html">Introduction to Innovation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/2_business_model_canvas.html">Business model canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/3_customer_discovery.html">Customer discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/4_value_proposition_canvas.html">Value proposition canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/5_experimentation.html">Experimentation: Testing and validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/6_minimum_viable_product.html">Minimum viable product</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/7_prototyping.html">Prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/8_customer_relationships_and_channels.html">Customer relationships and channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/9_interviews.html">Interviews</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../innovation/10_FAQs.html">Subject Frequently Asked Questions (FAQs)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">II: Studios</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_3_no_studio.html">Week 3: Homework exercise – no studio due to Ekka holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflective practice and using repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_6_team_planning.html">Week 6: Small-team Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 7: Software prototyping</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 8: Giving &amp; receiving feedback, and having effective meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_10_no_studio.html">Week 10: No studios this week due to King’s birthday holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_11_pitching.html">Week 11: Giving a 1-minute pitch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Weeks_12_and_13_presentations.html">Weeks 12-13: Presentations</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_8_feedback_and_presentations.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workshops/Week_8_feedback_and_presentations.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Week 8: Giving & receiving feedback, and having effective meetings</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#giving-and-receiving-feedback">Giving (and receiving) feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#feedback-is-about-encouraging-future-behaviour">Feedback is about encouraging future behaviour</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-model">The Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-describe-behaviour">Step 1: Describe Behaviour</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-describe-the-impact">Step 2: Describe the Impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pulling-it-together">Pulling It Together</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#speed-feedback-exercise">Speed Feedback Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#positive-feedback-exercise">Positive Feedback Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feedback-model-for-managers-manager-tools">Feedback model for managers - Manager tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#core-values-bob-keiller">Core Values - Bob Keiller</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">Three ways to create a work culture that brings out the best in employees - Chris White</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="week-8-giving-receiving-feedback-and-having-effective-meetings">
+<h1>Week 8: Giving &amp; receiving feedback, and having effective meetings<a class="headerlink" href="#week-8-giving-receiving-feedback-and-having-effective-meetings" title="Link to this heading">#</a></h1>
+<section id="studio-abstract">
+<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
+<hr class="docutils" />
+<p style="text-align:center; font-weight:bold;"> Devices closed for this entire set of exercises </p> 
+<blockquote>
+<div><p>In this studio, we will look at how we can provide feedback to our peers to improve team performance and minimise conflict. We will also ask teams to give short informal presentations about their problems and proposed solutions, to share with the class.</p>
+</div></blockquote>
+<p>We will address the following activities and exercises:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Why feedback is important</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  The feedback model</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Tips for giving feedback</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Feedback exercise</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Informal presentations about customer problems and proposed solutions.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Universal meeting structure (Agenda)</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Universal meeting rules</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="giving-and-receiving-feedback">
+<h2>Giving (and receiving) feedback<a class="headerlink" href="#giving-and-receiving-feedback" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes - Group discussion</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<div class="admonition-question admonition">
+<p class="admonition-title">Question</p>
+<p>Do you wish that you were getting more feedback about how you were doing in COMP1100, such as what you are doing well and where you could improve?</p>
+</div>
+<p>Feedback is critical to modern software teams because of the growing complexity of technology. It is  difficult, if not impossible, to create commercially viable software  as an individual without user validation, customer input or team refinement. Any non-trivial software systems requires teams to build and maintain.</p>
+<p>Therefore, Learning how to give and receive feedback to each other in a respectable and effective way  is hugely important in preventing and resolving conflict.</p>
+<p><img alt="customer-feedback.png" src="../_images/customer_feedback.png" /></p>
+<p>The feedback model we are using is from Manager Tools. You can learn more about this system at the following link:</p>
+<p>🌐 <a class="reference external" href="https://www.manager-tools.com/">https://www.manager-tools.com/</a></p>
+</section>
+<section id="feedback-is-about-encouraging-future-behaviour">
+<h2>Feedback is about encouraging future behaviour<a class="headerlink" href="#feedback-is-about-encouraging-future-behaviour" title="Link to this heading">#</a></h2>
+<p>The major principles of the Feedback Model are:</p>
+<ol class="arabic simple">
+<li><p>Feedback is about <strong>encouraging future behaviour</strong>, not about doing a post-mortem on the past.</p></li>
+<li><p>Feedback is not about getting angry or punishing people.</p></li>
+<li><p>Feedback is positive and negative: <strong>at least 80% of feedback we give to a person should be positive</strong>. Organisations seem to work effectively, which means most of us are going good things most of the time. Find those things and let people know! They probably don’t know.</p></li>
+<li><p>Most people are desperate to gain feedback about how they are doing.</p></li>
+<li><p>Feedback should be given <strong>regularly and quickly</strong>.</p></li>
+</ol>
+<p>Item 1 above is important: we should only give feedback with the aim of ensuring effective future behaviour. Prior behaviour cannot be changed, so we shouldn’t dwell on it.</p>
+</section>
+<section id="the-model">
+<h2>The Model<a class="headerlink" href="#the-model" title="Link to this heading">#</a></h2>
+<p>The feedback model consists of two simple steps:</p>
+<ol class="arabic simple">
+<li><p>Describe behaviour.</p></li>
+<li><p>Describe impact.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The model is the same for both positive and negative feedback. It is just what and at which time you mention each point that differs.</p>
+</div>
+<section id="step-1-describe-behaviour">
+<h3>Step 1: Describe Behaviour<a class="headerlink" href="#step-1-describe-behaviour" title="Link to this heading">#</a></h3>
+<p>Feedback is about changing future behaviour. It is important that any feedback relates to behaviour, not to attitude.</p>
+<p>Why? First, we can’t see attitude, we can just infer it. So, we’re much more likely to get it wrong when we point to attitude. If we get this part wrong, the feedback will be ignored.</p>
+<p>Second, even if we do infer it correctly, people know that we can’t see it, so they can just deny it.</p>
+<p>Third, it is ok to sometimes have the ‘wrong’ attitude, provided our behaviour is still professional.</p>
+<p>For example:</p>
+<ul class="simple">
+<li><p>Manager: “When you got annoyed at the client, it made us look unprofessional.”</p></li>
+<li><p>Engineer: “I didn’t get annoyed.”</p></li>
+<li><p>Manager: “Yes, you did. You got really annoyed with the client. I could tell!”</p></li>
+<li><p>Engineer: “I wasn’t annoyed – I don’t know what you are talking about”.</p></li>
+</ul>
+<p>This can go on and on for a while!</p>
+<p>Instead, consider:</p>
+<ul class="simple">
+<li><p>Manager: “When you roll your eyes when meeting with a client, it made us look unprofessional.”</p></li>
+</ul>
+<p>This makes it much harder to deny. The engineer can say: “I didn’t roll my eyes”, but it is easy for the manager to respond: “I saw you roll your eyes.”</p>
+<p>Further, it is ok for the engineer to be annoyed at a client, as long as they behaviour professionally and effectively.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Start this part with “When you”. This encourages us to focus on behaviour.</p>
+</div>
+<p>Some examples of describing positive behaviour:</p>
+<ul class="simple">
+<li><p>“When you deliver everything on time…”</p></li>
+<li><p>“When you cover for someone when they are sick…”</p></li>
+<li><p>“When you reach out to let us know you will be late…”</p></li>
+<li><p>“When you make that extra effort to gather more data…”</p></li>
+<li><p>“When you remind us to take a break…”</p></li>
+</ul>
+<p>Some examples of describing negative behaviour:</p>
+<ul class="simple">
+<li><p>“When you arrive late for meetings…”</p></li>
+<li><p>“When you say you will do something by a deadline but don’t deliver…”</p></li>
+<li><p>“When you sigh at people in meetings…”</p></li>
+</ul>
+</section>
+<section id="step-2-describe-the-impact">
+<h3>Step 2: Describe the Impact<a class="headerlink" href="#step-2-describe-the-impact" title="Link to this heading">#</a></h3>
+<p>Then, we describe the impact that the behaviour had on ourselves or others.</p>
+<p>By describing the impact, it helps people to understand the impact (<strong>positive</strong> and <strong>negative</strong>) of their behaviour, which they may not have noticed before – or they may not have realised other people notice. Further, if we want them to change their behaviour, we want it to be a new behaviour that does NOT have the same impact. If we want to keep doing something good, we want them to focus on achieving that outcome as well.</p>
+<p>The impact doesn’t have to be important or particularly large. Giving little bits of feedback ensure that we give feedback regularly, but also that feedback can be short and quick. Look for small impacts that people do well every single day, and tell them about it. Those small things will add up over time.</p>
+<p>Mark Horsham from Manager Tools uses the analogy of driving a car. As we drive, we are constantly getting feedback by observing the road, feeling the steering wheel, and listening. As we start to veer off the road a little bit, we use the feedback that we receive from our eyes to adjust. We do this over and over again. We don’t wait until we are nearly in a ditch on the side of the road. Feedback to people we work with can be similar. Thanks for doing the little things right lets people know: please keep doing this. Short negative feedback lets poeple know: please don’t do this, but don’t worry that you did it in the past.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Begin this step with “Here’s what happens”. This helps to focus on impact. Once you get used to delivering regular feedback, you can usually drop this part.</p>
+</div>
+<p>Some examples of describing positive impact:</p>
+<ul class="simple">
+<li><p>“Here’s what happens: It allows us to keep the project on track.”</p></li>
+<li><p>“Here’s what happens: It means that we can continue to deliver quality service.”</p></li>
+<li><p>“It allows the rest of the team to re-plan.”</p></li>
+<li><p>“I really appreciate it, and so does the rest of the team.”</p></li>
+<li><p>“It gives the team a chance to refresh and refocus.”</p></li>
+</ul>
+<p>Some examples of describing negative impact:</p>
+<ul class="simple">
+<li><p>“We miss your input and it sometimes disrupts the meeting.”</p></li>
+<li><p>“It puts the other project deliverables in danger, and annoys the rest of the team.”</p></li>
+<li><p>“It makes us look unprofessional.”</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Unlike in step 1 (describing the behaviour), in describing the impact, we CAN refer to attitude, emotion, etc., especially when it is our own. We can say: “When you do X, it really annoys me and the rest of team”; or “When you do X, it really makes me proud to be part of this team”. People can’t deny other people’s attitudes, and for some impacts, they truly are emotional.</p>
+</div>
+</section>
+<section id="pulling-it-together">
+<h3>Pulling It Together<a class="headerlink" href="#pulling-it-together" title="Link to this heading">#</a></h3>
+<p>If we pull these steps together, we get the following template:</p>
+<blockquote>
+<div><p>When you [behaviour], here’s what happens: [impact]”</p>
+</div></blockquote>
+<p>Let’s pull together our examples from above.</p>
+<p>Positive feedback:</p>
+<ul class="simple">
+<li><p>“When you deliver everything on time, here’s what happens: It allows us to keep the project on track. Thanks.”</p></li>
+<li><p>“When you cover for someone when they are sick, here’s what happens: it means that we can continue to deliver quality service. Thanks.”</p></li>
+<li><p>“When you reach out to let us know you will deliver late, it allows the rest of the team to re-plan. Thank you.”</p></li>
+<li><p>“When you make that extra effort to gather more data, I really appreciate it, and so does the rest of the team.”</p></li>
+<li><p>“When you remind us to take a break, it gives the team a chance to refresh and refocus.”</p></li>
+</ul>
+<p>Negative feedback:</p>
+<ul class="simple">
+<li><p>“When you arrive late for meetings, we miss your input and it disrupts the meeting.”</p></li>
+<li><p>“When you say you will do something by a deadline but don’t deliver, it delays other parts of the project, and annoys the rest of the team.”</p></li>
+<li><p>“When you sigh at people in client meetings, it makes us look unprofessional.”</p></li>
+</ul>
+<p>Read each of these to yourself. How long do they take? Each could be one under ten seconds, maybe even under five seconds! This encourages <strong>regular</strong> feedback because it can be given on your way out of a discussion, immediately after a presentation, or in a small break during a class.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Tips for Giving Feedback</strong></p>
+<ol class="arabic simple">
+<li><p>If you can’t do it with a smile, don’t do it. We should be able to deliver feedback in a light-hearted manner; especially negative feedback! If we are fuming but the feedback really needs to be delivered, we should leave it until we have calmed down.</p></li>
+<li><p>Focus on future behaviour. What has happened is in the past, and cannot be changed.</p></li>
+<li><p>For positive behaviour, finish with “Thanks”.</p></li>
+<li><p>Keep it short: feedback should be able to be delivered within 15 seconds, once we have enough experience.</p></li>
+<li><p>Deliver both positive and negative feedback in ‘private’. It can be a public space, but ensure others cannot hear.</p></li>
+<li><p>Try to deliver this in person, either face-to-face or on a phone/video call. Written feedback is okay if in person is not possible, but is not as effective.</p></li>
+</ol>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Tips for Receiving Feedback</strong></p>
+<ol class="arabic">
+<li><p><strong>It’s not necessary to defend ourselves</strong>: When we give feedback to people, we assume that their intentions are good, and that, in this case, they had a small error or misunderstanding. It is NOT important to dig down into the cause of why. The person receiving it understands why, and they are mature enough to figure out how to change their behaviour.</p>
+<p>As such, it is important to realise that when we receive a short piece of negative feedback, it is not necessary to defend ourselves (unless of course, it is an accusation of e.g. misconduct).</p>
+<p>If we assume that the person giving us feedback assumes our intentions are good, then we can just say: “Thanks for the feedback”. There is simply no need to get into a dialogue about this.</p>
+</li>
+<li><p>If you are giving someone feedback and they want to defend their actions, you can assure them that they don’t need to.</p>
+<p>Consider this example of shutting down a discussion about reasons:</p>
+<ul class="simple">
+<li><p>Programmer: “When you are late to meetings, we really miss your input and it can sometimes be disruptive.”</p></li>
+<li><p>Designer: “Yes, but you see, there was a lot of traffic today, and then I got stopped by a colleague on the way from the bus.”</p></li>
+<li><p>Programmer: “Sure. I always assume that you don’t intend to be late.”</p></li>
+</ul>
+</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="speed-feedback-exercise">
+<h2>Speed Feedback Exercise<a class="headerlink" href="#speed-feedback-exercise" title="Link to this heading">#</a></h2>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>⏱️ 30 minutes - Pairs</p>
+<p>In this activity, you will practice giving fast and effective feedback on some simulated examples.</p>
+<p>Break into pairs – pairs should be from teams. If you have an odd number, this works ok in groups of three as well.</p>
+<p>Below are 10 examples: 6 positive and 4 negative. Take turns coming up with quick feedback for these; that is, the first person does scenario 1, then the 2nd person does scenario 2.</p>
+<p>You should be able to complete this task in just a few minutes! But we’ll give you a bit more time.</p>
+<p><strong>Scenario 1:</strong> Your project was stalled because there was some unknown technical issue. Your partner spent the morning fixing it, without being asked.</p>
+<p><strong>Scenario 2:</strong> You need some information from your partner, who is in another team. You reach out to them, and within an hour, they responded with the information you need.</p>
+<p><strong>Scenario 3:</strong> Your partner was able to get a technical issue resolved quickly because they knew the technical support staff well and contacted them directly for help.</p>
+<p><strong>Scenario 4:</strong> Your partner always takes good notes in team meetings and sends them around afterwards.</p>
+<p><strong>Scenario 5:</strong> Your partner keeps the project plan on Trello up to date by moving and closing tasks when they have completed them.</p>
+<p><strong>Scenario 6:</strong> Your partner uses branches and always checks in working code with tests that pass.</p>
+<p><strong>Scenario 7:</strong> Your partner has been 10-15 minutes late for the last three team meetings.</p>
+<p><strong>Scenario 8:</strong> Your partner committed to sending draft presentation slides the day before the presentation, but delivered them 20 minutes before the presentation.</p>
+<p><strong>Scenario 9:</strong> Your partner often dominates meetings by talking a lot and not taking the time to listen to others.</p>
+<p><strong>Scenario 10:</strong> Your partner is a high performer, but does all planning and delegates tasks to others without consultation.</p>
+</section>
+<section id="positive-feedback-exercise">
+<h2>Positive Feedback Exercise<a class="headerlink" href="#positive-feedback-exercise" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes - Pairs</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>Swap pairs so people are working with others in their team now. Each person in the pair, come up with one positive thing that the person in front of you has done in the past week, and provide positive feedback to them about it.</p>
+<p>If you need to, take a few minutes to think how to say it quickly and to focus on behaviour AND the future.</p>
+</section>
+<section id="bonus-its-dangerous-to-go-alone-take-this">
+<h2>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h2>
+<p>⏱️ <strong>∞</strong></p>
+<section id="feedback-model-for-managers-manager-tools">
+<h3>Feedback model for managers - Manager tools<a class="headerlink" href="#feedback-model-for-managers-manager-tools" title="Link to this heading">#</a></h3>
+<p>If you are interested in learning more, especially if you are someone who would like to be an effective manager one day, there are a few Manager Tools podcasts that are helpful (also available on most podcast apps):</p>
+<p>🌐 <a class="reference external" href="https://www.manager-tools.com/2024/05/manager-tools-feedback-model-updated-part-1">Manager tools feedback model – Part 1</a></p>
+<p>🌐 <a class="reference external" href="https://www.manager-tools.com/2024/05/manager-tools-feedback-model-updated-part-2">Manager tools feedback model – Part 2</a></p>
+<p>🌐 <a class="reference external" href="https://www.manager-tools.com/2024/05/manager-tools-feedback-model-updated-part-3">Manager tools feedback model – Part 3</a></p>
+<p>🌐 <a class="reference external" href="https://www.manager-tools.com/2006/10/the-peer-feedback-model">Managed tools per feedback model</a></p>
+</section>
+<section id="core-values-bob-keiller">
+<h3>Core Values - Bob Keiller<a class="headerlink" href="#core-values-bob-keiller" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://www.youtube.com/watch?v=ulWkN0k0MVE">https://www.youtube.com/watch?v=ulWkN0k0MVE</a></p>
+<p>Benefits of clear guiding purposes and running businesses on sound principles.</p>
+</section>
+<section id="three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">
+<h3>Three ways to create a work culture that brings out the best in employees - Chris White<a class="headerlink" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://www.youtube.com/watch?v=2y8SA6cLUys">https://www.youtube.com/watch?v=2y8SA6cLUys</a></p>
+<p>Chris highlights three points to improve work culture.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workshops"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Week_7_prototyping.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Week 7: Software prototyping</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Week_9_sketching_your_MVP.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Week 9: Defining your MVP and prototyping</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#giving-and-receiving-feedback">Giving (and receiving) feedback</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#feedback-is-about-encouraging-future-behaviour">Feedback is about encouraging future behaviour</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-model">The Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-describe-behaviour">Step 1: Describe Behaviour</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-describe-the-impact">Step 2: Describe the Impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pulling-it-together">Pulling It Together</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#speed-feedback-exercise">Speed Feedback Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#positive-feedback-exercise">Positive Feedback Exercise</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#feedback-model-for-managers-manager-tools">Feedback model for managers - Manager tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#core-values-bob-keiller">Core Values - Bob Keiller</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#three-ways-to-create-a-work-culture-that-brings-out-the-best-in-employees-chris-white">Three ways to create a work culture that brings out the best in employees - Chris White</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

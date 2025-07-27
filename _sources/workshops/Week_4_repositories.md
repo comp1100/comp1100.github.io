@@ -1,21 +1,19 @@
 (studio:repositories)=
-# Week 5: Repositories and Version Control
+# Week 4: Repositories and Version Control
 
 ## Studio Abstract
 
 ---
 
-> In this  studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time.
+> In this  studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time. We will also discuss interviewing -- something that you have already started. 
 >
 
 We will address the following activities and exercises in this studio:
 
-- [ ]  Overview of repositories and GitHub
-- [ ]  Setting up a team repository on GitHub
-- [ ]  Adding files and managing directories
-- [ ]  Understanding branch and merge
-- [ ]  Repository conflict resolution
+- [ ]  Overview of repositories 
+- [ ]  Setting up and using a team repository on GitHub
 - [ ]  Using Markdown for documentation
+- [ ]  Small practice interviews.
 
 ---
 
@@ -128,11 +126,11 @@ In this part of the studio, you will set up and start using your team repository
 We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.
 
 
-### Set up account and accept COMP1100-2025-s1 invite
+### Set up account and accept course invite
 
 ⏱️ 10 minutes - Individual
 
-You will have received an invite to the Github organisation called COMP1100-2025-s1.
+You will have received an invite to the Github organisation called COMP1100-[Year]-s1/2 or COMP710-[Year]-s1/2, where Year is this year, and `s1` or `s2` depending which semester you take the course in.
 
 Accept this invite, creating an account on Github if you do not have one already.
 
@@ -314,7 +312,13 @@ In this task, you will format your team values using Markdown. Together, go back
 
 **Deliverable**: Show your legend your beautifully-formatted team values.
 
----
+## Exit Ticket
+
+Your exit ticket for this week's studio is to:
+
+1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`.
+
+2. 
 
 ## Bonus: It’s dangerous to go alone! Take this.
 

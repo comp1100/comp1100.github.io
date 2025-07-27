@@ -4,7 +4,7 @@
 
 ## Overview
 
-> In this second studio, you will meet you team and together we will all investigate team dynamics including managing teams and concepts for effective teamwork, providing a solid framework to develop your projects throughout the semester.
+> In this second studio, you will meet you team and together we will all investigate team dynamics including managing teams and concepts for effective teamwork, providing a solid framework to develop your projects throughout the semester. We will also give some foundations on how to run a meeting.
 > 
 
 We will address the following activities and exercises in studio 2.
@@ -13,17 +13,18 @@ We will address the following activities and exercises in studio 2.
 - [ ]  Team values and their purpose
 - [ ]  How to identify and ratify team values
 - [ ]  Ratifying team values into a team contract
+- [ ]  
 
 ---
 
 ## Exercise 1: Meet your team
 
-⏱️ 15 minutes - Class
+⏱️ 30 minutes - Class
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 
-Your legends will announce which team each student is in. Once you meet your team, sit together at a table.
+Your legends will allocate your teams in the studio. Once you meet your team, sit together at a table.
 
 ## Exercise 2: TimeGuessr Team-building exercise
 
@@ -35,28 +36,15 @@ Your legends will announce which team each student is in. Once you meet your tea
 
 [TimeGuessr](https://timeguessr.com/) is a game where (built on the popular [GeoGuessr](https://www.geoguessr.com/) game) where you need to specify in what year and which location are particular photo has been taken.
 
-We'll play this in today's studio
+You will play this **as a team** in  today's studio to start working as a team.
 
 **In your team**, choose one person to keep their laptop open for the task. Then, do the following steps:
   - [ ] Go to the [TimeGuessr daily challenge](https://timeguessr.com/roundonedaily)
-  - [ ] Solve the five tasks, but after each one, wait on the results page for the other teams to catch up. Your legend will guide you.
+  - [ ] Solve the five tasks. Your legend will guide you.
   - [ ] Record your final score after the fifth task.
 
+Which team wins?
 
-## Exercise 3: Team problem solving
-
-
-⏱️20 minutes - Group
-
-<p style="text-align:center; font-weight:bold;"> Devices can be used for this exercise </p> 
-
-For the next task, your legend will guide you through a team problem solving exercise, which has been provided by employability team in the Faculty of Engineering, IT, and Architecture.
-
-Work through the [problems on this worksheet](https://learn.uq.edu.au/bbcswebdav/courses/COMP1100_7520_22597/Workshop_content/Worksheet%20-%20Teamwork%20Workshop.docx) (requires UQ login).
-
-Reflect on the questions in the activity.
-
----
 
 ## Take a break
 
@@ -66,7 +54,7 @@ Reflect on the questions in the activity.
 
 
 
-## Exercise 4: Identifying and Ratifying Team Values
+## Exercise 3: Identifying and Ratifying Team Values
 
 
 ⏱️ 10 minutes - Class
@@ -139,6 +127,104 @@ Team contracts serve as insurance for team conflict resolution and issues. They 
 
 If you are struggling, you can use the core values to serve as a foundation for the document. Remember, focus on verbs / behaviours. 
 
-**Outcome:** Share this contract with your legend before you leave the studio.
+
 
 ---
+
+
+## Creating Effective Meetings
+
+⏱️ 20 minutes - Individual
+
+
+The thought of meetings can send some people into existential dread, either through bad prior experiences or having to deal talking with people for an hour (or longer). Unfortunately, meetings have developed a bad reputation because they are often misused by management, administrators and leaders. 
+
+![meetings.jpeg](figs/meetings.jpeg)
+
+---
+
+## Universal Meeting Structure and Rules
+
+
+
+There is a generalised meeting structure that can be applied to any meeting to improve flow and ensure the meeting achieves all its objectives. Additionally, there are a set of specific general ground rules for meetings to guarantee meeting members and facilitator stay focused and on task. 
+
+(sec:agenda-structure)=
+### Discussion: Universal Meeting Structure (Agenda)
+
+⏱️ 5 minutes - Class
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
+
+- **Purpose**: What does you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.
+- **Participants**: Who is expected to  be there? Assign a chair (who will run the meeting) and a note-taker.
+- **Discussion Points**: What are the topics, issues or problems? Identify who will lead each discussion point.
+  ```{tip}
+  Research shows that if you write the discussion point item on your agenda as what **outcome** you want from the meeting, it focuses the attendees. So instead of: "Prototype" or even "Discuss prototype features", write the point as: "Identify which features we will prototype".  
+  ```
+- **Times**: Assign a start time each item, and stick to it! If it is clear this needs more time, 'park' it until the end of the meeting, and defer to another meeting if you don't have time at the end.
+- **Action Items**: Those things that need to be done after the meeting. These are things that should go on your team please, such as on Trello. So, an action item should say: **who does what by when?**
+- **Supporting Documentation & Materials**: Anything else you need; e.g. if you want to discuss how you are going to assign software features to be implemented by team members, have the list of features.her multimedia. 
+
+
+Every meeting type will be different, but in general these are the most critical requirements of a meeting. This structure is a suggestion and should be moulded to requirements.
+
+### Universal Meeting Rules
+
+⏱️ 5 minutes - Pairs
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
+
+- **Have a meeting chair**: Someone should run the meeting.
+- **Pre-publish an agenda**: This ensures the smooth flow of the meeting and keeps it focused on required aims and goals. It should have at least:
+    - Meeting start time.
+    - A list of items to be discussed.
+    - Start times for each specific item.
+    - Meeting end time.
+- **Start on time**: If you start late, people will know they can show up late next time. To help with this:
+    - **Be early**: It takes time to settle. If the meeting starts at 1100h, show up 2-3 minutes early so you can settle and prepare yourself.
+    - **Use a time-keeper**: Someone needs to identify that time is nearly up for an agenda item.
+- **Follow the agenda**: Anything off-topic should be parked for later. 
+- **Use a "parking lot"**: A "parking lot" is time at the end (if any) to discuss things that wew parked.
+- **Assign actions**: Whenever the attendees agree that something should be done, write down **who does what by when** and send this around. 
+- **Publish notes**: Notes are not minutes. Minutes are usually a legal requirement and are done by professional stenographers. In short, notes are simply:
+    - What was decided?
+    - Who will do what and by when?
+- **Continuously Improve**:  Periodically revisit how your meetings work and whether they are working well. Be adaptable and evolve.
+
+---
+
+## Meeting Agenda Draft
+
+
+⏱️ 15 minutes - Team
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
+
+Now that you have an understanding of meeting types, a general meeting structure and general meeting rules, it is good practice to develop a draft meeting agenda for your first team meeting. 
+
+Your task:
+- [ ]  Write an agenda for your next team meeting. Follow the structure from the section on the [universal meeting structure](sec:agenda-structure).
+- [ ]  Show your legend your agenda, and they will give feedback on what works and what doesn't.
+- [ ]  Refine your agenda based on the feedback.
+- [ ]  Outside of the class, hold the meeting! 
+
+It takes just a few minutes to create an agenda, but it can make meetings that much more effective and far less mind-numbingly boring!
+
+
+## Exit ticket
+
+Your exit ticket for this week's studio is to:
+
+1. Show your legend your team values.
+
+2. Show your legend your meeting agenda for your next meeting, including **when** you will have the meeting.
+
+## Bonus material
+
+### Saving the world from bad meetings - David Grady
+
+🌐 [https://www.youtube.com/watch?v=F6Qo8IDsVNg](https://www.youtube.com/watch?v=F6Qo8IDsVNg)
+
+Bad meetings make people miserable. Here are some ideas to stop it. 

@@ -1,4 +1,4 @@
-# Week 6: Reflective practice and using repositories
+# Week 5: Reflective practice and using repositories
 
 ### Studio Abstract
 

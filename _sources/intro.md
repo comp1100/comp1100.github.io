@@ -74,7 +74,7 @@ Further, innovation is *not* the same an entrepreneurship. Entrepreneurship is a
 
 Innovation is about finding out people's problems and trying to solve them. You can do this internally within an organisation to bring value to other parts of the organisation. This is sometimes called **intrapreneurship**.
 
-## Key elements of COMP1100
+## Key elements of COMP1100/7110
 
 (sec:overview:legends)=
 ### Your legends
@@ -84,11 +84,11 @@ Each team will have a **legend**. A legend is a staff member that is assigned to
 (sec:overview:grading)=
 ### Grading
 
-COMP1100 uses **competency-based assessment**, and is a straightforward **pass/fail course**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
+COMP1100/7110 use **competency-based assessment**, and are **pass/fail courses**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
 
 The grade is excluded from calculation of your GPA, **unless** you receive a failing grade, in which case it is counted as a 2 for your GPA.
 
-**Why pass/fail?** COMP1100 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on grading rubrics/criteria and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
+**Why pass/fail?** COMP1100/7110 brings students together using an innovation process as a vehicle for getting teams to collaborate, learn about teamwork, innovation, and related topics.  As Jesse Stommel[^stommel2023] and others show, if students are immediately hung up on their grade and its effect on their GPA, then they focus on grading rubrics/criteria and on taking care of themselves instead of their team. This is fair enough -- we give incentives and students respond to those. However, this leads to dysfunctional teams and poor learning.
 
 A pass/fail grading scheme mitigates the class trying to fit their process and project to specific grading criteria, and instead engages students with learning the competency that is required from the course. Further, for many students in their first year of university, it can be difficult to tackle more open-ended problems and the ambiguity inherent in innovation projects, particularly under the pressure of a grade. A pass/fail grading scheme that rewards people for trying, failing, contributing, and learning, allows them to take risks such as setting goals they find challenging.
 
@@ -122,7 +122,7 @@ We have to groups of competency  criteria that we expect each student to demonst
 | Refine or pivot                    | Use evidence from data to make and justify decisions about refining or pivoting the product or strategy. |
 | Prototype                          | Create prototypes that are purposefully designed to elicit specific feedback, and reflect on how the feedback informs next steps. |
 | Communication                      | Communicate product ideas clearly and persuasively to a target audience, using appropriate formats and storytelling techniques. |
-| Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills, with reflection on challenges faced and lessons learned. |
+| Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills. |
 
 **Note**: As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
 
@@ -151,9 +151,9 @@ The "assessment" in this course is done throughout the semester. However, to be 
 1. **Weekly:** Attend and *participate in* the weekly studios.
 2. **16:00, Thursday 04/09/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
 3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and a minimal viable product (working software) that demonstrates whether the product solves the customer problem. 
+4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
 
-Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios.
+Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios, and posted on Blackboard.
 
 In addition, for deliverables 2-4, each individual will submit a short self-reflection.
 
@@ -168,7 +168,7 @@ Students are permitted to use generative AI or any machine translation technolog
 
 Generative AI cannot be used to:
 
-1. Fabricate data as part of the innovation process.
+1. Fabricate data as part of the innovation process, such as interviews.
 
 2. Deceive a person that they are communicating with a real person when they are not.
 
@@ -190,13 +190,13 @@ It can be used to:
 Communication between the class and the course staff will occur in a few different ways.
 
 **General communication.**
-The COMP1100 Microsoft Teams channel will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
+The COMP1100/7110 Microsoft Teams channel will be the primary mode of asking general questions about the course; e.g. about deliverables, confusion about notes, etc. Anything that is about the course and not about you or your team should be posted here.
 
 If you email course staff with a general question, we will ask you to post to the discussion board. If you have a question, it is quite probable that someone else in the class will have that same question.
 
-**Communication of a team or personal nature.** If you need to communicate with staff about something sensitive about yourself or your team, you should contact the course staff. In the first instance, please discuss with your [COMP1100 legend](sec:overview:legends) if that is suitable.
+**Communication of a team or personal nature.** If you need to communicate with staff about something sensitive about yourself or your team, you should contact the course staff. In the first instance, please discuss with your [legend](sec:overview:legends) if that is suitable.
 
-If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au). 
+If you cannot resolve this or if your legend asks you to contact the course coordinators, please contact directly via the COMP1100/7110 email address [COMP1100@eecs.uq.edu.au](mailto:COMP1100@eecs.uq.edu.au) or [COMP7110@eecs.uq.edu.au](mailto:COMP7110@eecs.uq.edu.au).  
 
 **Communication with your team.** We will set up a class MS Teams workspace and create private channels for each team and their legend. This can be used for day-to-day team communication, including with the team legend.
 
@@ -233,31 +233,32 @@ We will discuss this is week 1. For now, here are some things we imagine that yo
 
 Each week, the course will be broken into four components:
 
-1. **Innovation seminar (1 hours) [Attendance expected, but not compulsory]**: This is where we discuss the key concepts in innovation and what teams are expected to be doing on their project over the following weeks. 
+1. **Innovation seminar (2 hours) [Attendance expected, but not compulsory]**: This is where we discuss the key concepts in innovation and what teams are expected to be doing on their project over the following weeks. 
 2. **Teamwork studio (2 hours) [Compulsory attendance]**: This is a studio where teams will build the key skills required to work as a team on an innovation project. Regular participation is in the studios is one of the assessment items.
-3. **Planning and working hour (1 hour) [Optional attendance]**: At the end of the teamwork studio, teams will an hour available in the studio spaces to work on their project with the presence of their legends.
-3. **Project work [No attendance]**: For the rest of the work, the team is expected to spend 6-7 hours working on their project; e.g. gathering data, meeting with each other, planning, designing, implementing, etc.
+3. **Planning and working hour (1 hour) [Compulsory attendance]**: At the end of the teamwork studio, teams will have an hour available in the studio spaces to work on their project with the presence of their legends. 
+3. **Project work [No attendance]**: For the rest of the work, the team is expected to spend 5-7 hours working on their project; e.g. gathering data, meeting with each other, planning, designing, implementing, etc.
 
 ## Schedule
 
-| Week | Start  | Seminar date | Seminar topic                                      | Studio                                                | Course deliverables                   | What should teams be doing this week?                                               |
-|------|--------|-------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
-| 1    | 24-Feb | 27-Feb      | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        | Finding someone to form a team with                                                |
-| 2    | 03-Mar | 6-Mar       | The customer discovery process                     | Team dynamics  |                                        | Meet your team, Start coming up with ideas to solve your challenge, Sketching customer problem hypotheses |
-| 3    | 10-Mar | 13-Mar      | Business model canvas, Value proposition canvas    | *Cancelled*  |                                        | Identify some interview questions, Each team member interview 2-3 customers       |
-| 4    | 17-Mar | 20-Mar      | Experimentation: Testing and validation           | Team planning, planning tools  |                                        | Refine your product ideas, Update questions, Each team member interview 3-4 more customers |
-| 5    | 24-Mar | 27-Mar      | Minimal viable products and competitor analysis   | Repositories and version control, markdown            |               | Start formulating solutions, Research your competitors, Formalise your hypotheses using test cards |
-| 6    | 31-Mar | 3-Apr       | Prototyping                                       | Reflective Practice, use of repositories for COMP1100                                              | Business model canvas iteration 1    | Validate your customer segment and value proposition hypotheses, Define a clear value proposition |
-| 7    | 07-Apr | 10-Apr      | Customer relationships and channels               | Feedback                                    |                                        | Identifying MVP hypotheses using test cards, Defining first paper prototypes, Gathering data to test MVP hypotheses |
-| 8    | 14-Apr | 17-Apr      | Personal planning and getting things done         | Paper prototyping                                        |                  | Sketching out the main features of an MVP, Finalising MVP hypotheses using learning cards, Sketching early digital prototypes (if using) |
-|      | 21-Apr |             | Mid-semester break                                |                                                       |                                        | Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc., Starting implementing MVP |
-| 9    | 28-Apr | 1-May       | Prompt engineering                                | MVP definition                  | Business model canvas iteration 2    | Continuing implementing MVP                                                  |
-| 10   | 05-May | 8-May       | Scoping                                          | Labour day holiday: no workshops on any day                   |                                        | Continuing implementing MVP                                                  |
-| 11   | 12-May | 15-May      | No lecture                                      | How to give a pitch                             |                                        | Continuing implementing MVP |
-| 12   | 19-May | 22-May      | History of computing, final submission requirements |  Teams work on MVP implementation          |                                        | Continuing implementing MVP, First draft of 1-minute pitch and 5-minute presentation | 
-| 13   | 25-May | 29-May      | No lecture                                       | Team presentations                                       |                                        | Continuing implementing MVP, Finalise 1-minute pitch and 5-minute presentation                                                 |
-| Exams week 1  | 9-Jun       |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
+| Week | Seminar topic                                      | Studio                                                | Course deliverables                   | What should teams be doing this week?                                               |
+|------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
+| 1    | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        |                                                 |
+| 2    | Teamwork, Business model canvas                     | Team dynamics, effective meetings, practice interviewing  |                                        | Meet your team, Brainstorm ideas to solve your challenge, Sketch customer problem hypotheses |
+| 3    | Experimentation: Testing and validation, Customer relationships     | *Ekka Holiday: no studios on any day*  |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
+| 4    | Prototypes and minimal viable products          | Repositories and version control, markdown    |                                        | Formalise your hypotheses using test cards, Update questions, Each team member interview 5 more customers  |
+| 5    | History of computing, Prompt engineering    |  Reflective Practice, using repositories          |               | Teams analyse interview data and start brainstorming potential solutions, Research your competitors |
+| 6    | *No seminars from week 6*          |  Team planning, planning tools                                              | Business model canvas iteration 1 - Testing the problem   | Define a clear value proposition, Identify interview questions to test value proposition, Each team member interview 3-4 customers to validate proposition |
+| 7    |              | Prototyping                                     |                                        | Use value proposition to identify MVP features using test cards, Define first paper and/or digital prototypes |
+| 8    |          | Giving feedback, team presentations                                   |                  | Each team member interview 2-3 customers to validate MVP features, Finalise MVP features using learning cards |
+|      | Mid-semester break                                |                                                       |                                        | Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc. |
+| 9    |                                | MVP definition                  | Business model canvas iteration 2 - Testing the solution    | Start implementing MVP                                                  |
+| 10   |                                           | King's Birthday holiday: no studios on any day                   |                                        | Continue implementing MVP                                                  |
+| 11   |                                      | How to give a pitch                             |                                        | Continue implementing MVP, Finalise 1-minute pitch and 5-minute presentation |
+| 12   |  |  Team presentations           |                                        | Continue implementing MVP | 
+| 13   |                                       | Team presentations                                       |                                        | Continue implementing MVP,                                                  |
+| Exams week 1  |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
+(sec:intro:challenges)=
 ## Project challenges
 
 All projects this semester will focus on improving the student experience at the University of Queensland, and potentially other universities too.
