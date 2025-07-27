@@ -13,7 +13,6 @@ We will address the following activities and exercises in this studio:
 - [ ]  Overview of repositories 
 - [ ]  Setting up and using a team repository on GitHub
 - [ ]  Using Markdown for documentation
-- [ ]  Small practice interviews.
 
 ---
 
@@ -185,7 +184,7 @@ Use the following documentation to help you with this task:
 
 ### Adding, committing, and pushing files and folders
 
-⏱️ 10 minutes - Group
+⏱️ 20 minutes - Group
 
 Git repositories are known as **distributed repositories**. This means that each person has a copy of the repository (including its entire history, etc.) on their local computer, which they need to **sync** with a remote repository so others can see their changes.
 
@@ -250,6 +249,10 @@ If each team member cannot see all of the other team members' transcripts, trace
 - Make sure that you are are not pushing to the main branch after you add your files.
 
 
+## Take a break
+
+⏱️ 10 minutes
+
 ### Managing merge conflicts
 
 ⏱️ 20 minutes - Group
@@ -274,13 +277,6 @@ Using the `team_values.md` file, use your own creativity to come up with a merge
 
 Git repositories can be hosted on other web platforms, such as an private platform in an organisation, or other public platforms, such as [BitBucket](https://bitbucket.org/).
 
----
-
-## Take a break
-
-⏱️ 10 minutes
-
----
 
 ## More than source code: using Markdown
 
@@ -311,6 +307,7 @@ In this task, you will format your team values using Markdown. Together, go back
 **Goal**: The end result should be your team values, formatted properly and looking professional.
 
 **Deliverable**: Show your legend your beautifully-formatted team values.
+
 
 ## Exit Ticket
 
