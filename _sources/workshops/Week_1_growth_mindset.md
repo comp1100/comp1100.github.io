@@ -156,10 +156,8 @@ As a lass, watch the following video in which Carol Dweck talks about her work. 
 
 Now that you have developed an understanding of the growth mindset, we will use the link below to gauge where your personal mindset falls on the mindset spectrum. Once you have completed the test, reflect on the outcome and ask yourself whether you want to change your mindset or whether you are comfortable the way you are now.
 
-<aside>
 🌐 [https://www.idrlabs.com/growth-mindset-fixed-mindset/test.php](https://www.idrlabs.com/growth-mindset-fixed-mindset/test.php)
 
-</aside>
 
 ### Awareness Circle
 
