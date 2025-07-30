@@ -16,6 +16,14 @@ We will address the following activities and exercises in this studio:
 
 ---
 
+## Repositories in COMP1100/COMP7110
+
+You will use source code repositories as the main method for submitting your work in this course.
+
+The individual student contribution to the team component is determined by the logs in the source code repository. 
+
+Therefore, you **must** use the source code repository to submit any work that you do, even sharing files with team members. 
+
 ## Repositories in software projects
 
 
@@ -35,6 +43,10 @@ They allow teams to create, store, manage and share their code and other documen
 Surely, we can just share source code via email or a messaging app by zipping it up, or just share it on Google Docs, OneDrive, DropBox, etc!
 
 Well... we **can** do that, but it is a Very Bad Idea (VBI)!
+
+First, in this course, it means that the staff won't be able to tell that you have been achieving the learning outcomes, because we won't know who did what.
+
+But even in real-world projects, it's a VBI.
 
 Consider Imogen and Zac working collaboratively on a software project using a shared drive, such as Google Drive. One day, Imogen downloads a file to work on. A bit later, Zac does too. Imogen makes some changes and then copies the file back to the server. Her changes are all there! A bit later, Zac uploads his copy of the file. His changes are all there! After lunch, Imogen needs to make some further changes, so she gets the file again, knowing that Zac had worked on it. What would she find??
 
