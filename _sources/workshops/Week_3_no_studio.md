@@ -22,9 +22,9 @@ As a team, choose one (or more!) of the challenges, and write two general questi
 
 For example:
 
-Open: "When you were doing X at UQ, did you encounter any difficulties to ...?"
+**Closed:** "When you were doing X at UQ, did you encounter any difficulties in ...?"
 
-Closed: "Tell me about any difficulties you encountered while you were doing X at UQ." 
+**Open:** "Tell me about any difficulties you encountered while you were doing X at UQ." 
 
 ## Exercise 2: Testing open vs closed questions
 
