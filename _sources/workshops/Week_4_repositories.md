@@ -237,7 +237,7 @@ In this exercise, we will learn how to branch and merge. Use the following docum
 
 - [Atlassian's Git Merge documentation](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
-**You will be using the transcripts from the interviews that you have done so far.**
+**You will be using the transcripts from the interviews that you have done so far.** If you did not do the week 3 activity, create a text file with a few words in it.
 
 Complete the following task, which gets each member to create a branch, make changes, and merge it back into the main branch:
 
@@ -320,14 +320,37 @@ In this task, you will format your team values using Markdown. Together, go back
 
 **Deliverable**: Show your legend your beautifully-formatted team values.
 
+## Take a break
+
+⏱️ 10 minutes
+
+## Initial hypotheses and interview questions
+
+⏱️  45 minutes - Team
+
+By now, you should have decided on 1-3 challenges that you want to explore.
+
+In this part of the studio, **as a team**:
+
+1. List out the hypotheses for your project. Remember to use the structure in the chapter on [experimentation](sec:experimentation).
+
+2. Derive a list of interview questions that test these hypothesis. Remember to use the times in the chapter in [interviews](sec:interviews).
+
+After the studio, create test cards for your hypothesis and start interviewing, as outlined in this week's homework.
+
+
 
 ## Exit Ticket
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`.
+1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
 
-2. 
+2. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
+
+3. Get feedback from your legend the hypotheses and questions that you have come up with for your project, and act on it.
+
+
 
 ## Bonus: It’s dangerous to go alone! Take this.
 
