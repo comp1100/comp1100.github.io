@@ -28,14 +28,14 @@ For example:
 
 ## Exercise 2: Testing open vs closed questions
 
-You will need a mobile phone with recording capabilities for this exercise (or some other recording device).
+You will need a mobile phone with audio recording capabilities for this exercise (or some other recording device).
 
 You can do this independently, as a pair, or as a team.
 
 1. Each team member should approach two different students (outside of their team) and ask each of them a question: one open and one closed. This can be a friend, but you shouldn't reveal the purpose of the exercise.
 2. First, introduce yourself (as outlined in [interviews](sec:interviews)) and state that you just want to ask one question for a course.
-3. Second, ask for permission to record their answer, as outlined in the chapter on [interviews](sec:interviews). Be sure to let participants know they can decline to answer or stop the recording at any time.
-4. If they agree, ask the open or closed question, and record their response.
+3. Second, ask for permission to audio record their answers, as outlined in the chapter on [interviews](sec:interviews). Be sure to let participants know they can decline to answer or stop the recording at any time.
+4. If they agree, ask the open or closed question, and record their response using the audio recorder.
 5. Feel free to ask follow-up questions to learn more about their experience related to the challenge that you chose.
 6. Thanks the participant, and move on.
 
