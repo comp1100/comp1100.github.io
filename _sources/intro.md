@@ -173,7 +173,7 @@ For each competency, the student will receive on of the following:
 
 For each submission (iteration 1, 2, 3), each student will receive one of the following grades for iteration:
 * **Pass**: The student has met expectations in all of the competency criteria.
-* **Conceded**: The student has met enough expectations to continue with the course, but the standard is not at a level that will obtain an overall pass --- the work needs to improve in future iterations.
+* **Conceded**: The student has met enough expectations to continue with the course, but the standard is not at a level that will obtain an overall pass --- the work needs to improve in future iterations. (The only exception is coding the MVP, which is only iteration 3. We will grade this more lightly than other competencies -- you must make a good attempt.)
 * **Fail**: In extreme circumstances, the student has failed this iteration, and therefore the course.
 
 To pass the course, each student must:
@@ -186,6 +186,12 @@ It is important to note that the focus in this course is on continual learning. 
 **Late penalty:** 100%. 
 
 The late penalty for assessment is 100% (with a one-hour grace period) -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
+
+### One-on-one meetings
+
+Throughout the course, students will meet individually, one-on-one with their legend, for a total of five meetings. These will be informal discussions where students can discuss their challenges, and seek advice and guidance from their legend. This is also an opportunity for legends to understand what students are contributing, what struggles they are having, what they understand, etc.
+
+**It is compulsory to attend these meetings**. Meetings times will be flexible, but you must choose a time slot when requested, and attend at the time you requested.
 
 (sec:intro:generative-AI-policy)=
 ## Generative AI policy
