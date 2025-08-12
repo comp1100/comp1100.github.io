@@ -346,9 +346,11 @@ Your exit ticket for this week's studio is to:
 
 1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
 
-2. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
+1. Show your legend your README.md where you have added the following for each team member: Name, Github username, and UQ email address.
 
-3. Get feedback from your legend the hypotheses and questions that you have come up with for your project, and act on it.
+1. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
+
+1. Get feedback from your legend the hypotheses and questions that you have come up with for your project, and act on it.
 
 
 
