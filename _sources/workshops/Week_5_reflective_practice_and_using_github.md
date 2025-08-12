@@ -86,9 +86,13 @@ Once the activity time is up take your post-it note and stick it on the whiteboa
 
 <p style="text-align:center; font-weight:bold;"> Devices required for this entire exercise</p> 
 
-In a [previous studio](studio:repositories), you learnt some basic Markdown and checked this into a repository. Part of the reason that Markdown was invented by Gruber and Swartz was because it was compatible with source code repositories like Github, so people could use it for documentation, and repository tools could do things like track versions and detect conflicts.
+In a [previous studio](studio:repositories), you learnt that will use source code repositories as the main method for submitting your work in this course.
 
-In this part of the studio, we will get you to start using this more systematically to document your business model canvas, etc.
+The individual student contribution to the team component is determined by the logs in the source code repository, so it is important that students submit their own work on the repository, rather than sending to team members.
+
+ In the [previous studio](studio:repositories), you also learnt some basic Markdown and checked this into a repository. Part of the reason that Markdown was invented by Gruber and Swartz was because it was compatible with source code repositories like Github, so people could use it for documentation, and repository tools could do things like track versions, detect conflicts, and merge things.
+
+In this part of the studio, we will get you to start using this more systematically to document your business model canvas, learning cards, test cards, update meeting agendas, etc.
 
 If you didn't complete the Markdown task or you have forgotten, have a quick look at the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
@@ -107,12 +111,10 @@ The basic structure we expect for your repository is below, where each of these 
   - Iteration_2
         - ....
 - Documents
-  - Iteration_1
-     -  business_model_canvas.md   (this can include your value proposition canvas)
-     -  test_cards.md
-     -  learning_cards.md
-  - Iteration_2
-     -  ...
+   -  business_model_canvas.md   (this can include your value proposition canvas)
+   -  test_cards.md
+   -  learning_cards.md
+   -  ...
 - Prototypes   -- when you design prototypes in future
 - Meetings    -- for any meeting agenda, notes, etc.
 - Code        -- the source code for your final product
@@ -223,6 +225,47 @@ You can use this to great effect.
 Git, and most other repositories, only work on plain text files. Uploading images or things like Word documents is possible, but Git will not detect conflicts, will not keep track of versions, etc. Non-text files are just treated as blocks, while text files are treated as strings of individual characters.
 
 This is why Markdown is so popular with software developers!
+
+## Take a break
+
+⏱️ 10 minutes
+
+## Interview data analysis
+
+⏱️ 45 minutes
+
+By now, you should have a set of interviews (including transcripts), as each team member will have interviewed some potential customers about their problems.
+
+As part of this exercise, each team member should:
+
+1. Take all of their own interviews, plus the interviews of ONE other team member.
+
+1. Briefly read through all of the transcripts of yours and one other team member, noting anything that you find interesting.
+
+1. Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interivew participants:
+  * Are there particular themes or answers that you see across multiple participants? (It doesn't have to be all people). What are there?
+  * Are there any interest responses that you notice?
+
+1. Give 'names' to the themes that you identify, and write these down. For examlpe, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: "Daily contact with family".
+
+Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes that differnet team members have identify are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
+
+At the end, you should have a list of key themes from your interview participants so far that you can show to your legend. Type these up into a markdown file, and give each theme a short but useful description, which would be meaningful to someone outside of your team (e.g. the course staff, an investor). For example:
+
+"Daily contact with family: Older people reported that they would like to have more regulay (daily) contact with their family members".
+
+
+## Exit ticket
+
+Your exit ticket for this week's studio is to:
+
+1. Show your legend that you have commited your work so far on the course, such as interviews, meeting agenda and notes, etc.
+
+2. Show your legend your beautifully-formatted business model canvas (even if it is quite empty!)
+
+3. Show your legend your team's analysis (the 8-15 key themes) on the interviews done so far.
+
+
 
 ## Bonus: It’s dangerous to go alone! Take this.
 

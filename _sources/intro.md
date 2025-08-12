@@ -82,7 +82,7 @@ Innovation is about finding out people's problems and trying to solve them. You 
 Each team will have a **legend**. A legend is a staff member that is assigned to help the team throughout the semester by providing guidance and feedback on how the team and individuals are going. These are similar to mentors, tutors, or demonstrators, but their role is very different in this course compared to others. They won't be grading you, they won't be teaching you directly -- they will be more like a mentor and manager within an organisation. They will be of such use to you that you will consider them legends by the end of this course.
 
 (sec:overview:grading)=
-### Grading
+## Assessment and grading
 
 COMP1100/7110 use **competency-based assessment**, and are **pass/fail courses**. That means that you will not get a numerical grade from 1-7, as is common in course at UQ.
 
@@ -107,22 +107,24 @@ Despite no grades, there will still be **regular feedback** on both teams and in
 
 In this course, we use a competency-based assessment approach. This means that a pass is not possible just by demonstrate some of the content: individuals must demonstrate all criteria up to a particular standard. This is similar to how employees are assessed in annual reviews.
 
+We have three submissions/iterations throughout the course. These submissions are effectively you just submitting the work you have done so far on your project in that iteration. At each submission/iteration, we evaluate your progress so far using the criteria below.
+
 We have to groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **teamwork** criteria.
 
 
 **Innovation**: The innovation criteria specify that each individual demonstrates *via their behaviour* that they understand and can apply the Lean Startup process to an open-ended problem:
 
-| **Competency**                     | **Description** |
-|-----------------------------------|-----------------|
-| Problem and solution identification | Demonstrate the ability to frame open-ended problems by articulating well-reasoned, testable hypotheses about customers, markets, and products. |
-| Customer discovery                 | Critically design and conduct customer/user research (using techniques including interviews) that yields meaningful insights. |
-| Value proposition                  | Construct and justify a unique value proposition that clearly aligns customer needs with a feasible and innovative solution. |
-| Minimum viable product (MVP)      | Design an MVP that prioritises features for testing the core assumptions of the value proposition, and explain the rationale behind those choices. |
-| Experiment design                  | Design and justify experiments that effectively test key hypotheses, demonstrating an understanding of experimental design principles. |
-| Refine or pivot                    | Use evidence from data to make and justify decisions about refining or pivoting the product or strategy. |
-| Prototype                          | Create prototypes that are purposefully designed to elicit specific feedback, and reflect on how the feedback informs next steps. |
-| Communication                      | Communicate product ideas clearly and persuasively to a target audience, using appropriate formats and storytelling techniques. |
-| Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills. |
+| **Competency**                     | **Description** |  Evaluated in |
+|-----------------------------------|-----------------|-----------------|
+| Problem and solution identification | Demonstrate the ability to frame open-ended problems by articulating well-reasoned, testable hypotheses about customers, markets, and products. | Iterations 1-3 |
+| Customer discovery                 | Critically design and conduct customer/user research (using techniques including interviews) that yields meaningful insights. | Iterations 1-3 |
+| Value proposition                  | Construct and justify a unique value proposition that clearly aligns customer needs with a feasible and innovative solution. | Iterations 2-3 |
+| Minimum viable product (MVP)      | Design an MVP that prioritises features for testing the core assumptions of the value proposition, and explain the rationale behind those choices. | Iterations 3 |
+| Experiment design                  | Design and justify experiments that effectively test key hypotheses, demonstrating an understanding of experimental design principles. | Iterations 1-3 |
+| Refine or pivot                    | Use evidence from data to make and justify decisions about refining or pivoting the product or strategy. | Iterations 1-3 |
+| Prototype                          | Create prototypes that are purposefully designed to elicit specific feedback, and reflect on how the feedback informs next steps. | Iterations 2-3 |
+| Communication                      | Communicate product ideas clearly and persuasively to a target audience, using appropriate formats and storytelling techniques. | Iterations 1-3 |
+| Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills. | Iteration 3 |
 
 **Note**: As this course is a 1st-year course and some (many?) people in it have limited programming experience, the point of this criterion is to build programming experience, not to deliver a high-quality solution. 
 
@@ -134,12 +136,12 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 
 | **Competency**               | **Description** |
 |-----------------------------|-----------------|
-| Collaboration               | Actively collaborate with members of your team by contributing ideas, supporting others, and participating in shared decision-making processes. |
-| Planning                    | Demonstrate the ability to plan effectively for both individual and team tasks, including setting goals, anticipating challenges, and adapting plans as needed. |
-| Tools                       | Select and use appropriate collaboration tools to enhance team communication, coordination, and productivity, with reflection on their effectiveness. |
-| Self-reflection             | Reflect critically on your role and performance within the team, identifying strengths, areas for growth, and strategies for improvement. |
-| Responsibility              | Take ownership of assigned tasks, meet deadlines reliably, and demonstrate accountability to the team through consistent follow-through. |
-| Professionalism and ethics  | Act with professionalism, respect, inclusivity, and integrity in all team, staff and customer interactions, and reflect on how your behavior contributed to a positive team culture. |
+| Collaboration               | Actively collaborate with members of your team by contributing ideas, supporting others, and participating in shared decision-making processes. | Iterations 1-3 |
+| Planning                    | Demonstrate the ability to plan effectively for both individual and team tasks, including setting goals, anticipating challenges, and adapting plans as needed. | Iterations 1-3 |
+| Tools                       | Select and use appropriate collaboration tools to enhance team communication, coordination, and productivity, with reflection on their effectiveness. | Iterations 1-3 |
+| Self-reflection             | Reflect critically on your role and performance within the team, identifying strengths, areas for growth, and strategies for improvement. | Iterations 1-3 |
+| Responsibility              | Take ownership of assigned tasks, meet deadlines reliably, and demonstrate accountability to the team through consistent follow-through. | Iterations 1-3 |
+| Professionalism and ethics  | Act with professionalism, respect, inclusivity, and integrity in all team, staff and customer interactions, and reflect on how your behavior contributed to a positive team culture. | Iterations 1-3 |
 
 
 
@@ -148,7 +150,7 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 
 The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
 
-1. **Weekly:** Attend and *participate in* the weekly studios.
+1. **Weekly:** Attend *on time* and *participate in* the weekly studios. If you cannot make it (illness, clash) let your tutor AND your team know *before* the studio.
 2. **16:00, Thursday 04/09/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
 3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
 4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
@@ -157,9 +159,33 @@ Deliverables 2-4 will be submitted via Github and Blackboard. Details on submiss
 
 In addition, for deliverables 2-4, each individual will submit a short self-reflection.
 
+### Assessment grading
+
+After each assessment, each individual will be graded against the criteria. **Individual student contribution to the team component is determined by the logs in the source code repository**.
+
+For each competency, the student will receive on of the following:
+* **Meets expectations**: The student has clearly demonstrated this competency based on the evidence found in the repository.
+* **Not yet**: The student has not yet demonstrated this competency.
+* **New submission required**: The student/team must resubmit some part of the submission within 5 working days and be re-assessed.
+* **No evidence**: There is no evidence of the student for this criteria.
+
+**Hurdles**: All assessment items are **hurdles**, which means students must pass each to pass the course.
+
+For each submission (iteration 1, 2, 3), each student will receive one of the following grades for iteration:
+* **Pass**: The student has met expectations in all of the competency criteria.
+* **Conceded**: The student has met enough expectations to continue with the course, but the standard is not at a level that will obtain an overall pass --- the work needs to improve in future iterations.
+* **Fail**: In extreme circumstances, the student has failed this iteration, and therefore the course.
+
+To pass the course, each student must:
+1. Pass the participation hurdle for the studios.
+1. Pass iteration 3.
+1. Received a Pass or Conceded on iterations 1-2.
+
+It is important to note that the focus in this course is on continual learning. If a student or team conduct their interviews at a level that is below our (very high) expectations in iteration 1, we provide feedback and students will have the opportunity to demonstrate this competency in a future iteration. 
+
 **Late penalty:** 100%. 
 
-The late penalty for assessment is 100% -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
+The late penalty for assessment is 100% (with a one-hour grace period) -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
 
 (sec:intro:generative-AI-policy)=
 ## Generative AI policy

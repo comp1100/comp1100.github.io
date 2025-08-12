@@ -141,7 +141,7 @@ We are not going to explicitly tell you all of the commands that you need. Inste
 
 ⏱️ 10 minutes - Individual
 
-You will have received an invite to the Github organisation called COMP1100-[Year]-s1/2 or COMP710-[Year]-s1/2, where Year is this year, and `s1` or `s2` depending which semester you take the course in.
+You will have received an invite to the Github organisation called for the course.
 
 Accept this invite, creating an account on Github if you do not have one already.
 
@@ -214,7 +214,7 @@ GitHub repositories, like any file storage, require a logical file structure. Co
 - [ ]  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.
 - [ ]  Next, as a group, work together to figure out how this team member should `add` and `commit` this change to their local repository, and then `push` it to the Github remote repository. Don't forget to add a good commit message!
 - [ ]  Now, each team member should pull from the remote Github repository.
-- [ ]  In the file README.md in the top folder of the repository, add the following for each team member: Name, Github username, and UQ email address.
+- [ ]  In the file README.md in the top folder of the repository, add the following for each team member: Name, UQ student number, Github username, and UQ email address.
 - [ ]  Commit and push this file to the repository. 
 
 **Goal**: The end result should be that each team member should be able to see the file `team_values.md` and open/edit it on their local computer.
@@ -346,7 +346,7 @@ Your exit ticket for this week's studio is to:
 
 1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
 
-1. Show your legend your README.md where you have added the following for each team member: Name, Github username, and UQ email address.
+1. Show your legend your README.md where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.
 
 1. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
 
