@@ -114,7 +114,7 @@ We have to groups of competency  criteria that we expect each student to demonst
 
 **Innovation**: The innovation criteria specify that each individual demonstrates *via their behaviour* that they understand and can apply the Lean Startup process to an open-ended problem:
 
-| **Competency**                     | **Description** |  Evaluated in |
+| **Competency**                     | **Description** |  **Evaluated in** |
 |-----------------------------------|-----------------|-----------------|
 | Problem and solution identification | Demonstrate the ability to frame open-ended problems by articulating well-reasoned, testable hypotheses about customers, markets, and products. | Iterations 1-3 |
 | Customer discovery                 | Critically design and conduct customer/user research (using techniques including interviews) that yields meaningful insights. | Iterations 1-3 |
@@ -134,8 +134,8 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 
 **Teamwork:** The teamwork criteria specify that each individual demonstrates *via their behaviour* that they can work as an independent person as part of a larger team:
 
-| **Competency**               | **Description** |
-|-----------------------------|-----------------|
+| **Competency**               | **Description** |   **Evaluated in** |
+|-----------------------------|-----------------| -----------------|
 | Collaboration               | Actively collaborate with members of your team by contributing ideas, supporting others, and participating in shared decision-making processes. | Iterations 1-3 |
 | Planning                    | Demonstrate the ability to plan effectively for both individual and team tasks, including setting goals, anticipating challenges, and adapting plans as needed. | Iterations 1-3 |
 | Tools                       | Select and use appropriate collaboration tools to enhance team communication, coordination, and productivity, with reflection on their effectiveness. | Iterations 1-3 |
@@ -172,12 +172,12 @@ For each competency, the student will receive on of the following:
 **Hurdles**: All assessment items are **hurdles**, which means students must pass each to pass the course.
 
 For each submission (iteration 1, 2, 3), each student will receive one of the following grades for iteration:
-* **Pass**: The student has met expectations in all of the competency criteria.
-* **Conceded**: The student has met enough expectations to continue with the course, but the standard is not at a level that will obtain an overall pass --- the work needs to improve in future iterations. (The only exception is coding the MVP, which is only iteration 3. We will grade this more lightly than other competencies -- you must make a good attempt.)
-* **Fail**: In extreme circumstances, the student has failed this iteration, and therefore the course.
+* **Pass (P)**: The student has met expectations in all of the competency criteria.
+* **Conceded (C)**: The student has not met expectations in all of the competency criteria, and if they continue at the current standard, they will fail a future iteration. However, they have met enough expectations to continue with the course. The competency of 'Software implementation' (coding the MVP) is only assessed in iteration 3. For this reason, we will grade this more lightly than other competencies -- you must make a good attempt.
+* **Fail (C)**: In extreme circumstances, the student has failed this iteration, and therefore the course. For iterations 1 and 2, this is only used in situations where students have clearly not engaged with the course.
 
 To pass the course, each student must:
-1. Pass the participation hurdle for the studios.
+1. Pass  the participation hurdle for the studios.
 1. Pass iteration 3.
 1. Received a Pass or Conceded on iterations 1-2.
 
