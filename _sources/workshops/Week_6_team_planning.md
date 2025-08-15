@@ -10,7 +10,7 @@
 We will address the following activities and exercises in studio 3.
 
 - [ ]  Basics of managing a small-team project
-- [ ]  Setting up Trello
+- [ ]  Setting up Github projects
 - [ ]  How to create tasks
 - [ ]  How to set up notifications
 - [ ]  Trello Start-up Activity
@@ -27,7 +27,7 @@ We will address the following activities and exercises in studio 3.
 
 Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.
 
-In this studio, we'll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called *Trello* for managing your team.
+In this studio, we'll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called **Github projects** for managing your team.
 
 
 ```{figure} ./figs/teamwork.jpg
@@ -41,10 +41,8 @@ Teamwork!
 
 
 
-In this course we recommend the use of Trello, a free to use team scheduling and planning application, but there are many other suitable tools.
+In this course we recommend the use of Github projects, a team scheduling and planning application, but there are many other suitable tools.
 
-> Trello is a web-based, Kanban-style, list-making application developed originally by Fog Creek Software and later acquired by Atlassian. Trello can be used to create task boards with different columns and move the tasks between them. Typically columns include task statuses such as To Do, In Progress, and Done. The tool can be used for personal and business purposes including real estate management, software project management, school bulleting boards, accounting, web design, gaming and law office case management.
-> 
 
 ## Managing a small team: *Who Does What By When*
 
@@ -131,7 +129,7 @@ For each one, write down: who does what by when.
 
 Your legends will be working with you to give feedback on your task breakdown.
 
-## Trello Setup
+## Github project setup
 
 ⏱️ 30 minutes - Group
 
@@ -175,6 +173,11 @@ You will need to setup notifications in Trello to your chosen device (Android or
 And how to setup notifications for due dates:
 
 🌐 [https://support.atlassian.com/trello/docs/receiving-trello-notifications/](https://support.atlassian.com/trello/docs/receiving-trello-notifications/)
+
+
+### MIlestones
+
+### Linking with issues
 
 ### Additional Resources
 

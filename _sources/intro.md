@@ -118,11 +118,11 @@ We have to groups of competency  criteria that we expect each student to demonst
 |-----------------------------------|-----------------|-----------------|
 | Problem and solution identification | Demonstrate the ability to frame open-ended problems by articulating well-reasoned, testable hypotheses about customers, markets, and products. | Iterations 1-3 |
 | Customer discovery                 | Critically design and conduct customer/user research (using techniques including interviews) that yields meaningful insights. | Iterations 1-3 |
-| Value proposition                  | Construct and justify a unique value proposition that clearly aligns customer needs with a feasible and innovative solution. | Iterations 2-3 |
-| Minimum viable product (MVP)      | Design an MVP that prioritises features for testing the core assumptions of the value proposition, and explain the rationale behind those choices. | Iterations 3 |
+| Value proposition                  | Construct and justify a business model and unique value proposition that clearly aligns customer needs with a feasible and innovative solution. | Iterations 1-3 |
 | Experiment design                  | Design and justify experiments that effectively test key hypotheses, demonstrating an understanding of experimental design principles. | Iterations 1-3 |
 | Refine or pivot                    | Use evidence from data to make and justify decisions about refining or pivoting the product or strategy. | Iterations 1-3 |
 | Prototype                          | Create prototypes that are purposefully designed to elicit specific feedback, and reflect on how the feedback informs next steps. | Iterations 2-3 |
+| Minimum viable product (MVP)      | Design an MVP that prioritises features for testing the core assumptions of the value proposition, and explain the rationale behind those choices. | Iteration 3 |
 | Communication                      | Communicate product ideas clearly and persuasively to a target audience, using appropriate formats and storytelling techniques. | Iterations 1-3 |
 | Software implementation            | Attempt a digital implementation of an MVP that demonstrates growth in programming skills. | Iteration 3 |
 
@@ -177,7 +177,7 @@ For each submission (iteration 1, 2, 3), each student will receive one of the fo
 * **Fail (C)**: In extreme circumstances, the student has failed this iteration, and therefore the course. For iterations 1 and 2, this is only used in situations where students have clearly not engaged with the course.
 
 To pass the course, each student must:
-1. Pass  the participation hurdle for the studios.
+1. Pass the participation hurdle for the studios.
 1. Pass iteration 3.
 1. Received a Pass or Conceded on iterations 1-2.
 

@@ -71,7 +71,7 @@ This will require you to revisit the 'Helpful questions' from the article above.
 - [ ]  After about 10 minutes, your legends will stop the discussion, and the person with the odd number will switch tables again to a new table. Repeat.
 - [ ]  Aim for 5-10 minutes per session. With change overs, you should manage 3 question and answer sessions.
 
-Once the activity time is up take your post-it note and stick it on the whiteboard at the front of the class. Browse everyone elses to see what questions there were.
+Once the activity time is up take your post-it note and stick it on the whiteboard at the front of the class. Browse everyone else's to see what questions there were.
 
 
 ---
@@ -236,30 +236,37 @@ This is why Markdown is so popular with software developers!
 
 By now, you should have a set of interviews (including transcripts), as each team member will have interviewed some potential customers about their problems.
 
+**If you do not have these interviews yet**, go out and do these **now**. Come back at the end of the studio time to show your legend.
+
 As part of this exercise, each team member should:
 
 1. Take all of their own interviews, plus the interviews of ONE other team member.
 
-1. Briefly read through all of the transcripts of yours and one other team member, noting anything that you find interesting.
+1. Read through all of the transcripts of yours and one other team member, taking mental note of anything that you find interesting.
 
-1. Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interivew participants:
+1. Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interview participants and writing these observations down:
   * Are there particular themes or answers that you see across multiple participants? (It doesn't have to be all people). What are there?
   * Are there any interest responses that you notice?
 
-1. Give 'names' to the themes that you identify, and write these down. For examlpe, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: "Daily contact with family".
+1. Give 'names' to the themes that you identify, and write these down. For example, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: "Daily contact with family".
 
-Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes that differnet team members have identify are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
+Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes that different team members have identify are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
 
-At the end, you should have a list of key themes from your interview participants so far that you can show to your legend. Type these up into a markdown file, and give each theme a short but useful description, which would be meaningful to someone outside of your team (e.g. the course staff, an investor). For example:
+At the end, you should have a list of key themes from your interview participants so far that you can show to your legend. 
 
-"Daily contact with family: Older people reported that they would like to have more regulay (daily) contact with their family members".
+Type these up into a markdown file, and give each theme a short but useful description, which would be meaningful to someone outside of your team (e.g. the course staff, an investor). For example:
 
+"**Daily contact with family**: Older people reported that they would like to have more regular (daily) contact with their family members".
+
+Each team member: commit and push your interview analysis into Github (take a picture of notes, or upload a Markdown file) using the 'git commit' and 'git push' commands --- do not upload via the Github website.
+
+Team: One team member should commit and push the team markdown file to the Github repository using 'git commit' and 'git push',
 
 ## Exit ticket
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have commited your work so far on the course, such as interviews, meeting agenda and notes, etc.
+1. Show your legend that you have committed your work so far on the course, such as interviews, meeting agenda and notes, etc.
 
 2. Show your legend your beautifully-formatted business model canvas (even if it is quite empty!)
 

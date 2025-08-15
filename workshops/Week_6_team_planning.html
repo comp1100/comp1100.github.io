@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -401,12 +401,14 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-setup">Trello Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github project setup</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#milestones">MIlestones</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-with-issues">Linking with issues</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 </ul>
 </li>
@@ -440,7 +442,7 @@ document.write(`
 <p>We will address the following activities and exercises in studio 3.</p>
 <ul class="contains-task-list simple">
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Basics of managing a small-team project</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Trello</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Github projects</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to create tasks</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to set up notifications</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Trello Start-up Activity</p></li>
@@ -452,17 +454,14 @@ document.write(`
 <p>⏱️ 15 minutes - Group</p>
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 <p>Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.</p>
-<p>In this studio, we’ll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called <em>Trello</em> for managing your team.</p>
+<p>In this studio, we’ll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called <strong>Github projects</strong> for managing your team.</p>
 <figure class="align-default" id="id1">
 <img alt="../_images/teamwork.jpg" src="../_images/teamwork.jpg" />
 <figcaption>
 <p><span class="caption-number">Fig. 31 </span><span class="caption-text">Teamwork!</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>In this course we recommend the use of Trello, a free to use team scheduling and planning application, but there are many other suitable tools.</p>
-<blockquote>
-<div><p>Trello is a web-based, Kanban-style, list-making application developed originally by Fog Creek Software and later acquired by Atlassian. Trello can be used to create task boards with different columns and move the tasks between them. Typically columns include task statuses such as To Do, In Progress, and Done. The tool can be used for personal and business purposes including real estate management, software project management, school bulleting boards, accounting, web design, gaming and law office case management.</p>
-</div></blockquote>
+<p>In this course we recommend the use of Github projects, a team scheduling and planning application, but there are many other suitable tools.</p>
 </section>
 <section id="managing-a-small-team-who-does-what-by-when">
 <h2>Managing a small team: <em>Who Does What By When</em><a class="headerlink" href="#managing-a-small-team-who-does-what-by-when" title="Link to this heading">#</a></h2>
@@ -541,8 +540,8 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <p>For each one, write down: who does what by when.</p>
 <p>Your legends will be working with you to give feedback on your task breakdown.</p>
 </section>
-<section id="trello-setup">
-<h2>Trello Setup<a class="headerlink" href="#trello-setup" title="Link to this heading">#</a></h2>
+<section id="github-project-setup">
+<h2>Github project setup<a class="headerlink" href="#github-project-setup" title="Link to this heading">#</a></h2>
 <p>⏱️ 30 minutes - Group</p>
 <p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
 <p>As noted, we encourage the use of <a class="reference external" href="https://trello.com/home">Trello</a> in this course. It allows us to define tasks, assign them to people, and give them due dates: <strong>who does what by when</strong>!.</p>
@@ -572,6 +571,12 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/adding-dates-to-cards/">https://support.atlassian.com/trello/docs/adding-dates-to-cards/</a></p>
 <p>And how to setup notifications for due dates:</p>
 <p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/receiving-trello-notifications/">https://support.atlassian.com/trello/docs/receiving-trello-notifications/</a></p>
+</section>
+<section id="milestones">
+<h3>MIlestones<a class="headerlink" href="#milestones" title="Link to this heading">#</a></h3>
+</section>
+<section id="linking-with-issues">
+<h3>Linking with issues<a class="headerlink" href="#linking-with-issues" title="Link to this heading">#</a></h3>
 </section>
 <section id="additional-resources">
 <h3>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
@@ -696,12 +701,14 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-setup">Trello Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github project setup</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#milestones">MIlestones</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-with-issues">Linking with issues</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 </ul>
 </li>
