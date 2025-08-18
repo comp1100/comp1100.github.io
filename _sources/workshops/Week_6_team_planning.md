@@ -4,7 +4,7 @@
 
 ---
 
-> In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up Trello and how to set up tasks and notifications.
+> In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up the Github Projects tool and how to set up tasks and notifications. Finally, we will also ask you to do a short self assessment on your performance in the course so far.
 > 
 
 We will address the following activities and exercises in studio 3.
@@ -13,9 +13,19 @@ We will address the following activities and exercises in studio 3.
 - [ ]  Setting up Github projects
 - [ ]  How to create tasks
 - [ ]  How to set up notifications
-- [ ]  Trello Start-up Activity
+- [ ]  Github Project start-up Activity
+- [ ]  Self assessment
 
 ---
+
+## Using team planning tools in COMP1100/COMP7110
+
+We expect teams to use the Github Project tool to track the team progress in this this course.
+
+Adding and closing tasks is straightforward and easy. The difficult part is deciding what tasks need to be completed, and who will do what by when.
+
+The small overhead of using the Github Project tool is paid back to the team by them being able to see who is assigned to what, when they have agreed to deliver it, and whether it has been delivered.
+
 
 ## Effective Small-Team Planning
 
@@ -94,7 +104,7 @@ Some tips on deadlines:
    For example, if a task will take about 6 weeks, it is certain that there are smaller sub-tasks that can be done. "Conduct 70 customer interviews" could start with "Define customer interview questions", then "Ask person X to check questions", then "Interview first 5 customers to validate questions", etc.
 1. **Make deadlines specific**. For example, not "Next week" or even "Thursday 27th", but "1pm on Thursday 27th".
 1. **Shorter deadlines are often more effective**. The famous Parkinson's law is "work expands as to fill the time available for its completion", which means: the more time we give people/ourselves, the longer we take. People will resist shorter deadlines, but seem to respond well to them. Longer deadlines do not drive behaviour. So keep deadlines short, but not so short that quality is affected.
-1. **Update the deadline if it is missed**. We all miss deadlines sometimes. In such a case, don't just say "Ok, please submit it soon" -- assign a new deadline **immediately**: "Ok, thanks for letting us know. Can you please get it to us by 1pm on Thursday?"
+1. **Update the deadline if it is missed**. We all miss deadlines sometimes. In such a case, don't just say "OK, please submit it soon" -- assign a new deadline **immediately**: "OK, thanks for letting us know. Can you please get it to us by 1pm on Thursday?"
 
 ### Summary
 
@@ -129,92 +139,107 @@ For each one, write down: who does what by when.
 
 Your legends will be working with you to give feedback on your task breakdown.
 
-## Github project setup
+## Github Project setup
 
 ⏱️ 30 minutes - Group
 
 <p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
 
-As noted, we encourage the use of [Trello](https://trello.com/home) in this course. It allows us to define tasks, assign them to people, and give them due dates: **who does what by when**!.
+In this project, you will use [Github projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). It allows us to define tasks, assign them to people, and give them due dates: **who does what by when**!. It also supports a whole other range of nice features that you may wish to explore independently.
 
-To create a Trello board, you need to visit the [Trello website and sign-up](https://trello.com/home). Use the 'Get Trello for free' button in the top left corner to get started.
+You already have a Github account from an earlier studio. Once you log in, use the following tutorials to learn how to use Github.
 
-🌐 [https://trello.com/home](https://trello.com/home)
+### Create a project
 
-![Trello.png](figs/Trello.png)
+One team member should create a **repository project**. To do this, navigate to your team repository, then select 'Projects' from the top menu, and then select 'New Project'.
 
+**Note**: You need to create this **from your repository**, otherwise it will be public to anyone in the organisation, who will be able to change tasks.
 
+We suggest using the template called 'Team planning', but you are free to try others if you want.
 
-Once you have created your account, either manually or through a linked account, use the following tutorials to learn how to use Trello.
+You *MUST* name your project using following format:
 
+```[Day]_[Time]_Team_[XY]```
 
-### Trello boards, lists, and cards
+where Day is either Mon, Tue, Wed, etc., Time is the start time of your studio such as 11am, and XY is your team number using **two digits**.
 
-🌐 [https://trello.com/guide/trello-101](https://trello.com/guide/trello-101)
+For example: ```Mon_11am_Team_02``` --- so the same format as your MS Teams channel and Github repository.
 
-### How to Create a Trello Board
+For further details, read:
 
-🌐 [https://support.atlassian.com/trello/docs/creating-a-new-board/](https://support.atlassian.com/trello/docs/creating-a-new-board/)
+🌐 [https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project]
 
-### How to Create a Trello project
+### Understanding project boards
 
-🌐 [https://trello.com/guide/create-project](https://trello.com/guide/create-project)
+You should now see a project board. If you have selected the 'Team Planning' template, along the 'Backlog' tag, you will see three columns: Todo, In Progress, and Done.
 
-### How to Add Team Members to Your Trello Boards
+These three labels are a simplified [Kanban](https://www.atlassian.com/agile/kanban) board, which track:
+1. Todo: the backlog of tasks that a team needs to complete.
+2. In Progress: the tasks that the team is currently working on.
+3. Done: the tasks that the team has completed.
 
-🌐 [https://trello.com/guide/onboard-team](https://trello.com/guide/onboard-team)
+The idea is that, when teams/individuals decide that tasks need to be done, they add the task to Todo. 
 
-### Due Date Notifications in Trello
+When an individual starts on a task that is in the Todo backlog, they move it to In Progress, so their team members know what they are working on.
 
-You will need to setup notifications in Trello to your chosen device (Android or IPhone) for things like schedule updates, milestones and deadlines. Use the following link to learn how to add due dates:
+Finally, when it is done, tasks are moved to Done.
 
-🌐 [https://support.atlassian.com/trello/docs/adding-dates-to-cards/](https://support.atlassian.com/trello/docs/adding-dates-to-cards/)
-
-And how to setup notifications for due dates:
-
-🌐 [https://support.atlassian.com/trello/docs/receiving-trello-notifications/](https://support.atlassian.com/trello/docs/receiving-trello-notifications/)
-
-
-### MIlestones
-
-### Linking with issues
-
-### Additional Resources
-
-More tutorial videos can be found at Trello’s official YouTube channel or their official online guide.
-
-🌐 [https://www.youtube.com/@trello/videos](https://www.youtube.com/@trello/videos)
-
-🌐 [https://trello.com/guide](https://trello.com/guide)
+Feel free to add more lists if your team want. For example, Kanban boards often have 'Planning' in between Todo and In Progress; and 'Review' between In Progress and Done.
 
 
+### Iterations
 
-## Take a break
+Many projects (including the project in this course) are done in iterations. It is useful for Github projects to know the iteration dates, so you can  'tag' tasks, etc., with the iteration, making it easy to navigate by filtering things only from the current iteration, for example.
 
-⏱️ 10 minutes
-
-
-## Trello Exercise
-
-
-⏱️ 30 Minutes - Group
-
+One team member should:
+1. Go to the main page of your Github project.
+1. Select the three dots '...' from the top right of the page.
+1. Click 'Settings' and then 'Iteration'.
+1. Create Iteration 1, Iteration 2, and Iteration 3 using the dates from the [course profile](https://comp1100.github.io/intro.html#assessment-deliverables).
 
 
-Now that you have become somewhat familiar with Trello, with your group try to complete the following tasks to prepare your Trello board for the course:
+### Creating tasks
+
+Next, we will start adding tasks from the earlier exercise. If you run into trouble, consult the documentation:
+
+🌐 [https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project]
+
+1. **Create tasks**: Create new tasks (items) for the tasks that you are responsible for. Give the task a short, meaningful title, and add a description in the 'Description' field is more information is required; e.g. requirements, links to data source, etc.
+
+   This is the **What** in **Who does what by when**.
+
+Click on the task name, and another window will appear, with a heap of information. Do the following:
+
+2. **Tag people**: At the topic as 'Assignees', which are the people responsible for completing the tasks. A task can belong to more than one person. Select who is responsible for the tasks that you are adding if you are not the only person responsible.
+
+   This is the **Who** in **Who does what by when**.
+
+3. **Add due dates**: Find the 'End Date' and assign a due date for the task. 
+
+  This is the **By when** in **Who does what by when**.
+
+4. **Add iteration:** Find 'Iteration', click on this, and assign the right iteration (Iteration 1, 2, or 3).
+
+**Tip:** For any task, the due date should be before the end date of the iteration, but Github does not warn if it is not.
+
+### Seeing the due date
+
+Close the task so you can see the project board again. You will note that the due date does not appear in this view. 
+
+To make it show, select 'Backlog' (or the name of the view that you are using if you didn't select the 'Team Planning' template), then 'Fields', and then 'End Date'.
+
+### Filtering 
+
+From the main project board, you should see a search bar with 'Filter by keyboard or by field'. Here, you can filter to see you own tasks only, by name, etc.
+
+One 'hidden' option is to filter by iteration. Type "iteration: " and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search "iteration:@current" for this too.
 
 
-💡 Remember to delegate tasks between team members for efficient use of your time. Multiple team members can work on different tasks at the same time.
+### And your done!
 
+You now have a project management system that is suitable for small teams! 
 
-
-- [ ]  Add all team members to your Trello board.
-- [ ]  Create at least three Trello boards for your project: Upcoming tasks, In-progress tasks, and Done tasks (or choose your own if you want).
-- [ ]  Change your Trello board background to something that represents your team.
-- [ ]  To your Trello, add all of the tasks that you identified in the earlier exercise.
-- [ ]  Create at least one Trello automation (Button, Due Date or Rule).
-
-Once all these tasks have been completed, signal to a Legend and show them your board.
+Your responsibility is to now *use* this task tracker and look at it when you want to know what others are working on.
 
 
 ## Reflection
@@ -227,7 +252,56 @@ Now that you have completed this, reflect on the following with the class:
 
 1. What is one key thing you will take away from this studio for your project and why?
 1. In what ways did this studio change your understanding of managing team dynamics?
-1. Have you used Trello or any other tools similar to Trello? If so, share your experience with the class.
+1. Have you used Github projects or any other similar tools, such as Trello or Jira? If so, share your experience with the class.
+
+
+### Additional Resources
+
+More tutorials and documentation can be found at Github's online guide:
+
+🌐 [https://docs.github.com/en/issues]
+
+In particular, a few features are relevant for those wishing to use Github further:
+
+* [Insights about projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects)
+* [Customing the view/layout of your project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view)
+* [Using issues to track work of a project](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project)
+* [Automating parts of your workload](https://docs.github.com/en/actions/how-tos/write-workflows)
+
+
+## Break
+
+⏱️ 10 Minutes 
+
+## Self assessment
+
+⏱️ 45 Minutes - Group and Individual
+
+<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
+
+You can find [a spreadsheet that your legend will use to give you feedback after each iteration](../assets/feedback_studio_exercise.xlsx).
+
+With the submission due this week, we want you to take some time to assess your own progress, and to think about whether there are a few small changes you can make before the submission to make your contribution clear.
+
+This activity has four parts:
+1. One team member should download from the link above and put it in the 'Files' of your MS Teams channel.
+2. [5 mins] Each person should open this and take 5 minutes to read (and remind themselves) of the competency criteria that we use to assessment individuals in the course and the levels that we grade each at. Notice that the fifth columns is called 'Add criteria here' -- and all cells in the columns are empty.
+2. [20 mins] Break your team into two sub-teams:
+   * Team A: Read the eight competency criteria for the 'Team' assessment (in the first table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the 2nd competency on experiments, one criterion may be '*All hypotheses are testable, simple, clear, and ethical*'. Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don't overthink it.
+   * Team B: Read the six competency criteria for the 'Individuals' assessment (in the second table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the final competency on professionalism, one criterion may be '*Shows up to meetings, studios, and 1-on-1s on time, and participates meaningfully*.' Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don't overthink it.
+   * **HINT**: This task may require you to revisit [the course notes](https://comp1100.github.io/intro.html).
+3. [20 mins] Once all criteria have been defined, each team member should make their own copy of this file, and conduct a short self assessment. Select the appropriate rating under the 'Assessment' column for each competency, and write brief feedback to yourself that answers: where it is **demonstrated** that I have achieved this competency? It is important to ask yourself: *yes, I've learnt this, but is there **evidence** available to my legend that I have learnt it?*
+
+**Important**: Be honest with yourself. This is not part of your grade and we won't be using this to judge your actual contribution -- this is to help you reflect on the quality of your own work and how others (your legend!) will see it.
+
+## Exit ticket
+
+1. Teams: Show your legend your Github project created using the format ```[Day]_[Time]_Team_[XY]```.
+
+2. Teams: Show your legend the tasks that you have assigned to complete for the remainder of iteration 1, which clear show **Who does what by when**.
+
+3. Individuals: Show your legend your self-assessment on your demonstration of the capabilities so far.
+
 
 ## Bonus: It’s dangerous to go alone! Take this.
 

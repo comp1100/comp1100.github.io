@@ -164,7 +164,9 @@ There are three main options for you to use, and the staff have no particular re
 
 ⏱️ 10 minutes - Group
 
-One team member should create a repository for the team. This MUST be follow the following format:
+One team member should be nominated as a 'team leader' for this exercise. Your legend will ask your team leader for their Github username and will send a separate invite to enable this team leader to create a repository.
+
+The team leader  member should create a repository for the team. This MUST follow the format:
 
 ```[Day]_[Time]_Team_[XY]```
 
@@ -180,7 +182,7 @@ When creating this, choose the following settings:
 
 For other settings, you can leave the default values (or choose other options if you like).
 
-This team member should invite ALL team members AND your legend to the repository. From the top menu, select *Settings*, then from the left select *Collaborators and teams*, and under *Manage access* you can *Add people*.
+This team member should invite ALL team members to the repository. From the top menu, select *Settings*, then from the left select *Collaborators and teams*, and under *Manage access* you can *Add people*.
 
 ### Clone your repository
 

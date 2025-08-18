@@ -392,6 +392,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-team-planning-tools-in-comp1100-comp7110">Using team planning tools in COMP1100/COMP7110</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
@@ -401,20 +402,23 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github project setup</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#milestones">MIlestones</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-with-issues">Linking with issues</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github Project setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-project">Create a project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-project-boards">Understanding project boards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iterations">Iterations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-tasks">Creating tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#seeing-the-due-date">Seeing the due date</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering">Filtering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#and-your-done">And your done!</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-exercise">Trello Exercise</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-assessment">Self assessment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
@@ -437,7 +441,7 @@ document.write(`
 <h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <hr class="docutils" />
 <blockquote>
-<div><p>In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up Trello and how to set up tasks and notifications.</p>
+<div><p>In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up the Github Projects tool and how to set up tasks and notifications. Finally, we will also ask you to do a short self assessment on your performance in the course so far.</p>
 </div></blockquote>
 <p>We will address the following activities and exercises in studio 3.</p>
 <ul class="contains-task-list simple">
@@ -445,10 +449,17 @@ document.write(`
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Github projects</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to create tasks</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to set up notifications</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Trello Start-up Activity</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Github Project start-up Activity</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Self assessment</p></li>
 </ul>
 </section>
 <hr class="docutils" />
+<section id="using-team-planning-tools-in-comp1100-comp7110">
+<h2>Using team planning tools in COMP1100/COMP7110<a class="headerlink" href="#using-team-planning-tools-in-comp1100-comp7110" title="Link to this heading">#</a></h2>
+<p>We expect teams to use the Github Project tool to track the team progress in this this course.</p>
+<p>Adding and closing tasks is straightforward and easy. The difficult part is deciding what tasks need to be completed, and who will do what by when.</p>
+<p>The small overhead of using the Github Project tool is paid back to the team by them being able to see who is assigned to what, when they have agreed to deliver it, and whether it has been delivered.</p>
+</section>
 <section id="effective-small-team-planning">
 <h2>Effective Small-Team Planning<a class="headerlink" href="#effective-small-team-planning" title="Link to this heading">#</a></h2>
 <p>⏱️ 15 minutes - Group</p>
@@ -501,7 +512,7 @@ document.write(`
 For example, if a task will take about 6 weeks, it is certain that there are smaller sub-tasks that can be done. “Conduct 70 customer interviews” could start with “Define customer interview questions”, then “Ask person X to check questions”, then “Interview first 5 customers to validate questions”, etc.</p></li>
 <li><p><strong>Make deadlines specific</strong>. For example, not “Next week” or even “Thursday 27th”, but “1pm on Thursday 27th”.</p></li>
 <li><p><strong>Shorter deadlines are often more effective</strong>. The famous Parkinson’s law is “work expands as to fill the time available for its completion”, which means: the more time we give people/ourselves, the longer we take. People will resist shorter deadlines, but seem to respond well to them. Longer deadlines do not drive behaviour. So keep deadlines short, but not so short that quality is affected.</p></li>
-<li><p><strong>Update the deadline if it is missed</strong>. We all miss deadlines sometimes. In such a case, don’t just say “Ok, please submit it soon” – assign a new deadline <strong>immediately</strong>: “Ok, thanks for letting us know. Can you please get it to us by 1pm on Thursday?”</p></li>
+<li><p><strong>Update the deadline if it is missed</strong>. We all miss deadlines sometimes. In such a case, don’t just say “OK, please submit it soon” – assign a new deadline <strong>immediately</strong>: “OK, thanks for letting us know. Can you please get it to us by 1pm on Thursday?”</p></li>
 </ol>
 </section>
 <section id="summary">
@@ -541,67 +552,85 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <p>Your legends will be working with you to give feedback on your task breakdown.</p>
 </section>
 <section id="github-project-setup">
-<h2>Github project setup<a class="headerlink" href="#github-project-setup" title="Link to this heading">#</a></h2>
+<h2>Github Project setup<a class="headerlink" href="#github-project-setup" title="Link to this heading">#</a></h2>
 <p>⏱️ 30 minutes - Group</p>
 <p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
-<p>As noted, we encourage the use of <a class="reference external" href="https://trello.com/home">Trello</a> in this course. It allows us to define tasks, assign them to people, and give them due dates: <strong>who does what by when</strong>!.</p>
-<p>To create a Trello board, you need to visit the <a class="reference external" href="https://trello.com/home">Trello website and sign-up</a>. Use the ‘Get Trello for free’ button in the top left corner to get started.</p>
-<p>🌐 <a class="reference external" href="https://trello.com/home">https://trello.com/home</a></p>
-<p><img alt="Trello.png" src="../_images/Trello.png" /></p>
-<p>Once you have created your account, either manually or through a linked account, use the following tutorials to learn how to use Trello.</p>
-<section id="trello-boards-lists-and-cards">
-<h3>Trello boards, lists, and cards<a class="headerlink" href="#trello-boards-lists-and-cards" title="Link to this heading">#</a></h3>
-<p>🌐 <a class="reference external" href="https://trello.com/guide/trello-101">https://trello.com/guide/trello-101</a></p>
+<p>In this project, you will use <a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects">Github projects</a>. It allows us to define tasks, assign them to people, and give them due dates: <strong>who does what by when</strong>!. It also supports a whole other range of nice features that you may wish to explore independently.</p>
+<p>You already have a Github account from an earlier studio. Once you log in, use the following tutorials to learn how to use Github.</p>
+<section id="create-a-project">
+<h3>Create a project<a class="headerlink" href="#create-a-project" title="Link to this heading">#</a></h3>
+<p>One team member should create a <strong>repository project</strong>. To do this, navigate to your team repository, then select ‘Projects’ from the top menu, and then select ‘New Project’.</p>
+<p><strong>Note</strong>: You need to create this <strong>from your repository</strong>, otherwise it will be public to anyone in the organisation, who will be able to change tasks.</p>
+<p>We suggest using the template called ‘Team planning’, but you are free to try others if you want.</p>
+<p>You <em>MUST</em> name your project using following format:</p>
+<p><code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code></p>
+<p>where Day is either Mon, Tue, Wed, etc., Time is the start time of your studio such as 11am, and XY is your team number using <strong>two digits</strong>.</p>
+<p>For example: <code class="docutils literal notranslate"><span class="pre">Mon_11am_Team_02</span></code> — so the same format as your MS Teams channel and Github repository.</p>
+<p>For further details, read:</p>
+<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project</a>]</p>
 </section>
-<section id="how-to-create-a-trello-board">
-<h3>How to Create a Trello Board<a class="headerlink" href="#how-to-create-a-trello-board" title="Link to this heading">#</a></h3>
-<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/creating-a-new-board/">https://support.atlassian.com/trello/docs/creating-a-new-board/</a></p>
+<section id="understanding-project-boards">
+<h3>Understanding project boards<a class="headerlink" href="#understanding-project-boards" title="Link to this heading">#</a></h3>
+<p>You should now see a project board. If you have selected the ‘Team Planning’ template, along the ‘Backlog’ tag, you will see three columns: Todo, In Progress, and Done.</p>
+<p>These three labels are a simplified <a class="reference external" href="https://www.atlassian.com/agile/kanban">Kanban</a> board, which track:</p>
+<ol class="arabic simple">
+<li><p>Todo: the backlog of tasks that a team needs to complete.</p></li>
+<li><p>In Progress: the tasks that the team is currently working on.</p></li>
+<li><p>Done: the tasks that the team has completed.</p></li>
+</ol>
+<p>The idea is that, when teams/individuals decide that tasks need to be done, they add the task to Todo.</p>
+<p>When an individual starts on a task that is in the Todo backlog, they move it to In Progress, so their team members know what they are working on.</p>
+<p>Finally, when it is done, tasks are moved to Done.</p>
+<p>Feel free to add more lists if your team want. For example, Kanban boards often have ‘Planning’ in between Todo and In Progress; and ‘Review’ between In Progress and Done.</p>
 </section>
-<section id="how-to-create-a-trello-project">
-<h3>How to Create a Trello project<a class="headerlink" href="#how-to-create-a-trello-project" title="Link to this heading">#</a></h3>
-<p>🌐 <a class="reference external" href="https://trello.com/guide/create-project">https://trello.com/guide/create-project</a></p>
+<section id="iterations">
+<h3>Iterations<a class="headerlink" href="#iterations" title="Link to this heading">#</a></h3>
+<p>Many projects (including the project in this course) are done in iterations. It is useful for Github projects to know the iteration dates, so you can  ‘tag’ tasks, etc., with the iteration, making it easy to navigate by filtering things only from the current iteration, for example.</p>
+<p>One team member should:</p>
+<ol class="arabic simple">
+<li><p>Go to the main page of your Github project.</p></li>
+<li><p>Select the three dots ‘…’ from the top right of the page.</p></li>
+<li><p>Click ‘Settings’ and then ‘Iteration’.</p></li>
+<li><p>Create Iteration 1, Iteration 2, and Iteration 3 using the dates from the <a class="reference external" href="https://comp1100.github.io/intro.html#assessment-deliverables">course profile</a>.</p></li>
+</ol>
 </section>
-<section id="how-to-add-team-members-to-your-trello-boards">
-<h3>How to Add Team Members to Your Trello Boards<a class="headerlink" href="#how-to-add-team-members-to-your-trello-boards" title="Link to this heading">#</a></h3>
-<p>🌐 <a class="reference external" href="https://trello.com/guide/onboard-team">https://trello.com/guide/onboard-team</a></p>
+<section id="creating-tasks">
+<h3>Creating tasks<a class="headerlink" href="#creating-tasks" title="Link to this heading">#</a></h3>
+<p>Next, we will start adding tasks from the earlier exercise. If you run into trouble, consult the documentation:</p>
+<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project</a>]</p>
+<ol class="arabic">
+<li><p><strong>Create tasks</strong>: Create new tasks (items) for the tasks that you are responsible for. Give the task a short, meaningful title, and add a description in the ‘Description’ field is more information is required; e.g. requirements, links to data source, etc.</p>
+<p>This is the <strong>What</strong> in <strong>Who does what by when</strong>.</p>
+</li>
+</ol>
+<p>Click on the task name, and another window will appear, with a heap of information. Do the following:</p>
+<ol class="arabic" start="2">
+<li><p><strong>Tag people</strong>: At the topic as ‘Assignees’, which are the people responsible for completing the tasks. A task can belong to more than one person. Select who is responsible for the tasks that you are adding if you are not the only person responsible.</p>
+<p>This is the <strong>Who</strong> in <strong>Who does what by when</strong>.</p>
+</li>
+<li><p><strong>Add due dates</strong>: Find the ‘End Date’ and assign a due date for the task.</p></li>
+</ol>
+<p>This is the <strong>By when</strong> in <strong>Who does what by when</strong>.</p>
+<ol class="arabic simple" start="4">
+<li><p><strong>Add iteration:</strong> Find ‘Iteration’, click on this, and assign the right iteration (Iteration 1, 2, or 3).</p></li>
+</ol>
+<p><strong>Tip:</strong> For any task, the due date should be before the end date of the iteration, but Github does not warn if it is not.</p>
 </section>
-<section id="due-date-notifications-in-trello">
-<h3>Due Date Notifications in Trello<a class="headerlink" href="#due-date-notifications-in-trello" title="Link to this heading">#</a></h3>
-<p>You will need to setup notifications in Trello to your chosen device (Android or IPhone) for things like schedule updates, milestones and deadlines. Use the following link to learn how to add due dates:</p>
-<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/adding-dates-to-cards/">https://support.atlassian.com/trello/docs/adding-dates-to-cards/</a></p>
-<p>And how to setup notifications for due dates:</p>
-<p>🌐 <a class="reference external" href="https://support.atlassian.com/trello/docs/receiving-trello-notifications/">https://support.atlassian.com/trello/docs/receiving-trello-notifications/</a></p>
+<section id="seeing-the-due-date">
+<h3>Seeing the due date<a class="headerlink" href="#seeing-the-due-date" title="Link to this heading">#</a></h3>
+<p>Close the task so you can see the project board again. You will note that the due date does not appear in this view.</p>
+<p>To make it show, select ‘Backlog’ (or the name of the view that you are using if you didn’t select the ‘Team Planning’ template), then ‘Fields’, and then ‘End Date’.</p>
 </section>
-<section id="milestones">
-<h3>MIlestones<a class="headerlink" href="#milestones" title="Link to this heading">#</a></h3>
+<section id="filtering">
+<h3>Filtering<a class="headerlink" href="#filtering" title="Link to this heading">#</a></h3>
+<p>From the main project board, you should see a search bar with ‘Filter by keyboard or by field’. Here, you can filter to see you own tasks only, by name, etc.</p>
+<p>One ‘hidden’ option is to filter by iteration. Type “iteration: ” and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search “iteration:&#64;current” for this too.</p>
 </section>
-<section id="linking-with-issues">
-<h3>Linking with issues<a class="headerlink" href="#linking-with-issues" title="Link to this heading">#</a></h3>
+<section id="and-your-done">
+<h3>And your done!<a class="headerlink" href="#and-your-done" title="Link to this heading">#</a></h3>
+<p>You now have a project management system that is suitable for small teams!</p>
+<p>Your responsibility is to now <em>use</em> this task tracker and look at it when you want to know what others are working on.</p>
 </section>
-<section id="additional-resources">
-<h3>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
-<p>More tutorial videos can be found at Trello’s official YouTube channel or their official online guide.</p>
-<p>🌐 <a class="reference external" href="https://www.youtube.com/&#64;trello/videos">https://www.youtube.com/&#64;trello/videos</a></p>
-<p>🌐 <a class="reference external" href="https://trello.com/guide">https://trello.com/guide</a></p>
-</section>
-</section>
-<section id="take-a-break">
-<h2>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes</p>
-</section>
-<section id="trello-exercise">
-<h2>Trello Exercise<a class="headerlink" href="#trello-exercise" title="Link to this heading">#</a></h2>
-<p>⏱️ 30 Minutes - Group</p>
-<p>Now that you have become somewhat familiar with Trello, with your group try to complete the following tasks to prepare your Trello board for the course:</p>
-<p>💡 Remember to delegate tasks between team members for efficient use of your time. Multiple team members can work on different tasks at the same time.</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Add all team members to your Trello board.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Create at least three Trello boards for your project: Upcoming tasks, In-progress tasks, and Done tasks (or choose your own if you want).</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Change your Trello board background to something that represents your team.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  To your Trello, add all of the tasks that you identified in the earlier exercise.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Create at least one Trello automation (Button, Due Date or Rule).</p></li>
-</ul>
-<p>Once all these tasks have been completed, signal to a Legend and show them your board.</p>
 </section>
 <section id="reflection">
 <h2>Reflection<a class="headerlink" href="#reflection" title="Link to this heading">#</a></h2>
@@ -611,7 +640,52 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <ol class="arabic simple">
 <li><p>What is one key thing you will take away from this studio for your project and why?</p></li>
 <li><p>In what ways did this studio change your understanding of managing team dynamics?</p></li>
-<li><p>Have you used Trello or any other tools similar to Trello? If so, share your experience with the class.</p></li>
+<li><p>Have you used Github projects or any other similar tools, such as Trello or Jira? If so, share your experience with the class.</p></li>
+</ol>
+<section id="additional-resources">
+<h3>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
+<p>More tutorials and documentation can be found at Github’s online guide:</p>
+<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues">https://docs.github.com/en/issues</a>]</p>
+<p>In particular, a few features are relevant for those wishing to use Github further:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects">Insights about projects</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view">Customing the view/layout of your project board</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project">Using issues to track work of a project</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/actions/how-tos/write-workflows">Automating parts of your workload</a></p></li>
+</ul>
+</section>
+</section>
+<section id="break">
+<h2>Break<a class="headerlink" href="#break" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 Minutes</p>
+</section>
+<section id="self-assessment">
+<h2>Self assessment<a class="headerlink" href="#self-assessment" title="Link to this heading">#</a></h2>
+<p>⏱️ 45 Minutes - Group and Individual</p>
+<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
+<p>You can find <a class="reference download internal" download="" href="../_downloads/e74c0538549d639e01bc259f49e62b8a/feedback_studio_exercise.xlsx"><span class="xref download myst">a spreadsheet that your legend will use to give you feedback after each iteration</span></a>.</p>
+<p>With the submission due this week, we want you to take some time to assess your own progress, and to think about whether there are a few small changes you can make before the submission to make your contribution clear.</p>
+<p>This activity has four parts:</p>
+<ol class="arabic simple">
+<li><p>One team member should download from the link above and put it in the ‘Files’ of your MS Teams channel.</p></li>
+<li><p>[5 mins] Each person should open this and take 5 minutes to read (and remind themselves) of the competency criteria that we use to assessment individuals in the course and the levels that we grade each at. Notice that the fifth columns is called ‘Add criteria here’ – and all cells in the columns are empty.</p></li>
+<li><p>[20 mins] Break your team into two sub-teams:</p>
+<ul class="simple">
+<li><p>Team A: Read the eight competency criteria for the ‘Team’ assessment (in the first table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the 2nd competency on experiments, one criterion may be ‘<em>All hypotheses are testable, simple, clear, and ethical</em>’. Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don’t overthink it.</p></li>
+<li><p>Team B: Read the six competency criteria for the ‘Individuals’ assessment (in the second table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the final competency on professionalism, one criterion may be ‘<em>Shows up to meetings, studios, and 1-on-1s on time, and participates meaningfully</em>.’ Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don’t overthink it.</p></li>
+<li><p><strong>HINT</strong>: This task may require you to revisit <a class="reference external" href="https://comp1100.github.io/intro.html">the course notes</a>.</p></li>
+</ul>
+</li>
+<li><p>[20 mins] Once all criteria have been defined, each team member should make their own copy of this file, and conduct a short self assessment. Select the appropriate rating under the ‘Assessment’ column for each competency, and write brief feedback to yourself that answers: where it is <strong>demonstrated</strong> that I have achieved this competency? It is important to ask yourself: <em>yes, I’ve learnt this, but is there <strong>evidence</strong> available to my legend that I have learnt it?</em></p></li>
+</ol>
+<p><strong>Important</strong>: Be honest with yourself. This is not part of your grade and we won’t be using this to judge your actual contribution – this is to help you reflect on the quality of your own work and how others (your legend!) will see it.</p>
+</section>
+<section id="exit-ticket">
+<h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Teams: Show your legend your Github project created using the format <code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code>.</p></li>
+<li><p>Teams: Show your legend the tasks that you have assigned to complete for the remainder of iteration 1, which clear show <strong>Who does what by when</strong>.</p></li>
+<li><p>Individuals: Show your legend your self-assessment on your demonstration of the capabilities so far.</p></li>
 </ol>
 </section>
 <section id="bonus-its-dangerous-to-go-alone-take-this">
@@ -692,6 +766,7 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-team-planning-tools-in-comp1100-comp7110">Using team planning tools in COMP1100/COMP7110</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
@@ -701,20 +776,23 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github project setup</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-boards-lists-and-cards">Trello boards, lists, and cards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-board">How to Create a Trello Board</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-create-a-trello-project">How to Create a Trello project</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-add-team-members-to-your-trello-boards">How to Add Team Members to Your Trello Boards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#due-date-notifications-in-trello">Due Date Notifications in Trello</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#milestones">MIlestones</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-with-issues">Linking with issues</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github Project setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-project">Create a project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-project-boards">Understanding project boards</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iterations">Iterations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-tasks">Creating tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#seeing-the-due-date">Seeing the due date</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering">Filtering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#and-your-done">And your done!</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trello-exercise">Trello Exercise</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-assessment">Self assessment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
