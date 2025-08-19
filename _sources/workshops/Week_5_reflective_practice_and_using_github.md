@@ -15,6 +15,9 @@ We will address the following activities and exercises:
 - [ ]  Using Github and Markdown together effectively to keep track of things other than source code
 - [ ]  Laying out your team repository
 
+## Online learning module 
+
+This studio is accompanied by a digital module 'Reflective Writing - Gibb's Reflective Model', written by Stuart Crosbie from the Emedded Learning Support team, available on Blackboard under 'Content' $\rightarrow$ 'Assessment Helpers'.
 
 ## Gibbs’ Reflective Cycle (GRC)
 
