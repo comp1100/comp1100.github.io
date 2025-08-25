@@ -12,7 +12,6 @@ We will address the following activities and exercises in studio 3.
 - [ ]  Basics of managing a small-team project
 - [ ]  Setting up Github projects
 - [ ]  How to create tasks
-- [ ]  How to set up notifications
 - [ ]  Github Project start-up Activity
 - [ ]  Self assessment
 

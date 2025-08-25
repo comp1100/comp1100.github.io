@@ -179,7 +179,7 @@ For example: ```Mon_11am_Team_02``` --- so the same format as your MS Teams chan
 When creating this, choose the following settings:
 1. The repository is **private**.
 2. A readme file is created.
-
+3. Repository is owned by the organisation, not the team leader.
 For other settings, you can leave the default values (or choose other options if you like).
 
 This team member should invite ALL team members to the repository. From the top menu, select *Settings*, then from the left select *Collaborators and teams*, and under *Manage access* you can *Add people*.
