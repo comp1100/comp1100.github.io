@@ -108,9 +108,9 @@ The basic structure we expect for your repository is below, where each of these 
 - Interviews
   - Iteration_1
      - Team member 1
-        - Interview_Tue_13_March_2:00pm
-        - Interview_Tue_13_March_2:45pm
-        - Interview_Wed_14_March_11:00am
+        - Interview_Tue_13_March_1400.md
+        - Interview_Tue_13_March_1445.md
+        - Interview_Wed_14_March_1100.md
   - Iteration_2
         - ....
 - Documents
