@@ -205,7 +205,7 @@ In Markdown, we can use hyperlinks to link to other documents. This can be effec
 
 The syntax for a Markdown link is: `[text](link)`.
 
-This can be used to link to an external web-page, such as the `[COMP1100 notes](https://comp1100.github.io/)`, which displays as [COMP1100 notes](https://comp1100.github.io/).
+This can be used to link to an external web-page, such as `[COMP1100 notes](https://comp1100.github.io/)`, which displays as [COMP1100 notes](https://comp1100.github.io/).
 
 It can also be used to link internally. To do this, you need to:
 1. Label things. For example, if you have a hypothesis, you would make the title `(hypothesis:older-people-dislike-the-green-button)=## Hypothesis 1: Older people dislike the green button`. The stuff between `()` is the name of the link, and the rest is just a normal Markdown heading.
