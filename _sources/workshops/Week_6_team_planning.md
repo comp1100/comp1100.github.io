@@ -297,7 +297,7 @@ This activity has four parts:
 
 1. Teams: Show your legend your Github project created using the format ```[Day]_[Time]_Team_[XY]```.
 
-2. Teams: Show your legend the tasks that you have assigned to complete for the remainder of iteration 1, which clear show **Who does what by when**.
+2. Teams: Show your legend --- in your Github project --- the tasks that you have assigned to complete for the remainder of iteration 1, which clear show **Who does what by when**.
 
 3. Individuals: Show your legend your self-assessment on your demonstration of the capabilities so far.
 
