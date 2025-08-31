@@ -147,6 +147,6 @@ Remember to record your ideas as your generate them, either on a large piece of 
 
 ## Exit ticket
 
-1. You exit ticket is to have your legend use your paper and digital prototypes.
+1. Get youur legend use your paper and digital prototypes.
 
 2. Show your legend the notes from  your divergent thinking session, and give them a 30 second description of your favourite solution so far
