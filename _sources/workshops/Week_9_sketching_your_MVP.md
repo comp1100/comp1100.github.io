@@ -11,6 +11,7 @@ We will do the following  exercises:
 - [ ]  Define a paper prototype from your sketch
 - [ ]  Get feedback on your paper prototype
 - [ ]  Allocate which team members will implement which features of your MVP
+- [ ]  Start (or finish!) a competitor analysis for your product
 ---
 
 

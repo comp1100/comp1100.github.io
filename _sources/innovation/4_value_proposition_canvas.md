@@ -145,6 +145,114 @@ Alex Osterwalder outlines six ways to innovate from customer profiles[^strategyz
 | Do a job better?        | Can we help customers do a higher quality on existing jobs?   |
 
 
+## Competitor Analyses
+
+Once we have a solid idea of our value proposition, we need to analyse our competitors. 
+
+### Why is a competitor analysis important?
+
+There is no point trying to sell a product if we have a competitor who does it as good or better than us. A product is only successful if it offers a **unique** value proposition.
+
+If you think: we don't need a competitor analysis -- we know our value proposition is unique, a clear response is: how do you know it is unique if you haven't done a competitor analysis?! There are **many** "unique" apps on the Apple and Android app store that all do much the same thing.
+
+Further, analysing how our competitors solve their customers' problems can give us insight in two ways:
+1. If they do something well, we can mimic it (provided it is not patented or copyrighted).
+1. If they do something poorly, we can learn from this and try to do it better.
+
+### What is a competitor analysis?
+
+A competitor analysis is conceptually simple, but can be challenging to do.
+
+It typically has the following parts, which correspond to the process that we can follow:
+
+1. **Define unique value proposition**: Write a short, clear statement of what we believe our unique value proposition is.
+1. **Find competitors**: Search for competitors who are solving the same problems.
+1. **Analysis**: Complete a **competitor table** and  a short *Strengths, Weaknesses, Opportunities, Threats* (SWOT) analysis the top few competitors.
+1. **Insights and strategy**: Summarise what we learnt and how it changes our plans.
+
+### Define unique value proposition
+
+We should have already defined our value proposition by this point, but it helps to start a competitor analysis with a short, clear statement that specifies it:
+
+> Our project, [Project Name], aims to solve [brief problem statement] for [target customer segment]. We believe that our unique value proposition is [value proposition]. The following competitor analysis  includes a comparison table, SWOT analysis of key competitors, and strategic insights based on our findings.
+
+### Find competitors
+
+Next, we need to find our closest competitors. There are two broad types of competitors:
+1. **Direct competitors**: Offer the same type of solution to the same customer segment and their same problems. For example, someone offering a product that connects families via mobile devices is a direct competitor to the emergency alarm 'picture frame'.
+1. **Indirect competitors**: Offer a different type of solution to the same customer segment and their same problems. For example, existing emergency alarm companies offered a service rather than connecting families directly -- same pain, very different solution. 
+
+How do we do find competitors? 
+
+Here are five ways:
+
+1. **Customer interviews**: We can look at our customer interviews! If we did our job properly, we should have been probing how our customers currently solve their problems. This gives us insight to our competitors.
+1. **Search engines**: We can run the types of queries we expect that our customers would run when trying to solve their problems. 
+1.  **Customer channels**: Look at distribution channels, such as app stores or other product platforms. For physical products, we could look at online sellers or even go into stores.
+1. **Social media**: Browse forums, etc., about your customers' problems to see what products people currently use.
+1. **Industry trade shows, blogs, etc**: Look for public forums about the specific industry, and do things like attend trade shows to learn about competitors.
+
+### Analysis
+
+Put together all of the competitors that we have analysed into a **competitor table**:
+
+| Competitor | Direct/indirect | Target Customers | Key Features | Pricing Model | Strengths | Weaknesses |
+|------------|------------------|--------------|---------------|-----------|------------|------------|
+| Competitor A | Direct   | Small businesses | Automation, dashboard | Subscription | Easy to use | Limited integration |
+| Competitor B | Direct   | Enterprises | Custom workflows, analytics | Tiered pricing | Scalable | Complex setup |
+| Competitor C | Indirect | Freelancers | Simple UI, mobile app | Freemium | Affordable | Few advanced features |
+|   ....       | ...         | ...                   | ...      | ...         | ...                  |
+
+Next, for the most closely related competitors, that is, those whose market share you are hoping to steal, do a SWOT analysis:
+- **Strengths**: What do they do well? What unique capabilities do they have?
+- **Weaknesses**: Where do they struggle? What are people's complaints about their product?
+- **Opportunities**: In the market they are in, what are trends or gaps that they can benefit from?
+- **Threats**:  In the market they are in, what challenges do they have? What is changing that could make them less valuable?
+
+Strengths may similar similar to opportunities, and weaknesses to threats. The difference is:
+- Strengths and weaknesses focus on the properties of the organisation or product.
+- Threats and opportunities focus on the properties of the market they are in.
+
+```{admonition} Example
+
+**Competitor A**
+
+- **Strengths**: Intuitive interface, strong customer support.
+- **Weaknesses**: Limited scalability for larger teams.
+- **Opportunities**: Growing demand for lightweight tools.
+- **Threats**: New entrants with better integration capabilities.
+
+**Competitor B**
+
+- **Strengths**: Robust feature set, enterprise-grade security.
+- **Weaknesses**: High learning curve.
+- **Opportunities**: Expansion into mid-market.
+- **Threats**: Price-sensitive customers switching to cheaper alternatives.
+```
+
+```{tip}
+You should know your closest competitors so well that you should be able to fill out a business model canvas about their product(s)!
+```
+
+### Insights and strategy
+
+Now that we understand our competitors, what can we learn from how they operate?
+
+A nice way to think about this is: 
+1. What did we learn about our competitors?
+1. What does that change about our own understanding or hypotheses?
+
+```{admonition} Example -- Insights and strategy
+
+| Insight | Strategic implication |
+|-----------|---------|
+| Most competitors focus on scalability | Can we focus on being niche and quality to differentiate ourselves?  |
+| All charged more than we expect to    | Are we under-estimating the costs to do this? We need to test price more/better  |
+| There is a gap in direct family-to-older-person communication    | We need to test the hypothesis that people want this  |
+| Most competitors had a complicated sales and sign-up process    | We need to avoid over-complicating this.  |
+| ...     | ...    |
+```
+
 
 
 ## Takeaways
@@ -164,6 +272,8 @@ Alex Osterwalder outlines six ways to innovate from customer profiles[^strategyz
 5. When we interview customers to construct profiles, we need to **listen**.
 
 6. Interviews aren't about just asking questions -- they are about **learning**.
+
+7. We analyse competitors both to find unique value propositions, and to **learn**.
 ```          
 
 ## References
