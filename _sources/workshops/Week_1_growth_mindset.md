@@ -184,52 +184,52 @@ Consider who may be a good fit for your current mindset. Remember that matching 
 For reference, these are the questions for this exercise. 
 
 <aside>
-❔ Do you believe that you can develop your abilities and intelligence through hard work and dedication, or were your the limits of your capabilities set at birth?
+❔ Do you believe that you can develop your abilities and intelligence through hard work and dedication?
 
 </aside>
 
 <aside>
-❓ Do you embrace challenges and view them as opportunities for growth and learning, or do you prefer to avoid difficult tasks and take it easy?
+❓ Do you embrace challenges and view them as opportunities for growth and learning?
 
 </aside>
 
 <aside>
-❔ Do you persist in the face of obstacles and setbacks, rather than giving up easily?
+❔ Do you persist in the face of obstacles and setbacks?
 
 </aside>
 
 <aside>
-❓ Do you find inspiration and motivation in the success of others, or does the success of others demotivate you?
+❓ Do you find inspiration and motivation in the success of others?
 
 </aside>
 
 <aside>
-❔ Do you welcome feedback and use it as a tool for improvement, or would you rather avoid critique/criticism?
+❔ Do you welcome feedback and use it as a tool for improvement?
 
 </aside>
 
 <aside>
-❓ Do you believe that effort and persistence are key to success, rather than relying on innate talent or ability?
+❓ Do you believe that effort and persistence are the keys to success?
 
 </aside>
 
 <aside>
-❔ Do you see failure as a natural part of the learning process, rather than a reflection of your abilities?
+❔ Do you see failure as a natural part of the learning process?
 
 </aside>
 
 <aside>
-❓ Do you believe that you can learn from others and seek out advice and mentorship, or do you think we can only achieve change from ourselves?
+❓ Do you believe that you can learn from others and seek out advice and mentorship?
 
 </aside>
 
 <aside>
-❔ Do you believe that your potential is unlimited and can be developed over time, or is your growth capped by some metric?
+❔ Do you believe that your potential is unlimited and can be developed over time?
 
 </aside>
 
 <aside>
-❓ Do you view challenges and setbacks as opportunities for growth and learning, rather than as threats to your self-esteem?
+❓ Do you view challenges and setbacks as opportunities for growth and learning?
 
 </aside>
 

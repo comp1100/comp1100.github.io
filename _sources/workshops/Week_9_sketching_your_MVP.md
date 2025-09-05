@@ -7,6 +7,7 @@
 
 We will do the following  exercises:
 
+- [ ]  Brief self assessment
 - [ ]  Sketch out the main functionality of your MVP
 - [ ]  Define a paper prototype from your sketch
 - [ ]  Get feedback on your paper prototype
@@ -15,8 +16,16 @@ We will do the following  exercises:
 ---
 
 
+## Exercise 1: Self assessment for iteration 2
 
-## Exercise 1: Sketching out your MVP
+⏱️ 10 minutes - Individual
+
+
+Remember that self assessment that you did for iteration 1?
+
+Take the spreadsheet that you filled out, look at the feedback that your legend gave for iteration 1, and do a short self assessment for iteration 2.
+
+## Exercise 2: Sketching out your MVP
 
 ⏱️ 45 minutes - Group
 
@@ -69,7 +78,7 @@ Remember to define: who does what by when?
 
 ⏱️ 10 minutes
 
-## Exercise 2: Paper prototyping
+## Exercise 3: Paper prototyping
 
 ⏱️ 30 minutes - Team
 
@@ -81,7 +90,7 @@ As a team, write down three specific tasks a user should be able to complete usi
 
 
 
-## Exercise 3: Competitor analysis
+## Exercise 4: Competitor analysis
 
 ⏱️ 60 minutes - Team
 
