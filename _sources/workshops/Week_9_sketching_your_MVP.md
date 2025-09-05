@@ -51,43 +51,6 @@ Think of the following:
 It is a *minimal* viable product -- you do NOT need to define every idea that you have nor sketch out functionality that you plan to add in the future.
 ```
 
-Show your legend your sketch before the break.
-
-## Take a break
-
-⏱️ 10 minutes
-
-## Exercise 2: Paper prototyping
-
-⏱️ 30 minutes - Group
-
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-
-Next, take your sketch and put together a paper prototype of your MVP features.
-
-As a team, write down three specific tasks a user should be able to complete using your MVP (e.g., 'Log in and find their last trip'). These tasks will guide your prototype testing.
-
-## Exercise 3: Basic usability test
-
-⏱️ 30 minutes - Class
-
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-
-Two members of the team will take the paper prototype to one other team, ask **each person** in that other team  to use it to complete the three tasks identified above.
-
-```{tip}
-Give the tester one task at a time.
-
-Don't help them — just observe.
-
-Ask them to "think aloud" as they use the prototype.
-
-Note where they hesitate, get confused, or make errors.
-```
-
-```{note}
-This is a very basic form of usability testing, aimed to get input on your product, but also to help you to think about your design better.
-```
 
 ## Plan
 
@@ -97,11 +60,48 @@ This is a very basic form of usability testing, aimed to get input on your produ
 
 As a team, allocate who will implement which MVP features and by when. 
 
-Write this down as a plan to show your legend, and add it to your Trello (or whatever you use to record who will do what).
+Write this down as a plan to show your legend, and add it to your Github project task tracker.
+
+Remember to define: who does what by when?
+
+
+## Take a break
+
+⏱️ 10 minutes
+
+## Exercise 2: Paper prototyping
+
+⏱️ 30 minutes - Team
+
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+
+Next, take your sketch and put together a paper prototype of your MVP features.
+
+As a team, write down three specific tasks a user should be able to complete using your MVP (e.g., 'Log in and find their last trip'). These tasks will guide your prototype testing.
+
+
+
+## Exercise 3: Competitor analysis
+
+⏱️ 60 minutes - Team
+
+In this part of the studio, you’ll work on your competitor analysis. Whether you’re starting fresh or finishing up, this is your chance to understand who else is solving your customer’s problem—and how you can do it better.
+
+Understanding your competitors helps you refine your value proposition, avoid common pitfalls, and identify opportunities to improve your own ideas.
+
+If you've finished, show your legend as part of your exit ticket, pat yourself on the back, and leave early.
+
+```{note}
+**Teams in COMP7110**: Recall from the assessment description that as well as doing a competitor analysis, **each team member needs to research the business model of a competitor, and specify this as a business model canvas**.
+```
+
+If you have no idea what a competitor analysis is, read [the section on competitor analyses](sec:value_proposition_canvas:competitor_analyses) in the [chapter on value propositions](sec:value_proposition_canvas).
+
 
 ## Exit ticket
 
 You exit ticket is:
-*  Show your legend your sketch (before the break)
-*  Demonstrate your paper prototype to your legend and get feedback
-*  Show your legend your team plan for who will implement which features
+*  Show your legend your sketch (before the break).
+*  Show your legend your team plan in Github projects for who will implement which features.
+*  Demonstrate your paper prototype to your legend and get feedback.
+*  Show your legend your competitor analysis so far.

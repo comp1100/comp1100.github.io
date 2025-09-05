@@ -145,6 +145,7 @@ Alex Osterwalder outlines six ways to innovate from customer profiles[^strategyz
 | Do a job better?        | Can we help customers do a higher quality on existing jobs?   |
 
 
+(sec:value_proposition_canvas:competitor_analyses)=
 ## Competitor Analyses
 
 Once we have a solid idea of our value proposition, we need to analyse our competitors. 
