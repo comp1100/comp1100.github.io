@@ -1,4 +1,4 @@
-# Week 8: Giving & receiving feedback, and having effective meetings
+# Week 8: Giving & receiving feedback; informal presentations
 
 ## Studio Abstract
 
@@ -15,8 +15,6 @@ We will address the following activities and exercises:
 - [ ]  Tips for giving feedback
 - [ ]  Feedback exercise
 - [ ]  Informal presentations about customer problems and proposed solutions.
-- [ ]  Universal meeting structure (Agenda)
-- [ ]  Universal meeting rules
 ---
 
 ## Giving (and receiving) feedback
@@ -116,7 +114,7 @@ By describing the impact, it helps people to understand the impact (**positive**
 
 The impact doesn't have to be important or particularly large. Giving little bits of feedback ensure that we give feedback regularly, but also that feedback can be short and quick. Look for small impacts that people do well every single day, and tell them about it. Those small things will add up over time.
 
-Mark Horsham from Manager Tools uses the analogy of driving a car. As we drive, we are constantly getting feedback by observing the road, feeling the steering wheel, and listening. As we start to veer off the road a little bit, we use the feedback that we receive from our eyes to adjust. We do this over and over again. We don't wait until we are nearly in a ditch on the side of the road. Feedback to people we work with can be similar. Thanks for doing the little things right lets people know: please keep doing this. Short negative feedback lets poeple know: please don't do this, but don't worry that you did it in the past.
+Mark Horsham from Manager Tools uses the analogy of driving a car. As we drive, we are constantly getting feedback by observing the road, feeling the steering wheel, and listening. As we start to veer off the road a little bit, we use the feedback that we receive from our eyes to adjust. We do this over and over again. We don't wait until we are nearly in a ditch on the side of the road. Feedback to people we work with can be similar. Thanks for doing the little things right lets people know: please keep doing this. Short negative feedback lets people know: please don't do this, but don't worry that you did it in the past.
 
 ```{tip}
 Begin this step with "Here's what happens". This helps to focus on impact. Once you get used to delivering regular feedback, you can usually drop this part.
@@ -205,7 +203,7 @@ In this activity, you will practice giving fast and effective feedback on some s
 
 Break into pairs -- pairs should be from teams. If you have an odd number, this works ok in groups of three as well. 
 
-Below are 10 examples: 6 positive and 4 negative. Take turns coming up with quick feedback for these; that is, the first person does scenario 1, then the 2nd person does scenario 2.
+Below are 10 examples: 6 positive and 4 negative. Take turns coming up with quick feedback for these; that is, the first person does scenario 1, then the 2nd person does scenario 2, etc.
 
 You should be able to complete this task in just a few minutes! But we'll give you a bit more time.
 
@@ -236,15 +234,75 @@ You should be able to complete this task in just a few minutes! But we'll give y
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
-Swap pairs so people are working with others in their team now. Each person in the pair, come up with one positive thing that the person in front of you has done in the past week, and provide positive feedback to them about it.
+Swap around so people are working with other people in their team now. Each person in the pair, come up with one positive thing that the person in front of you has done in the past two weeks, and provide positive feedback to them about it.
+
+Remember, follow the format: 
+
+> When you [behaviour], here's what happens: [impact]
+> 
 
 If you need to, take a few minutes to think how to say it quickly and to focus on behaviour AND the future.
 
+It's not: "When you did [behaviour]" -- it's "When you DO [behaviour]".
+
+## Informal presentations about customer problems and proposed solutions
+
+For the rest of the studio, teams will be doing two things:
+
+1. Coming up with a 5-minute informal presentation about their project so far; and 
+2. Giving the presentation as a team.
+
+By **informal presetation**, we mean that there will be no slides or other visual props: you just stand up and talk.
+
+Every team member will need to present part of this. If you are a nervous or not-confident presenter, here is a good low-stakes opportunity to gain experience.
+
+### Define a team presentation
+
+⏱️ 30-45 minutes - Team
+
+You have 30-45 minutes to prepare and practice an informal presentation about your project. This may seem like a short amount of time, but the ability to quickly put together a presentation, etc., is a great skill to have.
+
+Your presentation should go no longer than **5 minutes**.
+
+Your presentation should cover:
+
+
+1. **Customers**: Who are your customers?
+1. **Customer Jobs & Pains**: What problems do they face?
+1. **Hypotheses**: What did you test and learn?
+1. **Data Collection**:  How did you gather insights?
+1. **Learnings**: What did you learn from testing your hypotheses?
+1. **Value Proposition**: How will your solution help solve your customers problems?
+1. **Wrap-up**: What’s next?
+1. **Questions**: Invite the audience to ask questions.
+
+Once you have your presentation structure set, assign parts to each team member, and do a quick practice run.
+
+### Take a break
+
+⏱️ 10 minutes
+
+
+### Present!
+
+⏱️ 30-45 minutes - Team
+
+Each team will present to the class. 
+
+Your legend will break up the studio into smaller sub-classes for studios with a high enrolment.
+
+```{tip}
+Tips for nervous presenters: 
+1. Focus on telling a narrative. You don't need to memorise the talk or do a perfect job -- just describe what you did and learnt and why it matters.
+1. Don't read a script. It is robotic and sounds boring -- your audience will struggle to pay attention.
+1. Show enthusiasm! Your passion sells your idea
+```
+
+**Remember**: You have just 5 minutes per team!
 
 ## Bonus: It’s dangerous to go alone! Take this.
 
 ⏱️ **∞**
-
 
 ### Feedback model for managers - Manager tools
 
@@ -257,20 +315,5 @@ If you are interested in learning more, especially if you are someone who would 
 🌐 [Manager tools feedback model -- Part 3](https://www.manager-tools.com/2024/05/manager-tools-feedback-model-updated-part-3)
 
 🌐 [Managed tools per feedback model](https://www.manager-tools.com/2006/10/the-peer-feedback-model)
-
-
-
-### Core Values - Bob Keiller
-
-🌐 [https://www.youtube.com/watch?v=ulWkN0k0MVE](https://www.youtube.com/watch?v=ulWkN0k0MVE)
-
-Benefits of clear guiding purposes and running businesses on sound principles.
-
-### Three ways to create a work culture that brings out the best in employees - Chris White
-
-🌐 [https://www.youtube.com/watch?v=2y8SA6cLUys](https://www.youtube.com/watch?v=2y8SA6cLUys)
-
-Chris highlights three points to improve work culture.
-
 
 
