@@ -12,7 +12,7 @@ We will do the following  exercises:
 - [ ]  Define a paper prototype from your sketch
 - [ ]  Get feedback on your paper prototype
 - [ ]  Allocate which team members will implement which features of your MVP
-- [ ]  Start (or finish!) a competitor analysis for your product
+- [ ]  Work on your project
 ---
 
 
@@ -96,7 +96,7 @@ As a team, write down three specific tasks a user should be able to complete usi
 
 In the rest of the studio, take this time to work on your project, even if you are ready to submit iteration 2.
 
-One important part to note forget it the competitor analysis. 
+One important part to note forget is the competitor analysis. 
 
 If you have no idea what a competitor analysis is, read [the section on competitor analyses](sec:value_proposition_canvas:competitor_analyses) in the [chapter on value propositions](sec:value_proposition_canvas).
 
