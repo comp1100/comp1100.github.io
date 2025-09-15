@@ -93,11 +93,12 @@ As a team, write down three specific tasks a user should be able to complete usi
 
 ## Exercise 4: Work on your project
 
-⏱️ 6Remainder - Team
+
+⏱️ Remainder - Team
 
 In the rest of the studio, take this time to work on your project, even if you are ready to submit iteration 2.
 
-One important part to note forget is the competitor analysis. 
+One important part to not forget is the competitor analysis. 
 
 If you have no idea what a competitor analysis is, read [the section on competitor analyses](sec:value_proposition_canvas:competitor_analyses) in the [chapter on value propositions](sec:value_proposition_canvas).
 
