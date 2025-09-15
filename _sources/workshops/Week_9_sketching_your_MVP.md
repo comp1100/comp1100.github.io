@@ -39,16 +39,6 @@ A sketch is just  a rough representation of the idea of your product. Putting it
 * Avoid rework during development when you realise there are things missing.
 
 
-```{figure} ./figs/sketch_of_MVP.jpg
----
-name: fig
-width: 300px
-alt: A sketch of a product called Trip Tracker. It has a set of screens, such as 'Start your trip', 'Name the trip', 'Maps with trips', etc., and a set of arrows between screens showing the flow.
----
-A sketch of an MVP for [Trip Tracker](https://agentestudio.com/cases/trip-tracker-case). An MVP sketch should be rough and easy to change -- it is there to make your product idea more concrete to you and others -- it is not a design for a user interface. 
-Image source: [Anna Delendik](https://agentestudio.com/blog/how-to-wireframe-an-app) 
-```
-
 
 Think of the following:
 1. What are the features that will implement our value proposition?
@@ -59,6 +49,17 @@ Think of the following:
 ```{note}
 It is a *minimal* viable product -- you do NOT need to define every idea that you have nor sketch out functionality that you plan to add in the future.
 ```
+
+```{figure} ./figs/sketch_of_MVP.jpg
+---
+name: fig
+width: 300px
+alt: A sketch of a product called Trip Tracker. It has a set of screens, such as 'Start your trip', 'Name the trip', 'Maps with trips', etc., and a set of arrows between screens showing the flow.
+---
+A sketch of an MVP for [Trip Tracker](https://agentestudio.com/cases/trip-tracker-case). An MVP sketch should be rough and easy to change -- it is there to make your product idea more concrete to you and others -- it is not a design for a user interface. 
+Image source: [Anna Delendik](https://agentestudio.com/blog/how-to-wireframe-an-app) 
+```
+
 
 
 ## Plan
