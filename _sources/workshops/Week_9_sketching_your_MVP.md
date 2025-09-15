@@ -90,21 +90,21 @@ As a team, write down three specific tasks a user should be able to complete usi
 
 
 
-## Exercise 4: Competitor analysis
+## Work on your project
 
-⏱️ 60 minutes - Team
+⏱️ 6Remainder - Team
 
-In this part of the studio, you’ll work on your competitor analysis. Whether you’re starting fresh or finishing up, this is your chance to understand who else is solving your customer’s problem—and how you can do it better.
+In the rest of the studio, take this time to work on your project, even if you are ready to submit iteration 2.
 
-Understanding your competitors helps you refine your value proposition, avoid common pitfalls, and identify opportunities to improve your own ideas.
+One important part to note forget it the competitor analysis. 
 
-If you've finished, show your legend as part of your exit ticket, pat yourself on the back, and leave early.
+If you have no idea what a competitor analysis is, read [the section on competitor analyses](sec:value_proposition_canvas:competitor_analyses) in the [chapter on value propositions](sec:value_proposition_canvas).
+
 
 ```{note}
 **Teams in COMP7110**: Recall from the assessment description that as well as doing a competitor analysis, **each team member needs to research the business model of a competitor, and specify this as a business model canvas**.
 ```
 
-If you have no idea what a competitor analysis is, read [the section on competitor analyses](sec:value_proposition_canvas:competitor_analyses) in the [chapter on value propositions](sec:value_proposition_canvas).
 
 
 ## Exit ticket

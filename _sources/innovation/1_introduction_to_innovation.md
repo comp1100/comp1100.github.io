@@ -1,3 +1,4 @@
+=
 # Introduction to Innovation
 
 <!--```{contents}
@@ -169,6 +170,7 @@ The first step is crucial to any innovation project, whether to start up a new c
 
 However, the ideas and processes around testing, learning, and failing early that are crucial in customer discovery are similar to the remaining steps --- the activities that we use them on vary in other phases.
 
+(sec:intro:design-thinking)=
 ## Design thinking
 
 ```{note}
@@ -199,7 +201,7 @@ The design thinking process is an iterative process broken into five steps:
 
 3. **Ideate** to come up with concrete ideas that address the problem. "Ideation" is a term that sounds like it comes from a charlatan's toolbox because a lot of people use it meaninglessly, but it just means to generate and communicate ideas. We can use a range of creativity techniques, such as brainstorming, mind mapping, collaborative workshops, and co-design. The important part of this step is to first generate as many ideas as possible without critiquing them, and then after this, select the set of most promising ideas.
 
-   Our research collaborator of mine, Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology points out that "creativity" is not a magic process --- all of us can be and are creative.
+   A research collaborator of mine, Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology points out that "creativity" is not a magic process --- all of us can be and are creative.
 
    Marek talks about ideating by **crafting** ideas using simple techniques. Check out [Marek's awesome TEDx talk "Creativity not required: how great minds craft ideas"](https://www.youtube.com/watch?v=iJU3KoZcUKU) on this topic.
 
