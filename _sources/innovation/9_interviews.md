@@ -448,7 +448,7 @@ If you ever needed to use the alarm, how do you imagine it would help you?
 
 **Tim:** I see. How does having the alarm affect your day-to-day life? Why?
 
-**Diane:** It feels like one more thing I have to manage and a reminder that I’m not as independent as I used to be.
+**Diane:** It feels like one more thing I have to manage and a reminder that I’m not as independent as I used to be. I feel checked on.
 
 **Tim:** Checked on?
 
