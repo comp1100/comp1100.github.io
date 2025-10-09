@@ -1,3 +1,3 @@
 # Week 11: Giving a 1-minute pitch
 
-Materials to be supplied.
+[Slides available here](../assets/Week_11_Pitch.pptx)
