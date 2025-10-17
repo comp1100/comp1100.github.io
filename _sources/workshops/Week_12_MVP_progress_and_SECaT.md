@@ -9,8 +9,8 @@ Please take 5-10 mins at the start of the studio to fill out the course survey:
 
 ````{list-table}
 
-* - COMP1100
-   - COMP7110
+* - [COMP1100](https://go.blueja.io/8ql4GAiqTEadVQph0awwmQ)
+   - [COMP7110](https://go.blueja.io/HDKXXk2Wrk2061DRtSOJ8Q)
 * - ![](./figs/COMP1100_SECaT_QR_code.png)
    - ![](./figs/COMP7110_SECaT_QR_code.png)
 ````
