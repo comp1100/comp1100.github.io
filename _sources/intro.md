@@ -153,7 +153,7 @@ The "assessment" in this course is done throughout the semester. However, to be 
 1. **Weekly:** Attend *on time* and *participate in* the weekly studios. If you cannot make it (illness, clash) let your tutor AND your team know *before* the studio.
 2. **16:00, Thursday 04/09/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
 3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Monday 13/11/2025 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
+4. **16:00, Thursday 13/11/2025 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
 
 Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios, and posted on Blackboard.
 
