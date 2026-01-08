@@ -174,7 +174,7 @@ For each competency, the student will receive on of the following:
 For each submission (iteration 1, 2, 3), each student will receive one of the following grades for iteration:
 * **Pass (P)**: The student has met expectations in all of the competency criteria.
 * **Conceded (C)**: The student has not met expectations in all of the competency criteria, and if they continue at the current standard, they will fail a future iteration. However, they have met enough expectations to continue with the course. The competency of 'Software implementation' (coding the MVP) is only assessed in iteration 3. For this reason, we will grade this more lightly than other competencies -- you must make a good attempt.
-* **Fail (C)**: In extreme circumstances, the student has failed this iteration, and therefore the course. For iterations 1 and 2, this is only used in situations where students have clearly not engaged with the course.
+* **Fail (F)**: In extreme circumstances, the student has failed this iteration, and therefore the course. For iterations 1 and 2, this is only used in situations where students have clearly not engaged with the course.
 
 To pass the course, each student must:
 1. Pass the participation hurdle for the studios.
