@@ -7,10 +7,10 @@
 > In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up the Github Projects tool and how to set up tasks and notifications. Finally, we will also ask you to do a short self assessment on your performance in the course so far.
 > 
 
-We will address the following activities and exercises in studio 3.
+We will address the following activities and exercises.
 
 - [ ]  Basics of managing a small-team project
-- [ ]  Setting up Github projects
+- [ ]  Setting up Github Projects
 - [ ]  How to create tasks
 - [ ]  Github Project start-up Activity
 - [ ]  Self assessment
@@ -19,7 +19,7 @@ We will address the following activities and exercises in studio 3.
 
 ## Using team planning tools in COMP1100/COMP7110
 
-We expect teams to use the Github Project tool to track the team progress in this this course.
+We expect teams to use the Github Project tool to track the team progress in this course.
 
 Adding and closing tasks is straightforward and easy. The difficult part is deciding what tasks need to be completed, and who will do what by when.
 
@@ -83,7 +83,7 @@ Tips on defining who:
 
 ### Does what
 
-Tasks are what make up a project. No project gets done if its constituent  tasks are not done.
+Tasks are what make up a project. No project gets done if its constituent tasks are not done.
 
 It is important to identify the tasks that need to be done in a project. We shouldn't identify every task at the start of the project. This is a waste of time, especially in software projects, and doubly for innovation projects. Things change! Instead, we should have a high-level idea of where the project is going, and have clear tasks identified for the next 1-2 weeks.
 
@@ -117,7 +117,7 @@ Basic team management planning means knowing:
    * Make tasks measurable.
    * Make reporting part of the tasks.
 
-3. **When** each tasks is due.
+3. **When** each task is due.
    * Five working days *maximum*.
    * Make deadlines specific.
    * Shorter deadlines drive behaviour.
@@ -156,7 +156,7 @@ One team member should create a **repository project**. To do this, navigate to 
 
 We suggest using the template called 'Team planning', but you are free to try others if you want.
 
-You *MUST* name your project using following format:
+You *MUST* name your project using the following format:
 
 ```[Day]_[Time]_Team_[XY]```
 
@@ -183,7 +183,7 @@ When an individual starts on a task that is in the Todo backlog, they move it to
 
 Finally, when it is done, tasks are moved to Done.
 
-Feel free to add more lists if your team want. For example, Kanban boards often have 'Planning' in between Todo and In Progress; and 'Review' between In Progress and Done.
+Feel free to add more lists if your team wants. For example, Kanban boards often have 'Planning' in between Todo and In Progress; and 'Review' between In Progress and Done.
 
 
 ### Iterations
@@ -203,13 +203,13 @@ Next, we will start adding tasks from the earlier exercise. If you run into trou
 
 🌐 [https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project]
 
-1. **Create tasks**: Create new tasks (items) for the tasks that you are responsible for. Give the task a short, meaningful title, and add a description in the 'Description' field is more information is required; e.g. requirements, links to data source, etc.
+1. **Create tasks**: Create new tasks (items) for the tasks that you are responsible for. Give the task a short, meaningful title, and add a description in the 'Description' field if more information is required; e.g. requirements, links to data source, etc.
 
    This is the **What** in **Who does what by when**.
 
 Click on the task name, and another window will appear, with a heap of information. Do the following:
 
-2. **Tag people**: At the topic as 'Assignees', which are the people responsible for completing the tasks. A task can belong to more than one person. Select who is responsible for the tasks that you are adding if you are not the only person responsible.
+2. **Tag people**: At the top as 'Assignees', which are the people responsible for completing the tasks. A task can belong to more than one person. Select who is responsible for the task you are adding if you are not the only one responsible.
 
    This is the **Who** in **Who does what by when**.
 
@@ -229,12 +229,12 @@ To make it show, select 'Backlog' (or the name of the view that you are using if
 
 ### Filtering 
 
-From the main project board, you should see a search bar with 'Filter by keyboard or by field'. Here, you can filter to see you own tasks only, by name, etc.
+From the main project board, you should see a search bar with 'Filter by keyword or by field'. Here, you can filter to see you own tasks only, by name, etc.
 
 One 'hidden' option is to filter by iteration. Type "iteration: " and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search "iteration:@current" for this too.
 
 
-### And your done!
+### And you're done!
 
 You now have a project management system that is suitable for small teams! 
 
@@ -263,7 +263,7 @@ More tutorials and documentation can be found at Github's online guide:
 In particular, a few features are relevant for those wishing to use Github further:
 
 * [Insights about projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects)
-* [Customing the view/layout of your project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view)
+* [Customising the view/layout of your project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view)
 * [Using issues to track work of a project](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project)
 * [Automating parts of your workload](https://docs.github.com/en/actions/how-tos/write-workflows)
 
@@ -284,7 +284,7 @@ With the submission due this week, we want you to take some time to assess your 
 
 This activity has four parts:
 1. One team member should download from the link above and put it in the 'Files' of your MS Teams channel.
-2. [5 mins] Each person should open this and take 5 minutes to read (and remind themselves) of the competency criteria that we use to assessment individuals in the course and the levels that we grade each at. Notice that the fifth columns is called 'Add criteria here' -- and all cells in the columns are empty.
+2. [5 mins] Each person should open this and take 5 minutes to read (and remind themselves) of the competency criteria that we use to assess individuals in the course and the levels that we grade each at. Notice that the fifth columns is called 'Add criteria here' -- and all cells in the columns are empty.
 2. [20 mins] Break your team into two sub-teams:
    * Team A: Read the eight competency criteria for the 'Team' assessment (in the first table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the 2nd competency on experiments, one criterion may be '*All hypotheses are testable, simple, clear, and ethical*'. Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don't overthink it.
    * Team B: Read the six competency criteria for the 'Individuals' assessment (in the second table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the final competency on professionalism, one criterion may be '*Shows up to meetings, studios, and 1-on-1s on time, and participates meaningfully*.' Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don't overthink it.
@@ -297,7 +297,7 @@ This activity has four parts:
 
 1. Teams: Show your legend your Github project created using the format ```[Day]_[Time]_Team_[XY]```.
 
-2. Teams: Show your legend --- in your Github project --- the tasks that you have assigned to complete for the remainder of iteration 1, which clear show **Who does what by when**.
+2. Teams: Show your legend --- in your Github project --- the tasks that you have assigned to complete for the remainder of iteration 1, which cleary shows **Who does what by when**.
 
 3. Individuals: Show your legend your self-assessment on your demonstration of the capabilities so far.
 

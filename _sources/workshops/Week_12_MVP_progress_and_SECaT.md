@@ -28,7 +28,7 @@ We realise that filling out a survey about a course that you will never do again
 
 
 Here are a few things that we often get asked, but which we will NOT be changing:
-* More reminders about upcoming deadlines: Deadlines are published on the course profile, discussd in seminars, and remiders are sent in the weekly update. Other than this, students are expected to manage their own planning.
+* More reminders about upcoming deadlines: Deadlines are published on the course profile, discussed in seminars, and reminders are sent in the weekly update. Other than this, students are expected to manage their own planning.
 * More detail about what to do in each submission: We aim to replicate a professional workplace/environment in COMP1100/COMP7110. In professional workplaces, people are expected to read and define their own quality indicators (to an extend). The 13 competencies are the rubric for COMP1100/7110, and how to achieve them is given in the notes, the studios, the seminars, or a combination of all three.
 * Clear expectations about future weeks: Reminder that this is published in the [schedule](https://comp1100.github.io/intro.html#schedule)
 * Allow students to do online surveys instead of interviews: No, no, no! Surveys are a poor replacement for interviews. They lack context, storytelling, and the ability to learn NEW things; as discussed in the [chapter on interviews](sec:interviews).

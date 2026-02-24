@@ -4,7 +4,7 @@
 
 ---
 
-> In this studio, we will experiment with paper prototyping, and look at how to gain feedback from paper prototyping.
+> In this studio, we will experiment with paper prototyping, and learn how to gather feedback from it.
 
 We will do the following  exercises:
 
@@ -19,11 +19,11 @@ We will do the following  exercises:
 
 ⏱️ 5 minutes - Group discussion
 
-We will use the product that is the running example discussed in the seminars: the `emergency alarm' system.
+We will use the running product example discussed in seminars: the `emergency alarm' system.
 
-There are two main aims for the application that you will prototype:
+The application you prototype has two main aims:
 1. Older people keeping in touch with the family members.
-2. Families of older people knowing their older family member is OK each day.
+2. Families knowing their older family member is OK each day.
 
 You can choose the design of the system, but it has to support the following features:
 1. Family members must be able to take and send photos from a mobile device.
@@ -48,7 +48,7 @@ Note that you need to define BOTH sides of the application: sending photos, rece
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
-Now that each team has a prototype, two members of the team will take this to one other team, ask **each person** in that other team  to use it to complete the tasks of sending photos, receiving photos, and sending notifications.
+Now that each team has a prototype, two members of the team will take this to one other team, ask **each person** in that other team  to use it to complete the tasks of sending photos, receiving photos, and notifications.
 
 Watch how the other team uses your paper prototype and see if there are design choices that would improve it.
 
@@ -69,11 +69,11 @@ Now, switch roles. Those who moved tables should return to their previous table,
 
 <p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
 
-The digital prototyping tool [Figma](https://www.figma.com) is an excellent tool for digital prototyping. It produces clean and beautiful interfaces.
+[Figma](https://www.figma.com) is an excellent tool for digital prototyping. It produces clean and beautiful interfaces.
 
 Split your team into two sub-teams. Then:
 1. One sub-team should create a digital prototype for the photo frame part of the application used by older people.
-2. The other sub-team should create a digital prototype for the part of the application that sends the photos and received notifications. 
+2. The other sub-team should create a digital prototype for the part of the application that sends the photos and receives notifications. 
 
 ## Exercise 4: Discussion
 
@@ -142,11 +142,11 @@ Even as part of the ideation, you should continue to **empathise** with your cus
 
 In your team, take the problem that you identified and use divergent thinking to generate some potential solutions (value propositions) for your customers' problems. 
 
-Remember to record your ideas as your generate them, either on a large piece of paper, some post-it notes, or a notebook. Avoid using a digital device such as a laptop, which is slow and makes it difficult take a high-level view of all of the ideas.
+Remember to record your ideas as you generate them, either on a large piece of paper, some post-it notes, or a notebook. Avoid using a digital device such as a laptop, which is slow and makes it difficult take a high-level view of all of the ideas.
 
 
 ## Exit ticket
 
-1. Get youur legend use your paper and digital prototypes.
+1. Get your legend to use your paper and digital prototypes.
 
-2. Show your legend the notes from  your divergent thinking session, and give them a 30 second description of your favourite solution so far
+2. Show your legend the notes from your divergent thinking session, and give them a 30 second description of your favourite solution so far.

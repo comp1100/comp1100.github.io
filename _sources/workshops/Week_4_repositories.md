@@ -5,7 +5,7 @@
 
 ---
 
-> In this  studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time. We will also discuss interviewing -- something that you have already started. 
+> In this studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time. We will also discuss interviewing -- something that you have already started. 
 >
 
 We will address the following activities and exercises in this studio:
@@ -36,7 +36,7 @@ They allow teams to create, store, manage and share their code and other documen
 
 [Git](https://git-scm.com/), originally created by Linus Torvalds, creator of Linux, is the most commonly-used repository tool. It is a distributed version control system to track versions of files. 
 
-[GitHub](https://github.com/) is a company that provides a browser or desktop based user interface for Git. There are many ways to use Git, and there are other companies that provide Git services, but GitHub is one of the more popular services. In this course, we will use Github for our projects, because it is a well-known tool, and because the course staff can set up a shared space for all projects in the course.
+[GitHub](https://github.com/) is a company that provides a browser or desktop based user interface for Git. There are many ways to use Git, and there are other companies that provide Git services, but GitHub is one of the more popular services. In this course, we will use GitHub for our projects, because it is a well-known tool, and because the course staff can set up a shared space for all projects in the course.
 
 ### Why use repositories?
 
@@ -62,10 +62,10 @@ After Imogen recovers from her extreme disappointment, she will have to work wit
 2. **Pushes**: When Imogen **pushes** her changes to the shared repository, three things can happen:
   * Nobody else has made changes since Imogen downloaded the latest version, so everything is good.
   * If Zac or someone else has made changes to the same file but at different lines, a repository tool like Git will simply merge the two files automatically.
-  * If Zac or someone else has made changes to the same file and some are at the lines, a repository tool like Git will prevent Imogen copying the file back, will merge any lines that do not conflict, and will show her lines that do conflict. She then needs to **resolve** those conflicts.
+  * If Zac or someone else has made changes to the same file and some are on the same lines, a repository tool like Git will prevent Imogen copying the file back, will merge any lines that do not conflict, and will show her lines that do conflict. She then needs to **resolve** those conflicts.
   ![figs/file_overwrite_with_conflict_detection.png](figs/file_overwrite_with_conflict_detection.png)
   As a quick note, Git has both **commits** and **pushes**. Each user maintains a local copy of a repository on their machine. They *commit* code to the local repository, and then when they are happy, they *push* it to the server.
-3. **Branches and merges**: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren't complete or she hasn't tested them, this would interfere with others' code. In this case, she can create a **branch** of the repository, where she can continue to push changes just to that branch, which doesn't affect everyone else. Once she is happy, she can **merge** her branch into the main branch of the repository. If there are conflicts, she will not be able to merge until she resolved them.
+3. **Branches and merges**: If Imogen wants to make some changes to the source code that will take a few weeks, she may want to keep pushing her changes to the repository to avoid losing her work. However, she may not want everyone else to use those changes yet; for example, they aren't complete or she hasn't tested them, this would interfere with others' code. In this case, she can create a **branch** of the repository, where she can continue to push changes just to that branch, which doesn't affect everyone else. Once she is happy, she can **merge** her branch into the main branch of the repository. If there are conflicts, she will not be able to merge until she resolves them.
 
 ### Branches
 
@@ -88,7 +88,7 @@ Each time these merges happen, conflicts will be detected, and non-conflicting c
 
 ### Commit messages
 
-When someone commits changes to a local repository, they are asked to (and should!) use a **commit message**. A commit message is a brief description that explains what changes were made and why. This provides context and clarity for other developers to help team members why changes are made, who made them, to track progress, and to help rollback when changes introduce new problems. 
+When someone commits changes to a local repository, they are asked to (and should!) use a **commit message**. A commit message is a brief description that explains what changes were made and why. This provides context and clarity for other developers to help team members understand why changes are made, who made them, to track progress, and to help rollback when changes introduce new problems. 
 
 A good commit message should:
 1. Clearly describe what changes have been made. Messages like "Fixed a bug" or "Updated the code" are not good enough.
@@ -141,7 +141,7 @@ We are not going to explicitly tell you all of the commands that you need. Inste
 
 ⏱️ 10 minutes - Individual
 
-You will have received an invite to the Github organisation called for the course.
+You will have received an invite to the Github organisation created for the course.
 
 Accept this invite, creating an account on Github if you do not have one already.
 
@@ -157,7 +157,7 @@ There are three main options for you to use, and the staff have no particular re
 
 2. Use a Git command-line tool. This is for those who like to use Linux (either natively or via Windows SL) or the MacOS underlying Unix command line. If you want to do this, you can install it locally. One way to do this is to install the Github desktop client (see option 3), which will also install the command-line tool for you.
 
-3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are othet desktop clients available, and you are also free to use those.
+3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are other desktop clients available, and you are also free to use those.
 
 
 ### Setting up a GitHub repository for your team
@@ -166,7 +166,7 @@ There are three main options for you to use, and the staff have no particular re
 
 One team member should be nominated as a 'team leader' for this exercise. Your legend will ask your team leader for their Github username and will send a separate invite to enable this team leader to create a repository.
 
-The team leader  member should create a repository for the team. This MUST follow the format:
+The team leader should create a repository for the team. This MUST follow the format:
 
 ```[Day]_[Time]_Team_[XY]```
 
@@ -208,7 +208,7 @@ The following tasks require you to understand how to add and commit files to you
 Use the following documentation to help you with this:
 
 - [Atlassian's documentation for saving changes in Git](https://www.atlassian.com/git/tutorials/saving-changes)
-- [Atlassian's documentation for commiting changes in Git](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+- [Atlassian's documentation for committing changes in Git](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 - Atlassian's documentation for syncing changes to a remote Git repository using [push](https://www.atlassian.com/git/tutorials/syncing/git-push) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
 GitHub repositories, like any file storage, require a logical file structure. Complete the following tasks:
@@ -261,7 +261,7 @@ If each team member cannot see all of the other team members' transcripts, trace
 
 **Common mistakes**: 
 - Make sure to pull the repository after your team member has pushed the change with the `Interviews` folder.
-- Make sure that you are are not pushing to the main branch after you add your files.
+- Make sure that you are not pushing to the main branch after you add your files.
 
 
 ## Take a break
@@ -272,7 +272,7 @@ If each team member cannot see all of the other team members' transcripts, trace
 
 ⏱️ 20 minutes - Group
 
-The challenge for this task is to create an artificial merge conflict. You can do these a variety of ways.
+The challenge for this task is to create an artificial merge conflict. You can do these in a variety of ways.
 
 Use the following documentation to help with this task:
 
@@ -290,7 +290,7 @@ Using the `team_values.md` file, use your own creativity to come up with a merge
 
 **Github** is a web platform for hosting the repository database. 
 
-Git repositories can be hosted on other web platforms, such as an private platform in an organisation, or other public platforms, such as [BitBucket](https://bitbucket.org/).
+Git repositories can be hosted on other web platforms, such as a private platform in an organisation, or other public platforms, such as [BitBucket](https://bitbucket.org/).
 
 
 ## More than source code: using Markdown
@@ -337,7 +337,7 @@ In this part of the studio, **as a team**:
 
 1. List out the hypotheses for your project. Remember to use the structure in the chapter on [experimentation](sec:experimentation).
 
-2. Derive a list of interview questions that test these hypothesis. Remember to use the times in the chapter in [interviews](sec:interviews).
+2. Derive a list of interview questions that test these hypothesis. Remember to use the tips in the chapter on [interviews](sec:interviews).
 
 After the studio, create test cards for your hypothesis and start interviewing, as outlined in this week's homework.
 
@@ -347,13 +347,13 @@ After the studio, create test cards for your hypothesis and start interviewing, 
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have created a private repository  named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
+1. Show your legend that you have created a private repository named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
 
 1. Show your legend your README.md where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.
 
 1. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
 
-1. Get feedback from your legend the hypotheses and questions that you have come up with for your project, and act on it.
+1. Get feedback from your legend on the hypotheses and questions that you have come up with for your project, and act on it.
 
 
 

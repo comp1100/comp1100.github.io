@@ -4,7 +4,7 @@
 
 ---
 
-> In this studio, we will investigate two different topics. First, we will discuss and use reflective practices based on the theories of Graham Gibbs, which is part of what you will need to do for each submission in this course. Second, we will give you some ideas for how we expect your Github repository to be used throughout the source.
+> In this studio, we will investigate two different topics. First, we will discuss and use reflective practices based on the theories of Graham Gibbs, which is part of what you will need to do for each submission in this course. Second, we will give you some ideas for how we expect your Github repository to be used throughout the course.
 
 We will address the following activities and exercises:
 
@@ -17,7 +17,7 @@ We will address the following activities and exercises:
 
 ## Online learning module 
 
-This studio is accompanied by a digital module 'Reflective Writing - Gibb's Reflective Model', written by Stuart Crosbie from the Emedded Learning Support team, available on Blackboard under 'Content' $\rightarrow$ 'Assessment Helpers'.
+This studio is accompanied by a digital module 'Reflective Writing - Gibb's Reflective Model', written by Stuart Crosbie from the Embedded Learning Support team, available on Blackboard under 'Content' $\rightarrow$ 'Assessment Helpers'.
 
 ## Gibbs’ Reflective Cycle (GRC)
 
@@ -68,7 +68,7 @@ This will require you to revisit the 'Helpful questions' from the article above.
 - [ ]  Once you have completed your six questions, within your group, number each post-it note from 1 to X (depending on how many people in your group). Then:
 - [ ]  **Odd number:** If your post-it note is odd, stand up and **move to another table**. Pair up with another person who has an even numbered post-it note, who should be seated. 
 - [ ]  **Even number:** If your post-it note is even, stay seated at your table for another person to approach you and pair up.   After you answer all the questions, swap post-it notes and move on to another table.
-- [ ]  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on **your** post-it note (note: you should be asking the questions your chose, NOT what the person choose for themselves). 
+- [ ]  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on **your** post-it note (note: you should be asking the questions you chose, NOT what the person choose for themselves). 
 - [ ]  Once they have finished, swap roles.
 - [ ]  When you answer the questions, relate it to a specific reflection from the past few weeks in COMP1100. 
 - [ ]  After about 10 minutes, your legends will stop the discussion, and the person with the odd number will switch tables again to a new table. Repeat.
@@ -89,7 +89,7 @@ Once the activity time is up take your post-it note and stick it on the whiteboa
 
 <p style="text-align:center; font-weight:bold;"> Devices required for this entire exercise</p> 
 
-In a [previous studio](studio:repositories), you learnt that will use source code repositories as the main method for submitting your work in this course.
+In a [previous studio](studio:repositories), you learnt that you will use source code repositories as the main method for submitting your work in this course.
 
 The individual student contribution to the team component is determined by the logs in the source code repository, so it is important that students submit their own work on the repository, rather than sending to team members.
 
@@ -162,7 +162,7 @@ For example, document your business model canvas as follows:
 - Relationship
 
 **Revenue Streams**
-- Revenue steam
+- Revenue stream
 ```
 
 And similar for the value proposition canvas -- don't forget to add one canvas per segment though!
@@ -214,7 +214,7 @@ It can also be used to link internally. To do this, you need to:
 You can use this to great effect. 
 
 **Your tasks:**
-- Link the hypotheses in your business model canvas and value proposition canvases to the correspond test cards.
+- Link the hypotheses in your business model canvas and value proposition canvases to the corresponding test cards.
 - Link the test cards to the corresponding learning card.
 - Link the learning cards to the set of interviews that you did.
 
@@ -249,11 +249,11 @@ As part of this exercise, each team member should:
 
 1. Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interview participants and writing these observations down:
   * Are there particular themes or answers that you see across multiple participants? (It doesn't have to be all people). What are there?
-  * Are there any interest responses that you notice?
+  * Are there any interesting responses that you notice?
 
 1. Give 'names' to the themes that you identify, and write these down. For example, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: "Daily contact with family".
 
-Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes that different team members have identify are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
+Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes different team members have identified are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
 
 At the end, you should have a list of key themes from your interview participants so far that you can show to your legend. 
 

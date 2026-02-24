@@ -17,7 +17,7 @@ Students will
 ### Learning outcomes
 
 
-After successfully completing this course, students should be able to
+After successfully completing this course, students should be able to:
 
 1. Work independently as part of a team with diverse backgrounds towards authentic IT innovation solutions
 2. Apply innovation processes to open ended problems
@@ -33,7 +33,7 @@ You will work in teams of 4-5 to build a minimum viable product. You will follow
 **Importantly** though, this course is about learning how to do innovation in a real environment. This will be a real project that you can take further if you want. You will gather data from real people. You will work in a real team with a real manager. The problem that you work on will be **open-ended**, which means that there are many possible ways to approach the problem, no fixed criteria for when we are "finished", and the teaching staff don't know what the best answer is.
 
 ```{note}
-Open-endedness is note the same as "vague". A vague project is one in which the vision is unclear or imprecise. A problem or vision can be perfectly clear, but still have many potential solutions that we can continue improving on for many years. A vague project is one where we don't have a vision, and don't know the problem. This results in confusion and incomplete answers. Part of this course will be applying processes and techinques to help clarify problems and solutions. 
+Open-endedness is note the same as "vague". A vague project is one in which the vision is unclear or imprecise. A problem or vision can be perfectly clear, but still have many potential solutions that we can continue improving on for many years. A vague project is one where we don't have a vision, and don't know the problem. This results in confusion and incomplete answers. Part of this course will be applying processes and techniques to help clarify problems and solutions. 
 ```
 
 **This course is about real-world practice.**
@@ -51,7 +51,7 @@ In this course, we aim to emulate a real-world working environment. This means t
 
 > "Good decisions come from experience. Experience comes from making bad decisions." -- Mark Twain.
 
-> "We hire people who have experience not just because of their successes but also because of their failures. Failures offer learning opportunities and increase the chance that you won't make the same mistake again." -- Tina Seelig,
+> "We hire people who have experience not just because of their successes but also because of their failures. Failures offer learning opportunities and increase the chance that you won't make the same mistake again." -- Tina Seelig.
 
 Time and time again, failure has been shown to be hugely important in learning. 
 
@@ -109,7 +109,7 @@ In this course, we use a competency-based assessment approach. This means that a
 
 We have three submissions/iterations throughout the course. These submissions are effectively you just submitting the work you have done so far on your project in that iteration. At each submission/iteration, we evaluate your progress so far using the criteria below.
 
-We have to groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **teamwork** criteria.
+We have two groups of competency  criteria that we expect each student to demonstrate: (1) **innovation** criteria; and (2) **teamwork** criteria.
 
 
 **Innovation**: The innovation criteria specify that each individual demonstrates *via their behaviour* that they understand and can apply the Lean Startup process to an open-ended problem:
@@ -151,9 +151,9 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
 
 1. **Weekly:** Attend *on time* and *participate in* the weekly studios. If you cannot make it (illness, clash) let your tutor AND your team know *before* the studio.
-2. **16:00, Thursday 04/09/2025 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
-3. **16:00, Thursday 25/09/2025 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Thursday 13/11/2025 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
+2. **16:00, Thursday 02/04/2026 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
+3. **16:00, Thursday 30/04/2026 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
+4. **16:00, Thursday 11/06/2026 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
 
 Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios, and posted on Blackboard.
 
@@ -163,7 +163,7 @@ In addition, for deliverables 2-4, each individual will submit a short self-refl
 
 After each assessment, each individual will be graded against the criteria. **Individual student contribution to the team component is determined by the logs in the source code repository**.
 
-For each competency, the student will receive on of the following:
+For each competency, the student will receive one of the following:
 * **Meets expectations**: The student has clearly demonstrated this competency based on the evidence found in the repository.
 * **Not yet**: The student has not yet demonstrated this competency.
 * **New submission required**: The student/team must resubmit some part of the submission within 5 working days and be re-assessed.
@@ -185,7 +185,7 @@ It is important to note that the focus in this course is on continual learning. 
 
 **Late penalty:** 100%. 
 
-The late penalty for assessment is 100% (with a one-hour grace period) -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a profession IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
+The late penalty for assessment is 100% (with a one-hour grace period) -- that is, failure to submit to the deadlines would result in a fail for that assessment, and therefore the course. *Why so tough?* First, there are many cases in a professional IT environment where deadlines are hard: submitting a tender or grant, software related to events on a fixed date that cannot be moved, submitting reports for regulatory compliance, submitting financial reports, and even alignment with external partner deadlines (e.g. vendors). Extensions in these cases are simply not possible, and contingency must be built into any planning. Learning how to do this in an environment where failure is contained (i.e. only affects you and nobody else) is useful. Second, the deliverables due for this course are simply a culmination of your activity in the previous weeks, so last minute cramming to a deadline is not going to add much value. As such, submitting on time is straightforward -- you simply submit what you have done so far. If the work so far is not considered up to scratch, the team will be asked to improve and re-submit.
 
 ### One-on-one meetings
 
@@ -266,7 +266,7 @@ We will discuss this is week 1. For now, here are some things we imagine that yo
 Each week, the course will be broken into four components:
 
 1. **Innovation seminar (2 hours) [Attendance expected, but not compulsory]**: This is where we discuss the key concepts in innovation and what teams are expected to be doing on their project over the following weeks. 
-2. **Teamwork studio (2 hours) [Compulsory attendance]**: This is a studio where teams will build the key skills required to work as a team on an innovation project. Regular participation is in the studios is one of the assessment items.
+2. **Teamwork studio (2 hours) [Compulsory attendance]**: This is a studio where teams will build the key skills required to work as a team on an innovation project. Regular participation in the studios is one of the assessment items.
 3. **Planning and working hour (1 hour) [Compulsory attendance]**: At the end of the teamwork studio, teams will have an hour available in the studio spaces to work on their project with the presence of their legends. 
 3. **Project work [No attendance]**: For the rest of the work, the team is expected to spend 5-7 hours working on their project; e.g. gathering data, meeting with each other, planning, designing, implementing, etc.
 
@@ -291,6 +291,11 @@ Each week, the course will be broken into four components:
 | Exams week 1  |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
 (sec:intro:challenges)=
+
+### Weekly Deliverables
+![Course weekly schedule with deliverables](assets/weekly_schedule_iteration1.png)
+![Course weekly schedule with deliverables](assets/weekly_schedule_iteration2&3.png)
+
 ## Project challenges
 
 All projects this semester will focus on improving the student experience at the University of Queensland, and potentially other universities too.
@@ -337,7 +342,7 @@ Many students feel isolated and disconnected during parts of their study, especi
 
 ### Student well-being
 
-What well-being programs are available for students? What about student supports? How can they access them? What if they have food security, or mental health issues? Do they need know where to look?
+What well-being programs are available for students? What about student supports? How can they access them? What if they have food security, or mental health issues? Do they need to know where to look?
 
 **Challenge:** The challenge is to innovate a software-based solution to help students find and access well-being services. The application is NOT a platform to provide all support itself, but could play a role by connecting students with support and making follow-up easier, especially outside of standard hours.
 

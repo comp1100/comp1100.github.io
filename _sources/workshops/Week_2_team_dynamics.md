@@ -4,7 +4,7 @@
 
 ## Overview
 
-> In this second studio, you will meet you team and together we will all investigate team dynamics including managing teams and concepts for effective teamwork, providing a solid framework to develop your projects throughout the semester. We will also give some foundations on how to run a meeting.
+> In this second studio, you will meet your team and together we will explore team dynamics, including managing teams and concepts for effective teamwork, providing a solid framework to develop your projects throughout the semester. We will also provide foundations on how to run meetings effectively.
 > 
 
 We will address the following activities and exercises in studio 2.
@@ -24,7 +24,7 @@ We will address the following activities and exercises in studio 2.
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 
 
-Your legends will allocate your teams in the studio. Once you meet your team, sit together at a table.
+Your Legends will allocate your teams in the studio. Once you meet your team, sit together at a table.
 
 ## Exercise 2: TimeGuessr Team-building exercise
 
@@ -34,9 +34,9 @@ Your legends will allocate your teams in the studio. Once you meet your team, si
 <p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
 
 
-[TimeGuessr](https://timeguessr.com/) is a game where (built on the popular [GeoGuessr](https://www.geoguessr.com/) game) where you need to specify in what year and which location are particular photo has been taken.
+[TimeGuessr](https://timeguessr.com/) is a game (built on the popular [GeoGuessr](https://www.geoguessr.com/) game) where you need to specify in what year and which location the particular photo has been taken.
 
-You will play this **as a team** in  today's studio to start working as a team.
+You will play this **as a team** in today's studio to start working as a team.
 
 **In your team**, choose one person to keep their laptop open for the task. Then, do the following steps:
   - [ ] Go to the [TimeGuessr daily challenge](https://timeguessr.com/roundonedaily)
@@ -79,7 +79,7 @@ Simon Sinek is an American leadership and teams expert. In the studio, we will w
 
 Sinek identifies two critical team values: belief (trust) and support (encourage). He also makes an important observation about making values verbs so they can become **actionable**. Specifically, we should focus on observable behaviour as much as possible. That way, we can easily tell whether we are adhering to our team’s values. 
 
-A value such as ‘be thoughtful’ is not helpful, because it is difficult to tell whether someone is being thoughtful (except by referring to specific observable behaviour that demonstrates it). Instead, stating, “show up on time”, “email the team if we will miss a meeting” are  easy to observe, and therefore, we can say whether we are adhering to the values”. 
+A value such as ‘be thoughtful’ is not helpful, because it is difficult to tell whether someone is being thoughtful (except by referring to specific observable behaviour that demonstrates it). Instead, stating, “show up on time”, “email the team if you will miss a meeting” are easy to observe, and therefore, we can say whether we are adhering to the values. 
 
 Tips: Avoid using nouns for your team values, instead think about actionable verbs. 
 
@@ -99,12 +99,12 @@ There are two problems you will solve with this exercise:
 
 Follow these steps to complete the exercise:
 
-- [ ]  Select one group member either through volunteering or vote.
-- [ ]  This group member will draw an 6x6 grid on paper or a whiteboard (ensure there is some space on the margins to write)
+- [ ]  Select one group member either through volunteering or a vote.
+- [ ]  This group member will draw a 6x6 grid on paper or a whiteboard (ensure there is some space on the margins to write)
 - [ ]  As a group, start brainstorming team values and writing them on the margins.
 - [ ]  Once every member has thought of 6-10 values (as verbs), each member gets to choose any value written in the margin and write them in a single square in the grid (can be any square). Go around the group round-robin, allowing each member to place a value in the grid until the entire grid is filled.
 - [ ]  Now, each team member should 'vote' on the values. You get exactly four votes: draw a tick on the two values that are most important to you, and a cross on the two that you find least important (even if you agree with them). The rest, leave blank.
-- [ ]  Once every team member has voted, analyse the grid and decide on six core values. (Ticks are worth 1 point, cross worth -1 point; values are ranked by number of points)
+- [ ]  Once every team member has voted, analyse the grid and decide on six core values. (Ticks are worth 1 point, cross are worth -1 point; values are ranked by number of points)
 - [ ]  Circle core values and rank them by number (1 for highest to 6 for lowest)
 
 Once your group has completed the task, move onto the next task.
@@ -118,12 +118,12 @@ Once your group has completed the task, move onto the next task.
 
 With team values having been identified, chosen and ranked, discuss and write up a short 1 page sample of a team contract:
 
-- [ ] The  contract should outline the standards that are expected to be met by all team members.
+- [ ] The contract should outline the standards that are expected to be met by all team members.
 - [ ] Use the core values to serve as a foundation for your contract.
 - [ ] You are free to come up with rules of conduct, conflict resolution, communication and other team obligations, but these are just examples. 
 - [ ] If you are having trouble coming up with a team contract, do some research on team contract templates and adapt them to your needs. 
 
-Team contracts serve as insurance for team conflict resolution and issues. They may never be used in a cohesive and well integrated team, but are invaluable when issues arise.
+Team contracts serve as insurance for team conflicts and issues. They may never be used in a cohesive and well-integrated team, but are invaluable when issues arise.
 
 If you are struggling, you can use the core values to serve as a foundation for the document. Remember, focus on verbs / behaviours. 
 
@@ -137,7 +137,7 @@ If you are struggling, you can use the core values to serve as a foundation for 
 ⏱️ 20 minutes - Individual
 
 
-The thought of meetings can send some people into existential dread, either through bad prior experiences or having to deal talking with people for an hour (or longer). Unfortunately, meetings have developed a bad reputation because they are often misused by management, administrators and leaders. 
+The thought of meetings can send some people into existential dread, either through bad prior experiences or having to deal with talking to people for an hour (or longer). Unfortunately, meetings have developed a bad reputation because they are often misused by management, administrators and leaders. 
 
 ![meetings.jpeg](figs/meetings.jpeg)
 
@@ -156,15 +156,15 @@ There is a generalised meeting structure that can be applied to any meeting to i
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
 
-- **Purpose**: What does you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.
-- **Participants**: Who is expected to  be there? Assign a chair (who will run the meeting) and a note-taker.
+- **Purpose**: What do you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.
+- **Participants**: Who is expected to be there? Assign a chair (who will run the meeting) and a note-taker.
 - **Discussion Points**: What are the topics, issues or problems? Identify who will lead each discussion point.
   ```{tip}
   Research shows that if you write the discussion point item on your agenda as what **outcome** you want from the meeting, it focuses the attendees. So instead of: "Prototype" or even "Discuss prototype features", write the point as: "Identify which features we will prototype".  
   ```
 - **Times**: Assign a start time each item, and stick to it! If it is clear this needs more time, 'park' it until the end of the meeting, and defer to another meeting if you don't have time at the end.
-- **Action Items**: Those things that need to be done after the meeting. These are things that should go on your team please, such as on Trello. So, an action item should say: **who does what by when?**
-- **Supporting Documentation & Materials**: Anything else you need; e.g. if you want to discuss how you are going to assign software features to be implemented by team members, have the list of features.her multimedia. 
+- **Action Items**: Those things that need to be done after the meeting. These are things that should go on your team planner, such as on Trello. So, an action item should say: **who does what by when?**
+- **Supporting Documentation & Materials**: Anything else you need; e.g. if you want to discuss how you are going to assign software features to be implemented by team members, have the list of features ready. 
 
 
 Every meeting type will be different, but in general these are the most critical requirements of a meeting. This structure is a suggestion and should be moulded to requirements.
@@ -185,7 +185,7 @@ Every meeting type will be different, but in general these are the most critical
     - **Be early**: It takes time to settle. If the meeting starts at 1100h, show up 2-3 minutes early so you can settle and prepare yourself.
     - **Use a time-keeper**: Someone needs to identify that time is nearly up for an agenda item.
 - **Follow the agenda**: Anything off-topic should be parked for later. 
-- **Use a "parking lot"**: A "parking lot" is time at the end (if any) to discuss things that wew parked.
+- **Use a "parking lot"**: A "parking lot" is time at the end (if any) to discuss things that were parked.
 - **Assign actions**: Whenever the attendees agree that something should be done, write down **who does what by when** and send this around. 
 - **Publish notes**: Notes are not minutes. Minutes are usually a legal requirement and are done by professional stenographers. In short, notes are simply:
     - What was decided?
@@ -206,7 +206,7 @@ Now that you have an understanding of meeting types, a general meeting structure
 
 Your task:
 - [ ]  Write an agenda for your next team meeting. Follow the structure from the section on the [universal meeting structure](sec:agenda-structure).
-- [ ]  Show your legend your agenda, and they will give feedback on what works and what doesn't.
+- [ ]  Show your Legend your agenda, and they will give feedback on what works and what doesn't.
 - [ ]  Refine your agenda based on the feedback.
 - [ ]  Outside of the class, hold the meeting! 
 

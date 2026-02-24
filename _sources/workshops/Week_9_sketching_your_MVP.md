@@ -21,9 +21,9 @@ We will do the following  exercises:
 ⏱️ 10 minutes - Individual
 
 
-Remember that self assessment that you did for iteration 1?
+Remember that self assessment you did for iteration 1?
 
-Take the spreadsheet that you filled out, look at the feedback that your legend gave for iteration 1, and do a short self assessment for iteration 2.
+Take the spreadsheet that you filled out, look at the feedback your legend provided for iteration 1, and do a short self assessment for iteration 2.
 
 ## Exercise 2: Sketching out your MVP
 
