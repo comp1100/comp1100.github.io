@@ -263,28 +263,27 @@ We will discuss this is week 1. For now, here are some things we imagine that yo
 
 ## Weekly format
 
-Each week, the course will be broken into four components:
+Each week, the course will be broken into three components:
 
-1. **Innovation seminar (2 hours) [Attendance expected, but not compulsory]**: This is where we discuss the key concepts in innovation and what teams are expected to be doing on their project over the following weeks. 
-2. **Teamwork studio (2 hours) [Compulsory attendance]**: This is a studio where teams will build the key skills required to work as a team on an innovation project. Regular participation in the studios is one of the assessment items.
-3. **Planning and working hour (1 hour) [Compulsory attendance]**: At the end of the teamwork studio, teams will have an hour available in the studio spaces to work on their project with the presence of their legends. 
+1. **Studio [Compulsory attendance]**: This is a studio where we discuss the key concepts in innovation and what teams are expected to be doing on their project over the following weeks, and teams will build the key skills required to work as a team on an innovation project. Regular participation in the studios is one of the assessment items.
+2. **Planning and working  [Compulsory attendance]**: At the end of the teamwork studio, teams will often have time available in the studio spaces to work on their project with the presence of their legends. 
 3. **Project work [No attendance]**: For the rest of the work, the team is expected to spend 5-7 hours working on their project; e.g. gathering data, meeting with each other, planning, designing, implementing, etc.
 
 ## Schedule
 
-| Week | Seminar topic                                      | Studio                                                | Course deliverables                   | What should teams be doing this week?                                               |
+| Week | Innovation topic                                     | Studio topic                                              | Course deliverables                   | What should teams be doing this week?                                               |
 |------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
 | 1    | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        |                                                 |
-| 2    | Teamwork, Business model canvas                     | Team dynamics, effective meetings, practice interviewing  |                                        | Meet your team, Brainstorm ideas to solve your challenge, Sketch customer problem hypotheses |
-| 3    | Experimentation: Testing and validation, Customer relationships     | *Ekka Holiday: no studios on any day*  |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
-| 4    | Prototypes and minimal viable products          | Repositories and version control, markdown    |                                        | Formalise your hypotheses using test cards, Update questions, Each team member interview 5 more customers., Record learning in test cards  |
-| 5    | History of computing, Prompt engineering    |  Reflective Practice, using repositories          |               | Teams analyse interview data and agree on clear set of customer segments and problems |
-| 6    | *No seminars from week 6*          |  Team planning, planning tools                                              | Business model canvas iteration 1 - Testing the problem   | Brainstorm potential solutions, Define a clear value proposition, Identify hypothesis (test cards) and interview questions to test value proposition |
-| 7    |              | Prototyping                                     |                                        |  Each team member interview 5 customers to validate value proposition, Document learnings in learning cards, Define first paper and/or digital prototypes |
-| 8    |          | Giving feedback, team presentations                                   |                  | Refine/finalise MVP features using learning cards, Further interviews if required |
+| 2    | Teamwork, Business model canvas                     | Team dynamics, practice interviewing  |                                        | Meet your team, Brainstorm ideas to solve your challenge, Sketch customer problem hypotheses |
+| 3    | Experimentation: Testing and validation     | Doing interviews, effective meetings   |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
+| 4    | Prototypes and minimal viable products          | Repositories and version control, markdown    |                                        | Formalise your hypotheses using test cards, Update questions, Each team member interview 5 more customers. Record learning in test cards  |
+| 5    |  Building customer/user relationships  |  Reflective Practice, using repositories          |               | Teams analyse interview data and agree on clear set of customer segments and problems |
+| 6    | *No class in week 6 due to Good Friday holiday*          |  T                                            | Business model canvas iteration 1 - Testing the problem   | Brainstorm potential solutions, Define a clear value proposition, Identify hypothesis (test cards) and interview questions to test value proposition |
+| 7    |  Prompt Engineering           | Prototyping                                     |                                        |  Each team member interview 5 customers to validate value proposition, Document learnings in learning cards, Define first paper and/or digital prototypes |
+| 8    |  Personal management (part 1)        | Giving feedback, team presentations                                   |                  | Refine/finalise MVP features using learning cards, Further interviews if required |
 |      | Mid-semester break                                |                                                       |                                        | Finalise MVP features, Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc. |
-| 9    |                                | MVP definition                  | Business model canvas iteration 2 - Testing the solution    | Start implementing MVP                                                  |
-| 10   |                                           | King's Birthday holiday: no studios on any day                   |                                        | Continue implementing MVP                                                  |
+| 9    |  Personal management (part 2)                            | MVP definition                  | Business model canvas iteration 2 - Testing the solution    | Start implementing MVP                                                  |
+| 10   |  History of computing                                           | King's Birthday holiday: no studios on any day                   |                                        | Continue implementing MVP                                                  |
 | 11   |                                      | How to give a pitch                             |                                        | Continue implementing MVP, Finalise 1-minute pitch and 5-minute presentation |
 | 12   |  |  Team presentations           |                                        | Continue implementing MVP | 
 | 13   |                                       | Team presentations                                       |                                        | Continue implementing MVP,                                                  |

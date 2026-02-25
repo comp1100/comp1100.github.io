@@ -1,0 +1,698 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Week 3: Interviewing customers; holding effective meetings &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+
+    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_3_interviews';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Week 4: Repositories and Version Control" href="Week_4_repositories.html" />
+    <link rel="prev" title="Week 2: Team Dynamics" href="Week_2_team_dynamics.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__kbd-shortcut">Search</span>
+    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Course overview
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Studios</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 3: Interviewing customers; holding effective meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflective practice and using repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_6_team_planning.html">Week 6: Small-team Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 7: Software prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_8_feedback_and_presentations.html">Week 8: Giving &amp; receiving feedback; informal presentations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_10_no_studio.html">Week 10: No studios this week due to King’s birthday holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_11_pitching.html">Week 11: Giving a 1-minute pitch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_12_MVP_progress_and_SECaT.html">Weeks 12: Course Surveys, and making progress on your MVPs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_13_presentations.html">Weeks 13: Presentations</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://comp1100.github.io/intro.html/issues/new?title=Issue%20on%20page%20%2Fworkshops/Week_3_interviews.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workshops/Week_3_interviews.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Week 3: Interviewing customers; holding effective meetings</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interviews">Interviews</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-defining-open-vs-closed-questions">Exercise 1: Defining open vs closed questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-testing-open-vs-closed-questions">Exercise 2: Testing open vs closed questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-compare">Exercise 3: Compare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-send">Exercise 4: Send!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-effective-meetings">Creating Effective Meetings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-and-rules">Universal Meeting Structure and Rules</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-universal-meeting-structure-agenda">Discussion: Universal Meeting Structure (Agenda)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-rules">Universal Meeting Rules</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-agenda-draft">Meeting Agenda Draft</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-material">Bonus material</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#saving-the-world-from-bad-meetings-david-grady">Saving the world from bad meetings - David Grady</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="week-3-interviewing-customers-holding-effective-meetings">
+<h1>Week 3: Interviewing customers; holding effective meetings<a class="headerlink" href="#week-3-interviewing-customers-holding-effective-meetings" title="Link to this heading">#</a></h1>
+<section id="interviews">
+<h2>Interviews<a class="headerlink" href="#interviews" title="Link to this heading">#</a></h2>
+<p>Read the chapter on <a class="reference internal" href="../innovation/9_interviews.html#sec-interviews"><span class="std std-ref">interviews</span></a>. We will experiment a bit with some interview questions.</p>
+<p>Recall the difference between closed and open questions: closed questions have a yes/no/maybe/don’t know answer, while open questions invite a response.</p>
+<p><strong>Closed:</strong> “Do you like studying computer science at university?”</p>
+<p><strong>Open:</strong> “Tell me one thing that you like about studying computer science at university”</p>
+</section>
+<section id="exercise-1-defining-open-vs-closed-questions">
+<h2>Exercise 1: Defining open vs closed questions<a class="headerlink" href="#exercise-1-defining-open-vs-closed-questions" title="Link to this heading">#</a></h2>
+<p style="text-align:center; font-weight:bold;"> Devices can be used for this discussion</p> 
+<p>⏱️ 30 minutes - Class</p>
+<p>By now, you should be considering what <a class="reference internal" href="../intro.html#sec-intro-challenges"><span class="std std-ref">challenges</span></a> you may be considering. If not, this may help you decide!</p>
+<p>As a team, choose one (or more!) of the challenges, and write a two general questions about each challenge that you have chosen: one open and one closed.</p>
+<p>For example:</p>
+<p><strong>Closed:</strong> “When you were doing X at UQ, did you encounter any difficulties in …?”</p>
+<p><strong>Open:</strong> “Tell me about any difficulties you encountered while you were doing X at UQ.”</p>
+</section>
+<section id="exercise-2-testing-open-vs-closed-questions">
+<h2>Exercise 2: Testing open vs closed questions<a class="headerlink" href="#exercise-2-testing-open-vs-closed-questions" title="Link to this heading">#</a></h2>
+<p style="text-align:center; font-weight:bold;"> Devices (other than smart phone) not required for this discussion</p> 
+<p>You will need a mobile phone with audio recording capabilities for this exercise (or some other recording device).</p>
+<p>You can do this independently as pair (or trio if you have an odd number of people):</p>
+<p>Go out to the campus and then:</p>
+<ol class="arabic simple">
+<li><p>Each team member should approach two different students (outside of their team) and ask each of them a question: one open and one closed.</p></li>
+<li><p>First, introduce yourself (as outlined in <a class="reference internal" href="../innovation/9_interviews.html#sec-interviews"><span class="std std-ref">interviews</span></a>) and state that you just want to ask one question for a course.</p></li>
+<li><p>Second, ask for permission to audio record their answers, as outlined in the chapter on <a class="reference internal" href="../innovation/9_interviews.html#sec-interviews"><span class="std std-ref">interviews</span></a>. Be sure to let participants know they can decline to answer or stop the recording at any time.</p></li>
+<li><p>If they agree, ask the open or closed question, and record their response using the audio recorder.</p></li>
+<li><p>Feel free to ask follow-up questions to learn more about their experience related to the challenge that you chose.</p></li>
+<li><p>Thanks the participant, and move on.</p></li>
+</ol>
+</section>
+<section id="exercise-3-compare">
+<h2>Exercise 3: Compare<a class="headerlink" href="#exercise-3-compare" title="Link to this heading">#</a></h2>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion</p> 
+<p>Once each team member has approached two different people, return to the classroom.  You should have 4-5 responses to the closed question and 4-5 responses to the open question.</p>
+<ol class="arabic simple">
+<li><p>Find a platform that can transcribe your interview questions into text – there are many available online. Choose one that all team members will use.</p></li>
+<li><p>Share the transcripts with each other.</p></li>
+<li><p>As a team, compare the two.</p></li>
+</ol>
+<p>In your comparison, use the following criteria:</p>
+<ul class="simple">
+<li><p><strong>Length:</strong> Is one longer than the other on average?</p></li>
+<li><p><strong>Context:</strong> Which response gave you more context or background?</p></li>
+<li><p><strong>Comfort:</strong> Did the interviewee seem more comfortable or willing to elaborate in response to one type of question?</p></li>
+<li><p><strong>Perspective:</strong> Which question helped you understand the interviewee’s perspective better?</p></li>
+<li><p><strong>Clarify:</strong> Did either question lead to a clearer understanding of the challenge?</p></li>
+<li><p><strong>Future practice</strong>: Based on this experience, how might you change your interview questions in future?</p></li>
+</ul>
+</section>
+<section id="exercise-4-send">
+<h2>Exercise 4: Send!<a class="headerlink" href="#exercise-4-send" title="Link to this heading">#</a></h2>
+<p>Send a brief report answering the above to your supervisor about your comparison on your MS Teams channel.</p>
+<p>The response should be clear, but we do not care if your writing is not polished – this is an exercise about interviewing, not about writing.</p>
+</section>
+<hr class="docutils" />
+<section id="creating-effective-meetings">
+<h2>Creating Effective Meetings<a class="headerlink" href="#creating-effective-meetings" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes - Individual</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion</p> 
+<p>The thought of meetings can send some people into existential dread, either through bad prior experiences or having to deal with talking to people for an hour (or longer). Unfortunately, meetings have developed a bad reputation because they are often misused by management, administrators and leaders.</p>
+<p><img alt="meetings.jpeg" src="../_images/meetings.jpeg" /></p>
+</section>
+<hr class="docutils" />
+<section id="universal-meeting-structure-and-rules">
+<h2>Universal Meeting Structure and Rules<a class="headerlink" href="#universal-meeting-structure-and-rules" title="Link to this heading">#</a></h2>
+<p>There is a generalised meeting structure that can be applied to any meeting to improve flow and ensure the meeting achieves all its objectives. Additionally, there are a set of specific general ground rules for meetings to guarantee meeting members and facilitator stay focused and on task.</p>
+<section id="discussion-universal-meeting-structure-agenda">
+<span id="sec-agenda-structure"></span><h3>Discussion: Universal Meeting Structure (Agenda)<a class="headerlink" href="#discussion-universal-meeting-structure-agenda" title="Link to this heading">#</a></h3>
+<p>⏱️ 5 minutes - Class</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
+<ul>
+<li><p><strong>Purpose</strong>: What do you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.</p></li>
+<li><p><strong>Participants</strong>: Who is expected to be there? Assign a chair (who will run the meeting) and a note-taker.</p></li>
+<li><p><strong>Discussion Points</strong>: What are the topics, issues or problems? Identify who will lead each discussion point.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Research shows that if you write the discussion point item on your agenda as what <strong>outcome</strong> you want from the meeting, it focuses the attendees. So instead of: “Prototype” or even “Discuss prototype features”, write the point as: “Identify which features we will prototype”.</p>
+</div>
+</li>
+<li><p><strong>Times</strong>: Assign a start time each item, and stick to it! If it is clear this needs more time, ‘park’ it until the end of the meeting, and defer to another meeting if you don’t have time at the end.</p></li>
+<li><p><strong>Action Items</strong>: Those things that need to be done after the meeting. These are things that should go on your team planner, such as on Trello. So, an action item should say: <strong>who does what by when?</strong></p></li>
+<li><p><strong>Supporting Documentation &amp; Materials</strong>: Anything else you need; e.g. if you want to discuss how you are going to assign software features to be implemented by team members, have the list of features ready.</p></li>
+</ul>
+<p>Every meeting type will be different, but in general these are the most critical requirements of a meeting. This structure is a suggestion and should be moulded to requirements.</p>
+</section>
+<section id="universal-meeting-rules">
+<h3>Universal Meeting Rules<a class="headerlink" href="#universal-meeting-rules" title="Link to this heading">#</a></h3>
+<p>⏱️ 5 minutes - Pairs</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
+<ul class="simple">
+<li><p><strong>Have a meeting chair</strong>: Someone should run the meeting.</p></li>
+<li><p><strong>Pre-publish an agenda</strong>: This ensures the smooth flow of the meeting and keeps it focused on required aims and goals. It should have at least:</p>
+<ul>
+<li><p>Meeting start time.</p></li>
+<li><p>A list of items to be discussed.</p></li>
+<li><p>Start times for each specific item.</p></li>
+<li><p>Meeting end time.</p></li>
+</ul>
+</li>
+<li><p><strong>Start on time</strong>: If you start late, people will know they can show up late next time. To help with this:</p>
+<ul>
+<li><p><strong>Be early</strong>: It takes time to settle. If the meeting starts at 1100h, show up 2-3 minutes early so you can settle and prepare yourself.</p></li>
+<li><p><strong>Use a time-keeper</strong>: Someone needs to identify that time is nearly up for an agenda item.</p></li>
+</ul>
+</li>
+<li><p><strong>Follow the agenda</strong>: Anything off-topic should be parked for later.</p></li>
+<li><p><strong>Use a “parking lot”</strong>: A “parking lot” is time at the end (if any) to discuss things that were parked.</p></li>
+<li><p><strong>Assign actions</strong>: Whenever the attendees agree that something should be done, write down <strong>who does what by when</strong> and send this around.</p></li>
+<li><p><strong>Publish notes</strong>: Notes are not minutes. Minutes are usually a legal requirement and are done by professional stenographers. In short, notes are simply:</p>
+<ul>
+<li><p>What was decided?</p></li>
+<li><p>Who will do what and by when?</p></li>
+</ul>
+</li>
+<li><p><strong>Continuously Improve</strong>:  Periodically revisit how your meetings work and whether they are working well. Be adaptable and evolve.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="meeting-agenda-draft">
+<h2>Meeting Agenda Draft<a class="headerlink" href="#meeting-agenda-draft" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes - Team</p>
+<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+<p>Now that you have an understanding of meeting types, a general meeting structure and general meeting rules, it is good practice to develop a draft meeting agenda for your first team meeting.</p>
+<p>Your task:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Write an agenda for your next team meeting. Follow the structure from the section on the <a class="reference internal" href="#sec-agenda-structure"><span class="std std-ref">universal meeting structure</span></a>.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Show your Legend your agenda, and they will give feedback on what works and what doesn’t.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Refine your agenda based on the feedback.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Outside of the class, hold the meeting!</p></li>
+</ul>
+<p>It takes just a few minutes to create an agenda, but it can make meetings that much more effective and far less mind-numbingly boring!</p>
+</section>
+<section id="exit-ticket">
+<h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
+<p>Your exit ticket for this week’s studio is to:</p>
+<ol class="arabic simple">
+<li><p>Discuss (with your legend) what you found from your interviews</p></li>
+<li><p>Show your legend your meeting agenda for your next meeting, including <strong>when</strong> you will have the meeting.</p></li>
+</ol>
+</section>
+<section id="bonus-material">
+<h2>Bonus material<a class="headerlink" href="#bonus-material" title="Link to this heading">#</a></h2>
+<section id="saving-the-world-from-bad-meetings-david-grady">
+<h3>Saving the world from bad meetings - David Grady<a class="headerlink" href="#saving-the-world-from-bad-meetings-david-grady" title="Link to this heading">#</a></h3>
+<p>🌐 <a class="reference external" href="https://www.youtube.com/watch?v=F6Qo8IDsVNg">https://www.youtube.com/watch?v=F6Qo8IDsVNg</a></p>
+<p>Bad meetings make people miserable. Here are some ideas to stop it.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workshops"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Week_2_team_dynamics.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Week 2: Team Dynamics</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Week_4_repositories.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Week 4: Repositories and Version Control</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interviews">Interviews</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-defining-open-vs-closed-questions">Exercise 1: Defining open vs closed questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2-testing-open-vs-closed-questions">Exercise 2: Testing open vs closed questions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-compare">Exercise 3: Compare</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-send">Exercise 4: Send!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-effective-meetings">Creating Effective Meetings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-structure-and-rules">Universal Meeting Structure and Rules</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-universal-meeting-structure-agenda">Discussion: Universal Meeting Structure (Agenda)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#universal-meeting-rules">Universal Meeting Rules</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-agenda-draft">Meeting Agenda Draft</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-material">Bonus material</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#saving-the-world-from-bad-meetings-david-grady">Saving the world from bad meetings - David Grady</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Tim Miller, The University of Queensland
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

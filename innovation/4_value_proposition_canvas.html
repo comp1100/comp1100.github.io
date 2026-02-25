@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -60,8 +60,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'innovation/4_value_proposition_canvas';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Experimentation: Testing and validation" href="5_experimentation.html" />
-    <link rel="prev" title="Customer discovery" href="3_customer_discovery.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -171,24 +169,11 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">I: INNOVATION</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="1_introduction_to_innovation.html">Introduction to Innovation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2_business_model_canvas.html">Business model canvas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3_customer_discovery.html">Customer discovery</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Value proposition canvas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="5_experimentation.html">Experimentation: Testing and validation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="6_minimum_viable_product.html">Minimum viable product</a></li>
-<li class="toctree-l1"><a class="reference internal" href="7_prototyping.html">Prototyping</a></li>
-<li class="toctree-l1"><a class="reference internal" href="8_customer_relationships_and_channels.html">Customer relationships and channels</a></li>
-<li class="toctree-l1"><a class="reference internal" href="9_interviews.html">Interviews</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10_FAQs.html">Subject Frequently Asked Questions (FAQs)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">II: Studios</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Studios</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_1_growth_mindset.html">Week 1: Growth Mindset and Personal Goals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../workshops/Week_3_no_studio.html">Week 3: Homework exercise – no studio due to Ekka holiday</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workshops/Week_3_interviews.html">Week 3: Interviewing customers, and holding effective meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_5_reflective_practice_and_using_github.html">Week 5: Reflective practice and using repositories</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workshops/Week_6_team_planning.html">Week 6: Small-team Project Management</a></li>
@@ -437,10 +422,10 @@ document.write(`
 <figure class="align-default" id="fig-value-proposition-canvas">
 <img alt="A visual tool divided into two main sections. On the right, a cricle representing 'Customer Profile' section includes three parts: 'Customer Jobs', 'Pains', and 'Gains'. On the left, a square representating the 'Value Proposition Map' section includes three parts: 'Products &amp; Services', 'Pain Relievers', and 'Gain Creators'. An arrow from each meet in the middle, representing the product-market fit." src="../_images/value_proposition_canvas.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 15 </span><span class="caption-text">The structure of a value proposition canvas. Source: reproduced from <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-value-proposition-canvas" title="Link to this image">#</a></p>
+<p><span class="caption-text">The structure of a value proposition canvas. Source: reproduced from <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-value-proposition-canvas" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p><a class="reference internal" href="#fig-value-proposition-canvas"><span class="std std-numref">Fig. 15</span></a> shows the structure of a value proposition model. It contains two parts:</p>
+<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig:value_proposition_canvas</span></code> shows the structure of a value proposition model. It contains two parts:</p>
 <ol class="arabic simple">
 <li><p>A <strong>customer profile</strong>, which describes the customers within a single segment, including their problems.</p></li>
 <li><p>A <strong>value map</strong>, which describes the value propositions that potential solutions bring to that segment.</p></li>
@@ -465,7 +450,7 @@ document.write(`
 <figure class="align-default" id="fig-customer-profile">
 <img alt="A customer profile canvas" src="../_images/customer_profile.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 16 </span><span class="caption-text">The structure of a customer profile. Source: reproduced from  <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-customer-profile" title="Link to this image">#</a></p>
+<p><span class="caption-text">The structure of a customer profile. Source: reproduced from  <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-customer-profile" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="customer-jobs-trigger-questions">
@@ -525,7 +510,7 @@ document.write(`
 <figure class="align-default" id="fig-value-map">
 <img alt="A value map canvas" src="../_images/value_map.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 17 </span><span class="caption-text">The structure of a value map. Source: <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-value-map" title="Link to this image">#</a></p>
+<p><span class="caption-text">The structure of a value map. Source: <a class="reference external" href="https://www.strategyzer.com/">https://www.strategyzer.com/</a></span><a class="headerlink" href="#fig-value-map" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="pain-relievers-trigger-questions">
@@ -812,24 +797,6 @@ document.write(`
                 <footer class="prev-next-footer">
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="3_customer_discovery.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Customer discovery</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="5_experimentation.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Experimentation: Testing and validation</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
