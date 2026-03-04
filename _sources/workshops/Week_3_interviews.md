@@ -3,7 +3,7 @@
 
 ## Interviews
 
-Read the chapter on [interviews](sec:interviews). We will experiment a bit with some interview questions.
+Read the chapter on [interviews](https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/). We will experiment a bit with some interview questions.
 
 Recall the difference between closed and open questions: closed questions have a yes/no/maybe/don't know answer, while open questions invite a response.
 
@@ -11,29 +11,28 @@ Recall the difference between closed and open questions: closed questions have a
 
 **Open:** "Tell me one thing that you like about studying computer science at university"
 
-## Exercise 1: Defining open vs closed questions
+## Exercise 1: Testing open vs closed questions
+
+⏱️ 50 minutes - Pairs and team
+
+<p style="text-align:center; font-weight:bold;"> Devices (other than smart phone) not required for this discussion</p> 
+
+You will need a mobile phone with audio recording capabilities for this exercise (or some other recording device).
+
+By now, you should be considering what challenges you may be considering. If not, this may help you decide!
 
 
-<p style="text-align:center; font-weight:bold;"> Devices can be used for this discussion</p> 
-
-⏱️ 30 minutes - Class
-
-By now, you should be considering what [challenges](sec:intro:challenges) you may be considering. If not, this may help you decide! 
+### Step 1: Draft open and closed interview questions
 
 As a team, choose one (or more!) of the challenges, and write a two general questions about each challenge that you have chosen: one open and one closed.
 
 For example:
 
-**Closed:** "When you were doing X at UQ, did you encounter any difficulties in ...?"
+**Closed**: “When you were doing X at UQ, did you encounter any difficulties in …?”
 
-**Open:** "Tell me about any difficulties you encountered while you were doing X at UQ." 
+**Open**: “Tell me about any difficulties you encountered while you were doing X at UQ.”
 
-## Exercise 2: Testing open vs closed questions
-
-
-<p style="text-align:center; font-weight:bold;"> Devices (other than smart phone) not required for this discussion</p> 
-
-You will need a mobile phone with audio recording capabilities for this exercise (or some other recording device).
+### Step 2: Gather data
 
 You can do this independently as pair (or trio if you have an odd number of people):
 
@@ -46,16 +45,15 @@ Go out to the campus and then:
 5. Feel free to ask follow-up questions to learn more about their experience related to the challenge that you chose.
 6. Thanks the participant, and move on.
 
-## Exercise 3: Compare
-
+### Step 3: Compare
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion</p> 
 
-Once each team member has approached two different people, return to the classroom.  You should have 4-5 responses to the closed question and 4-5 responses to the open question.
+Once each team member has interviewed two different people, return to the classroom.  You should have 4-5 responses to the closed question and 4-5 responses to the open question.
 
 1. Find a platform that can transcribe your interview questions into text -- there are many available online. Choose one that all team members will use.
 2. Share the transcripts with each other.
-3. As a team, compare the two.
+3. As a team, compare the two (open vs. closed) questions.
 
 In your comparison, use the following criteria:
 * **Length:** Is one longer than the other on average?
@@ -64,13 +62,6 @@ In your comparison, use the following criteria:
 * **Perspective:** Which question helped you understand the interviewee’s perspective better?
 * **Clarify:** Did either question lead to a clearer understanding of the challenge?
 * **Future practice**: Based on this experience, how might you change your interview questions in future?
-
-## Exercise 4: Send!
-
-Send a brief report answering the above to your supervisor about your comparison on your MS Teams channel.
-
-The response should be clear, but we do not care if your writing is not polished -- this is an exercise about interviewing, not about writing.
-
 
 
 ---
@@ -98,8 +89,6 @@ There is a generalised meeting structure that can be applied to any meeting to i
 (sec:agenda-structure)=
 ### Discussion: Universal Meeting Structure (Agenda)
 
-⏱️ 5 minutes - Class
-
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
 
 - **Purpose**: What do you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.
@@ -117,7 +106,7 @@ Every meeting type will be different, but in general these are the most critical
 
 ### Universal Meeting Rules
 
-⏱️ 5 minutes - Pairs
+
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
 
@@ -141,9 +130,6 @@ Every meeting type will be different, but in general these are the most critical
 ---
 
 ## Meeting Agenda Draft
-
-
-⏱️ 15 minutes - Team
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
 

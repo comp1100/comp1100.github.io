@@ -168,11 +168,11 @@ One team member should be nominated as a 'team leader' for this exercise. Your l
 
 The team leader should create a repository for the team. This MUST follow the format:
 
-```[Day]_[Time]_Team_[XY]```
+```[Legend]_Team_[X]```
 
-where Day is either Mon, Tue or Wed, and time is either 11am or 2pm, and XY is your team number using **two digits**.
+where Legend is your legend's name and X is your team number.
 
-For example: ```Mon_11am_Team_02``` --- so the same format as your MS Teams channel name.
+For example: ```Ian_Team_2``` --- so the same format as your MS Teams channel name.
 
 **Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.**
 
@@ -347,7 +347,7 @@ After the studio, create test cards for your hypothesis and start interviewing, 
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have created a private repository named using the format: `[Day]_[Time]_Team_[XY]`, containing your team values file.
+1. Show your legend that you have created a private repository named using the format: `[Legend]_Team_[X]`, containing your team values file.
 
 1. Show your legend your README.md where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.
 
