@@ -13,6 +13,22 @@ Recall the difference between closed and open questions: closed questions have a
 
 ## Exercise 1: Testing open vs closed questions
 
+### Interviewing in COMP1100/7110
+
+What to do:
+
+* Do record all interviews.
+* Do transcribe interviews – find good transcription software!
+* Do ask for permission to record first.
+* Do practice on friends and family if you are nervous.
+* Do challenge yourself.
+
+What NOT to do:
+* Do NOT use data from friends or family in your analysis -- they cannot be objective.
+* Do NOT use an artificial agent.
+* Do NOT give a transcript to friends to act out.
+
+
 ⏱️ 50 minutes - Pairs and team
 
 <p style="text-align:center; font-weight:bold;"> Devices (other than smart phone) not required for this discussion</p> 
@@ -91,6 +107,7 @@ There is a generalised meeting structure that can be applied to any meeting to i
 
 <p style="text-align:center; font-weight:bold;"> Devices closed for this discussion </p> 
 
+- **Time and location**: When and where will it be?
 - **Purpose**: What do you want to achieve in the meeting? Explicitly stating this will provide context before the meeting begins.
 - **Participants**: Who is expected to be there? Assign a chair (who will run the meeting) and a note-taker.
 - **Discussion Points**: What are the topics, issues or problems? Identify who will lead each discussion point.
@@ -152,6 +169,8 @@ Your exit ticket for this week's studio is to:
 1. Discuss (with your legend) what you found from your interviews
 
 2. Show your legend your meeting agenda for your next meeting, including **when** you will have the meeting.
+
+3. Show your legend the timeslot that you have booked for the next 1-on-1 meeting.
 
 ## Bonus material
 
