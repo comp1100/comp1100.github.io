@@ -389,6 +389,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-team-repository">Your team repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-account-and-accept-course-invite">Set up account and accept course invite</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-a-git-client">Installing a Git client</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-a-github-repository-for-your-team">Setting up a GitHub repository for your team</a></li>
@@ -567,6 +568,19 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <p style="text-align:center; font-weight:bold;"> Devices required for all exercises in this section </p> 
 <p>In this part of the studio, you will set up and start using your team repository.</p>
 <p>We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.</p>
+<section id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h3>
+<p>Here are the steps that you need to know how to do:</p>
+<ol class="arabic simple">
+<li><p>Initialise (create) a new Github repository. You will need to do this just once.</p></li>
+<li><p>Clone a repository. Each member will need to do this only once for each machine they use.</p></li>
+<li><p>Pull items from a repository. Do this each time you go to work on the code.</p></li>
+<li><p>Commit to a local repository. Do this when you have made changes and you are happy with them.</p></li>
+<li><p>Push to a central repository. Do this when you want to share your changes with your team.</p></li>
+<li><p>Create a branch, and pull, commit, and push from/to a branch.</p></li>
+<li><p>Merge branches.</p></li>
+</ol>
+</section>
 <section id="set-up-account-and-accept-course-invite">
 <h3>Set up account and accept course invite<a class="headerlink" href="#set-up-account-and-accept-course-invite" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Individual</p>
@@ -589,9 +603,9 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <p>⏱️ 10 minutes - Group</p>
 <p>One team member should be nominated as a ‘team leader’ for this exercise. Your legend will ask your team leader for their Github username and will send a separate invite to enable this team leader to create a repository.</p>
 <p>The team leader should create a repository for the team. This MUST follow the format:</p>
-<p><code class="docutils literal notranslate"><span class="pre">[Legend]_Team_[X]</span></code></p>
-<p>where Legend is your legend’s name and X is your team number.</p>
-<p>For example: <code class="docutils literal notranslate"><span class="pre">Ian_Team_2</span></code> — so the same format as your MS Teams channel name.</p>
+<p><code class="docutils literal notranslate"><span class="pre">[XY]_[Legend]</span></code></p>
+<p>where Legend is your legend’s name and XY is your team number using <strong>two digits</strong>; that is, 02 for Team 02.</p>
+<p>For example: <code class="docutils literal notranslate"><span class="pre">02_Ian</span></code> — so the same format as your MS Teams channel name.</p>
 <p><strong>Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.</strong></p>
 <p>When creating this, choose the following settings:</p>
 <ol class="arabic simple">
@@ -828,10 +842,9 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <p>One team member should create a <strong>repository project</strong>. To do this, navigate to your team repository, then select ‘Projects’ from the top menu, and then select ‘New Project’.</p>
 <p><strong>Note</strong>: You need to create this <strong>from your repository</strong>, otherwise it will be public to anyone in the organisation, who will be able to change tasks.</p>
 <p>We suggest using the template called ‘Team planning’, but you are free to try others if you want.</p>
-<p>You <em>MUST</em> name your project using the following format:</p>
-<p><code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code></p>
-<p>where Day is either Mon, Tue, Wed, etc., Time is the start time of your studio such as 11am, and XY is your team number using <strong>two digits</strong>.</p>
-<p>For example: <code class="docutils literal notranslate"><span class="pre">Mon_11am_Team_02</span></code> — so the same format as your MS Teams channel and Github repository.</p>
+<p>You <em>MUST</em> name your project using the following format (same as your MS Teams channel):</p>
+<p><code class="docutils literal notranslate"><span class="pre">[XY]_[Legend]</span></code></p>
+<p>where XY is your team number using <strong>two digits</strong> and Legend is your legend name.</p>
 <p>For further details, read:</p>
 <p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project</a>]</p>
 </section>
@@ -1011,6 +1024,7 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-team-repository">Your team repository</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-account-and-accept-course-invite">Set up account and accept course invite</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-a-git-client">Installing a Git client</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-a-github-repository-for-your-team">Setting up a GitHub repository for your team</a></li>

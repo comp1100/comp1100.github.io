@@ -139,6 +139,17 @@ In this part of the studio, you will set up and start using your team repository
 We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.
 
 
+### Overview
+
+Here are the steps that you need to know how to do:
+1. Initialise (create) a new Github repository. You will need to do this just once.
+2. Clone a repository. Each member will need to do this only once for each machine they use.
+3. Pull items from a repository. Do this each time you go to work on the code.
+4. Commit to a local repository. Do this when you have made changes and you are happy with them.
+5. Push to a central repository. Do this when you want to share your changes with your team.
+6. Create a branch, and pull, commit, and push from/to a branch.
+7. Merge branches.
+
 ### Set up account and accept course invite
 
 ⏱️ 10 minutes - Individual
@@ -170,11 +181,11 @@ One team member should be nominated as a 'team leader' for this exercise. Your l
 
 The team leader should create a repository for the team. This MUST follow the format:
 
-```[Legend]_Team_[X]```
+```[XY]_[Legend]```
 
-where Legend is your legend's name and X is your team number.
+where Legend is your legend's name and XY is your team number using **two digits**; that is, 02 for Team 02.
 
-For example: ```Ian_Team_2``` --- so the same format as your MS Teams channel name.
+For example: ```02_Ian``` --- so the same format as your MS Teams channel name.
 
 **Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.**
 
@@ -468,13 +479,12 @@ One team member should create a **repository project**. To do this, navigate to 
 
 We suggest using the template called 'Team planning', but you are free to try others if you want.
 
-You *MUST* name your project using the following format:
+You *MUST* name your project using the following format (same as your MS Teams channel):
 
-```[Day]_[Time]_Team_[XY]```
+```[XY]_[Legend]```
 
-where Day is either Mon, Tue, Wed, etc., Time is the start time of your studio such as 11am, and XY is your team number using **two digits**.
+where XY is your team number using **two digits** and Legend is your legend name.
 
-For example: ```Mon_11am_Team_02``` --- so the same format as your MS Teams channel and Github repository.
 
 For further details, read:
 
