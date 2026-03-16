@@ -145,8 +145,8 @@ Here are the steps that you need to know how to do:
 1. Initialise (create) a new Github repository. You will need to do this just once.
 2. Clone a repository. Each member will need to do this only once for each machine they use.
 3. Pull items from a repository. Do this each time you go to work on the code.
-4. Commit to a local repository. Do this when you have made changes and you are happy with them.
-5. Push to a central repository. Do this when you want to share your changes with your team.
+4. Commit to a local repository. Do this when you have made changes and you are happy with them. Your team will NOT be able to see your changes.
+5. Push to a central repository. Do this when you want to sync your changes with your central repository and share with your team.
 6. Create a branch, and pull, commit, and push from/to a branch.
 7. Merge branches.
 
@@ -376,7 +376,7 @@ Teamwork!
 In this course we recommend the use of Github projects, a team scheduling and planning application, but there are many other suitable tools.
 
 
-## Managing a small team: *Who Does What By When*
+### Managing a small team: *Who Does What By When*
 
 The model of **who does what by when** is a simplified project management model, proposed by Manager Tools owner Mark Horstman. He agrees it is over-simplified, but the who, what, when trilogy is the most important three parts of project management.
 
@@ -390,7 +390,7 @@ So, during a small-team project, we just need to know three things: **who does w
 
 No budget, no critical path, and no lengthy reporting. Note that budget IS important, but in small-team projects, especially start-ups, we see that: (a) budget is almost entirely taken up by the cost of people, so focus on people and the budget takes care of itself; and (b) budget is typically so front of mind that it does not need managing like our time.
 
-### Who
+#### Who
 
 People do tasks on projects. Tasks don't get done without people. Great project managers know who is in the project and what they are doing. 
 
@@ -404,7 +404,7 @@ Tips on defining who:
 1. **Each task should have one person responsible**. If we have more than one, break it into smaller tasks.
 2. **Hold people accountable** for completing tasks.
 
-### Does what
+#### Does what
 
 Tasks are what make up a project. No project gets done if its constituent tasks are not done.
 
@@ -417,7 +417,7 @@ Some tips on defining tasks:
 1. **Make reporting part of the task**. It is great when tasks are finished. It is much better when others in the team **know** that tasks are finished, especially if they are waiting on them. As part of a task, make reporting part of the task; e.g. "Check user story 7 into the repository and report this to person X".
 
 
-### By when
+#### By when
 
 People hate deadlines. Actually, people hate having deadlines, but like other people sticking to their own deadlines. The fact is, deadlines drive behaviour. If university courses didn't have deadlines, would you still submit all your work by the end of the semester?
 
@@ -461,7 +461,7 @@ For each one, write down: who does what by when.
 
 Your legends will be working with you to give feedback on your task breakdown.
 
-## Github Project setup
+### Github Project setup
 
 ⏱️ 30 minutes - Group
 
@@ -471,7 +471,7 @@ In this project, you will use [Github projects](https://docs.github.com/en/issue
 
 You already have a Github account from an earlier studio. Once you log in, use the following tutorials to learn how to use Github.
 
-### Create a project
+#### Create a project
 
 One team member should create a **repository project**. To do this, navigate to your team repository, then select 'Projects' from the top menu, and then select 'New Project'.
 
@@ -490,7 +490,7 @@ For further details, read:
 
 🌐 [https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project]
 
-### Understanding project boards
+#### Understanding project boards
 
 You should now see a project board. If you have selected the 'Team Planning' template, along the 'Backlog' tag, you will see three columns: Todo, In Progress, and Done.
 
@@ -508,7 +508,7 @@ Finally, when it is done, tasks are moved to Done.
 Feel free to add more lists if your team wants. For example, Kanban boards often have 'Planning' in between Todo and In Progress; and 'Review' between In Progress and Done.
 
 
-### Iterations
+#### Iterations
 
 Many projects (including the project in this course) are done in iterations. It is useful for Github projects to know the iteration dates, so you can  'tag' tasks, etc., with the iteration, making it easy to navigate by filtering things only from the current iteration, for example.
 
@@ -519,7 +519,7 @@ One team member should:
 1. Create Iteration 1, Iteration 2, and Iteration 3 using the dates from the [course profile](https://comp1100.github.io/intro.html#assessment-deliverables).
 
 
-### Creating tasks
+#### Creating tasks
 
 Next, we will start adding tasks from the earlier exercise. If you run into trouble, consult the documentation:
 
@@ -543,27 +543,27 @@ Click on the task name, and another window will appear, with a heap of informati
 
 **Tip:** For any task, the due date should be before the end date of the iteration, but Github does not warn if it is not.
 
-### Seeing the due date
+#### Seeing the due date
 
 Close the task so you can see the project board again. You will note that the due date does not appear in this view. 
 
 To make it show, select 'Backlog' (or the name of the view that you are using if you didn't select the 'Team Planning' template), then 'Fields', and then 'End Date'.
 
-### Filtering 
+#### Filtering 
 
 From the main project board, you should see a search bar with 'Filter by keyword or by field'. Here, you can filter to see you own tasks only, by name, etc.
 
 One 'hidden' option is to filter by iteration. Type "iteration: " and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search "iteration:@current" for this too.
 
 
-### And you're done!
+#### And you're done!
 
 You now have a project management system that is suitable for small teams! 
 
 Your responsibility is to now *use* this task tracker and look at it when you want to know what others are working on.
 
 
-## Initial hypotheses and interview questions
+### Initial hypotheses and interview questions
 
 ⏱️  45 minutes - Team
 
