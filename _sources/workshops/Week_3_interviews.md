@@ -21,6 +21,7 @@ What to do:
 * Do transcribe interviews – find good transcription software!
 * Do ask for permission to record first.
 * Do practice on friends and family if you are nervous.
+* Do conduct all interviews in English.
 * Do challenge yourself.
 
 What NOT to do:
