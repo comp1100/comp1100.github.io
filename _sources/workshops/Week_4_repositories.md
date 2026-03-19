@@ -1,4 +1,48 @@
-(studio:repositories)=
+**Interview 1: Week 3 (Covering Weeks 1 & 2)**
+
+**Welcome to your first One-on-One!**  
+Starting university and jumping straight into software innovation can feel a bit full-on, but don't stress! These fortnightly 15-minute chats with your legend are designed to help you out. It is not an exam; it is a relaxed space to talk about how you are settling in, what you are learning, and how your team is getting along.
+
+**Structure of the 15-Minute Meeting**  
+To make the most of our short time together, we will generally break the meeting down like this:
+
+- **0–5 Minutes: General Check-In.** How are you going? Are you finding your way around the campus and the course material?
+    
+- **5–10 Minutes: Course Concepts.** A chat about the specific things we learnt in the studios over the last two weeks (see Page 2 for topics).
+    
+- **10–15 Minutes: Team & Action Items.** Discussing your team dynamics, any roadblocks, and what your goals are for the next fortnight.
+    
+
+**How to Prepare**  
+You don't need to study for this meeting! Just bring along your notebook, be honest about how you are doing, and come ready to chat. If you have any questions about the course, this is the perfect time to ask.
+
+---
+
+### [Page 2]
+
+**Topics to Discuss for Weeks 1 & 2**
+
+During this meeting, your legend will guide the conversation around a few key activities we did in the first two studios. Have a think about these points before you arrive:
+
+**1. Growth Mindset vs. Fixed Mindset**  
+In Week 1, we talked about Carol Dweck's idea of the "Growth Mindset".
+
+- Think about: Where did you land on the mindset spectrum? Have you noticed yourself leaning towards a fixed mindset when facing a tough coding problem or group task? How can you try to shift that perspective?
+    
+
+**2. Team Dynamics & The 'Awareness Circle'**  
+We did some fun activities to get to know each other, including the Awareness Circle and the TimeGuessr game.
+
+- Think about: How is your new team getting along? Did you notice any differing personalities during the game, and how did your team handle making decisions together?
+    
+
+**3. Team Values & Your Contract**  
+In Week 2, your group had to brainstorm actionable verbs for your team values and sign a team contract.
+
+- Think about: What are the core values your team agreed on? Why did you personally vote for them? If someone isn't pulling their weight, how does your contract suggest you handle that behaviour?
+    
+
+**Your Action Plan:** Leave the meeting with one clear goal to focus on before the next interview!(studio:repositories)=
 # Week 4: Repositories and Version Control
 
 ## Studio Abstract
@@ -583,7 +627,7 @@ After the studio, create test cards for your hypothesis and start interviewing, 
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have created a private repository named using the format: `[Legend]_Team_[X]`, containing your team values file.
+1. Show your legend that you have created a private repository named using the format: `[XY]_[Legend]`, containing your team values file.
 
 1. Show your legend your README.md where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.
 
