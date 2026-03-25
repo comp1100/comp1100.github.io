@@ -97,7 +97,7 @@ The individual student contribution to the team component is determined by the l
 
 In this part of the studio, we will get you to start using this more systematically to document your business model canvas, learning cards, test cards, update meeting agendas, etc.
 
-## More than source code: using Markdown
+### More than source code: using Markdown
 
 We can use source code repository for more than source code -- we can use it to document our project too! 
 

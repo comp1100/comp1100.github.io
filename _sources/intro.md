@@ -166,7 +166,7 @@ After each assessment, each individual will be graded against the criteria. **In
 For each competency, the student will receive one of the following:
 * **Meets expectations**: The student has clearly demonstrated this competency based on the evidence found in the repository.
 * **Not yet**: The student has not yet demonstrated this competency.
-* **New submission required**: The student/team must resubmit some part of the submission within 5 working days and be re-assessed.
+* **Recycle**: The student/team must resubmit some part of the submission within 5 working days and be re-assessed.
 * **No evidence**: There is no evidence of the student for this criteria.
 
 **Hurdles**: All assessment items are **hurdles**, which means students must pass each to pass the course.
