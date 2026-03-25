@@ -97,7 +97,24 @@ The individual student contribution to the team component is determined by the l
 
 In this part of the studio, we will get you to start using this more systematically to document your business model canvas, learning cards, test cards, update meeting agendas, etc.
 
-If you didn't complete the Markdown task or you have forgotten, have a quick look at the [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+## More than source code: using Markdown
+
+We can use source code repository for more than source code -- we can use it to document our project too! 
+
+However, so that we get the benefit of merging etc., we need to document stuff in plain text files. This could be .txt, HTML files, etc.,
+
+In this course, we will use [Markdown](https://www.markdownguide.org/).
+
+**Markdown** is an easy-to-use markup language that can be used to format plain text. It can be stored in repositories using tools like Github. It is readable in its raw format, but can be converted to better-looking formats such as PDF and HTML (these notes are written in Markdown!).
+
+To write documents in markdown, you can just use any plain text editor, such as Notepad, VSCode, vi (if you are awesome), or even word processors -- but make sure you save as plain text!
+
+And best yet, Github and other repository hosting platforms format Markdown files for you when you read them online.
+
+Use the following tutorials for this task:
+
+- [Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
+- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ### Basic structure
 
