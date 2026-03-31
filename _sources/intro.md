@@ -57,7 +57,7 @@ Time and time again, failure has been shown to be hugely important in learning.
 
 This course, and innovation more generally, is about trying things and failing. 
 
-A strong focus on the course is: **fail early**. The ideas in these notes come from people who have tried and failed. People like Steve Blank, Tina Seelig, and Eric Ries thought they had good ideas, built products and services, and then failed. They learnt the hard way that building a product and failing is costly and time consuming. However, they realised from experience that the reasons why their products failed *could* have been known earlier --- they just weren't asking the right questions at the right time.
+A strong focus on the course is: **fail early**. The ideas in this course come from people who have tried and failed. People like Steve Blank, Tina Seelig, and Eric Ries thought they had good ideas, built products and services, and then failed. They learnt the hard way that building a product and failing is costly and time consuming. However, they realised from experience that the reasons why their products failed *could* have been known earlier --- they just weren't asking the right questions at the right time.
 
 If we come up with an idea that we **think** is good, but isn't, how can we learn it is not a good idea before we commit a lot of resources to it?
 
@@ -75,6 +75,14 @@ Further, innovation is *not* the same an entrepreneurship. Entrepreneurship is a
 Innovation is about finding out people's problems and trying to solve them. You can do this internally within an organisation to bring value to other parts of the organisation. This is sometimes called **intrapreneurship**.
 
 ## Key elements of COMP1100/7110
+
+## Resources
+
+The main resources that you will use for this course are:
+
+1. The eBook [Introduction to Software Innovation](https://uq.pressbooks.pub/introduction-software-innovation/) by Tim Miller.
+2. The studio worksheets (available on the left menu from this page).
+3. The discussions and materials given out during the studios.
 
 (sec:overview:legends)=
 ### Your legends
