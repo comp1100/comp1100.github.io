@@ -99,7 +99,7 @@ For the rest of this session, as a team, you are going to brainstorm some ideas 
 
 Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology, makes the point that everyone is creative. "Creativity" is not some magical thing that some people are born with. All of us are creative, and by following some simple ideas, we can become more creative.
 
-Recall the [design thinking process](sec:intro:design-thinking) from the [introduction to innovation](chapter:intro) chapter.
+Recall the design thinking process from the [introduction to innovation](https://uq.pressbooks.pub/introduction-software-innovation/chapter/introduction/) chapter.
 ```{figure} ../innovation/figs/design_thinking_process.png
 ---
 height: 300px
