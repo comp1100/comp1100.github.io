@@ -39,7 +39,7 @@ The feedback model we are using is from Manager Tools. You can learn more about 
 
 ## The secret to giving great feedback
 
-Watch the following brilliant video from cognitive psychologist LeeAnn Renniger, the Co-Founder of LifeLabs Learning, on evidence-based way to give feedback:
+Watch the following brilliant video from cognitive psychologist Dr. LeeAnn Renniger, the Co-Founder of LifeLabs Learning, on evidence-based way to give feedback:
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/wtl5UrrgU8c?si=h3E3XU19zizh6UW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -68,6 +68,10 @@ The feedback model consists of two simple steps:
 
 ```{note}
 The model is the same for both positive and negative feedback. It is just what and at which time you mention each point that differs.
+```
+
+```{note}
+But Dr. Renniger gave us four steps, not two?! This is correct. The Manager Tool's model also has four steps, but that is for a manager giving feedback to an employee, for example. The Manager Tool's data shows that for giving feedback to team members or other peers, it is more effective to just note the feedback, and not ask the question. They also found that not asking to give feedback leads to more feedback being given, so their 'peer feedback' model consists of just the two steps.
 ```
 
 ### Step 1: Describe Behaviour
