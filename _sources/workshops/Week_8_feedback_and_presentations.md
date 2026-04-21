@@ -37,6 +37,15 @@ The feedback model we are using is from Manager Tools. You can learn more about 
 
 🌐 [https://www.manager-tools.com/](https://www.manager-tools.com/)
 
+## The secret to giving great feedback
+
+Watch the following brilliant video from cognitive psychologist LeeAnn Renniger, the Co-Founder of LifeLabs Learning, on evidence-based way to give feedback:
+
+ <iframe width="560" height="315" src="https://www.youtube.com/watch?v=wtl5UrrgU8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+What I find interesting about this is that LeeAnn's model is much the same as the Manager Tools' feedback model, but they were developed and validated independently.
+
+So, even though they were independent, both groups arrived at the same model!
 
 ## Feedback is about encouraging future behaviour
 
