@@ -228,7 +228,7 @@ You should be able to complete this task in just a few minutes! But we'll give y
 
 **Scenario 4:** Your partner always takes good notes in team meetings and sends them around afterwards.
 
-**Scenario 5:** Your partner keeps the project plan on Trello up to date by moving and closing tasks when they have completed them.
+**Scenario 5:** Your partner keeps the project plan on Github up to date by moving and closing tasks when they have completed them.
 
 **Scenario 6:** Your partner uses branches and always checks in working code with tests that pass.
 
