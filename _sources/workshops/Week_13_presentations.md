@@ -1,25 +1,29 @@
-# Weeks 13: Presentations
+# Weeks 13: Showcase
 
-In week 13, each team will give a presentation on their product during their studio. 
+In week 13, we will run a class showcase where everyone presents their product and gives a pitch about their project.
 
-**TIME:** Up to 5 minutes per team. 
-* This is a **strict** time limit. You need to **practice** to ensure that you do not go over the limit.
+**WHEN:** Studio, week 13.
 
-**WHAT:**
-* **1-minute elevator pitch (1 min)**: Targeted at ‘investors’.
-* **Extended presentation (up to 4 mins)**:  Your team describes your project, the customer problems, and your solution. Target audience is not important: investors, users, customers, or even just your class members. 
+**TIME:** 9am–12pm
 
-**WHY**: To build everyone's experience at presenting technical things, and to allow teams to share their achievements with the rest of the class.
+**WHAT:** An informal showcase of your project. You will need:
 
-**WHO:** Every team member should present part of the pitch or presentation. One team member could present the elevator pitch, and then others take part in presenting their production/solution. Alternatively, the pitch could be presented by many people.
+- A 1-minute elevator pitch, target audience is ‘investors’.
+- An A2-sized poster, which states your team members, the problem, your value proposition, and links your data to the value proposition. Can be:
+  - A single A2 printout.
+  - 2 × A3 printouts.
+  - 4 × A4 printouts.
+- A demo (e.g. paper prototype, Figma wireframe, or running code).
 
-**VISUALS (optional but encourage):** 
-* Slides are encouraged, but keep text minimal.
-* Demo (live or recorded video) of your product (if you have one already)
-* Wireframes or paper prototype, or something similar.
+**WHY:** To practise presenting technical work and to share what your team accomplished.
 
-**WHAT SHOULDN’T BE USED:**
-* Avoid reading from a script — presenting from dot points is much more engaging and helps you connect with your audience. It will also not build your presentation skills as well.
+**WHO:**
+- Everyone must take turns at presenting during the showcase.
+- Everyone must go around and look at other teams (take turns staffing your table).
+
+**WHO ELSE:**
+- Staff from the School of Electrical Engineering and Computer Science.
+- Feel free to invite your friends.
 
 **WHAT WE CARE ABOUT:**
 * This is about giving teams a chance to share their project with the rest of the class, and to see what other teams have done.
@@ -27,7 +31,6 @@ In week 13, each team will give a presentation on their product during their stu
 * We are not assessing the quality of your product.
 
 **TIPS**: For a Great Presentation:
-1. Rehearse with a timer to stay within the 5-minute limit.
+1. Rehearse with a timer to stay within the 1-minute limit.
 2. Use short phrases or images to guide your speaking.
-3. Practice transitions between team members.
-4. Show enthusiasm—your passion sells your idea!
+3. Show enthusiasm: your passion sells your idea!
