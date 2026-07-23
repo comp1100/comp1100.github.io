@@ -1,10 +1,8 @@
-# Weeks 13: Showcase
+# Week 13: Showcase
 
-In week 13, we will run a class showcase where everyone presents their product and gives a pitch about their project.
+In week 13, COMP1100 and COMP7110 will each run a separate class showcase where everyone presents their product and gives a pitch about their project.
 
-**WHEN:** Studio, week 13.
-
-**TIME:** 9am–12pm
+**WHEN:** During your course's usual allocated studio in week 13.
 
 **WHAT:** An informal showcase of your project. You will need:
 

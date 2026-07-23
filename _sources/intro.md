@@ -76,6 +76,11 @@ Innovation is about finding out people's problems and trying to solve them. You 
 
 ## Key elements of COMP1100/7110
 
+## Course coordinators
+
+- **COMP1100:** [Eban Escott](mailto:e.escott@uq.edu.au)
+- **COMP7110:** [Hajar Abedi](mailto:h.abedi@uq.edu.au)
+
 ## Resources
 
 The main resources that you will use for this course are:
@@ -159,9 +164,9 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
 
 1. **Weekly:** Attend *on time* and *participate in* the weekly studios. If you cannot make it (illness, clash) let your tutor AND your team know *before* the studio.
-2. **16:00, Thursday 02/04/2026 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
-3. **16:00, Thursday 30/04/2026 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **16:00, Thursday 11/06/2026 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
+2. **Week 6 -- 16:00, Friday 04/09/2026 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
+3. **Week 9 -- 16:00, Friday 25/09/2026 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
+4. **Exams Week 1 (Week 14) -- 16:00, Friday 13/11/2026 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
 
 Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios, and posted on Blackboard.
 
@@ -283,18 +288,18 @@ Each week, the course will be broken into three components:
 |------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
 | 1    | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        |                                                 |
 | 2    | Teamwork, Business model canvas                     | Team dynamics, practice interviewing  |                                        | Meet your team, Brainstorm ideas to solve your challenge, Sketch customer problem hypotheses |
-| 3    | Experimentation: Testing and validation     | Doing interviews, effective meetings   |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
+| 3    | **COMP1100:** No class on Wednesday 12 August 2026 due to the [Royal Queensland Show public holiday](https://www.qld.gov.au/recreation/travel/holidays/public); the missed material will be incorporated into other weeks. **COMP7110:** Experimentation: Testing and validation | **COMP1100:** No studio or replacement class. **COMP7110:** Doing interviews, effective meetings |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
 | 4    | Prototypes and minimal viable products          | Repositories and version control, markdown    |                                        | Formalise your hypotheses using test cards, Update questions, Each team member interview 5 more customers. Record learning in test cards  |
 | 5    |  Building customer/user relationships  |  Reflective Practice, using repositories          |               | Teams analyse interview data and agree on clear set of customer segments and problems |
-| 6    | *No class in week 6 due to Good Friday holiday*          |  T                                            | Business model canvas iteration 1 - Testing the problem   | Brainstorm potential solutions, Define a clear value proposition, Identify hypothesis (test cards) and interview questions to test value proposition |
+| 6    |                                                     |                                                       | Business model canvas iteration 1 - Testing the problem   | Brainstorm potential solutions, Define a clear value proposition, Identify hypothesis (test cards) and interview questions to test value proposition |
 | 7    |  Prompt Engineering           | Prototyping                                     |                                        |  Each team member interview 5 customers to validate value proposition, Document learnings in learning cards, Define first paper and/or digital prototypes |
 | 8    |  Personal management (part 1)        | Giving feedback, team presentations                                   |                  | Refine/finalise MVP features using learning cards, Further interviews if required |
-|      | Mid-semester break                                |                                                       |                                        | Finalise MVP features, Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc. |
 | 9    |  Personal management (part 2)                            | MVP definition                  | Business model canvas iteration 2 - Testing the solution    | Start implementing MVP                                                  |
-| 10   |  History of computing                                           | King's Birthday holiday: no studios on any day                   |                                        | Continue implementing MVP                                                  |
-| 11   |                                      | How to give a pitch                             |                                        | Continue implementing MVP, Finalise 1-minute pitch and 5-minute presentation |
-| 12   |  |  Team presentations           |                                        | Continue implementing MVP | 
-| 13   |                                       | Team presentations                                       |                                        | Continue implementing MVP,                                                  |
+|      | Mid-semester break                                |                                                       |                                        | Finalise MVP features, Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc. |
+| 10   |  History of computing                                           | Time management                   |                                        | Continue implementing MVP                                                  |
+| 11   |                                      | How to give a pitch                             |                                        | Continue implementing MVP, Finalise 1-minute pitch, poster, and showcase demonstration |
+| 12   |  |  No studio --- use the time to make progress on your MVP           |                                        | Continue implementing MVP |
+| 13   |                                       | Separate COMP1100 and COMP7110 showcases during each course's usual allocated studio |                                        | Continue implementing MVP,                                                  |
 | Exams week 1  |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
 
 (sec:intro:challenges)=
@@ -305,69 +310,57 @@ Each week, the course will be broken into three components:
 
 ## Project challenges
 
-All projects this semester will focus on improving the student experience at the University of Queensland, and potentially other universities too.
+This semester, projects will address problems connected to the United Nations [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals). The 17 goals cover a broad range of social, economic, and environmental challenges, from health and education to sustainable communities, responsible consumption, and climate action.
 
-We invite teams to improve the experience of our students by focusing on problems that students have while at UQ (and before!).
+The SDGs give our projects a shared purpose, but they are not a list of predefined project ideas. Do not begin by choosing a goal and immediately designing an app. Innovation starts with understanding people and the problems they experience.
 
-Here are the challenges that we propose, although you are free to discuss with your legend whether another challenge on students experience is possible:
+Begin by thinking about people you can reach through your existing networks. These might include family, friends, workplaces, clubs, cultural or community groups, volunteering, sports, schools, small businesses, or your local neighbourhood. Talk to people in those networks, learn about their experiences, and look for problems that are important to them. Once you have evidence that a problem is worth addressing, connect it to one or more SDGs and consider how software innovation might create value.
 
-### Finding the right degree program
+The examples below demonstrate this process. They are not prescribed topics or solutions: your interviews may reveal a different problem, lead to a different SDG, or show that your original assumptions were wrong.
 
-Before students start at university, they need to choose which degree program to apply for. This can be difficult as static web pages often need to simplify, and therefore omit detail --- and that assumes people can find the right page first. How do we know which page to look at if we aren't sure what we want to study?
+### Unpredictable work schedules
 
-**Challenge:** The challenge is to innovate a software-based solution to assist prospective students to find which courses they may want to study.
+**People you can reach:** A team member knows people who work in hospitality, retail, health care, or another industry that relies on shift work.
 
-### Applying for a degree program
+**What interviews might uncover:** Workers may experience problems caused by late roster changes, uncertain hours, or difficulty coordinating work with study, caring responsibilities, transport, or other commitments.
 
-Once prospective students have selected a degree program, they need to apply. This can be a long and stressful process, requiring different documentation depending on which program, where you studied previously, whether you are domestic or international, etc.
+**Possible SDG connection:** [Goal 8: Decent Work and Economic Growth](https://sdgs.un.org/goals/goal8).
 
-**Challenge:** The challenge is to innovate a software-based solution to guide applicants through the process of applying for their courses of choice.
+**Example challenge:** How might we reduce the difficulties that unpredictable work schedules create for shift workers?
 
-### Accepting an offer and enrolling
+### Reducing waste in community organisations
 
-If a student is lucky enough to receive an offer, they need to navigate the acceptance and enrolment processes, which can be as difficult as applying!
+**People you can reach:** A team member volunteers or participates in a community organisation, sporting club, event, charity, or place of worship.
 
-**Challenge:** The challenge is to innovate a software-based solution to help students to accept their offers and later enrol into their program.
+**What interviews might uncover:** Members may see usable food, equipment, materials, or other resources regularly wasted because it is difficult to predict demand, coordinate their use, or find someone who needs them.
 
-### Selecting courses
+**Possible SDG connection:** [Goal 12: Responsible Consumption and Production](https://sdgs.un.org/goals/goal12).
 
-Once enrolled in a program, students receive a course plan. However, still many choices remain: can I switch do core courses in a different order to the plan? Which electives should I take? Which major and courses should I take for specific career paths?
+**Example challenge:** How might we help community organisations make better use of resources that would otherwise be wasted?
 
-**Challenge:** The challenge is to innovate a software-based solution to help students to navigate selection of majors, courses, etc., throughout various stages of their degree program.
+### Making local communities more accessible
 
-### Orientation
+**People you can reach:** A team member knows people with disability or accessibility needs, or people who support them as family members, carers, volunteers, or service providers.
 
-Students new to universities often have an overwhelming amount of questions and possibilities. How can they navigate around campus? What facilities are available? What is university life even like?
+**What interviews might uncover:** People may encounter barriers when trying to find information, access local facilities, participate in events, or use community services.
 
-**Challenge:** The challenge is to innovate a software-based solution to introduce students to university, its resources, facilities, and opportunities.
+**Possible SDG connection:** [Goal 10: Reduced Inequalities](https://sdgs.un.org/goals/goal10) and [Goal 11: Sustainable Cities and Communities](https://sdgs.un.org/goals/goal11).
 
-### Finding a peer network
+**Example challenge:** How might we make it easier for people with accessibility needs to participate in their local community?
 
-Many students feel isolated and disconnected during parts of their study, especially when they are new. Finding a network of friends and peers can be difficult, and once such a network is found, student experience often improves.
+### Supporting local food systems
 
-**Challenge:** The challenge is to innovate a software-based solution to foster a sense of community and connection on campus.
+**People you can reach:** A team member knows small-scale food growers, community gardeners, food retailers, hospitality workers, food-relief volunteers, or people who have difficulty accessing affordable food.
 
-### Student well-being
+**What interviews might uncover:** People may experience problems producing, distributing, selling, donating, or accessing food, even when useful resources already exist within the community.
 
-What well-being programs are available for students? What about student supports? How can they access them? What if they have food security, or mental health issues? Do they need to know where to look?
+**Possible SDG connection:** [Goal 2: Zero Hunger](https://sdgs.un.org/goals/goal2) and [Goal 12: Responsible Consumption and Production](https://sdgs.un.org/goals/goal12).
 
-**Challenge:** The challenge is to innovate a software-based solution to help students find and access well-being services. The application is NOT a platform to provide all support itself, but could play a role by connecting students with support and making follow-up easier, especially outside of standard hours.
+**Example challenge:** How might we improve the way locally available food reaches the people who need it?
 
-### Extra curricular activities
+### Other challenges
 
-What extra curricular activities are available at UQ? Have many could you name? How many do you think there are? How can students learn more?
-
-**Challenge:** The challenge is to innovate a software-based solution to help students explore and find extra curricular activities, both social and educational.
-
-### Employment opportunities
-
-Employment opportunities, both during study and after graduation, can be tricky to navigate. Finding opportunities, preparing students to be prepared to take opportunities, and make decisions if they receive multiple offers
-
-**Challenge:** The challenge is to innovate a software-based solution to find and prepare for employment opportunities, both part-time during study and for graduate positions.
-
-### Other challenges?
-
-If you have other challenges related to student experience that you would like to tackle, talk to your legend or the course coordinators about whether it is suitable.
+Your team is not limited to these examples. You may investigate any meaningful problem that you discover by speaking with people you can reach, provided that it connects to one or more SDGs. Discuss your proposed direction with your legend as your understanding of the people and problem develops.
 
 ### Stuff that is out of scope
 
