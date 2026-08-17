@@ -4,15 +4,16 @@
 
 ---
 
-> In this studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time. We will also discuss small-team project planning, and how to use Github planner to help track who does what by when.
+> In this studio, we will discuss repositories and why they are important; create a team repository from the course starter template; and use it for the first time. We will also discuss responsible use of AI coding agents and repository skills, and use GitHub Projects to track who does what by when.
 
 We will address the following activities and exercises in this studio:
 
 - [ ]  Overview of repositories 
-- [ ]  Setting up and using a team repository on GitHub
+- [ ]  Creating and using a team repository from the course starter template
 - [ ]  Using Markdown for documentation
+- [ ]  Using AI agents and repository skills safely
 - [ ]  Basics of managing a small-team project
-- [ ]  Setting up Github Projects
+- [ ]  Setting up GitHub Projects
 
 
 ---
@@ -21,9 +22,9 @@ We will address the following activities and exercises in this studio:
 
 You will use source code repositories as the main method for submitting your work in this course.
 
-The individual student contribution to the team component is determined by the logs in the source code repository. 
+Repository history is an important source of evidence about individual contribution to the team component.
 
-Therefore, you **must** use the source code repository to submit any work that you do, even sharing files with team members. 
+Therefore, you **must** make your own meaningful commits for work that belongs in the repository. Raw recordings, identifiable transcripts, credentials and other sensitive material do **not** belong in GitHub.
 
 ## Repositories in software projects
 
@@ -141,7 +142,7 @@ We are not going to explicitly tell you all of the commands that you need. Inste
 ### Overview
 
 Here are the steps that you need to know how to do:
-1. Initialise (create) a new Github repository. You will need to do this just once.
+1. Create a repository from the course starter template. You will need to do this just once.
 2. Clone a repository. Each member will need to do this only once for each machine they use.
 3. Pull items from a repository. Do this each time you go to work on the code.
 4. Commit to a local repository. Do this when you have made changes and you are happy with them. Your team will NOT be able to see your changes.
@@ -153,9 +154,9 @@ Here are the steps that you need to know how to do:
 
 ⏱️ 10 minutes - Individual
 
-You will have received an invite to the Github organisation created for the course.
+You will have received an invite to the [COMP1100 and COMP7110 GitHub organisation](https://github.com/COMP1100-COMP7110-2026-s2).
 
-Accept this invite, creating an account on Github if you do not have one already.
+Accept this invite, creating an account on GitHub if you do not have one already.
 
 ### Installing a Git client
 
@@ -172,13 +173,13 @@ There are three main options for you to use, and the staff have no particular re
 3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are other desktop clients available, and you are also free to use those.
 
 
-### Setting up a GitHub repository for your team
+### Create a team repository from the starter template
 
 ⏱️ 10 minutes - Group
 
-One team member should be nominated as a 'team leader' for this exercise. Your legend will ask your team leader for their Github username and will send a separate invite to enable this team leader to create a repository.
+One team member should share their screen and create the repository. Your legend will confirm that your team has the required access to the organisation and starter template.
 
-The team leader should create a repository for the team. This MUST follow the format:
+Open the `innovation-project-starter` template repository in the course organisation and choose **Use this template**. Create the new repository in the course organisation. Its name MUST follow the format:
 
 ```[XY]_[Legend]```
 
@@ -188,14 +189,14 @@ For example: ```02_Ian``` --- so the same format as your MS Teams channel name.
 
 **Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.**
 
-When creating this, choose the following settings:
+When creating it:
 1. The repository is **private**.
-2. A readme file is created.
-3. Repository is owned by the organisation, not the team leader.
+2. The repository is owned by the course organisation, not an individual student.
+3. Include all branches only if the teaching team instructs you to do so; otherwise use the template's default branch.
 
-For other settings, you can leave the default values (or choose other options if you like).
+Do not add another README, `.gitignore` or licence during creation: the template already contains the required files.
 
-This team member should invite ALL team members to the repository. From the top menu, select *Settings*, then from the left select *Collaborators and teams*, and under *Manage access* you can *Add people*.
+Give the appropriate course legend and student teams access as instructed. Confirm that every team member can see the private repository before continuing.
 
 ### Clone your repository
 
@@ -225,11 +226,11 @@ Use the following documentation to help you with this:
 
 GitHub repositories, like any file storage, require a logical file structure. Complete the following tasks:
 
-- [ ]  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. You will convert this file to markup by renaming it to `team_values.md`.
+- [ ]  Find the team values that you agreed to when your team formed and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are a great idea! Write up what you remember. You will convert this file to markup by renaming it to `team_values.md`.
 - [ ]  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.
 - [ ]  Next, as a group, work together to figure out how this team member should `add` and `commit` this change to their local repository, and then `push` it to the Github remote repository. Don't forget to add a good commit message!
 - [ ]  Now, each team member should pull from the remote Github repository.
-- [ ]  In the file README.md in the top folder of the repository, add the following for each team member: Name, UQ student number, Github username, and UQ email address.
+- [ ]  In the project overview indicated by the starter repository, list team members by name and GitHub username. Do not publish student numbers or email addresses in the repository.
 - [ ]  Commit and push this file to the repository. 
 
 **Goal**: The end result should be that each team member should be able to see the file `team_values.md` and open/edit it on their local computer.
@@ -252,28 +253,65 @@ In this exercise, we will learn how to branch and merge. Use the following docum
 
 - [Atlassian's Git Merge documentation](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 
-**You will be using the transcripts from the interviews that you have done so far.** If you did not do the week 3 activity, create a text file with a few words in it.
+**You will use real, deidentified interview evidence records from interviews conducted by your team—not raw or identifiable transcripts.** If you do not yet have a usable deidentified record, do not invent one. Ask your legend for help deidentifying your notes and make a plan to complete the required interviews.
 
 Complete the following task, which gets each member to create a branch, make changes, and merge it back into the main branch:
 
-- [ ]  One team member should create a new folder called `Interviews`, which is where you will store your interview data. Commit and push this to the remote repository.
+- [ ]  Locate the interview-record folder supplied by the starter repository. Read its README and the provided template.
 - [ ]  Next, each team member must now sync their local repository using ``pull`` to pull down the new change.
-- [ ]  Each member should create a new branch using the `branch` command in Git. In this branch, they are going to add the interview transcripts that you have done so far.
-- [ ]  Next, each team member must now create a new folder inside the `Interviews` folder. This new folder should just be their name.
-- [ ]  Then, each team member should copy the interview transcripts they have done so far into the folder with their name, commit these locally, and then push to sync with the remote repository. 
-- [ ]  At this point, all changes are on the individual team member's branch -- NOT on the main branch. So, each team member should `merge` their branch into the main branch.
+- [ ]  Each member should create a new branch. On that branch, add or improve one **deidentified** interview evidence record using the supplied template.
+- [ ]  Check that the record contains no names, contact details, exact locations, raw recordings or identifiable transcript text.
+- [ ]  Commit the record locally with a meaningful message, push the branch, and open a pull request.
+- [ ]  A teammate should review the privacy boundary and the distinction between evidence and interpretation before the pull request is merged.
 - [ ]  Now, each team member should switch to the main branch and pull all of the changes from the other team members.
 - [ ]  Finally, each team member should delete the branch they have created as the changes are in the main branch, so the development branches are no longer required. HINT: you need to use the `branch` command to delete a branch.
 
-**Goal**: The end result of this task should be that all team members, on their local machine, have each others' interview transcripts.
+**Goal**: The end result should be that all team members can see the reviewed, deidentified evidence records while raw source material remains in approved UQ storage.
 
-If each team member cannot see all of the other team members' transcripts, trace back to see what you have missed.
+If each team member cannot see all of the reviewed evidence records, trace back to see what you have missed.
 
-**Deliverable**: Show your legend that you have successfully completed this task before moving on to the next task. 
+**Deliverable**: Show your legend a merged pull request and explain where raw source material is stored and why it is not in GitHub.
 
 **Common mistakes**: 
 - Make sure to pull the repository after your team member has pushed the change with the `Interviews` folder.
 - Make sure that you are not pushing to the main branch after you add your files.
+
+## AI coding agents and repository skills
+
+⏱️ 20 minutes - Group
+
+AI coding agents can inspect and change files in a repository. A repository skill gives an agent a reusable workflow and local rules for a particular task. The starter repository contains a `create-interview-record` skill for turning **already-deidentified notes** into a consistent evidence record.
+
+The skill is a guardrail, not a guarantee. You remain responsible for the inputs, the review and the final commit.
+
+Using AI is optional. Choose one of these pathways:
+
+- **Hosted AI:** use a supported hosted agent with the repository skill.
+- **Local AI:** use a compatible agent with a model running on your device and check its tool, network and privacy settings.
+- **No AI:** read `SKILL.md` as a documented procedure and complete the workflow manually.
+
+Every pathway uses your team's real, already-deidentified interview notes and produces the same evidence record for the same review.
+
+### Safety boundary
+
+- Never provide an agent with participant names, contact details, exact addresses, raw recordings or identifiable transcripts.
+- Never ask an agent to invent a participant, quotation, consent statement or finding.
+- Keep direct evidence, observations and interpretation distinct.
+- Check every generated statement against your source notes before committing it.
+- Disclose material AI assistance in the evidence record or pull request.
+
+### Follow the workflow
+
+Use your team's real, already-deidentified interview notes. Do not generate or invent interview data.
+
+- [ ] Read `SKILL.md` before beginning, regardless of which pathway you choose.
+- [ ] Apply the documented `create-interview-record` workflow to one set of deidentified notes using hosted AI, local AI or the manual procedure.
+- [ ] Inspect the proposed record and check that evidence, observation and interpretation remain distinct.
+- [ ] Check every statement against the securely stored source notes and correct anything unsupported.
+- [ ] If you used AI, disclose material assistance in the evidence record or pull request.
+- [ ] Commit the reviewed evidence record on a branch, then open a pull request for a teammate to review.
+
+**Deliverable**: Show your legend the reviewed pull request, identify the pathway you chose, and explain one thing the workflow can help with and one thing it cannot guarantee.
 
 
 ## Take a break
@@ -582,13 +620,15 @@ After the studio, create test cards for your hypothesis and start interviewing, 
 
 Your exit ticket for this week's studio is to:
 
-1. Show your legend that you have created a private repository named using the format: `[XY]_[Legend]`, containing your team values file.
+1. Show your legend that every team member can access the assigned private repository prepared from the course starter.
 
-1. Show your legend your README.md where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.
+1. Show your legend where the repository records team membership and confirm that student numbers and email addresses have not been published.
 
-1. Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.
+1. Each team member shows their cloned copy of the current repository and a meaningful commit or reviewed pull request.
 
-1. Get feedback from your legend on the hypotheses and questions that you have come up with for your project, and act on it.
+1. Explain the interview-data boundary and demonstrate the `create-interview-record` workflow using your team's real, already-deidentified interview notes through the hosted, local or manual pathway.
+
+1. Get feedback from your legend on your hypotheses and questions, and act on it.
 
 
 

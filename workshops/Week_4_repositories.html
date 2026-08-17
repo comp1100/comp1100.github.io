@@ -407,6 +407,11 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-branch-and-merge">Understanding branch and merge</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-coding-agents-and-repository-skills">AI coding agents and repository skills</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-boundary">Safety boundary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#follow-the-workflow">Follow the workflow</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-merge-conflicts">Managing merge conflicts</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#one-quick-point-on-terminology">One quick point on terminology</a></li>
@@ -463,23 +468,24 @@ document.write(`
 <h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <hr class="docutils" />
 <blockquote>
-<div><p>In this studio, we will discuss repositories and why they are important; and you will set up a repository for your team and use it for the first time. We will also discuss small-team project planning, and how to use Github planner to help track who does what by when.</p>
+<div><p>In this studio, we will discuss repositories and why they are important; create a team repository from the course starter template; and use it for the first time. We will also discuss responsible use of AI coding agents and repository skills, and use GitHub Projects to track who does what by when.</p>
 </div></blockquote>
 <p>We will address the following activities and exercises in this studio:</p>
 <ul class="contains-task-list simple">
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Overview of repositories</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up and using a team repository on GitHub</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Creating and using a team repository from the course starter template</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Using Markdown for documentation</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Using AI agents and repository skills safely</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Basics of managing a small-team project</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Github Projects</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up GitHub Projects</p></li>
 </ul>
 </section>
 <hr class="docutils" />
 <section id="repositories-in-comp1100-comp7110">
 <h2>Repositories in COMP1100/COMP7110<a class="headerlink" href="#repositories-in-comp1100-comp7110" title="Link to this heading">#</a></h2>
 <p>You will use source code repositories as the main method for submitting your work in this course.</p>
-<p>The individual student contribution to the team component is determined by the logs in the source code repository.</p>
-<p>Therefore, you <strong>must</strong> use the source code repository to submit any work that you do, even sharing files with team members.</p>
+<p>Repository history is an important source of evidence about individual contribution to the team component.</p>
+<p>Therefore, you <strong>must</strong> make your own meaningful commits for work that belongs in the repository. Raw recordings, identifiable transcripts, credentials and other sensitive material do <strong>not</strong> belong in GitHub.</p>
 </section>
 <section id="repositories-in-software-projects">
 <h2>Repositories in software projects<a class="headerlink" href="#repositories-in-software-projects" title="Link to this heading">#</a></h2>
@@ -585,7 +591,7 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <h3>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h3>
 <p>Here are the steps that you need to know how to do:</p>
 <ol class="arabic simple">
-<li><p>Initialise (create) a new Github repository. You will need to do this just once.</p></li>
+<li><p>Create a repository from the course starter template. You will need to do this just once.</p></li>
 <li><p>Clone a repository. Each member will need to do this only once for each machine they use.</p></li>
 <li><p>Pull items from a repository. Do this each time you go to work on the code.</p></li>
 <li><p>Commit to a local repository. Do this when you have made changes and you are happy with them. Your team will NOT be able to see your changes.</p></li>
@@ -597,8 +603,8 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <section id="set-up-account-and-accept-course-invite">
 <h3>Set up account and accept course invite<a class="headerlink" href="#set-up-account-and-accept-course-invite" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Individual</p>
-<p>You will have received an invite to the Github organisation created for the course.</p>
-<p>Accept this invite, creating an account on Github if you do not have one already.</p>
+<p>You will have received an invite to the <a class="reference external" href="https://github.com/COMP1100-COMP7110-2026-s2">COMP1100 and COMP7110 GitHub organisation</a>.</p>
+<p>Accept this invite, creating an account on GitHub if you do not have one already.</p>
 </section>
 <section id="installing-a-git-client">
 <h3>Installing a Git client<a class="headerlink" href="#installing-a-git-client" title="Link to this heading">#</a></h3>
@@ -611,23 +617,23 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p>Use the <a class="reference external" href="https://github.com/apps/desktop">GitHub Desktop Client</a>. This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, <a class="reference external" href="https://github.com/apps/desktop">download from here</a>. There are other desktop clients available, and you are also free to use those.</p></li>
 </ol>
 </section>
-<section id="setting-up-a-github-repository-for-your-team">
-<h3>Setting up a GitHub repository for your team<a class="headerlink" href="#setting-up-a-github-repository-for-your-team" title="Link to this heading">#</a></h3>
+<section id="create-a-team-repository-from-the-starter-template">
+<h3>Create a team repository from the starter template<a class="headerlink" href="#create-a-team-repository-from-the-starter-template" title="Link to this heading">#</a></h3>
 <p>⏱️ 10 minutes - Group</p>
-<p>One team member should be nominated as a ‘team leader’ for this exercise. Your legend will ask your team leader for their Github username and will send a separate invite to enable this team leader to create a repository.</p>
-<p>The team leader should create a repository for the team. This MUST follow the format:</p>
+<p>One team member should share their screen and create the repository. Your legend will confirm that your team has the required access to the organisation and starter template.</p>
+<p>Open the <code class="docutils literal notranslate"><span class="pre">innovation-project-starter</span></code> template repository in the course organisation and choose <strong>Use this template</strong>. Create the new repository in the course organisation. Its name MUST follow the format:</p>
 <p><code class="docutils literal notranslate"><span class="pre">[XY]_[Legend]</span></code></p>
 <p>where Legend is your legend’s name and XY is your team number using <strong>two digits</strong>; that is, 02 for Team 02.</p>
 <p>For example: <code class="docutils literal notranslate"><span class="pre">02_Ian</span></code> — so the same format as your MS Teams channel name.</p>
 <p><strong>Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.</strong></p>
-<p>When creating this, choose the following settings:</p>
+<p>When creating it:</p>
 <ol class="arabic simple">
 <li><p>The repository is <strong>private</strong>.</p></li>
-<li><p>A readme file is created.</p></li>
-<li><p>Repository is owned by the organisation, not the team leader.</p></li>
+<li><p>The repository is owned by the course organisation, not an individual student.</p></li>
+<li><p>Include all branches only if the teaching team instructs you to do so; otherwise use the template’s default branch.</p></li>
 </ol>
-<p>For other settings, you can leave the default values (or choose other options if you like).</p>
-<p>This team member should invite ALL team members to the repository. From the top menu, select <em>Settings</em>, then from the left select <em>Collaborators and teams</em>, and under <em>Manage access</em> you can <em>Add people</em>.</p>
+<p>Do not add another README, <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> or licence during creation: the template already contains the required files.</p>
+<p>Give the appropriate course legend and student teams access as instructed. Confirm that every team member can see the private repository before continuing.</p>
 </section>
 <section id="clone-your-repository">
 <h3>Clone your repository<a class="headerlink" href="#clone-your-repository" title="Link to this heading">#</a></h3>
@@ -651,11 +657,11 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 </ul>
 <p>GitHub repositories, like any file storage, require a logical file structure. Complete the following tasks:</p>
 <ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Find the team values that you agreed to in week 1 and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are great idea! So just write up what you remember. You will convert this file to markup by renaming it to <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code>.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Find the team values that you agreed to when your team formed and type them up into a text file (NOT a Word document or similar; just a plain text file edited in something like Notepad or VSCode). Have you lost your team values? If yes, this is precisely why repositories are a great idea! Write up what you remember. You will convert this file to markup by renaming it to <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code>.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  One team member (who has a copy of the file) should copy this file into the folder where their repository is cloned to.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Next, as a group, work together to figure out how this team member should <code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code> this change to their local repository, and then <code class="docutils literal notranslate"><span class="pre">push</span></code> it to the Github remote repository. Don’t forget to add a good commit message!</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Now, each team member should pull from the remote Github repository.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  In the file <a class="reference external" href="http://README.md">README.md</a> in the top folder of the repository, add the following for each team member: Name, UQ student number, Github username, and UQ email address.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  In the project overview indicated by the starter repository, list team members by name and GitHub username. Do not publish student numbers or email addresses in the repository.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Commit and push this file to the repository.</p></li>
 </ul>
 <p><strong>Goal</strong>: The end result should be that each team member should be able to see the file <code class="docutils literal notranslate"><span class="pre">team_values.md</span></code> and open/edit it on their local computer.</p>
@@ -675,26 +681,62 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches">Atlassian’s Git Branch documentation</a></p></li>
 <li><p><a class="reference external" href="https://www.atlassian.com/git/tutorials/using-branches/git-merge">Atlassian’s Git Merge documentation</a></p></li>
 </ul>
-<p><strong>You will be using the transcripts from the interviews that you have done so far.</strong> If you did not do the week 3 activity, create a text file with a few words in it.</p>
+<p><strong>You will use real, deidentified interview evidence records from interviews conducted by your team—not raw or identifiable transcripts.</strong> If you do not yet have a usable deidentified record, do not invent one. Ask your legend for help deidentifying your notes and make a plan to complete the required interviews.</p>
 <p>Complete the following task, which gets each member to create a branch, make changes, and merge it back into the main branch:</p>
 <ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  One team member should create a new folder called <code class="docutils literal notranslate"><span class="pre">Interviews</span></code>, which is where you will store your interview data. Commit and push this to the remote repository.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Locate the interview-record folder supplied by the starter repository. Read its README and the provided template.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Next, each team member must now sync their local repository using <code class="docutils literal notranslate"><span class="pre">pull</span></code> to pull down the new change.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Each member should create a new branch using the <code class="docutils literal notranslate"><span class="pre">branch</span></code> command in Git. In this branch, they are going to add the interview transcripts that you have done so far.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Next, each team member must now create a new folder inside the <code class="docutils literal notranslate"><span class="pre">Interviews</span></code> folder. This new folder should just be their name.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Then, each team member should copy the interview transcripts they have done so far into the folder with their name, commit these locally, and then push to sync with the remote repository.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  At this point, all changes are on the individual team member’s branch – NOT on the main branch. So, each team member should <code class="docutils literal notranslate"><span class="pre">merge</span></code> their branch into the main branch.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Each member should create a new branch. On that branch, add or improve one <strong>deidentified</strong> interview evidence record using the supplied template.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Check that the record contains no names, contact details, exact locations, raw recordings or identifiable transcript text.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Commit the record locally with a meaningful message, push the branch, and open a pull request.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  A teammate should review the privacy boundary and the distinction between evidence and interpretation before the pull request is merged.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Now, each team member should switch to the main branch and pull all of the changes from the other team members.</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Finally, each team member should delete the branch they have created as the changes are in the main branch, so the development branches are no longer required. HINT: you need to use the <code class="docutils literal notranslate"><span class="pre">branch</span></code> command to delete a branch.</p></li>
 </ul>
-<p><strong>Goal</strong>: The end result of this task should be that all team members, on their local machine, have each others’ interview transcripts.</p>
-<p>If each team member cannot see all of the other team members’ transcripts, trace back to see what you have missed.</p>
-<p><strong>Deliverable</strong>: Show your legend that you have successfully completed this task before moving on to the next task.</p>
+<p><strong>Goal</strong>: The end result should be that all team members can see the reviewed, deidentified evidence records while raw source material remains in approved UQ storage.</p>
+<p>If each team member cannot see all of the reviewed evidence records, trace back to see what you have missed.</p>
+<p><strong>Deliverable</strong>: Show your legend a merged pull request and explain where raw source material is stored and why it is not in GitHub.</p>
 <p><strong>Common mistakes</strong>:</p>
 <ul class="simple">
 <li><p>Make sure to pull the repository after your team member has pushed the change with the <code class="docutils literal notranslate"><span class="pre">Interviews</span></code> folder.</p></li>
 <li><p>Make sure that you are not pushing to the main branch after you add your files.</p></li>
 </ul>
+</section>
+</section>
+<section id="ai-coding-agents-and-repository-skills">
+<h2>AI coding agents and repository skills<a class="headerlink" href="#ai-coding-agents-and-repository-skills" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes - Group</p>
+<p>AI coding agents can inspect and change files in a repository. A repository skill gives an agent a reusable workflow and local rules for a particular task. The starter repository contains a <code class="docutils literal notranslate"><span class="pre">create-interview-record</span></code> skill for turning <strong>already-deidentified notes</strong> into a consistent evidence record.</p>
+<p>The skill is a guardrail, not a guarantee. You remain responsible for the inputs, the review and the final commit.</p>
+<p>Using AI is optional. Choose one of these pathways:</p>
+<ul class="simple">
+<li><p><strong>Hosted AI:</strong> use a supported hosted agent with the repository skill.</p></li>
+<li><p><strong>Local AI:</strong> use a compatible agent with a model running on your device and check its tool, network and privacy settings.</p></li>
+<li><p><strong>No AI:</strong> read <code class="docutils literal notranslate"><span class="pre">SKILL.md</span></code> as a documented procedure and complete the workflow manually.</p></li>
+</ul>
+<p>Every pathway uses your team’s real, already-deidentified interview notes and produces the same evidence record for the same review.</p>
+<section id="safety-boundary">
+<h3>Safety boundary<a class="headerlink" href="#safety-boundary" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Never provide an agent with participant names, contact details, exact addresses, raw recordings or identifiable transcripts.</p></li>
+<li><p>Never ask an agent to invent a participant, quotation, consent statement or finding.</p></li>
+<li><p>Keep direct evidence, observations and interpretation distinct.</p></li>
+<li><p>Check every generated statement against your source notes before committing it.</p></li>
+<li><p>Disclose material AI assistance in the evidence record or pull request.</p></li>
+</ul>
+</section>
+<section id="follow-the-workflow">
+<h3>Follow the workflow<a class="headerlink" href="#follow-the-workflow" title="Link to this heading">#</a></h3>
+<p>Use your team’s real, already-deidentified interview notes. Do not generate or invent interview data.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Read <code class="docutils literal notranslate"><span class="pre">SKILL.md</span></code> before beginning, regardless of which pathway you choose.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Apply the documented <code class="docutils literal notranslate"><span class="pre">create-interview-record</span></code> workflow to one set of deidentified notes using hosted AI, local AI or the manual procedure.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Inspect the proposed record and check that evidence, observation and interpretation remain distinct.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Check every statement against the securely stored source notes and correct anything unsupported.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> If you used AI, disclose material assistance in the evidence record or pull request.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Commit the reviewed evidence record on a branch, then open a pull request for a teammate to review.</p></li>
+</ul>
+<p><strong>Deliverable</strong>: Show your legend the reviewed pull request, identify the pathway you chose, and explain one thing the workflow can help with and one thing it cannot guarantee.</p>
 </section>
 </section>
 <section id="take-a-break">
@@ -760,7 +802,8 @@ As a quick note, Git has both <strong>commits</strong> and <strong>pushes</stron
 <p>Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.</p>
 <p>In this studio, we’ll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called <strong>Github projects</strong> for managing your team.</p>
 <figure class="align-default" id="fig-teamwork">
-<a class="reference internal image-reference" href="../_images/teamwork.jpg"><img alt="The main four characters from Seinfeld, with labels. Elaine: &quot;Ends up doing all the work&quot;. Kramer: &quot;Comes up with the worst ideas&quot;. George: &quot;Doesn't do any work and takes all the credit&quot;. Jerry: &quot;Jokes around the whole time&quot;." src="../_images/teamwork.jpg" style="width: 100px;" /></a>
+<a class="reference internal image-reference" href="../_images/teamwork.jpg"><img alt="The main four characters from Seinfeld, with labels. Elaine: &quot;Ends up doing all the work&quot;. Kramer: &quot;Comes up with the worst ideas&quot;. George: &quot;Doesn't do any work and takes all the credit&quot;. Jerry: &quot;Jokes around the whole time&quot;." src="../_images/teamwork.jpg" style="width: 100px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 1 </span><span class="caption-text">Teamwork!</span><a class="headerlink" href="#fig-teamwork" title="Link to this image">#</a></p>
 </figcaption>
@@ -915,7 +958,7 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <section id="filtering">
 <h4>Filtering<a class="headerlink" href="#filtering" title="Link to this heading">#</a></h4>
 <p>From the main project board, you should see a search bar with ‘Filter by keyword or by field’. Here, you can filter to see you own tasks only, by name, etc.</p>
-<p>One ‘hidden’ option is to filter by iteration. Type “iteration: ” and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search “iteration:&#64;current” for this too.</p>
+<p>One ‘hidden’ option is to filter by iteration. Type “iteration: “ and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search “iteration:&#64;current” for this too.</p>
 </section>
 <section id="and-you-re-done">
 <h4>And you’re done!<a class="headerlink" href="#and-you-re-done" title="Link to this heading">#</a></h4>
@@ -939,10 +982,11 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <h2>Exit Ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
 <p>Your exit ticket for this week’s studio is to:</p>
 <ol class="arabic simple">
-<li><p>Show your legend that you have created a private repository named using the format: <code class="docutils literal notranslate"><span class="pre">[XY]_[Legend]</span></code>, containing your team values file.</p></li>
-<li><p>Show your legend your <a class="reference external" href="http://README.md">README.md</a> where you have added the following for each team member: Name, UQ student number, Github username, and UQ email address.</p></li>
-<li><p>Each team member show their cloned copy of the most recent repository, including the branch with their interviews that has been merged.</p></li>
-<li><p>Get feedback from your legend on the hypotheses and questions that you have come up with for your project, and act on it.</p></li>
+<li><p>Show your legend that every team member can access the assigned private repository prepared from the course starter.</p></li>
+<li><p>Show your legend where the repository records team membership and confirm that student numbers and email addresses have not been published.</p></li>
+<li><p>Each team member shows their cloned copy of the current repository and a meaningful commit or reviewed pull request.</p></li>
+<li><p>Explain the interview-data boundary and demonstrate the <code class="docutils literal notranslate"><span class="pre">create-interview-record</span></code> workflow using your team’s real, already-deidentified interview notes through the hosted, local or manual pathway.</p></li>
+<li><p>Get feedback from your legend on your hypotheses and questions, and act on it.</p></li>
 </ol>
 </section>
 <section id="bonus-its-dangerous-to-go-alone-take-this">
@@ -1044,6 +1088,11 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-your-repository">Clone your repository</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-committing-and-pushing-files-and-folders">Adding, committing, and pushing files and folders</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-branch-and-merge">Understanding branch and merge</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-coding-agents-and-repository-skills">AI coding agents and repository skills</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-boundary">Safety boundary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#follow-the-workflow">Follow the workflow</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a><ul class="nav section-nav flex-column">
