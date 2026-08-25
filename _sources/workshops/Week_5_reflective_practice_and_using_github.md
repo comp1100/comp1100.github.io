@@ -1,304 +1,174 @@
-# Week 5: Reflective practice and using repositories
+# Week 5: Reflect, synthesise and organise
 
-### Studio Abstract
+## Studio abstract
 
----
+> In this studio, you will prepare for Iteration 1 by reflecting on your project experience, checking the quality and safety of your interview material, synthesising evidence across interviews, and organising the resulting project records in your team repository. You will finish by updating GitHub Projects so that it is clear who will do what and by when.
 
-> In this studio, we will investigate two different topics. First, we will discuss and use reflective practices based on the theories of Graham Gibbs, which is part of what you will need to do for each submission in this course. Second, we will give you some ideas for how we expect your Github repository to be used throughout the course.
+By the end of the studio, your team should have:
 
-We will address the following activities and exercises:
+- applied Gibbs' Reflective Cycle to a specific project experience;
+- checked that interview evidence is relevant, deidentified and handled safely;
+- identified themes, contradictions and uncertainties across interviews;
+- updated hypotheses, learning cards, customer segments and the business model canvas where the evidence supports a change;
+- stored project records in the structure supplied by the starter repository; and
+- assigned the remaining Iteration 1 work in GitHub Projects.
 
+## Before you begin
 
-- [ ]  Overview of Gibbs’ reflective cycle (GRC)
-- [ ]  Understanding how reflective practice can help future improvement
-- [ ]  Applying GRC to your experience in COMP1100 so far
-- [ ]  Using Github and Markdown together effectively to keep track of things other than source code
-- [ ]  Laying out your team repository
+Open your assigned private repository and read its root `README.md`, `guides/getting-started.md`, and the index for any area you change.
 
-## Online learning module 
+Bring your team's deidentified interview notes or evidence records. Keep participant names, contact details, consent records, raw recordings and identifiable transcripts in your team's approved secure Microsoft Teams storage. They must not be committed to GitHub, included in a repository ZIP, or supplied to a hosted AI service.
 
-This studio is accompanied by a digital module 'Reflective Writing - Gibb's Reflective Model', written by Stuart Crosbie from the Embedded Learning Support team, available on Blackboard under 'Content' $\rightarrow$ 'Assessment Helpers'.
+The starter repository contains a `create-interview-record` skill. Using AI is optional: you may use a hosted agent, use an agent with a local model, or follow the skill manually. Every pathway uses real, already-deidentified material and requires the same human review.
 
-## Gibbs’ Reflective Cycle (GRC)
+## Gibbs' Reflective Cycle
 
-<p style="text-align:center; font-weight:bold;"> Devices closed for this entire exercise and discussion</p> 
+⏱️ 30 minutes — individual, pair and class
 
-⏱️ 5 minutes - Class
+<p style="text-align:center; font-weight:bold;">Devices closed after selecting your questions</p>
 
+A short individual reflection is required for each major submission. Reflection is more than describing what happened: it should identify what you learnt, what you would change, and what you will do next.
 
-<p style="text-align:center; font-weight:bold;">The self reflection is a requirement for each of the three major submissions in COMP1100.</p>
+Gibbs' Reflective Cycle provides six prompts:
 
-The foundational principle of personal growth is learning from mistakes. This self-reflection allows us to witness and evaluate our own cognitive, emotional and behavioural processes to help us grow. Self-reflection depends on a range of functions including introspection and meta-cognition; and it is important in professional practice as it allows us to continually improve our effectiveness.
+1. **Description:** What happened?
+2. **Feelings:** What were you thinking and feeling?
+3. **Evaluation:** What went well and what did not?
+4. **Analysis:** Why did events unfold that way?
+5. **Conclusion:** What did you learn and what could you have done differently?
+6. **Action plan:** What specific action will you take next time?
 
-**Graham Gibbs** developed a self-reflection framework called ‘Gibbs’ Reflective Cycle’ in 1988 to give structure to learning from experiences. This is one of the most famous cyclical models of reflection and is used pervasively in professional settings. The structure is circular and a closed loop:
+### Activity
 
-- **Description** of the experience
-- **Feelings** and thoughts about the experience
-- **Evaluation** of the experience, both good and bad
-- **Analysis** to make sense of the situation
-- **Conclusion** about what you learned and what you could have done differently
-- **Action plan** for how you would deal with similar situations in the future, or general changes you might find appropriate.
+1. Read the [Gibbs' Reflective Cycle guidance](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle) and select one helpful question for each stage.
+2. Choose one specific experience from the first four weeks of the project. Good examples include conducting an interview, responding to refuting evidence, resolving a Git conflict, or managing a team commitment.
+3. Discuss the experience with a partner from another team. Use the six selected questions to move from description to a specific action plan, then swap roles.
+4. Write down one action you will take before the Iteration 1 deadline.
 
-The action plan bleeds into the description of the next experience. The idea is that it’s a feedback loop, continually optimising the experience for the most effective and efficient outcome.
+## Interview quality and safety audit
 
-### Understanding GRC
+⏱️ 15 minutes — team
 
-⏱️ 10 minutes - Individual
+Thank you to Richard, one of our legends, for sharing an interview checklist that informed this reminder.
 
+Choose two recent interviews and check:
 
-Read through the following article (linked below) and take some notes on GRC. Make sure you understand the framework and can apply it as it will be needed for the next exercise.
+- **Purpose:** Was each interview connected to a clear hypothesis or learning goal?
+- **Questions:** Did you ask open-ended questions about real past behaviour and experiences rather than hypothetical future behaviour?
+- **Interviewing:** Did you listen, allow silence, ask useful follow-up questions and avoid pitching a solution?
+- **Evidence:** Did you retain refuting, contradictory and uncertain evidence rather than selecting only confirming responses?
+- **Consent:** Was consent obtained before the interview and separately before recording?
+- **Privacy:** Is the repository material deidentified, with participant codes that are not derived from names or student numbers?
+- **Storage:** Are raw recordings, consent records and identifiable transcripts only in approved Teams storage?
 
-🌐 [https://www.ed.ac.uk/reflection/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle](https://www.ed.ac.uk/reflection/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle)
+Record any corrective action as a GitHub Project task. Do not alter source evidence to make it appear cleaner or more supportive of a hypothesis.
 
-### Refine your understanding
+## From an interview to a repository record
 
-⏱️ 5 minutes - Group
+⏱️ 25 minutes — individual and peer review
 
-As a group, briefly discuss your understanding of GRC and share your notes. If you find similarities in your notes within your group, try to generalise your notes. If there are significant differences, rationalise the inclusion of those differences and try to come to a consensus to what is important to know about GRC and what information is superfluous. 
+The repository should contain the minimum deidentified evidence needed to support the team's reasoning, not the raw research source.
 
-### Exercise: Applying GRC to your experience in COMP1100 so far
+Each team member should process or review at least one interview:
 
-⏱️ 30 minutes - Group, Individual and Pair
+1. Start with real, already-deidentified notes or a safely deidentified transcript excerpt.
+2. Use the `create-interview-record` skill through a hosted agent, local agent, or its manual workflow.
+3. Save the record under `docs/discovery/interviews/` using a stable participant code and date.
+4. Keep these sections visibly separate:
+   - **Evidence:** exact, safely deidentified statements supported by the source;
+   - **Observations:** a faithful summary of what the participant said or did;
+   - **Interpretation and implications:** what the team thinks the evidence may mean; and
+   - **Hypotheses considered:** supported, refuted or still unclear in this interview.
+5. Compare the completed record with the securely held source.
+6. Ask a teammate to review privacy, traceability, accuracy and overclaiming before merging it.
+7. Disclose material AI assistance in the record or pull request.
 
-This exercise involves implementing the GRC in a real world scenario, then reflecting on those learnings and adapting to new situations.
-
-This will require you to revisit the 'Helpful questions' from the article above. For each of the six stages, there is a set of helpful questions.
-
-- [ ]  On a single post-it note, each team member should  select six questions from any of the ‘helpful questions’ in the GRC article, **one of each of the six stages** (description, feelings, evaluation, analysis, conclusion, action plan). 
-- [ ]  Once you have completed your six questions, within your group, number each post-it note from 1 to X (depending on how many people in your group). Then:
-- [ ]  **Odd number:** If your post-it note is odd, stand up and **move to another table**. Pair up with another person who has an even numbered post-it note, who should be seated. 
-- [ ]  **Even number:** If your post-it note is even, stay seated at your table for another person to approach you and pair up.   After you answer all the questions, swap post-it notes and move on to another table.
-- [ ]  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on **your** post-it note (note: you should be asking the questions you chose, NOT what the person choose for themselves). 
-- [ ]  Once they have finished, swap roles.
-- [ ]  When you answer the questions, relate it to a specific reflection from the past few weeks in COMP1100. 
-- [ ]  After about 10 minutes, your legends will stop the discussion, and the person with the odd number will switch tables again to a new table. Repeat.
-- [ ]  Aim for 5-10 minutes per session. With change overs, you should manage 3 question and answer sessions.
-
-Once the activity time is up take your post-it note and stick it on the whiteboard at the front of the class. Browse everyone else's to see what questions there were.
-
-
----
+An agent can help structure or check a record. It cannot conduct the interview, decide what the evidence means, or replace human verification.
 
 ## Take a break
 
 ⏱️ 10 minutes
 
----
+## Synthesise evidence across interviews
 
-## Using Github in COMP1100
+⏱️ 40 minutes — individual and team
 
-<p style="text-align:center; font-weight:bold;"> Devices required for this entire exercise</p> 
+One interview is evidence, not validation by itself. Your team now needs to compare evidence across participants.
 
-In a [previous studio](studio:repositories), you learnt that you will use source code repositories as the main method for submitting your work in this course.
+### Individual review
 
-The individual student contribution to the team component is determined by the logs in the source code repository, so it is important that students submit their own work on the repository, rather than sending to team members.
+Each person reviews their own interview records and at least one other team member's records. Write down:
 
- In the [previous studio](studio:repositories), you also learnt some basic Markdown and checked this into a repository. Part of the reason that Markdown was invented by Gruber and Swartz was because it was compatible with source code repositories like Github, so people could use it for documentation, and repository tools could do things like track versions, detect conflicts, and merge things.
+- recurring behaviours, problems, workarounds or goals;
+- evidence that contradicts an apparent pattern;
+- important differences between possible customer segments;
+- surprising or unclear responses; and
+- limitations in who the team interviewed or what was asked.
 
-In this part of the studio, we will get you to start using this more systematically to document your business model canvas, learning cards, test cards, update meeting agendas, etc.
+Do not count repeated words alone as a theme. A useful theme captures a meaningful pattern related to the team's learning goals.
 
-### More than source code: using Markdown
+### Team synthesis
 
-We can use source code repository for more than source code -- we can use it to document our project too! 
+Compare the candidate themes and agree on a concise set that represents the evidence. For each theme, record:
 
-However, so that we get the benefit of merging etc., we need to document stuff in plain text files. This could be .txt, HTML files, etc.,
+- a short, descriptive name;
+- the evidence records that support or challenge it;
+- which customer segment or context it applies to;
+- contradictions, uncertainty and limitations; and
+- what the team should investigate or decide next.
 
-In this course, we will use [Markdown](https://www.markdownguide.org/).
+Save the synthesis under `docs/discovery/synthesis/`. Avoid claims such as "all users" unless the evidence genuinely supports them. Numbers can describe the interviews completed, but a small convenience sample does not establish a population statistic.
 
-**Markdown** is an easy-to-use markup language that can be used to format plain text. It can be stored in repositories using tools like Github. It is readable in its raw format, but can be converted to better-looking formats such as PDF and HTML (these notes are written in Markdown!).
+## Update the project evidence chain
 
-To write documents in markdown, you can just use any plain text editor, such as Notepad, VSCode, vi (if you are awesome), or even word processors -- but make sure you save as plain text!
+⏱️ 35 minutes — team, with individual commits
 
-And best yet, Github and other repository hosting platforms format Markdown files for you when you read them online.
+Use the synthesis to update project records only where the evidence supports a change.
 
-Use the following tutorials for this task:
+The intended evidence chain is:
 
-- [Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-
-### Basic structure
-
-⏱️ 10 minutes
-
-The basic structure we expect for your repository is below, where each of these is a folder (Interviews should exist already from the Github workshop) and the .md files are inside those folders:
-
-- Interviews
-  - Iteration_1
-     - Team member 1
-        - [STUDENT_NAME]_[YYYY_MM_DD]_[X].md
-        - [STUDENT_NAME]_[YYYY_MM_DD]_[X].md
-        - ....
-  - Iteration_2
-        - ....
-- Documents
-   -  business_model_canvas.md   (this can include your value proposition canvas)
-   -  test_cards.md
-   -  learning_cards.md
-   -  ...
-- Prototypes   -- when you design prototypes in future
-- Meetings    -- for any meeting agenda, notes, etc.
-- Code        -- the source code for your final product
-
-Feel free to add other folders as well.
-
-**Your tasks:**
-- [ ]  Create these folders and (empty) .md files. Distribute the work among the team, and commit & push these to your repository; then everyone can pull the changes.
-- [ ]  Rename the interview transcripts that you have so far to have meaningful names that include the day and time. If you don't know these exactly, just get an approximate time.
-
-### Create your documents so far
-
-⏱️ 25 minutes
-
-Up to this point, you should have the following:
-
-- a business model canvas with hypotheses
-- test cards
-- some learning cards
-- interview transcripts
-
-**Your tasks**:
-- [ ]  As a team, divide up the above parts of your project so far, and convert all of these into Markdown.
-
-For example, document your business model canvas as follows:
-
-```
-## Business Model Canvas
-
-**Customer Segments**
-- Segment 1
-- Segment 2
-
-**Value Propositions**
-- Value Prop 1
-- Value Prop 2
-
-**Channels**
-- Channel 1.
-
-**Customer Relationships**
-- Relationship
-
-**Revenue Streams**
-- Revenue stream
+```text
+Business model assumption
+  -> hypothesis and test card
+  -> deidentified interview records
+  -> cross-interview synthesis
+  -> learning card
+  -> retain, refine, reject or investigate further
+  -> updated business model canvas
 ```
 
-And similar for the value proposition canvas -- don't forget to add one canvas per segment though!
+Relevant starter-repository locations include:
 
-Test cards can similarly be formatted as:
+- `docs/discovery/assumptions/` for hypotheses and test cards;
+- `docs/discovery/interviews/` for deidentified interview records;
+- `docs/discovery/synthesis/` for cross-interview themes and limitations;
+- `docs/discovery/experiments/` for learning cards and experiment results;
+- `docs/product/business-model-canvas.md` for the current business model canvas;
+- `docs/product/value-propositions/` when the team needs a separate value proposition canvas for a customer segment; and
+- `docs/team/` for team agreements and meeting records that are not already represented in GitHub Projects.
 
-```
-# Test Cards
+Create only the folders and files your project needs. Keep one current version of each artefact and use Git history to show how it changes; do not create `final`, `final-2` or similar copies.
 
-## Hypothesis 1: Hypothesis name
+Each team member must make their own meaningful contribution on a branch, open or participate in a pull request, and review the rendered Markdown before it is merged.
 
-**HYPOTHESIS**
-We believe that...
+## Plan the remaining Iteration 1 work
 
-**TEST**
-To verify that we will ....
+⏱️ 20 minutes — team
 
-**METRIC**
-And measure ...
+Open your GitHub Project and check that every remaining Iteration 1 task states:
 
-**CRITERIA**
-We are right if ....
+- **Who:** one person accountable for completing it;
+- **What:** a measurable outcome, including where the result will be recorded; and
+- **By when:** a specific date and time before the submission deadline.
 
-**INTERVIEW QUESTIONS**
-1. Question 1
-2. Question 2
-```
-
-Similarly for test cards.
-
-**Goal**: The end result should be all of your work so far, documented as Markdown.
-
-**Deliverable**: Show your legend when you have completed, and move on to the next task.
-
-### Linking these together
-
-⏱️ 15 minutes
-
-In Markdown, we can use hyperlinks to link to other documents. This can be effective when linking together parts of your project.
-
-The syntax for a Markdown link is: `[text](link)`.
-
-This can be used to link to an external web-page, such as `[COMP1100 notes](https://comp1100.github.io/)`, which displays as [COMP1100 notes](https://comp1100.github.io/).
-
-It can also be used to link internally. To do this, you need to:
-1. Label things. For example, if you have a hypothesis, you would make the title `(hypothesis:older-people-dislike-the-green-button)=## Hypothesis 1: Older people dislike the green button`. The stuff between `()` is the name of the link, and the rest is just a normal Markdown heading.
-2. Reference things. For example, we would write: "`this is what we mean in [hypothesis 1](hypothesis:older-people-dislike-the-green-button)`", and the text `hypothesis 1` would contain a link to the hypothesis.
-
-You can use this to great effect. 
-
-**Your tasks:**
-- Link the hypotheses in your business model canvas and value proposition canvases to the corresponding test cards.
-- Link the test cards to the corresponding learning card.
-- Link the learning cards to the set of interviews that you did.
-
-**Goal**: The end result should be Markdown that allows someone to seamlessly read your business model canvas, value proposition canvases, test cards, learning cards, and interviews; linking to various parts when they want.
-
-**Deliverable**: Show your legend your beautifully-formatted business model canvas.
-
-
-### Why use Markdown instead of tools like Word and Google docs?
-
-Git, and most other repositories, only work on plain text files. Uploading images or things like Word documents is possible, but Git will not detect conflicts, will not keep track of versions, etc. Non-text files are just treated as blocks, while text files are treated as strings of individual characters.
-
-This is why Markdown is so popular with software developers!
-
-## Take a break
-
-⏱️ 10 minutes
-
-## Interview data analysis
-
-⏱️ 45 minutes
-
-By now, you should have a set of interviews (including transcripts), as each team member will have interviewed some potential customers about their problems.
-
-**If you do not have these interviews yet**, go out and do these **now**. Come back at the end of the studio time to show your legend.
-
-As part of this exercise, each team member should:
-
-1. Take all of their own interviews, plus the interviews of ONE other team member.
-
-1. Read through all of the transcripts of yours and one other team member, taking mental note of anything that you find interesting.
-
-1. Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interview participants and writing these observations down:
-  * Are there particular themes or answers that you see across multiple participants? (It doesn't have to be all people). What are there?
-  * Are there any interesting responses that you notice?
-
-1. Give 'names' to the themes that you identify, and write these down. For example, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: "Daily contact with family".
-
-Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes different team members have identified are actually similar, and which are different. Again, it doesn't need to be ALL participants or even across ALL team members, but just common.
-
-At the end, you should have a list of key themes from your interview participants so far that you can show to your legend. 
-
-Type these up into a markdown file, and give each theme a short but useful description, which would be meaningful to someone outside of your team (e.g. the course staff, an investor). For example:
-
-"**Daily contact with family**: Older people reported that they would like to have more regular (daily) contact with their family members".
-
-Each team member: commit and push your interview analysis into Github (take a picture of notes, or upload a Markdown file) using the 'git commit' and 'git push' commands --- do not upload via the Github website.
-
-Team: One team member should commit and push the team markdown file to the Github repository using 'git commit' and 'git push',
+Create tasks for unresolved evidence gaps, missing reviews, incomplete project records and submission preparation. Move current work to **In progress**, close completed work, and update any missed due dates rather than leaving them stale.
 
 ## Exit ticket
 
-Your exit ticket for this week's studio is to:
+Before leaving, show your legend:
 
-1. Show your legend that you have committed your work so far on the course, such as interviews, meeting agenda and notes, etc.
-
-2. Show your legend your beautifully-formatted business model canvas (even if it is quite empty!)
-
-3. Show your legend your team's analysis (the 8-15 key themes) on the interviews done so far.
-
-
-
-## Bonus: It’s dangerous to go alone! Take this.
-
-⏱️ **∞**
-
-
-#### Personal Empowerment through Reflection and Learning
-
-[https://www.youtube.com/watch?v=uzDsT-25w14](https://www.youtube.com/watch?v=uzDsT-25w14)
+1. one deidentified interview record that has been checked against its secure source;
+2. the team's cross-interview synthesis, including at least one contradiction or limitation;
+3. one traceable path from a hypothesis through evidence to a learning-card or BMC decision;
+4. a meaningful commit or pull-request contribution from each team member; and
+5. the GitHub Project tasks for the remaining Iteration 1 work.

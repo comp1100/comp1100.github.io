@@ -2,51 +2,54 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Week 6: Small-team Project Management &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+    <title>Week 6: Iteration 1 readiness and review &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
   
   
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-
-  
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
 
-    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -58,45 +61,37 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_6_team_planning';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Week 7: Software prototyping" href="Week_7_prototyping.html" />
-    <link rel="prev" title="Week 5: Reflective practice and using repositories" href="Week_5_reflective_practice_and_using_github.html" />
+    <link rel="prev" title="Week 5: Reflect, synthesise and organise" href="Week_5_reflective_practice_and_using_github.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
+  
   </head>
+  <body data-default-mode="">
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
 
-  
-  
-  <a class="skip-link" href="#main-content">Skip to main content</a>
   
   <div id="pst-scroll-pixel-helper"></div>
-
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
-
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
   
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -104,7 +99,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -112,16 +106,69 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
   </div>
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
   
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -134,9 +181,13 @@
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../intro.html">
+  
   
   
   
@@ -146,21 +197,18 @@
       
     
     
-    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="COMP1100/COMP7110 Introduction to software innovation - Home"/>
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark pst-js-only" alt="COMP1100/COMP7110 Introduction to software innovation - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__kbd-shortcut">Search</span>
-    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -177,8 +225,8 @@
 <li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_3_interviews.html">Week 3: Interviewing customers; holding effective meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflective practice and using repositories</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 6: Small-team Project Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflect, synthesise and organise</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 6: Iteration 1 readiness and review</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 7: Software prototyping</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_8_feedback_and_presentations.html">Week 8: Giving &amp; receiving feedback; informal presentations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
@@ -203,14 +251,19 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -219,14 +272,14 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -335,7 +388,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -348,26 +401,20 @@
 </button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -378,7 +425,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 6: Small-team Project Management</h1>
+    <h1>Week 6: Iteration 1 readiness and review</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -387,40 +434,18 @@ document.write(`
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-team-planning-tools-in-comp1100-comp7110">Using team planning tools in COMP1100/COMP7110</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#does-what">Does what</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#by-when">By when</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github Project setup</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-project">Create a project</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-project-boards">Understanding project boards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iterations">Iterations</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-tasks">Creating tasks</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#seeing-the-due-date">Seeing the due date</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering">Filtering</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#and-you-re-done">And you’re done!</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-assessment">Self assessment</a></li>
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-submitted-and-what-is-assessed">What is submitted and what is assessed</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-1-tell-the-customer-discovery-story">Readiness check 1: Tell the customer-discovery story</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-2-audit-the-evidence-chain">Readiness check 2: Audit the evidence chain</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-3-privacy-security-and-ai-assistance">Readiness check 3: Privacy, security and AI assistance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-and-collaboration-review">Contribution and collaboration review</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-self-assessment-and-reflection-preparation">Individual self-assessment and reflection preparation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-and-complete-the-remaining-work">Plan and complete the remaining work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rehearse-the-point-in-time-submission">Rehearse the point-in-time submission</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
-</ul>
-</li>
 </ul>
             </nav>
         </div>
@@ -430,271 +455,170 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-6-small-team-project-management">
-<h1>Week 6: Small-team Project Management<a class="headerlink" href="#week-6-small-team-project-management" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="week-6-iteration-1-readiness-and-review">
+<h1>Week 6: Iteration 1 readiness and review<a class="headerlink" href="#week-6-iteration-1-readiness-and-review" title="Link to this heading">#</a></h1>
 <section id="studio-abstract">
-<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
-<hr class="docutils" />
+<h2>Studio abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><p>In this studio, we will investigate effective task management and planning for small teams (3-5 people). We will also look at setting up the Github Projects tool and how to set up tasks and notifications. Finally, we will also ask you to do a short self assessment on your performance in the course so far.</p>
+<div><p>In this studio, your team will review its Iteration 1 project record as a coherent evidence trail, identify and resolve gaps, prepare individual reflections, and confirm the point-in-time repository ZIP for Blackboard. Legends will assess the repository and its history; Blackboard keeps the ZIP as UQ’s submission record.</p>
 </div></blockquote>
-<p>We will address the following activities and exercises.</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Basics of managing a small-team project</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Setting up Github Projects</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  How to create tasks</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Github Project start-up Activity</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Self assessment</p></li>
-</ul>
-</section>
-<hr class="docutils" />
-<section id="using-team-planning-tools-in-comp1100-comp7110">
-<h2>Using team planning tools in COMP1100/COMP7110<a class="headerlink" href="#using-team-planning-tools-in-comp1100-comp7110" title="Link to this heading">#</a></h2>
-<p>We expect teams to use the Github Project tool to track the team progress in this course.</p>
-<p>Adding and closing tasks is straightforward and easy. The difficult part is deciding what tasks need to be completed, and who will do what by when.</p>
-<p>The small overhead of using the Github Project tool is paid back to the team by them being able to see who is assigned to what, when they have agreed to deliver it, and whether it has been delivered.</p>
-</section>
-<section id="effective-small-team-planning">
-<h2>Effective Small-Team Planning<a class="headerlink" href="#effective-small-team-planning" title="Link to this heading">#</a></h2>
-<p>⏱️ 15 minutes - Group</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Managing yourself is challenging enough, but imagine if each limb was its own person and the only way to control them is through an itemised daily schedule. Welcome to team planning.</p>
-<p>In this studio, we’ll look at a simple but effective model of project planning for small teams, such as yours, and a tool, called <strong>Github projects</strong> for managing your team.</p>
-<figure class="align-default" id="fig-teamwork">
-<a class="reference internal image-reference" href="../_images/teamwork.jpg"><img alt="The main four characters from Seinfeld, with labels. Elaine: &quot;Ends up doing all the work&quot;. Kramer: &quot;Comes up with the worst ideas&quot;. George: &quot;Doesn't do any work and takes all the credit&quot;. Jerry: &quot;Jokes around the whole time&quot;." src="../_images/teamwork.jpg" style="width: 100px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Teamwork!</span><a class="headerlink" href="#fig-teamwork" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<p>In this course we recommend the use of Github projects, a team scheduling and planning application, but there are many other suitable tools.</p>
-</section>
-<section id="managing-a-small-team-who-does-what-by-when">
-<h2>Managing a small team: <em>Who Does What By When</em><a class="headerlink" href="#managing-a-small-team-who-does-what-by-when" title="Link to this heading">#</a></h2>
-<p>The model of <strong>who does what by when</strong> is a simplified project management model, proposed by Manager Tools owner Mark Horstman. He agrees it is over-simplified, but the who, what, when trilogy is the most important three parts of project management.</p>
-<p>All projects are completed by completing a series of tasks. It is difficult to know up front what all of those tasks will be. As a result, project management is a discipline in itself. For large-scale projects, even in the software industry, we may need multiple people to manage different parts of a project, and that could require using sophisticated project management tools, overview charts, etc.</p>
-<p>But for projects with small teams of about 5 or less people, such sophistication is usually not necessary.</p>
-<p>Further, all tasks are completed by people who are on the project. And people’s behaviour is often driven by deadlines.</p>
-<p>So, during a small-team project, we just need to know three things: <strong>who does what by when</strong>.</p>
-<p>No budget, no critical path, and no lengthy reporting. Note that budget IS important, but in small-team projects, especially start-ups, we see that: (a) budget is almost entirely taken up by the cost of people, so focus on people and the budget takes care of itself; and (b) budget is typically so front of mind that it does not need managing like our time.</p>
-<section id="who">
-<h3>Who<a class="headerlink" href="#who" title="Link to this heading">#</a></h3>
-<p>People do tasks on projects. Tasks don’t get done without people. Great project managers know who is in the project and what they are doing.</p>
-<p>As a team, we need to know who is completing each task so we can discuss with them, ask questions, follow up, and, ultimately, hold them accountable.</p>
-<p>For each task on a project, ONE person should be assigned to do that, and that person is accountable for ensuring it is completed on time. If you see a task that requires more than one person, break it into smaller tasks (see more in the next step below).</p>
-<p>Tips on defining who:</p>
-<ol class="arabic simple">
-<li><p><strong>Each task should have one person responsible</strong>. If we have more than one, break it into smaller tasks.</p></li>
-<li><p><strong>Hold people accountable</strong> for completing tasks.</p></li>
-</ol>
-</section>
-<section id="does-what">
-<h3>Does what<a class="headerlink" href="#does-what" title="Link to this heading">#</a></h3>
-<p>Tasks are what make up a project. No project gets done if its constituent tasks are not done.</p>
-<p>It is important to identify the tasks that need to be done in a project. We shouldn’t identify every task at the start of the project. This is a waste of time, especially in software projects, and doubly for innovation projects. Things change! Instead, we should have a high-level idea of where the project is going, and have clear tasks identified for the next 1-2 weeks.</p>
-<p>Some tips on defining tasks:</p>
-<ol class="arabic simple">
-<li><p><strong>Each task should be</strong> <em>measurable</em>. That is, it should be easy to tell whether it is done or not. For example, “Think about customer interview format” is not measurable because you can’t see my thinking. “Send draft interview questions to person X” is measurable, because it is clear whether I have sent it to X or not.</p></li>
-<li><p><strong>Make reporting part of the task</strong>. It is great when tasks are finished. It is much better when others in the team <strong>know</strong> that tasks are finished, especially if they are waiting on them. As part of a task, make reporting part of the task; e.g. “Check user story 7 into the repository and report this to person X”.</p></li>
-</ol>
-</section>
-<section id="by-when">
-<h3>By when<a class="headerlink" href="#by-when" title="Link to this heading">#</a></h3>
-<p>People hate deadlines. Actually, people hate having deadlines, but like other people sticking to their own deadlines. The fact is, deadlines drive behaviour. If university courses didn’t have deadlines, would you still submit all your work by the end of the semester?</p>
-<p>Some tips on deadlines:</p>
-<ol class="arabic simple">
-<li><p><strong>Make tasks that require no more than 5 working days</strong>; even less for most tasks. A week is about as far ahead as we tend to think.
-For example, if a task will take about 6 weeks, it is certain that there are smaller sub-tasks that can be done. “Conduct 70 customer interviews” could start with “Define customer interview questions”, then “Ask person X to check questions”, then “Interview first 5 customers to validate questions”, etc.</p></li>
-<li><p><strong>Make deadlines specific</strong>. For example, not “Next week” or even “Thursday 27th”, but “1pm on Thursday 27th”.</p></li>
-<li><p><strong>Shorter deadlines are often more effective</strong>. The famous Parkinson’s law is “work expands as to fill the time available for its completion”, which means: the more time we give people/ourselves, the longer we take. People will resist shorter deadlines, but seem to respond well to them. Longer deadlines do not drive behaviour. So keep deadlines short, but not so short that quality is affected.</p></li>
-<li><p><strong>Update the deadline if it is missed</strong>. We all miss deadlines sometimes. In such a case, don’t just say “OK, please submit it soon” – assign a new deadline <strong>immediately</strong>: “OK, thanks for letting us know. Can you please get it to us by 1pm on Thursday?”</p></li>
-</ol>
-</section>
-<section id="summary">
-<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h3>
-<p>Basic team management planning means knowing:</p>
-<ol class="arabic simple">
-<li><p><strong>Who</strong> is doing each task.</p>
+<p>The Iteration 1 submission is due for both COMP1100 and COMP7110 at <strong>4:00 pm on Friday 4 September 2026</strong>.</p>
+<p>By the end of the studio, your team should have:</p>
 <ul class="simple">
-<li><p>One person per task.</p></li>
-<li><p>Hold people to account.</p></li>
+<li><p>a coherent account of its customer-discovery findings;</p></li>
+<li><p>traceable links from hypotheses to evidence, learning and decisions;</p></li>
+<li><p>a repository that follows the supplied structure and contains no restricted interview material;</p></li>
+<li><p>visible, meaningful contributions from every team member;</p></li>
+<li><p>an honest individual self-assessment and a plan for the required reflection;</p></li>
+<li><p>a small set of assigned tasks for any remaining gaps; and</p></li>
+<li><p>rehearsed the process for creating the Blackboard repository ZIP.</p></li>
 </ul>
-</li>
-<li><p><strong>What</strong> each task is.</p>
-<ul class="simple">
-<li><p>Make tasks measurable.</p></li>
-<li><p>Make reporting part of the tasks.</p></li>
-</ul>
-</li>
-<li><p><strong>When</strong> each task is due.</p>
-<ul class="simple">
-<li><p>Five working days <em>maximum</em>.</p></li>
-<li><p>Make deadlines specific.</p></li>
-<li><p>Shorter deadlines drive behaviour.</p></li>
-<li><p>Update deadline if missed.</p></li>
-</ul>
-</li>
-</ol>
 </section>
-</section>
-<section id="task-planning-exercises">
-<h2>Task planning exercises<a class="headerlink" href="#task-planning-exercises" title="Link to this heading">#</a></h2>
-<p>⏱️ 15 minutes - Group</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>As a team, get together, brainstorm, and write down ALL of the tasks that you can think of for your team for the coming two weeks. (Hint: look at the <a class="reference external" href="https://comp1100.github.io/intro.html#schedule">course schedule</a>).</p>
-<p>Think about things to do with setup, project work, even scheduling meetings.</p>
-<p>For each one, write down: who does what by when.</p>
-<p>Your legends will be working with you to give feedback on your task breakdown.</p>
-</section>
-<section id="github-project-setup">
-<h2>Github Project setup<a class="headerlink" href="#github-project-setup" title="Link to this heading">#</a></h2>
-<p>⏱️ 30 minutes - Group</p>
-<p style="text-align:center; font-weight:bold;"> Devices open for this exercise </p> 
-<p>In this project, you will use <a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects">Github projects</a>. It allows us to define tasks, assign them to people, and give them due dates: <strong>who does what by when</strong>!. It also supports a whole other range of nice features that you may wish to explore independently.</p>
-<p>You already have a Github account from an earlier studio. Once you log in, use the following tutorials to learn how to use Github.</p>
-<section id="create-a-project">
-<h3>Create a project<a class="headerlink" href="#create-a-project" title="Link to this heading">#</a></h3>
-<p>One team member should create a <strong>repository project</strong>. To do this, navigate to your team repository, then select ‘Projects’ from the top menu, and then select ‘New Project’.</p>
-<p><strong>Note</strong>: You need to create this <strong>from your repository</strong>, otherwise it will be public to anyone in the organisation, who will be able to change tasks.</p>
-<p>We suggest using the template called ‘Team planning’, but you are free to try others if you want.</p>
-<p>You <em>MUST</em> name your project using the following format:</p>
-<p><code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code></p>
-<p>where Day is either Mon, Tue, Wed, etc., Time is the start time of your studio such as 11am, and XY is your team number using <strong>two digits</strong>.</p>
-<p>For example: <code class="docutils literal notranslate"><span class="pre">Mon_11am_Team_02</span></code> — so the same format as your MS Teams channel and Github repository.</p>
-<p>For further details, read:</p>
-<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project</a>]</p>
-</section>
-<section id="understanding-project-boards">
-<h3>Understanding project boards<a class="headerlink" href="#understanding-project-boards" title="Link to this heading">#</a></h3>
-<p>You should now see a project board. If you have selected the ‘Team Planning’ template, along the ‘Backlog’ tag, you will see three columns: Todo, In Progress, and Done.</p>
-<p>These three labels are a simplified <a class="reference external" href="https://www.atlassian.com/agile/kanban">Kanban</a> board, which track:</p>
+<section id="what-is-submitted-and-what-is-assessed">
+<h2>What is submitted and what is assessed<a class="headerlink" href="#what-is-submitted-and-what-is-assessed" title="Link to this heading">#</a></h2>
+<p>Iteration 1 has two components:</p>
 <ol class="arabic simple">
-<li><p>Todo: the backlog of tasks that a team needs to complete.</p></li>
-<li><p>In Progress: the tasks that the team is currently working on.</p></li>
-<li><p>Done: the tasks that the team has completed.</p></li>
+<li><p><strong>Team project record:</strong> the team’s first-iteration customer-discovery findings and supporting project evidence.</p></li>
+<li><p><strong>Individual reflection:</strong> a short reflection completed by each student using the instructions in Blackboard.</p></li>
 </ol>
-<p>The idea is that, when teams/individuals decide that tasks need to be done, they add the task to Todo.</p>
-<p>When an individual starts on a task that is in the Todo backlog, they move it to In Progress, so their team members know what they are working on.</p>
-<p>Finally, when it is done, tasks are moved to Done.</p>
-<p>Feel free to add more lists if your team wants. For example, Kanban boards often have ‘Planning’ in between Todo and In Progress; and ‘Review’ between In Progress and Done.</p>
+<p>The team repository is the working and assessment record. Legends will use its files, history, pull requests and each student’s discussion of the work when reviewing contribution. The team also uploads a ZIP of the repository to Blackboard as a point-in-time UQ audit record.</p>
+<p>Raw recordings, consent records and identifiable transcripts remain in the team’s approved secure Microsoft Teams storage. They are not committed to GitHub and are not included in the repository ZIP.</p>
 </section>
-<section id="iterations">
-<h3>Iterations<a class="headerlink" href="#iterations" title="Link to this heading">#</a></h3>
-<p>Many projects (including the project in this course) are done in iterations. It is useful for Github projects to know the iteration dates, so you can  ‘tag’ tasks, etc., with the iteration, making it easy to navigate by filtering things only from the current iteration, for example.</p>
-<p>One team member should:</p>
+<section id="readiness-check-1-tell-the-customer-discovery-story">
+<h2>Readiness check 1: Tell the customer-discovery story<a class="headerlink" href="#readiness-check-1-tell-the-customer-discovery-story" title="Link to this heading">#</a></h2>
+<p>⏱️ 25 minutes — team</p>
+<p>Without opening the repository, agree on a short answer to each question:</p>
 <ol class="arabic simple">
-<li><p>Go to the main page of your Github project.</p></li>
-<li><p>Select the three dots ‘…’ from the top right of the page.</p></li>
-<li><p>Click ‘Settings’ and then ‘Iteration’.</p></li>
-<li><p>Create Iteration 1, Iteration 2, and Iteration 3 using the dates from the <a class="reference external" href="https://comp1100.github.io/intro.html#assessment-deliverables">course profile</a>.</p></li>
+<li><p>What problem area did the team investigate?</p></li>
+<li><p>Which customer segments did the team investigate, and why?</p></li>
+<li><p>What were the most important original hypotheses?</p></li>
+<li><p>How did the team test them?</p></li>
+<li><p>What did the evidence support, refute or leave unclear?</p></li>
+<li><p>What themes, contradictions and limitations did the team find?</p></li>
+<li><p>What did the team retain, refine, reject or decide to investigate next?</p></li>
 </ol>
+<p>Now open the repository. A reader should be able to recover the same story from the project records without relying on undocumented verbal explanation. Record any missing or contradictory part as a GitHub Project task.</p>
 </section>
-<section id="creating-tasks">
-<h3>Creating tasks<a class="headerlink" href="#creating-tasks" title="Link to this heading">#</a></h3>
-<p>Next, we will start adding tasks from the earlier exercise. If you run into trouble, consult the documentation:</p>
-<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project</a>]</p>
-<ol class="arabic">
-<li><p><strong>Create tasks</strong>: Create new tasks (items) for the tasks that you are responsible for. Give the task a short, meaningful title, and add a description in the ‘Description’ field if more information is required; e.g. requirements, links to data source, etc.</p>
-<p>This is the <strong>What</strong> in <strong>Who does what by when</strong>.</p>
-</li>
-</ol>
-<p>Click on the task name, and another window will appear, with a heap of information. Do the following:</p>
-<ol class="arabic" start="2">
-<li><p><strong>Tag people</strong>: At the top as ‘Assignees’, which are the people responsible for completing the tasks. A task can belong to more than one person. Select who is responsible for the task you are adding if you are not the only one responsible.</p>
-<p>This is the <strong>Who</strong> in <strong>Who does what by when</strong>.</p>
-</li>
-<li><p><strong>Add due dates</strong>: Find the ‘End Date’ and assign a due date for the task.</p></li>
-</ol>
-<p>This is the <strong>By when</strong> in <strong>Who does what by when</strong>.</p>
-<ol class="arabic simple" start="4">
-<li><p><strong>Add iteration:</strong> Find ‘Iteration’, click on this, and assign the right iteration (Iteration 1, 2, or 3).</p></li>
-</ol>
-<p><strong>Tip:</strong> For any task, the due date should be before the end date of the iteration, but Github does not warn if it is not.</p>
-</section>
-<section id="seeing-the-due-date">
-<h3>Seeing the due date<a class="headerlink" href="#seeing-the-due-date" title="Link to this heading">#</a></h3>
-<p>Close the task so you can see the project board again. You will note that the due date does not appear in this view.</p>
-<p>To make it show, select ‘Backlog’ (or the name of the view that you are using if you didn’t select the ‘Team Planning’ template), then ‘Fields’, and then ‘End Date’.</p>
-</section>
-<section id="filtering">
-<h3>Filtering<a class="headerlink" href="#filtering" title="Link to this heading">#</a></h3>
-<p>From the main project board, you should see a search bar with ‘Filter by keyword or by field’. Here, you can filter to see you own tasks only, by name, etc.</p>
-<p>One ‘hidden’ option is to filter by iteration. Type “iteration: ” and then scroll down to see Iteration 1, Iteration 2, and Iteration 3. This is useful to focus only on tasks that are relevant in the current iteration. You can search “iteration:&#64;current” for this too.</p>
-</section>
-<section id="and-you-re-done">
-<h3>And you’re done!<a class="headerlink" href="#and-you-re-done" title="Link to this heading">#</a></h3>
-<p>You now have a project management system that is suitable for small teams!</p>
-<p>Your responsibility is to now <em>use</em> this task tracker and look at it when you want to know what others are working on.</p>
-</section>
-</section>
-<section id="reflection">
-<h2>Reflection<a class="headerlink" href="#reflection" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 Minutes - Class</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Now that you have completed this, reflect on the following with the class:</p>
-<ol class="arabic simple">
-<li><p>What is one key thing you will take away from this studio for your project and why?</p></li>
-<li><p>In what ways did this studio change your understanding of managing team dynamics?</p></li>
-<li><p>Have you used Github projects or any other similar tools, such as Trello or Jira? If so, share your experience with the class.</p></li>
-</ol>
-<section id="additional-resources">
-<h3>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
-<p>More tutorials and documentation can be found at Github’s online guide:</p>
-<p>🌐 [<a class="reference external" href="https://docs.github.com/en/issues">https://docs.github.com/en/issues</a>]</p>
-<p>In particular, a few features are relevant for those wishing to use Github further:</p>
+<section id="readiness-check-2-audit-the-evidence-chain">
+<h2>Readiness check 2: Audit the evidence chain<a class="headerlink" href="#readiness-check-2-audit-the-evidence-chain" title="Link to this heading">#</a></h2>
+<p>⏱️ 35 minutes — pairs within the team</p>
+<p>Split into pairs and trace the team’s most important hypotheses through the repository:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Business model assumption
+  -&gt; hypothesis and test card
+  -&gt; deidentified evidence records
+  -&gt; cross-interview synthesis
+  -&gt; learning card
+  -&gt; decision
+  -&gt; current business model canvas
+</pre></div>
+</div>
+<p>Check that:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects">Insights about projects</a></p></li>
-<li><p><a class="reference external" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view">Customising the view/layout of your project board</a></p></li>
-<li><p><a class="reference external" href="https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/planning-and-tracking-work-for-your-team-or-project">Using issues to track work of a project</a></p></li>
-<li><p><a class="reference external" href="https://docs.github.com/en/actions/how-tos/write-workflows">Automating parts of your workload</a></p></li>
+<li><p>hypotheses are specific and testable;</p></li>
+<li><p>tests and interview questions address the hypothesis;</p></li>
+<li><p>claims are traceable to real evidence records;</p></li>
+<li><p>evidence, observations and interpretation remain distinct;</p></li>
+<li><p>learning cards represent supporting, refuting and uncertain evidence fairly;</p></li>
+<li><p>decisions follow from the evidence and acknowledge limitations;</p></li>
+<li><p>the current BMC distinguishes evidence-supported findings from assumptions; and</p></li>
+<li><p>links work in GitHub’s rendered Markdown.</p></li>
 </ul>
+<p>Do not fill gaps by inventing evidence or rewriting participant material. If the evidence remains inconclusive, say so and describe the next useful test.</p>
 </section>
-</section>
-<section id="break">
-<h2>Break<a class="headerlink" href="#break" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 Minutes</p>
-</section>
-<section id="self-assessment">
-<h2>Self assessment<a class="headerlink" href="#self-assessment" title="Link to this heading">#</a></h2>
-<p>⏱️ 45 Minutes - Group and Individual</p>
-<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
-<p>You can find <a class="reference download internal" download="" href="../_downloads/e74c0538549d639e01bc259f49e62b8a/feedback_studio_exercise.xlsx"><span class="xref download myst">a spreadsheet that your legend will use to give you feedback after each iteration</span></a>.</p>
-<p>With the submission due this week, we want you to take some time to assess your own progress, and to think about whether there are a few small changes you can make before the submission to make your contribution clear.</p>
-<p>This activity has four parts:</p>
-<ol class="arabic simple">
-<li><p>One team member should download from the link above and put it in the ‘Files’ of your MS Teams channel.</p></li>
-<li><p>[5 mins] Each person should open this and take 5 minutes to read (and remind themselves) of the competency criteria that we use to assess individuals in the course and the levels that we grade each at. Notice that the fifth columns is called ‘Add criteria here’ – and all cells in the columns are empty.</p></li>
-<li><p>[20 mins] Break your team into two sub-teams:</p>
+<section id="readiness-check-3-privacy-security-and-ai-assistance">
+<h2>Readiness check 3: Privacy, security and AI assistance<a class="headerlink" href="#readiness-check-3-privacy-security-and-ai-assistance" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes — team</p>
+<p>Search the repository, including open branches and pull requests, for material that should not be in Git. Confirm that it contains no:</p>
 <ul class="simple">
-<li><p>Team A: Read the eight competency criteria for the ‘Team’ assessment (in the first table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the 2nd competency on experiments, one criterion may be ‘<em>All hypotheses are testable, simple, clear, and ethical</em>’. Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don’t overthink it.</p></li>
-<li><p>Team B: Read the six competency criteria for the ‘Individuals’ assessment (in the second table) and come up with 2-3 criteria for each competency that you think would demonstrate that the competency has been achieved. For example, under the final competency on professionalism, one criterion may be ‘<em>Shows up to meetings, studios, and 1-on-1s on time, and participates meaningfully</em>.’ Split up the competency so each team member does this for 2-3 competencies. Take it seriously but don’t overthink it.</p></li>
-<li><p><strong>HINT</strong>: This task may require you to revisit <a class="reference external" href="https://comp1100.github.io/intro.html">the course notes</a>.</p></li>
+<li><p>participant names, contact details or identifiers;</p></li>
+<li><p>consent forms or consent-record images;</p></li>
+<li><p>raw recordings or direct recording links;</p></li>
+<li><p>identifiable transcripts;</p></li>
+<li><p>precise private locations or sensitive account information; or</p></li>
+<li><p>credentials, access tokens or private keys.</p></li>
 </ul>
-</li>
-<li><p>[20 mins] Once all criteria have been defined, each team member should make their own copy of this file, and conduct a short self assessment. Select the appropriate rating under the ‘Assessment’ column for each competency, and write brief feedback to yourself that answers: where it is <strong>demonstrated</strong> that I have achieved this competency? It is important to ask yourself: <em>yes, I’ve learnt this, but is there <strong>evidence</strong> available to my legend that I have learnt it?</em></p></li>
+<p>Confirm that participant codes are non-identifying and that secure source references do not expose private URLs.</p>
+<p>For agent-assisted work, check that:</p>
+<ul class="simple">
+<li><p>only safely deidentified material was supplied;</p></li>
+<li><p>material assistance is disclosed;</p></li>
+<li><p>a team member checked the output against the source;</p></li>
+<li><p>unsupported claims and invented detail have been removed; and</p></li>
+<li><p>the team can explain and defend every submitted decision.</p></li>
+</ul>
+<p>Using a repository skill does not transfer responsibility to the tool. Human judgement and review are required for every pathway, including manual work.</p>
+</section>
+<section id="take-a-break">
+<h2>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes</p>
+</section>
+<section id="contribution-and-collaboration-review">
+<h2>Contribution and collaboration review<a class="headerlink" href="#contribution-and-collaboration-review" title="Link to this heading">#</a></h2>
+<p>⏱️ 25 minutes — individual and team</p>
+<p>Each person reviews their contribution evidence:</p>
+<ul class="simple">
+<li><p>meaningful commits made under their own account;</p></li>
+<li><p>branches and pull requests they created or reviewed;</p></li>
+<li><p>interview, analysis, documentation or planning work visible in the repository;</p></li>
+<li><p>GitHub Project tasks they owned and completed; and</p></li>
+<li><p>team decisions, meetings and studio activities in which they participated.</p></li>
+</ul>
+<p>Large last-minute commits do not explain the development process as clearly as regular, focused contributions. If work was completed outside the repository, record the legitimate project outcome now, but do not falsify dates, authorship or history.</p>
+<p>As a team, check that the repository represents shared work and that every member understands the overall customer-discovery story, not only the files they edited.</p>
+</section>
+<section id="individual-self-assessment-and-reflection-preparation">
+<h2>Individual self-assessment and reflection preparation<a class="headerlink" href="#individual-self-assessment-and-reflection-preparation" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes — individual</p>
+<p>Review the current competency criteria in the course notes and the individual-reflection instructions in Blackboard. For each relevant competency, write brief notes answering:</p>
+<ol class="arabic simple">
+<li><p>What did I do?</p></li>
+<li><p>Where is the evidence of that contribution?</p></li>
+<li><p>What did I learn?</p></li>
+<li><p>What would I do differently?</p></li>
+<li><p>What specific action will I take in Iteration 2?</p></li>
 </ol>
-<p><strong>Important</strong>: Be honest with yourself. This is not part of your grade and we won’t be using this to judge your actual contribution – this is to help you reflect on the quality of your own work and how others (your legend!) will see it.</p>
+<p>Use a specific experience rather than a general claim such as “I communicated well”. A strong reflection connects the experience, its effect on the team or project, what you learnt, and a realistic action plan.</p>
+<p>This self-assessment is preparation. Follow the Blackboard instructions for the actual individual reflection.</p>
+</section>
+<section id="plan-and-complete-the-remaining-work">
+<h2>Plan and complete the remaining work<a class="headerlink" href="#plan-and-complete-the-remaining-work" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes — team</p>
+<p>Open the Iteration 1 view in GitHub Projects. For every remaining gap:</p>
+<ul class="simple">
+<li><p>create or update a measurable task;</p></li>
+<li><p>assign one accountable person;</p></li>
+<li><p>give it a specific due date and time;</p></li>
+<li><p>identify the file, review or submission outcome that will demonstrate completion; and</p></li>
+<li><p>include peer review where appropriate.</p></li>
+</ul>
+<p>Use the remaining studio time to complete the highest-priority tasks while your legend is available. Merge only reviewed work and leave enough time before the deadline to inspect the combined repository.</p>
+</section>
+<section id="rehearse-the-point-in-time-submission">
+<h2>Rehearse the point-in-time submission<a class="headerlink" href="#rehearse-the-point-in-time-submission" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes — team</p>
+<p>Before the deadline, the team will:</p>
+<ol class="arabic simple">
+<li><p>confirm that the intended submission version is pushed to the team repository;</p></li>
+<li><p>confirm that all required work has been reviewed and is visible to the legend;</p></li>
+<li><p>check that the repository contains no restricted or sensitive material;</p></li>
+<li><p>create a ZIP of that same repository version;</p></li>
+<li><p>inspect the ZIP contents before uploading; and</p></li>
+<li><p>upload the ZIP to the correct Blackboard assessment item before <strong>4:00 pm Friday 4 September 2026</strong>.</p></li>
+</ol>
+<p>The ZIP is the point-in-time audit record. Legends will use the repository and its history for assessment.</p>
 </section>
 <section id="exit-ticket">
 <h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
+<p>Show your legend:</p>
 <ol class="arabic simple">
-<li><p>Teams: Show your legend your Github project created using the format <code class="docutils literal notranslate"><span class="pre">[Day]_[Time]_Team_[XY]</span></code>.</p></li>
-<li><p>Teams: Show your legend — in your Github project — the tasks that you have assigned to complete for the remainder of iteration 1, which cleary shows <strong>Who does what by when</strong>.</p></li>
-<li><p>Individuals: Show your legend your self-assessment on your demonstration of the capabilities so far.</p></li>
+<li><p>the team’s coherent customer-discovery story;</p></li>
+<li><p>one complete evidence chain from hypothesis to BMC decision;</p></li>
+<li><p>the completed privacy and AI-assistance audit;</p></li>
+<li><p>each person’s contribution evidence and reflection plan; and</p></li>
+<li><p>the assigned tasks and timetable for resolving every remaining gap.</p></li>
 </ol>
-</section>
-<section id="bonus-its-dangerous-to-go-alone-take-this">
-<h2>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h2>
-<p>⏱️ <strong>∞</strong></p>
-<section id="how-to-build-great-teams-jocko-willink-dr-andrew-huberman">
-<h3>How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman<a class="headerlink" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=7eAh7uEFhdg">https://www.youtube.com/watch?v=7eAh7uEFhdg</a></p>
-</section>
-<section id="trusting-teams-the-5-practices-simon-sinek">
-<h3>Trusting Teams - The 5 Practices - Simon Sinek<a class="headerlink" href="#trusting-teams-the-5-practices-simon-sinek" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=W5qQJhe7sLE">https://www.youtube.com/watch?v=W5qQJhe7sLE</a></p>
-</section>
 </section>
 </section>
 
@@ -725,8 +649,8 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
               
               
               
-                <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                <footer class="prev-next-footer d-print-none">
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="Week_5_reflective_practice_and_using_github.html"
@@ -734,7 +658,7 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Week 5: Reflective practice and using repositories</p>
+        <p class="prev-next-title">Week 5: Reflect, synthesise and organise</p>
       </div>
     </a>
     <a class="right-next"
@@ -753,47 +677,28 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-team-planning-tools-in-comp1100-comp7110">Using team planning tools in COMP1100/COMP7110</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-small-team-planning">Effective Small-Team Planning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#managing-a-small-team-who-does-what-by-when">Managing a small team: <em>Who Does What By When</em></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who">Who</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#does-what">Does what</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#by-when">By when</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#task-planning-exercises">Task planning exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-project-setup">Github Project setup</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-project">Create a project</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-project-boards">Understanding project boards</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iterations">Iterations</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-tasks">Creating tasks</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#seeing-the-due-date">Seeing the due date</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering">Filtering</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#and-you-re-done">And you’re done!</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflection">Reflection</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-assessment">Self assessment</a></li>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-submitted-and-what-is-assessed">What is submitted and what is assessed</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-1-tell-the-customer-discovery-story">Readiness check 1: Tell the customer-discovery story</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-2-audit-the-evidence-chain">Readiness check 2: Audit the evidence chain</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readiness-check-3-privacy-security-and-ai-assistance">Readiness check 3: Privacy, security and AI assistance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-and-collaboration-review">Contribution and collaboration review</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-self-assessment-and-reflection-preparation">Individual self-assessment and reflection preparation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-and-complete-the-remaining-work">Plan and complete the remaining work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rehearse-the-point-in-time-submission">Rehearse the point-in-time submission</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-build-great-teams-jocko-willink-dr-andrew-huberman">How to Build Great Teams - Jocko Willink &amp; Dr. Andrew Huberman</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trusting-teams-the-5-practices-simon-sinek">Trusting Teams - The 5 Practices - Simon Sinek</a></li>
-</ul>
-</li>
 </ul>
   </nav></div>
 
@@ -808,13 +713,14 @@ For example, if a task will take about 6 weeks, it is certain that there are sma
   <div class="footer-item">
     
 <p class="component-author">
-By Tim Miller, The University of Queensland
+By Eban Escott and Hajar Abedi, The University of Queensland
 </p>
 
   </div>
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2023.
@@ -841,8 +747,8 @@ By Tim Miller, The University of Queensland
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
 
   <footer class="bd-footer">
   </footer>

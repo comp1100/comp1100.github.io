@@ -134,15 +134,15 @@ Repositories have several important features:
 
 <p style="text-align:center; font-weight:bold;"> Devices required for all exercises in this section </p> 
 
-In this part of the studio, you will set up and start using your team repository.
+In this part of the studio, you will open and start using the private team repository already prepared for you by the teaching team from the course starter.
 
-We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use Git as a source code repository.
+We are not going to explicitly tell you all of the commands that you need. Instead, we want you to read the Git documentation to get a more complete understanding of how to use a Git repository.
 
 
 ### Overview
 
 Here are the steps that you need to know how to do:
-1. Create a repository from the course starter template. You will need to do this just once.
+1. Open the assigned private repository prepared from the course starter and confirm that every team member can access it.
 2. Clone a repository. Each member will need to do this only once for each machine they use.
 3. Pull items from a repository. Do this each time you go to work on the code.
 4. Commit to a local repository. Do this when you have made changes and you are happy with them. Your team will NOT be able to see your changes.
@@ -173,30 +173,19 @@ There are three main options for you to use, and the staff have no particular re
 3. Use the [GitHub Desktop Client](https://github.com/apps/desktop). This is installed as a standard desktop client on your PC, and it allows you to interact with a Git server, including GitHub, which is what we will use. If you opt for this, [download from here](https://github.com/apps/desktop). There are other desktop clients available, and you are also free to use those.
 
 
-### Create a team repository from the starter template
+### Open your assigned team repository
 
 ⏱️ 10 minutes - Group
 
-One team member should share their screen and create the repository. Your legend will confirm that your team has the required access to the organisation and starter template.
+The teaching team has prepared one private repository per project team from the `innovation-project-starter` template. **Do not create another course repository or use the template yourself.**
 
-Open the `innovation-project-starter` template repository in the course organisation and choose **Use this template**. Create the new repository in the course organisation. Its name MUST follow the format:
+One team member should share their screen and open the [COMP1100 and COMP7110 GitHub organisation](https://github.com/COMP1100-COMP7110-2026-s2). Locate the repository assigned to your team and confirm that:
 
-```[XY]_[Legend]```
+1. the repository is private and owned by the course organisation;
+2. the starter `README.md`, guides and supplied project structure are present; and
+3. every team member can open the repository using their own GitHub account.
 
-where Legend is your legend's name and XY is your team number using **two digits**; that is, 02 for Team 02.
-
-For example: ```02_Ian``` --- so the same format as your MS Teams channel name.
-
-**Follow this exact format, including capitalisation, to make the repositories consistent and easy to find for your legends.**
-
-When creating it:
-1. The repository is **private**.
-2. The repository is owned by the course organisation, not an individual student.
-3. Include all branches only if the teaching team instructs you to do so; otherwise use the template's default branch.
-
-Do not add another README, `.gitignore` or licence during creation: the template already contains the required files.
-
-Give the appropriate course legend and student teams access as instructed. Confirm that every team member can see the private repository before continuing.
+If the assigned repository is missing or a team member cannot access it, post in your Microsoft Teams channel and tag your legend. Include the team name and affected GitHub username, but do not post passwords, authentication codes or recovery details.
 
 ### Clone your repository
 

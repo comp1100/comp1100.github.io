@@ -2,51 +2,54 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Week 5: Reflective practice and using repositories &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+    <title>Week 5: Reflect, synthesise and organise &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
   
   
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-
-  
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
 
-    <script src="../_static/documentation_options.js?v=c73c0f3e"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -57,48 +60,38 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_5_reflective_practice_and_using_github';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Week 6: Small-team Project Management" href="Week_6_team_planning.html" />
+    <link rel="next" title="Week 6: Iteration 1 readiness and review" href="Week_6_team_planning.html" />
     <link rel="prev" title="Week 4: Repositories and Version Control" href="Week_4_repositories.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
+  
   </head>
+  <body data-default-mode="">
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
 
-  
-  
-  <a class="skip-link" href="#main-content">Skip to main content</a>
   
   <div id="pst-scroll-pixel-helper"></div>
-
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
-
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
   
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -106,7 +99,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -114,16 +106,69 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
   </div>
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
   
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -136,9 +181,13 @@
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../intro.html">
+  
   
   
   
@@ -148,21 +197,18 @@
       
     
     
-    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-light" alt="COMP1100/COMP7110 Introduction to software innovation - Home"/>
+    <img src="../_static/COMP110_7110_logo.png" class="logo__image only-dark pst-js-only" alt="COMP1100/COMP7110 Introduction to software innovation - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__kbd-shortcut">Search</span>
-    <span><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -179,8 +225,8 @@
 <li class="toctree-l1"><a class="reference internal" href="Week_2_team_dynamics.html">Week 2: Team Dynamics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_3_interviews.html">Week 3: Interviewing customers; holding effective meetings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 5: Reflective practice and using repositories</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week_6_team_planning.html">Week 6: Small-team Project Management</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 5: Reflect, synthesise and organise</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_6_team_planning.html">Week 6: Iteration 1 readiness and review</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_7_prototyping.html">Week 7: Software prototyping</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_8_feedback_and_presentations.html">Week 8: Giving &amp; receiving feedback; informal presentations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
@@ -205,14 +251,19 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -221,14 +272,14 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -337,7 +388,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -350,26 +401,20 @@
 </button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -380,7 +425,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 5: Reflective practice and using repositories</h1>
+    <h1>Week 5: Reflect, synthesise and organise</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -389,31 +434,24 @@ document.write(`
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#online-learning-module">Online learning module</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gibbs-reflective-cycle-grc">Gibbs’ Reflective Cycle (GRC)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-grc">Understanding GRC</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#refine-your-understanding">Refine your understanding</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-applying-grc-to-your-experience-in-comp1100-so-far">Exercise: Applying GRC to your experience in COMP1100 so far</a></li>
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-you-begin">Before you begin</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gibbs-reflective-cycle">Gibbs’ Reflective Cycle</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity">Activity</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-quality-and-safety-audit">Interview quality and safety audit</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-an-interview-to-a-repository-record">From an interview to a repository record</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-github-in-comp1100">Using Github in COMP1100</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-than-source-code-using-markdown">More than source code: using Markdown</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-structure">Basic structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-your-documents-so-far">Create your documents so far</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-these-together">Linking these together</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-markdown-instead-of-tools-like-word-and-google-docs">Why use Markdown instead of tools like Word and Google docs?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#synthesise-evidence-across-interviews">Synthesise evidence across interviews</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-review">Individual review</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#team-synthesis">Team synthesis</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-data-analysis">Interview data analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-the-project-evidence-chain">Update the project evidence chain</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-remaining-iteration-1-work">Plan the remaining Iteration 1 work</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-empowerment-through-reflection-and-learning">Personal Empowerment through Reflection and Learning</a></li>
-</ul>
-</li>
 </ul>
             </nav>
         </div>
@@ -423,277 +461,175 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-5-reflective-practice-and-using-repositories">
-<h1>Week 5: Reflective practice and using repositories<a class="headerlink" href="#week-5-reflective-practice-and-using-repositories" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="week-5-reflect-synthesise-and-organise">
+<h1>Week 5: Reflect, synthesise and organise<a class="headerlink" href="#week-5-reflect-synthesise-and-organise" title="Link to this heading">#</a></h1>
 <section id="studio-abstract">
-<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
-<hr class="docutils" />
+<h2>Studio abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><p>In this studio, we will investigate two different topics. First, we will discuss and use reflective practices based on the theories of Graham Gibbs, which is part of what you will need to do for each submission in this course. Second, we will give you some ideas for how we expect your Github repository to be used throughout the course.</p>
+<div><p>In this studio, you will prepare for Iteration 1 by reflecting on your project experience, checking the quality and safety of your interview material, synthesising evidence across interviews, and organising the resulting project records in your team repository. You will finish by updating GitHub Projects so that it is clear who will do what and by when.</p>
 </div></blockquote>
-<p>We will address the following activities and exercises:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Overview of Gibbs’ reflective cycle (GRC)</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Understanding how reflective practice can help future improvement</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Applying GRC to your experience in COMP1100 so far</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Using Github and Markdown together effectively to keep track of things other than source code</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Laying out your team repository</p></li>
-</ul>
-</section>
-<section id="online-learning-module">
-<h2>Online learning module<a class="headerlink" href="#online-learning-module" title="Link to this heading">#</a></h2>
-<p>This studio is accompanied by a digital module ‘Reflective Writing - Gibb’s Reflective Model’, written by Stuart Crosbie from the Embedded Learning Support team, available on Blackboard under ‘Content’ <span class="math notranslate nohighlight">\(\rightarrow\)</span> ‘Assessment Helpers’.</p>
-</section>
-<section id="gibbs-reflective-cycle-grc">
-<h2>Gibbs’ Reflective Cycle (GRC)<a class="headerlink" href="#gibbs-reflective-cycle-grc" title="Link to this heading">#</a></h2>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this entire exercise and discussion</p> 
-<p>⏱️ 5 minutes - Class</p>
-<p style="text-align:center; font-weight:bold;">The self reflection is a requirement for each of the three major submissions in COMP1100.</p>
-<p>The foundational principle of personal growth is learning from mistakes. This self-reflection allows us to witness and evaluate our own cognitive, emotional and behavioural processes to help us grow. Self-reflection depends on a range of functions including introspection and meta-cognition; and it is important in professional practice as it allows us to continually improve our effectiveness.</p>
-<p><strong>Graham Gibbs</strong> developed a self-reflection framework called ‘Gibbs’ Reflective Cycle’ in 1988 to give structure to learning from experiences. This is one of the most famous cyclical models of reflection and is used pervasively in professional settings. The structure is circular and a closed loop:</p>
+<p>By the end of the studio, your team should have:</p>
 <ul class="simple">
-<li><p><strong>Description</strong> of the experience</p></li>
-<li><p><strong>Feelings</strong> and thoughts about the experience</p></li>
-<li><p><strong>Evaluation</strong> of the experience, both good and bad</p></li>
-<li><p><strong>Analysis</strong> to make sense of the situation</p></li>
-<li><p><strong>Conclusion</strong> about what you learned and what you could have done differently</p></li>
-<li><p><strong>Action plan</strong> for how you would deal with similar situations in the future, or general changes you might find appropriate.</p></li>
+<li><p>applied Gibbs’ Reflective Cycle to a specific project experience;</p></li>
+<li><p>checked that interview evidence is relevant, deidentified and handled safely;</p></li>
+<li><p>identified themes, contradictions and uncertainties across interviews;</p></li>
+<li><p>updated hypotheses, learning cards, customer segments and the business model canvas where the evidence supports a change;</p></li>
+<li><p>stored project records in the structure supplied by the starter repository; and</p></li>
+<li><p>assigned the remaining Iteration 1 work in GitHub Projects.</p></li>
 </ul>
-<p>The action plan bleeds into the description of the next experience. The idea is that it’s a feedback loop, continually optimising the experience for the most effective and efficient outcome.</p>
-<section id="understanding-grc">
-<h3>Understanding GRC<a class="headerlink" href="#understanding-grc" title="Link to this heading">#</a></h3>
-<p>⏱️ 10 minutes - Individual</p>
-<p>Read through the following article (linked below) and take some notes on GRC. Make sure you understand the framework and can apply it as it will be needed for the next exercise.</p>
-<p>🌐 <a class="reference external" href="https://www.ed.ac.uk/reflection/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle">https://www.ed.ac.uk/reflection/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle</a></p>
 </section>
-<section id="refine-your-understanding">
-<h3>Refine your understanding<a class="headerlink" href="#refine-your-understanding" title="Link to this heading">#</a></h3>
-<p>⏱️ 5 minutes - Group</p>
-<p>As a group, briefly discuss your understanding of GRC and share your notes. If you find similarities in your notes within your group, try to generalise your notes. If there are significant differences, rationalise the inclusion of those differences and try to come to a consensus to what is important to know about GRC and what information is superfluous.</p>
+<section id="before-you-begin">
+<h2>Before you begin<a class="headerlink" href="#before-you-begin" title="Link to this heading">#</a></h2>
+<p>Open your assigned private repository and read its root <code class="docutils literal notranslate"><span class="pre">README.md</span></code>, <code class="docutils literal notranslate"><span class="pre">guides/getting-started.md</span></code>, and the index for any area you change.</p>
+<p>Bring your team’s deidentified interview notes or evidence records. Keep participant names, contact details, consent records, raw recordings and identifiable transcripts in your team’s approved secure Microsoft Teams storage. They must not be committed to GitHub, included in a repository ZIP, or supplied to a hosted AI service.</p>
+<p>The starter repository contains a <code class="docutils literal notranslate"><span class="pre">create-interview-record</span></code> skill. Using AI is optional: you may use a hosted agent, use an agent with a local model, or follow the skill manually. Every pathway uses real, already-deidentified material and requires the same human review.</p>
 </section>
-<section id="exercise-applying-grc-to-your-experience-in-comp1100-so-far">
-<h3>Exercise: Applying GRC to your experience in COMP1100 so far<a class="headerlink" href="#exercise-applying-grc-to-your-experience-in-comp1100-so-far" title="Link to this heading">#</a></h3>
-<p>⏱️ 30 minutes - Group, Individual and Pair</p>
-<p>This exercise involves implementing the GRC in a real world scenario, then reflecting on those learnings and adapting to new situations.</p>
-<p>This will require you to revisit the ‘Helpful questions’ from the article above. For each of the six stages, there is a set of helpful questions.</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  On a single post-it note, each team member should  select six questions from any of the ‘helpful questions’ in the GRC article, <strong>one of each of the six stages</strong> (description, feelings, evaluation, analysis, conclusion, action plan).</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once you have completed your six questions, within your group, number each post-it note from 1 to X (depending on how many people in your group). Then:</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  <strong>Odd number:</strong> If your post-it note is odd, stand up and <strong>move to another table</strong>. Pair up with another person who has an even numbered post-it note, who should be seated.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  <strong>Even number:</strong> If your post-it note is even, stay seated at your table for another person to approach you and pair up.   After you answer all the questions, swap post-it notes and move on to another table.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once you have a pair (should be someone NOT in your team), the person with the odd number will ask the other person the six questions on <strong>your</strong> post-it note (note: you should be asking the questions you chose, NOT what the person choose for themselves).</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Once they have finished, swap roles.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  When you answer the questions, relate it to a specific reflection from the past few weeks in COMP1100.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  After about 10 minutes, your legends will stop the discussion, and the person with the odd number will switch tables again to a new table. Repeat.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Aim for 5-10 minutes per session. With change overs, you should manage 3 question and answer sessions.</p></li>
+<section id="gibbs-reflective-cycle">
+<h2>Gibbs’ Reflective Cycle<a class="headerlink" href="#gibbs-reflective-cycle" title="Link to this heading">#</a></h2>
+<p>⏱️ 30 minutes — individual, pair and class</p>
+<p style="text-align:center; font-weight:bold;">Devices closed after selecting your questions</p>
+<p>A short individual reflection is required for each major submission. Reflection is more than describing what happened: it should identify what you learnt, what you would change, and what you will do next.</p>
+<p>Gibbs’ Reflective Cycle provides six prompts:</p>
+<ol class="arabic simple">
+<li><p><strong>Description:</strong> What happened?</p></li>
+<li><p><strong>Feelings:</strong> What were you thinking and feeling?</p></li>
+<li><p><strong>Evaluation:</strong> What went well and what did not?</p></li>
+<li><p><strong>Analysis:</strong> Why did events unfold that way?</p></li>
+<li><p><strong>Conclusion:</strong> What did you learn and what could you have done differently?</p></li>
+<li><p><strong>Action plan:</strong> What specific action will you take next time?</p></li>
+</ol>
+<section id="activity">
+<h3>Activity<a class="headerlink" href="#activity" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Read the <a class="reference external" href="https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/gibbs-reflective-cycle">Gibbs’ Reflective Cycle guidance</a> and select one helpful question for each stage.</p></li>
+<li><p>Choose one specific experience from the first four weeks of the project. Good examples include conducting an interview, responding to refuting evidence, resolving a Git conflict, or managing a team commitment.</p></li>
+<li><p>Discuss the experience with a partner from another team. Use the six selected questions to move from description to a specific action plan, then swap roles.</p></li>
+<li><p>Write down one action you will take before the Iteration 1 deadline.</p></li>
+</ol>
+</section>
+</section>
+<section id="interview-quality-and-safety-audit">
+<h2>Interview quality and safety audit<a class="headerlink" href="#interview-quality-and-safety-audit" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes — team</p>
+<p>Thank you to Richard, one of our legends, for sharing an interview checklist that informed this reminder.</p>
+<p>Choose two recent interviews and check:</p>
+<ul class="simple">
+<li><p><strong>Purpose:</strong> Was each interview connected to a clear hypothesis or learning goal?</p></li>
+<li><p><strong>Questions:</strong> Did you ask open-ended questions about real past behaviour and experiences rather than hypothetical future behaviour?</p></li>
+<li><p><strong>Interviewing:</strong> Did you listen, allow silence, ask useful follow-up questions and avoid pitching a solution?</p></li>
+<li><p><strong>Evidence:</strong> Did you retain refuting, contradictory and uncertain evidence rather than selecting only confirming responses?</p></li>
+<li><p><strong>Consent:</strong> Was consent obtained before the interview and separately before recording?</p></li>
+<li><p><strong>Privacy:</strong> Is the repository material deidentified, with participant codes that are not derived from names or student numbers?</p></li>
+<li><p><strong>Storage:</strong> Are raw recordings, consent records and identifiable transcripts only in approved Teams storage?</p></li>
 </ul>
-<p>Once the activity time is up take your post-it note and stick it on the whiteboard at the front of the class. Browse everyone else’s to see what questions there were.</p>
+<p>Record any corrective action as a GitHub Project task. Do not alter source evidence to make it appear cleaner or more supportive of a hypothesis.</p>
 </section>
+<section id="from-an-interview-to-a-repository-record">
+<h2>From an interview to a repository record<a class="headerlink" href="#from-an-interview-to-a-repository-record" title="Link to this heading">#</a></h2>
+<p>⏱️ 25 minutes — individual and peer review</p>
+<p>The repository should contain the minimum deidentified evidence needed to support the team’s reasoning, not the raw research source.</p>
+<p>Each team member should process or review at least one interview:</p>
+<ol class="arabic simple">
+<li><p>Start with real, already-deidentified notes or a safely deidentified transcript excerpt.</p></li>
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">create-interview-record</span></code> skill through a hosted agent, local agent, or its manual workflow.</p></li>
+<li><p>Save the record under <code class="docutils literal notranslate"><span class="pre">docs/discovery/interviews/</span></code> using a stable participant code and date.</p></li>
+<li><p>Keep these sections visibly separate:</p>
+<ul class="simple">
+<li><p><strong>Evidence:</strong> exact, safely deidentified statements supported by the source;</p></li>
+<li><p><strong>Observations:</strong> a faithful summary of what the participant said or did;</p></li>
+<li><p><strong>Interpretation and implications:</strong> what the team thinks the evidence may mean; and</p></li>
+<li><p><strong>Hypotheses considered:</strong> supported, refuted or still unclear in this interview.</p></li>
+</ul>
+</li>
+<li><p>Compare the completed record with the securely held source.</p></li>
+<li><p>Ask a teammate to review privacy, traceability, accuracy and overclaiming before merging it.</p></li>
+<li><p>Disclose material AI assistance in the record or pull request.</p></li>
+</ol>
+<p>An agent can help structure or check a record. It cannot conduct the interview, decide what the evidence means, or replace human verification.</p>
 </section>
-<hr class="docutils" />
 <section id="take-a-break">
 <h2>Take a break<a class="headerlink" href="#take-a-break" title="Link to this heading">#</a></h2>
 <p>⏱️ 10 minutes</p>
 </section>
-<hr class="docutils" />
-<section id="using-github-in-comp1100">
-<h2>Using Github in COMP1100<a class="headerlink" href="#using-github-in-comp1100" title="Link to this heading">#</a></h2>
-<p style="text-align:center; font-weight:bold;"> Devices required for this entire exercise</p> 
-<p>In a <a class="reference internal" href="#studio:repositories"><span class="xref myst">previous studio</span></a>, you learnt that you will use source code repositories as the main method for submitting your work in this course.</p>
-<p>The individual student contribution to the team component is determined by the logs in the source code repository, so it is important that students submit their own work on the repository, rather than sending to team members.</p>
-<p>In the <a class="reference internal" href="#studio:repositories"><span class="xref myst">previous studio</span></a>, you also learnt some basic Markdown and checked this into a repository. Part of the reason that Markdown was invented by Gruber and Swartz was because it was compatible with source code repositories like Github, so people could use it for documentation, and repository tools could do things like track versions, detect conflicts, and merge things.</p>
-<p>In this part of the studio, we will get you to start using this more systematically to document your business model canvas, learning cards, test cards, update meeting agendas, etc.</p>
-<section id="more-than-source-code-using-markdown">
-<h3>More than source code: using Markdown<a class="headerlink" href="#more-than-source-code-using-markdown" title="Link to this heading">#</a></h3>
-<p>We can use source code repository for more than source code – we can use it to document our project too!</p>
-<p>However, so that we get the benefit of merging etc., we need to document stuff in plain text files. This could be .txt, HTML files, etc.,</p>
-<p>In this course, we will use <a class="reference external" href="https://www.markdownguide.org/">Markdown</a>.</p>
-<p><strong>Markdown</strong> is an easy-to-use markup language that can be used to format plain text. It can be stored in repositories using tools like Github. It is readable in its raw format, but can be converted to better-looking formats such as PDF and HTML (these notes are written in Markdown!).</p>
-<p>To write documents in markdown, you can just use any plain text editor, such as Notepad, VSCode, vi (if you are awesome), or even word processors – but make sure you save as plain text!</p>
-<p>And best yet, Github and other repository hosting platforms format Markdown files for you when you read them online.</p>
-<p>Use the following tutorials for this task:</p>
+<section id="synthesise-evidence-across-interviews">
+<h2>Synthesise evidence across interviews<a class="headerlink" href="#synthesise-evidence-across-interviews" title="Link to this heading">#</a></h2>
+<p>⏱️ 40 minutes — individual and team</p>
+<p>One interview is evidence, not validation by itself. Your team now needs to compare evidence across participants.</p>
+<section id="individual-review">
+<h3>Individual review<a class="headerlink" href="#individual-review" title="Link to this heading">#</a></h3>
+<p>Each person reviews their own interview records and at least one other team member’s records. Write down:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.markdownguide.org/basic-syntax/">Markdown basic syntax</a></p></li>
-<li><p><a class="reference external" href="https://www.markdownguide.org/cheat-sheet/">Markdown cheat sheet</a></p></li>
+<li><p>recurring behaviours, problems, workarounds or goals;</p></li>
+<li><p>evidence that contradicts an apparent pattern;</p></li>
+<li><p>important differences between possible customer segments;</p></li>
+<li><p>surprising or unclear responses; and</p></li>
+<li><p>limitations in who the team interviewed or what was asked.</p></li>
 </ul>
+<p>Do not count repeated words alone as a theme. A useful theme captures a meaningful pattern related to the team’s learning goals.</p>
 </section>
-<section id="basic-structure">
-<h3>Basic structure<a class="headerlink" href="#basic-structure" title="Link to this heading">#</a></h3>
-<p>⏱️ 10 minutes</p>
-<p>The basic structure we expect for your repository is below, where each of these is a folder (Interviews should exist already from the Github workshop) and the .md files are inside those folders:</p>
+<section id="team-synthesis">
+<h3>Team synthesis<a class="headerlink" href="#team-synthesis" title="Link to this heading">#</a></h3>
+<p>Compare the candidate themes and agree on a concise set that represents the evidence. For each theme, record:</p>
 <ul class="simple">
-<li><p>Interviews</p>
-<ul>
-<li><p>Iteration_1</p>
-<ul>
-<li><p>Team member 1</p>
-<ul>
-<li><p>[STUDENT_NAME]<em>[YYYY_MM_DD]</em>[X].md</p></li>
-<li><p>[STUDENT_NAME]<em>[YYYY_MM_DD]</em>[X].md</p></li>
-<li><p>….</p></li>
+<li><p>a short, descriptive name;</p></li>
+<li><p>the evidence records that support or challenge it;</p></li>
+<li><p>which customer segment or context it applies to;</p></li>
+<li><p>contradictions, uncertainty and limitations; and</p></li>
+<li><p>what the team should investigate or decide next.</p></li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p>Iteration_2
-- ….</p></li>
-</ul>
-</li>
-<li><p>Documents</p>
-<ul>
-<li><p>business_model_canvas.md   (this can include your value proposition canvas)</p></li>
-<li><p>test_cards.md</p></li>
-<li><p>learning_cards.md</p></li>
-<li><p>…</p></li>
-</ul>
-</li>
-<li><p>Prototypes   – when you design prototypes in future</p></li>
-<li><p>Meetings    – for any meeting agenda, notes, etc.</p></li>
-<li><p>Code        – the source code for your final product</p></li>
-</ul>
-<p>Feel free to add other folders as well.</p>
-<p><strong>Your tasks:</strong></p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Create these folders and (empty) .md files. Distribute the work among the team, and commit &amp; push these to your repository; then everyone can pull the changes.</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Rename the interview transcripts that you have so far to have meaningful names that include the day and time. If you don’t know these exactly, just get an approximate time.</p></li>
-</ul>
+<p>Save the synthesis under <code class="docutils literal notranslate"><span class="pre">docs/discovery/synthesis/</span></code>. Avoid claims such as “all users” unless the evidence genuinely supports them. Numbers can describe the interviews completed, but a small convenience sample does not establish a population statistic.</p>
 </section>
-<section id="create-your-documents-so-far">
-<h3>Create your documents so far<a class="headerlink" href="#create-your-documents-so-far" title="Link to this heading">#</a></h3>
-<p>⏱️ 25 minutes</p>
-<p>Up to this point, you should have the following:</p>
-<ul class="simple">
-<li><p>a business model canvas with hypotheses</p></li>
-<li><p>test cards</p></li>
-<li><p>some learning cards</p></li>
-<li><p>interview transcripts</p></li>
-</ul>
-<p><strong>Your tasks</strong>:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  As a team, divide up the above parts of your project so far, and convert all of these into Markdown.</p></li>
-</ul>
-<p>For example, document your business model canvas as follows:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## Business Model Canvas</span>
-
-<span class="o">**</span><span class="n">Customer</span> <span class="n">Segments</span><span class="o">**</span>
-<span class="o">-</span> <span class="n">Segment</span> <span class="mi">1</span>
-<span class="o">-</span> <span class="n">Segment</span> <span class="mi">2</span>
-
-<span class="o">**</span><span class="n">Value</span> <span class="n">Propositions</span><span class="o">**</span>
-<span class="o">-</span> <span class="n">Value</span> <span class="n">Prop</span> <span class="mi">1</span>
-<span class="o">-</span> <span class="n">Value</span> <span class="n">Prop</span> <span class="mi">2</span>
-
-<span class="o">**</span><span class="n">Channels</span><span class="o">**</span>
-<span class="o">-</span> <span class="n">Channel</span> <span class="mf">1.</span>
-
-<span class="o">**</span><span class="n">Customer</span> <span class="n">Relationships</span><span class="o">**</span>
-<span class="o">-</span> <span class="n">Relationship</span>
-
-<span class="o">**</span><span class="n">Revenue</span> <span class="n">Streams</span><span class="o">**</span>
-<span class="o">-</span> <span class="n">Revenue</span> <span class="n">stream</span>
+</section>
+<section id="update-the-project-evidence-chain">
+<h2>Update the project evidence chain<a class="headerlink" href="#update-the-project-evidence-chain" title="Link to this heading">#</a></h2>
+<p>⏱️ 35 minutes — team, with individual commits</p>
+<p>Use the synthesis to update project records only where the evidence supports a change.</p>
+<p>The intended evidence chain is:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Business model assumption
+  -&gt; hypothesis and test card
+  -&gt; deidentified interview records
+  -&gt; cross-interview synthesis
+  -&gt; learning card
+  -&gt; retain, refine, reject or investigate further
+  -&gt; updated business model canvas
 </pre></div>
 </div>
-<p>And similar for the value proposition canvas – don’t forget to add one canvas per segment though!</p>
-<p>Test cards can similarly be formatted as:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Test Cards</span>
-
-<span class="c1">## Hypothesis 1: Hypothesis name</span>
-
-<span class="o">**</span><span class="n">HYPOTHESIS</span><span class="o">**</span>
-<span class="n">We</span> <span class="n">believe</span> <span class="n">that</span><span class="o">...</span>
-
-<span class="o">**</span><span class="n">TEST</span><span class="o">**</span>
-<span class="n">To</span> <span class="n">verify</span> <span class="n">that</span> <span class="n">we</span> <span class="n">will</span> <span class="o">....</span>
-
-<span class="o">**</span><span class="n">METRIC</span><span class="o">**</span>
-<span class="n">And</span> <span class="n">measure</span> <span class="o">...</span>
-
-<span class="o">**</span><span class="n">CRITERIA</span><span class="o">**</span>
-<span class="n">We</span> <span class="n">are</span> <span class="n">right</span> <span class="k">if</span> <span class="o">....</span>
-
-<span class="o">**</span><span class="n">INTERVIEW</span> <span class="n">QUESTIONS</span><span class="o">**</span>
-<span class="mf">1.</span> <span class="n">Question</span> <span class="mi">1</span>
-<span class="mf">2.</span> <span class="n">Question</span> <span class="mi">2</span>
-</pre></div>
-</div>
-<p>Similarly for test cards.</p>
-<p><strong>Goal</strong>: The end result should be all of your work so far, documented as Markdown.</p>
-<p><strong>Deliverable</strong>: Show your legend when you have completed, and move on to the next task.</p>
-</section>
-<section id="linking-these-together">
-<h3>Linking these together<a class="headerlink" href="#linking-these-together" title="Link to this heading">#</a></h3>
-<p>⏱️ 15 minutes</p>
-<p>In Markdown, we can use hyperlinks to link to other documents. This can be effective when linking together parts of your project.</p>
-<p>The syntax for a Markdown link is: <code class="docutils literal notranslate"><span class="pre">[text](link)</span></code>.</p>
-<p>This can be used to link to an external web-page, such as <code class="docutils literal notranslate"><span class="pre">[COMP1100</span> <span class="pre">notes](https://comp1100.github.io/)</span></code>, which displays as <a class="reference external" href="https://comp1100.github.io/">COMP1100 notes</a>.</p>
-<p>It can also be used to link internally. To do this, you need to:</p>
-<ol class="arabic simple">
-<li><p>Label things. For example, if you have a hypothesis, you would make the title <code class="docutils literal notranslate"><span class="pre">(hypothesis:older-people-dislike-the-green-button)=##</span> <span class="pre">Hypothesis</span> <span class="pre">1:</span> <span class="pre">Older</span> <span class="pre">people</span> <span class="pre">dislike</span> <span class="pre">the</span> <span class="pre">green</span> <span class="pre">button</span></code>. The stuff between <code class="docutils literal notranslate"><span class="pre">()</span></code> is the name of the link, and the rest is just a normal Markdown heading.</p></li>
-<li><p>Reference things. For example, we would write: “<code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">what</span> <span class="pre">we</span> <span class="pre">mean</span> <span class="pre">in</span> <span class="pre">[hypothesis</span> <span class="pre">1](hypothesis:older-people-dislike-the-green-button)</span></code>”, and the text <code class="docutils literal notranslate"><span class="pre">hypothesis</span> <span class="pre">1</span></code> would contain a link to the hypothesis.</p></li>
-</ol>
-<p>You can use this to great effect.</p>
-<p><strong>Your tasks:</strong></p>
+<p>Relevant starter-repository locations include:</p>
 <ul class="simple">
-<li><p>Link the hypotheses in your business model canvas and value proposition canvases to the corresponding test cards.</p></li>
-<li><p>Link the test cards to the corresponding learning card.</p></li>
-<li><p>Link the learning cards to the set of interviews that you did.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/discovery/assumptions/</span></code> for hypotheses and test cards;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/discovery/interviews/</span></code> for deidentified interview records;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/discovery/synthesis/</span></code> for cross-interview themes and limitations;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/discovery/experiments/</span></code> for learning cards and experiment results;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/product/business-model-canvas.md</span></code> for the current business model canvas;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/product/value-propositions/</span></code> when the team needs a separate value proposition canvas for a customer segment; and</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docs/team/</span></code> for team agreements and meeting records that are not already represented in GitHub Projects.</p></li>
 </ul>
-<p><strong>Goal</strong>: The end result should be Markdown that allows someone to seamlessly read your business model canvas, value proposition canvases, test cards, learning cards, and interviews; linking to various parts when they want.</p>
-<p><strong>Deliverable</strong>: Show your legend your beautifully-formatted business model canvas.</p>
+<p>Create only the folders and files your project needs. Keep one current version of each artefact and use Git history to show how it changes; do not create <code class="docutils literal notranslate"><span class="pre">final</span></code>, <code class="docutils literal notranslate"><span class="pre">final-2</span></code> or similar copies.</p>
+<p>Each team member must make their own meaningful contribution on a branch, open or participate in a pull request, and review the rendered Markdown before it is merged.</p>
 </section>
-<section id="why-use-markdown-instead-of-tools-like-word-and-google-docs">
-<h3>Why use Markdown instead of tools like Word and Google docs?<a class="headerlink" href="#why-use-markdown-instead-of-tools-like-word-and-google-docs" title="Link to this heading">#</a></h3>
-<p>Git, and most other repositories, only work on plain text files. Uploading images or things like Word documents is possible, but Git will not detect conflicts, will not keep track of versions, etc. Non-text files are just treated as blocks, while text files are treated as strings of individual characters.</p>
-<p>This is why Markdown is so popular with software developers!</p>
-</section>
-</section>
-<section id="id1">
-<h2>Take a break<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes</p>
-</section>
-<section id="interview-data-analysis">
-<h2>Interview data analysis<a class="headerlink" href="#interview-data-analysis" title="Link to this heading">#</a></h2>
-<p>⏱️ 45 minutes</p>
-<p>By now, you should have a set of interviews (including transcripts), as each team member will have interviewed some potential customers about their problems.</p>
-<p><strong>If you do not have these interviews yet</strong>, go out and do these <strong>now</strong>. Come back at the end of the studio time to show your legend.</p>
-<p>As part of this exercise, each team member should:</p>
-<ol class="arabic simple">
-<li><p>Take all of their own interviews, plus the interviews of ONE other team member.</p></li>
-<li><p>Read through all of the transcripts of yours and one other team member, taking mental note of anything that you find interesting.</p></li>
-<li><p>Then, go through the interview transcripts more carefully, and highlight patterns that you see from your interview participants and writing these observations down:</p></li>
-</ol>
+<section id="plan-the-remaining-iteration-1-work">
+<h2>Plan the remaining Iteration 1 work<a class="headerlink" href="#plan-the-remaining-iteration-1-work" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes — team</p>
+<p>Open your GitHub Project and check that every remaining Iteration 1 task states:</p>
 <ul class="simple">
-<li><p>Are there particular themes or answers that you see across multiple participants? (It doesn’t have to be all people). What are there?</p></li>
-<li><p>Are there any interesting responses that you notice?</p></li>
+<li><p><strong>Who:</strong> one person accountable for completing it;</p></li>
+<li><p><strong>What:</strong> a measurable outcome, including where the result will be recorded; and</p></li>
+<li><p><strong>By when:</strong> a specific date and time before the submission deadline.</p></li>
 </ul>
-<ol class="arabic simple">
-<li><p>Give ‘names’ to the themes that you identify, and write these down. For example, if I identify that a lot of older people would like to be in contact with the family on a more regular (daily) basis, I would say: “Daily contact with family”.</p></li>
-</ol>
-<p>Once all team members have done this, get together and compare themes. Come up with a set of 8-15 themes that you see as general patterns across the data. This will require you to identify which themes different team members have identified are actually similar, and which are different. Again, it doesn’t need to be ALL participants or even across ALL team members, but just common.</p>
-<p>At the end, you should have a list of key themes from your interview participants so far that you can show to your legend.</p>
-<p>Type these up into a markdown file, and give each theme a short but useful description, which would be meaningful to someone outside of your team (e.g. the course staff, an investor). For example:</p>
-<p>“<strong>Daily contact with family</strong>: Older people reported that they would like to have more regular (daily) contact with their family members”.</p>
-<p>Each team member: commit and push your interview analysis into Github (take a picture of notes, or upload a Markdown file) using the ‘git commit’ and ‘git push’ commands — do not upload via the Github website.</p>
-<p>Team: One team member should commit and push the team markdown file to the Github repository using ‘git commit’ and ‘git push’,</p>
+<p>Create tasks for unresolved evidence gaps, missing reviews, incomplete project records and submission preparation. Move current work to <strong>In progress</strong>, close completed work, and update any missed due dates rather than leaving them stale.</p>
 </section>
 <section id="exit-ticket">
 <h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
-<p>Your exit ticket for this week’s studio is to:</p>
+<p>Before leaving, show your legend:</p>
 <ol class="arabic simple">
-<li><p>Show your legend that you have committed your work so far on the course, such as interviews, meeting agenda and notes, etc.</p></li>
-<li><p>Show your legend your beautifully-formatted business model canvas (even if it is quite empty!)</p></li>
-<li><p>Show your legend your team’s analysis (the 8-15 key themes) on the interviews done so far.</p></li>
+<li><p>one deidentified interview record that has been checked against its secure source;</p></li>
+<li><p>the team’s cross-interview synthesis, including at least one contradiction or limitation;</p></li>
+<li><p>one traceable path from a hypothesis through evidence to a learning-card or BMC decision;</p></li>
+<li><p>a meaningful commit or pull-request contribution from each team member; and</p></li>
+<li><p>the GitHub Project tasks for the remaining Iteration 1 work.</p></li>
 </ol>
-</section>
-<section id="bonus-its-dangerous-to-go-alone-take-this">
-<h2>Bonus: It’s dangerous to go alone! Take this.<a class="headerlink" href="#bonus-its-dangerous-to-go-alone-take-this" title="Link to this heading">#</a></h2>
-<p>⏱️ <strong>∞</strong></p>
-<section id="personal-empowerment-through-reflection-and-learning">
-<h3>Personal Empowerment through Reflection and Learning<a class="headerlink" href="#personal-empowerment-through-reflection-and-learning" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=uzDsT-25w14">https://www.youtube.com/watch?v=uzDsT-25w14</a></p>
-</section>
 </section>
 </section>
 
@@ -724,8 +660,8 @@ document.write(`
               
               
               
-                <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                <footer class="prev-next-footer d-print-none">
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="Week_4_repositories.html"
@@ -741,7 +677,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Week 6: Small-team Project Management</p>
+        <p class="prev-next-title">Week 6: Iteration 1 readiness and review</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -752,38 +688,34 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#online-learning-module">Online learning module</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gibbs-reflective-cycle-grc">Gibbs’ Reflective Cycle (GRC)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-grc">Understanding GRC</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#refine-your-understanding">Refine your understanding</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-applying-grc-to-your-experience-in-comp1100-so-far">Exercise: Applying GRC to your experience in COMP1100 so far</a></li>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-you-begin">Before you begin</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gibbs-reflective-cycle">Gibbs’ Reflective Cycle</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#activity">Activity</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-quality-and-safety-audit">Interview quality and safety audit</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-an-interview-to-a-repository-record">From an interview to a repository record</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#take-a-break">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-github-in-comp1100">Using Github in COMP1100</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-than-source-code-using-markdown">More than source code: using Markdown</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-structure">Basic structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-your-documents-so-far">Create your documents so far</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-these-together">Linking these together</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-markdown-instead-of-tools-like-word-and-google-docs">Why use Markdown instead of tools like Word and Google docs?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#synthesise-evidence-across-interviews">Synthesise evidence across interviews</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-review">Individual review</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#team-synthesis">Team synthesis</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Take a break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interview-data-analysis">Interview data analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-the-project-evidence-chain">Update the project evidence chain</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-remaining-iteration-1-work">Plan the remaining Iteration 1 work</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-its-dangerous-to-go-alone-take-this">Bonus: It’s dangerous to go alone! Take this.</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-empowerment-through-reflection-and-learning">Personal Empowerment through Reflection and Learning</a></li>
-</ul>
-</li>
 </ul>
   </nav></div>
 
@@ -798,13 +730,14 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By Tim Miller, The University of Queensland
+By Eban Escott and Hajar Abedi, The University of Queensland
 </p>
 
   </div>
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2023.
@@ -831,8 +764,8 @@ By Tim Miller, The University of Queensland
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
 
   <footer class="bd-footer">
   </footer>

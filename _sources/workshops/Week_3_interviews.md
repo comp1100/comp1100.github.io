@@ -3,7 +3,7 @@
 
 ## Interviews
 
-Read the chapter on [interviews](https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/). We will experiment a bit with some interview questions.
+Read the chapter on [interviews](https://uq.pressbooks.pub/innovationandentrepreneurship/chapter/interviews/). We will experiment with some interview questions.
 
 Recall the difference between closed and open questions: closed questions have a yes/no/maybe/don't know answer, while open questions invite a response.
 
@@ -13,21 +13,22 @@ Recall the difference between closed and open questions: closed questions have a
 
 ## Exercise 1: Testing open vs closed questions
 
-### Interviewing in COMP1100/7110
+### Interviewing in COMP1100/COMP7110
 
 What to do:
 
-* Do record all interviews.
-* Do transcribe interviews – find good transcription software!
-* Do ask for permission to record first.
-* Do practice on friends and family if you are nervous.
+* Do ask for consent before the interview and separately before recording.
+* Do let participants decline a question or stop at any time.
+* Do store raw recordings and identifiable transcripts only in approved UQ storage.
+* Do remove identifying details from notes used for team analysis.
+* Do practise on teammates, friends or family if you are nervous. Practice responses are not project evidence unless the person is genuinely relevant to the customer segment.
 * Do conduct all interviews in English.
 * Do challenge yourself.
 
 What NOT to do:
-* Do NOT use data from friends or family in your analysis -- they cannot be objective.
-* Do NOT use an artificial agent.
-* Do NOT give a transcript to friends to act out.
+* Do NOT upload participant names, contact details, raw recordings or identifiable transcripts to GitHub or an AI service.
+* Do NOT ask an AI agent to invent interviews, quotations, consent or evidence.
+* Do NOT treat a convenient participant as project evidence unless they have relevant experience of the problem or context.
 
 
 ⏱️ 50 minutes - Pairs and team
@@ -41,26 +42,24 @@ By now, you should be considering what challenges you may be considering. If not
 
 ### Step 1: Draft open and closed interview questions
 
-As a team, choose one (or more!) of the challenges, and write a two general questions about each challenge that you have chosen: one open and one closed.
+As a team, choose one challenge direction and write two general questions about it: one open and one closed.
 
 For example:
 
-**Closed**: “When you were doing X at UQ, did you encounter any difficulties in …?”
+**Closed**: “When you were doing X, did you encounter any difficulties with …?”
 
-**Open**: “Tell me about any difficulties you encountered while you were doing X at UQ.”
+**Open**: “Tell me about any difficulties you encountered while you were doing X.”
 
 ### Step 2: Gather data
 
-You can do this independently as pair (or trio if you have an odd number of people):
-
-Go out to the campus and then:
+Do this in pairs (or a trio if you have an odd number of people). This is a **practice exercise**, not project evidence. Interview another student outside your team, or use another participant available in the studio if approaching someone outside class is not appropriate.
 
 1. Each team member should approach two different students (outside of their team) and ask each of them a question: one open and one closed.
-2. First, introduce yourself (as outlined in [interviews]((https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/)) and state that you just want to ask one question for a course.
-3. Second, ask for permission to audio record their answers, as outlined in the chapter on [interviews]((https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/). Be sure to let participants know they can decline to answer or stop the recording at any time.
+2. Introduce yourself as outlined in the [interviews chapter](https://uq.pressbooks.pub/innovationandentrepreneurship/chapter/interviews/) and explain that this is a short practice interview for a course.
+3. Ask for permission to audio record. Make it clear that participants can decline to answer or stop the interview or recording at any time.
 4. If they agree, ask the open or closed question, and record their response using the audio recorder.
 5. Feel free to ask follow-up questions to learn more about their experience related to the challenge that you chose.
-6. Thanks the participant, and move on.
+6. Thank the participant, delete the practice recording after the comparison activity, and move on.
 
 ### Step 3: Compare
 
@@ -68,8 +67,8 @@ Go out to the campus and then:
 
 Once each team member has interviewed two different people, return to the classroom.  You should have 4-5 responses to the closed question and 4-5 responses to the open question.
 
-1. Find a platform that can transcribe your interview questions into text -- there are many available online. Choose one that all team members will use.
-2. Share the transcripts with each other.
+1. Transcribe the short practice responses yourselves. Do not upload them to an unapproved transcription or AI service.
+2. Share only the response text needed for the comparison and remove identifying details.
 3. As a team, compare the two (open vs. closed) questions.
 
 In your comparison, use the following criteria:

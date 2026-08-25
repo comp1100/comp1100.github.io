@@ -164,17 +164,17 @@ Importantly, the innovation competency criteria above are not tied to the qualit
 The "assessment" in this course is done throughout the semester. However, to be consistent with UQ policy, we will have four main assessment items and deliverables on your project throughout the semester:
 
 1. **Weekly:** Attend *on time* and *participate in* the weekly studios. If you cannot make it (illness, clash) let your tutor AND your team know *before* the studio.
-2. **Week 6 -- 16:00, Friday 04/09/2026 -- Testing the problem:** Submit a business model canvas, a set of verified/refuted hypotheses, and transcripts and audio recordings of interviews done so far that demonstrates that the team has a clear and accurate understanding of their customer problems.
-3. **Week 9 -- 16:00, Friday 25/09/2026 -- Testing the solution:** Submit a business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews, and documentation (pictures, digital files) of any paper prototype used so far that demonstrates whether the solution solves the customer problem (product-market fit).
-4. **Exams Week 1 (Week 14) -- 16:00, Friday 13/11/2026 -- Minimum viable product:**  Submit the code for a minimal viable product (working code), the business model canvas, a set of verified/refuted hypotheses, transcripts and audio recordings of interviews.
+2. **Week 6 -- 16:00, Friday 04/09/2026 -- Testing the problem:** Submit a coherent project record including the current business model canvas, tested hypotheses, deidentified interview evidence, synthesis and resulting decisions. The record should demonstrate that the team has a clear, evidence-supported understanding of its customer problems.
+3. **Week 9 -- 16:00, Friday 25/09/2026 -- Testing the solution:** Submit the updated project record, including evidence of solution testing and documentation (pictures or digital files) of any prototype used. The record should demonstrate whether and how the proposed solution addresses the customer problem.
+4. **Exams Week 1 (Week 14) -- 16:00, Friday 13/11/2026 -- Minimum viable product:** Submit the code for a minimum viable product, the current business model canvas, tested hypotheses, deidentified research evidence and the decisions that follow from it.
 
-Deliverables 2-4 will be submitted via Github and Blackboard. Details on submissions will be discussed in the seminars and studios, and posted on Blackboard.
+For deliverables 2-4, maintain the team project record in the assigned private GitHub repository. Upload a ZIP of the repository to Blackboard as UQ's point-in-time audit record; legends will use the repository and its history for assessment. Raw recordings, consent records and identifiable transcripts remain in the approved secure Microsoft Teams storage and must not be included in GitHub or the repository ZIP. Details will be discussed in the seminars and studios and posted on Blackboard.
 
 In addition, for deliverables 2-4, each individual will submit a short self-reflection.
 
 ### Assessment grading
 
-After each assessment, each individual will be graded against the criteria. **Individual student contribution to the team component is determined by the logs in the source code repository**.
+After each assessment, each individual will be graded against the criteria. **Individual contribution to the team component is assessed using evidence in the team project repository—including files, commit history, branches, pull requests, reviews and GitHub Project work—together with each student's ability to explain the team's work and their contribution to it.**
 
 For each competency, the student will receive one of the following:
 * **Meets expectations**: The student has clearly demonstrated this competency based on the evidence found in the repository.
@@ -284,23 +284,23 @@ Each week, the course will be broken into three components:
 
 ## Schedule
 
-| Week | Innovation topic                                     | Studio topic                                              | Course deliverables                   | What should teams be doing this week?                                               |
-|------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
-| 1    | What is innovation and why should all of us care about it? | Growth mindset and personal goals                     |                                        |                                                 |
-| 2    | Teamwork, Business model canvas                     | Team dynamics, practice interviewing  |                                        | Meet your team, Brainstorm ideas to solve your challenge, Sketch customer problem hypotheses |
-| 3    | **COMP1100:** No class on Wednesday 12 August 2026 due to the [Royal Queensland Show public holiday](https://www.qld.gov.au/recreation/travel/holidays/public); the missed material will be incorporated into other weeks. **COMP7110:** Experimentation: Testing and validation | **COMP1100:** No studio or replacement class. **COMP7110:** Doing interviews, effective meetings |                                        | Identify topic and interview questions, Each team member interview 2-3 customers       |
-| 4    | Prototypes and minimal viable products          | Repositories and version control, markdown    |                                        | Formalise your hypotheses using test cards, Update questions, Each team member interview 5 more customers. Record learning in test cards  |
-| 5    |  Building customer/user relationships  |  Reflective Practice, using repositories          |               | Teams analyse interview data and agree on clear set of customer segments and problems |
-| 6    |                                                     |                                                       | Business model canvas iteration 1 - Testing the problem   | Brainstorm potential solutions, Define a clear value proposition, Identify hypothesis (test cards) and interview questions to test value proposition |
-| 7    |  Prompt Engineering           | Prototyping                                     |                                        |  Each team member interview 5 customers to validate value proposition, Document learnings in learning cards, Define first paper and/or digital prototypes |
-| 8    |  Personal management (part 1)        | Giving feedback, team presentations                                   |                  | Refine/finalise MVP features using learning cards, Further interviews if required |
-| 9    |  Personal management (part 2)                            | MVP definition                  | Business model canvas iteration 2 - Testing the solution    | Start implementing MVP                                                  |
-|      | Mid-semester break                                |                                                       |                                        | Finalise MVP features, Plan which team members will implement which features of the MVP, Choose any frameworks, languages, etc. |
-| 10   |  History of computing                                           | Time management                   |                                        | Continue implementing MVP                                                  |
-| 11   |                                      | How to give a pitch                             |                                        | Continue implementing MVP, Finalise 1-minute pitch, poster, and showcase demonstration |
-| 12   |  |  No studio --- use the time to make progress on your MVP           |                                        | Continue implementing MVP |
-| 13   |                                       | Separate COMP1100 and COMP7110 showcases during each course's usual allocated studio |                                        | Continue implementing MVP,                                                  |
-| Exams week 1  |                                                 |                                          |                                                       | Prototype and business model canvas iteration 3 | Finalise implementation of MVP                                                  |
+| Week | Innovation topic | Studio topic | Course deliverables | What should teams be doing this week? |
+|------|------------------|--------------|---------------------|----------------------------------------|
+| 1 | Introduction to innovation and customer discovery | Growth mindset and personal goals | | Understand the course, form initial interests and begin thinking about problems worth investigating. |
+| 2 | Teamwork and business model canvases. **COMP1100:** essential Week 3 interview preparation is brought forward. | Team allocation, team dynamics and practice interviewing | | Meet your team, choose an accessible challenge direction, sketch customer-problem hypotheses and draft open-ended interview questions. |
+| 3 | **COMP1100:** No class on Wednesday 12 August 2026 due to the [Royal Queensland Show public holiday](https://www.qld.gov.au/recreation/travel/holidays/public); teams begin interviews independently. **COMP7110:** Experimentation, testing and validation | **COMP1100:** No studio or replacement class. **COMP7110:** Interviewing customers and effective meetings | | Finalise interview questions; each team member interviews at least two relevant participants; compare deidentified evidence. |
+| 4 | AI agents and discovery interviews | Repositories, version control, Markdown, AI coding agents and repository skills | | Open the assigned repository prepared from the course starter; refine hypotheses and questions; conduct further interviews; commit only reviewed, deidentified evidence records. |
+| 5 | From interviews to evidence | Reflect, synthesise and organise | | Check interview quality; create or review deidentified evidence records; synthesise themes, contradictions and uncertainty; update the evidence chain and GitHub Project. |
+| 6 | Building a coherent project record | Iteration 1 readiness and review | **Iteration 1—Testing the problem: 4:00 pm Friday 4 September 2026** | Review the customer-discovery story, evidence chain, privacy and contribution record; complete individual reflection preparation; inspect and upload the repository ZIP. |
+| 7 | Customer relationships and channels; prototyping and MVPs | Software prototyping | | Use Iteration 1 learning to refine the value proposition; explore customer relationships and channels; create and test paper or digital prototypes. |
+| 8 | — | Giving and receiving feedback; informal presentations | | Give actionable team feedback, communicate the problem and proposed direction, and continue gathering evidence about the solution. |
+| 9 | Customer relationships, channels and scoping | Defining the MVP and prototyping | **Iteration 2—Testing the solution: 4:00 pm Friday 25 September 2026** | Finalise the tested solution direction, scope the MVP and allocate implementation work. |
+| Mid-semester break | | | | Finalise MVP scope, responsibilities, technologies and the implementation plan. |
+| 10 | Getting Things Done (GTD) | Time management | | Implement the MVP, maintain focused tasks and keep the project record current. |
+| 11 | Focus and pitching | Giving a one-minute pitch | | Continue implementation and prepare the one-minute pitch, poster and showcase demonstration. |
+| 12 | History of computing | No studio—use the time to make progress on the MVP | | Continue implementing and testing the MVP. |
+| 13 | | Separate COMP1100 and COMP7110 showcases during each course's usual studio | | Demonstrate the current product and explain the evidence, decisions and team contribution behind it. |
+| Exams week 1 | | | **Iteration 3—Minimum viable product: 4:00 pm Friday 13 November 2026** | Finalise the MVP implementation, project record and individual reflection. |
 
 (sec:intro:challenges)=
 
