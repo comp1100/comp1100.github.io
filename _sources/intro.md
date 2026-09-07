@@ -284,29 +284,25 @@ Each week, the course will be broken into three components:
 
 ## Schedule
 
-| Week | Innovation topic | Studio topic | Course deliverables | What should teams be doing this week? |
-|------|------------------|--------------|---------------------|----------------------------------------|
-| 1 | Introduction to innovation and customer discovery | Growth mindset and personal goals | | Understand the course, form initial interests and begin thinking about problems worth investigating. |
-| 2 | Teamwork and business model canvases. **COMP1100:** essential Week 3 interview preparation is brought forward. | Team allocation, team dynamics and practice interviewing | | Meet your team, choose an accessible challenge direction, sketch customer-problem hypotheses and draft open-ended interview questions. |
-| 3 | **COMP1100:** No class on Wednesday 12 August 2026 due to the [Royal Queensland Show public holiday](https://www.qld.gov.au/recreation/travel/holidays/public); teams begin interviews independently. **COMP7110:** Experimentation, testing and validation | **COMP1100:** No studio or replacement class. **COMP7110:** Interviewing customers and effective meetings | | Finalise interview questions; each team member interviews at least two relevant participants; compare deidentified evidence. |
-| 4 | AI agents and discovery interviews | Repositories, version control, Markdown, AI coding agents and repository skills | | Open the assigned repository prepared from the course starter; refine hypotheses and questions; conduct further interviews; commit only reviewed, deidentified evidence records. |
-| 5 | From interviews to evidence | Reflect, synthesise and organise | | Check interview quality; create or review deidentified evidence records; synthesise themes, contradictions and uncertainty; update the evidence chain and GitHub Project. |
-| 6 | Building a coherent project record | Iteration 1 readiness and review | **Iteration 1—Testing the problem: 4:00 pm Friday 4 September 2026** | Review the customer-discovery story, evidence chain, privacy and contribution record; complete individual reflection preparation; inspect and upload the repository ZIP. |
-| 7 | Customer relationships and channels; prototyping and MVPs | Software prototyping | | Use Iteration 1 learning to refine the value proposition; explore customer relationships and channels; create and test paper or digital prototypes. |
-| 8 | — | Giving and receiving feedback; informal presentations | | Give actionable team feedback, communicate the problem and proposed direction, and continue gathering evidence about the solution. |
-| 9 | Customer relationships, channels and scoping | Defining the MVP and prototyping | **Iteration 2—Testing the solution: 4:00 pm Friday 25 September 2026** | Finalise the tested solution direction, scope the MVP and allocate implementation work. |
-| Mid-semester break | | | | Finalise MVP scope, responsibilities, technologies and the implementation plan. |
-| 10 | Getting Things Done (GTD) | Time management | | Implement the MVP, maintain focused tasks and keep the project record current. |
-| 11 | Focus and pitching | Giving a one-minute pitch | | Continue implementation and prepare the one-minute pitch, poster and showcase demonstration. |
-| 12 | History of computing | No studio—use the time to make progress on the MVP | | Continue implementing and testing the MVP. |
-| 13 | | Separate COMP1100 and COMP7110 showcases during each course's usual studio | | Demonstrate the current product and explain the evidence, decisions and team contribution behind it. |
-| Exams week 1 | | | **Iteration 3—Minimum viable product: 4:00 pm Friday 13 November 2026** | Finalise the MVP implementation, project record and individual reflection. |
+| Week | Innovation | Workshop | Assessment | Guiding question |
+|------|------------|----------|------------|------------------|
+| 1 | Introduction to innovation and customer discovery | Growth mindset and personal goals | — | How do we identify a problem worth solving? |
+| 2 | Teamwork and business model canvases | Team allocation and team dynamics | — | How do we organise a team and represent our initial business assumptions? |
+| 3 | Experimentation, testing and validation | Interviewing customers and effective meetings | — | How do we design experiments that can genuinely test our assumptions? |
+| 4 | AI agents and discovery interviews | Repositories, version control, Markdown, AI coding agents and repository skills | — | How can we use AI responsibly while gathering meaningful customer evidence? |
+| 5 | From interviews to evidence | Reflect, synthesise and organise | — | How do we turn interview data into evidence-supported insights and decisions? |
+| 6 | Building a coherent project record | Iteration 1 readiness and review | **Iteration 1: Testing the problem—due 4:00 pm Friday 4 September 2026** | How do we demonstrate a clear, evidence-supported understanding of the customer problem? |
+| 7 | Prototyping | Solution ideation, prototyping and testing | — | How can we test a possible solution before building it? |
+| 8 | Software processes and staying organised | Software workflow, feedback and informal presentations | — | How does a software team organise and adapt its work from idea to implementation? |
+| 9 | Customer relationships and channels | Iteration 2 readiness and review | **Iteration 2: Testing the solution—due 4:00 pm Friday 25 September 2026** | How will we reach, support and retain the people who need our solution? |
+| Mid-semester break | — | — | — | What must we resolve before implementation begins? |
+| 10 | MVPs and scoping | MVP scoping and implementation planning | — | What is the smallest implementation that will test our most important assumption? |
+| 11 | Focus and pitching | Giving a one-minute pitch | — | How do we communicate our problem, evidence and solution clearly and persuasively? |
+| 12 | Continuing the project: UniQuest and UQ Ventures | No workshop—use the time to make progress on the MVP | — | How can we continue developing our project after the course if we choose to? |
+| 13 | Project showcase | Separate COMP1100 and COMP7110 showcases during each course's usual workshop | **One-minute pitch, poster and product demonstration** | How do we present and defend our work to an external audience? |
+| 14 / Exams week 1 | — | — | **Iteration 3: Minimum viable product—due 4:00 pm Friday 13 November 2026** | How do we demonstrate what we built, tested and learned? |
 
 (sec:intro:challenges)=
-
-### Weekly Deliverables
-![Course weekly schedule with deliverables](assets/weekly_schedule_iteration1.png)
-![Course weekly schedule with deliverables](assets/weekly_schedule_iteration2&3.png)
 
 ## Project challenges
 

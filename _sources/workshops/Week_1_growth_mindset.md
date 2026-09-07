@@ -273,7 +273,7 @@ Most importantly, we want you to think about this throughout the course, especia
 
 2. Read the course overview: https://comp1100.github.io/ 
 
-3. Read Chapter 1, Introduction to innovation: https://comp1100.github.io/innovation/1_introduction_to_innovation.html 
+3. Read [Chapter 1: Introduction](https://uq.pressbooks.pub/introduction-software-innovation/chapter/introduction/) in the course ebook.
 
 
 ## Bonus: It’s dangerous to go alone! Take this.

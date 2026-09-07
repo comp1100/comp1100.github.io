@@ -597,9 +597,9 @@ By now, you should have decided on 1-3 challenges that you want to explore.
 
 In this part of the studio, **as a team**:
 
-1. List out the hypotheses for your project. Remember to use the structure in the chapter on [experimentation](sec:experimentation).
+1. List out the hypotheses for your project. Remember to use the structure in the ebook chapter on [experimentation](https://uq.pressbooks.pub/introduction-software-innovation/chapter/experimentation-testing-and-validation/).
 
-2. Derive a list of interview questions that test these hypothesis. Remember to use the tips in the chapter on [interviews](sec:interviews).
+2. Derive a list of interview questions that test these hypotheses. Remember to use the tips in the ebook chapter on [interviews](https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/).
 
 After the studio, create test cards for your hypothesis and start interviewing, as outlined in this week's homework.
 

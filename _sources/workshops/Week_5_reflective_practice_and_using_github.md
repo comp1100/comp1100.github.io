@@ -13,6 +13,8 @@ By the end of the studio, your team should have:
 - stored project records in the structure supplied by the starter repository; and
 - assigned the remaining Iteration 1 work in GitHub Projects.
 
+The studio activities total 140 minutes and begin after the 30-minute innovation seminar and a 10-minute break.
+
 ## Before you begin
 
 Open your assigned private repository and read its root `README.md`, `guides/getting-started.md`, and the index for any area you change.
@@ -23,7 +25,7 @@ The starter repository contains a `create-interview-record` skill. Using AI is o
 
 ## Gibbs' Reflective Cycle
 
-⏱️ 30 minutes — individual, pair and class
+⏱️ 20 minutes — individual, pair and class
 
 <p style="text-align:center; font-weight:bold;">Devices closed after selecting your questions</p>
 
@@ -47,9 +49,7 @@ Gibbs' Reflective Cycle provides six prompts:
 
 ## Interview quality and safety audit
 
-⏱️ 15 minutes — team
-
-Thank you to Richard, one of our legends, for sharing an interview checklist that informed this reminder.
+⏱️ 10 minutes — team
 
 Choose two recent interviews and check:
 
@@ -65,7 +65,7 @@ Record any corrective action as a GitHub Project task. Do not alter source evide
 
 ## From an interview to a repository record
 
-⏱️ 25 minutes — individual and peer review
+⏱️ 20 minutes — individual and peer review
 
 The repository should contain the minimum deidentified evidence needed to support the team's reasoning, not the raw research source.
 
@@ -85,13 +85,9 @@ Each team member should process or review at least one interview:
 
 An agent can help structure or check a record. It cannot conduct the interview, decide what the evidence means, or replace human verification.
 
-## Take a break
-
-⏱️ 10 minutes
-
 ## Synthesise evidence across interviews
 
-⏱️ 40 minutes — individual and team
+⏱️ 30 minutes — individual and team
 
 One interview is evidence, not validation by itself. Your team now needs to compare evidence across participants.
 
@@ -121,7 +117,7 @@ Save the synthesis under `docs/discovery/synthesis/`. Avoid claims such as "all 
 
 ## Update the project evidence chain
 
-⏱️ 35 minutes — team, with individual commits
+⏱️ 30 minutes — team, with individual commits
 
 Use the synthesis to update project records only where the evidence supports a change.
 
@@ -164,6 +160,8 @@ Open your GitHub Project and check that every remaining Iteration 1 task states:
 Create tasks for unresolved evidence gaps, missing reviews, incomplete project records and submission preparation. Move current work to **In progress**, close completed work, and update any missed due dates rather than leaving them stale.
 
 ## Exit ticket
+
+⏱️ 10 minutes — team
 
 Before leaving, show your legend:
 

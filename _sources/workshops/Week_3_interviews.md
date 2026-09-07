@@ -3,7 +3,7 @@
 
 ## Interviews
 
-Read the chapter on [interviews](https://uq.pressbooks.pub/innovationandentrepreneurship/chapter/interviews/). We will experiment with some interview questions.
+Read the chapter on [interviews](https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/). We will experiment with some interview questions.
 
 Recall the difference between closed and open questions: closed questions have a yes/no/maybe/don't know answer, while open questions invite a response.
 
@@ -55,7 +55,7 @@ For example:
 Do this in pairs (or a trio if you have an odd number of people). This is a **practice exercise**, not project evidence. Interview another student outside your team, or use another participant available in the studio if approaching someone outside class is not appropriate.
 
 1. Each team member should approach two different students (outside of their team) and ask each of them a question: one open and one closed.
-2. Introduce yourself as outlined in the [interviews chapter](https://uq.pressbooks.pub/innovationandentrepreneurship/chapter/interviews/) and explain that this is a short practice interview for a course.
+2. Introduce yourself as outlined in the [interviews chapter](https://uq.pressbooks.pub/introduction-software-innovation/chapter/interviews/) and explain that this is a short practice interview for a course.
 3. Ask for permission to audio record. Make it clear that participants can decline to answer or stop the interview or recording at any time.
 4. If they agree, ask the open or closed question, and record their response using the audio recorder.
 5. Feel free to ask follow-up questions to learn more about their experience related to the challenge that you chose.
