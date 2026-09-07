@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Week 7: Software prototyping &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
+    <title>Week 7: Solution ideation, prototyping and testing &#8212; COMP1100/COMP7110 Introduction to software innovation</title>
   
   
   
@@ -62,10 +62,10 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'workshops/Week_7_prototyping';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
-    <script src="../_static/sidebar-toggle-fix.js?v=2cc27ea6"></script>
+    <script src="../_static/sidebar-toggle-fix.js?v=38ddd8eb"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Week 8: Giving &amp; receiving feedback; informal presentations" href="Week_8_feedback_and_presentations.html" />
+    <link rel="next" title="Week 8: Software workflow, feedback and project work" href="Week_8_software_workflow_feedback_and_project_work.html" />
     <link rel="prev" title="Week 6: Iteration 1 readiness and review" href="Week_6_team_planning.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -228,8 +228,8 @@
 <li class="toctree-l1"><a class="reference internal" href="Week_4_repositories.html">Week 4: Repositories and Version Control</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_5_reflective_practice_and_using_github.html">Week 5: Reflect, synthesise and organise</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_6_team_planning.html">Week 6: Iteration 1 readiness and review</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 7: Software prototyping</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week_8_feedback_and_presentations.html">Week 8: Giving &amp; receiving feedback; informal presentations</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Week 7: Solution ideation, prototyping and testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week_8_software_workflow_feedback_and_project_work.html">Week 8: Software workflow, feedback and project work</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_9_sketching_your_MVP.html">Week 9: Defining your MVP and prototyping</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_10_time_management.html">Week 10: Time management</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Week_11_pitching.html">Week 11: Giving a 1-minute pitch</a></li>
@@ -426,7 +426,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 7: Software prototyping</h1>
+    <h1>Week 7: Solution ideation, prototyping and testing</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -436,20 +436,19 @@
             </div>
             <nav aria-label="Page">
                 <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-application-keep-in-touch">The application: Keep in touch</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-paper-prototype">Exercise 1: Paper prototype</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2a-feedback">Exercise 2a: Feedback</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2b-feedback">Exercise 2b: Feedback</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-digital-prototype">Exercise 3: Digital prototype</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-discussion">Exercise 4: Discussion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-5-brainstorming-ideas-for-your-solution">Exercise 5: Brainstorming ideas for your solution</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ideation">Ideation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-project">Your project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-the-seminar-to-your-project">From the seminar to your project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#select-a-hypothesis-to-carry-forward">1. Select a hypothesis to carry forward</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diverge-create-options">2. Diverge: create options</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converge-make-a-choice">3. Converge: make a choice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choose-the-prototype-type-and-fidelity">4. Choose the prototype type and fidelity</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#optional-tools">Optional tools</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-prototype">5. Plan the prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-building">6. Begin building</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket-and-next-steps">Exit ticket and next steps</a></li>
 </ul>
             </nav>
         </div>
@@ -461,134 +460,133 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-7-software-prototyping">
-<h1>Week 7: Software prototyping<a class="headerlink" href="#week-7-software-prototyping" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="week-7-solution-ideation-prototyping-and-testing">
+<h1>Week 7: Solution ideation, prototyping and testing<a class="headerlink" href="#week-7-solution-ideation-prototyping-and-testing" title="Link to this heading">#</a></h1>
 <section id="studio-abstract">
-<h2>Studio Abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
-<hr class="docutils" />
+<h2>Studio abstract<a class="headerlink" href="#studio-abstract" title="Link to this heading">#</a></h2>
 <blockquote>
-<div><p>In this studio, we will experiment with paper prototyping, and learn how to gather feedback from it.</p>
+<div><p>In this studio, your team will carry an evidence-supported hypothesis forward from Iteration 1, explore possible solutions, choose an appropriate prototype type and fidelity, and begin building. You will leave with a plan for completing and testing the prototype after class.</p>
 </div></blockquote>
-<p>We will do the following  exercises:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Design and prototype a simple application</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Gain feedback on the prototype from other teams</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Use a digital prototyping tool</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Compare paper and digital prototyping</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox">  Start brainstorming ideas for your project</p></li>
+<p>The activities total 140 minutes and begin after the 30-minute innovation seminar and a 10-minute transition.</p>
+<p>By the end of the studio, your team should have:</p>
+<ul class="simple">
+<li><p>selected an Iteration 1 hypothesis to carry forward;</p></li>
+<li><p>retained several possible solutions generated through divergent thinking;</p></li>
+<li><p>documented its chosen solution and remaining uncertainty;</p></li>
+<li><p>justified the prototype type and fidelity;</p></li>
+<li><p>begun building the prototype; and</p></li>
+<li><p>assigned the work required to finish and test it before Iteration 2.</p></li>
 </ul>
 </section>
-<hr class="docutils" />
-<section id="the-application-keep-in-touch">
-<h2>The application: Keep in touch<a class="headerlink" href="#the-application-keep-in-touch" title="Link to this heading">#</a></h2>
-<p>⏱️ 5 minutes - Group discussion</p>
-<p>We will use the running product example discussed in seminars: the `emergency alarm’ system.</p>
-<p>The application you prototype has two main aims:</p>
+<section id="from-the-seminar-to-your-project">
+<h2>From the seminar to your project<a class="headerlink" href="#from-the-seminar-to-your-project" title="Link to this heading">#</a></h2>
+<p>The seminar’s shared photo-experience example showed how the same proposed solution could be represented as paper screens, a wireframe, a realistic interface or a Wizard of Oz experience. Each version is useful for a different uncertainty. Use that example as a pattern, but make the fidelity decision for your own hypothesis and learning goal.</p>
+</section>
+<section id="select-a-hypothesis-to-carry-forward">
+<h2>1. Select a hypothesis to carry forward<a class="headerlink" href="#select-a-hypothesis-to-carry-forward" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes — team</p>
+<p>Review your Iteration 1 hypotheses, evidence, learning cards, business model canvas and feedback. Select one hypothesis that is sufficiently supported and important to carry into solution development.</p>
+<p>Record:</p>
 <ol class="arabic simple">
-<li><p>Older people keeping in touch with the family members.</p></li>
-<li><p>Families knowing their older family member is OK each day.</p></li>
+<li><p>the hypothesis in its current form;</p></li>
+<li><p>the customer segment and problem it concerns;</p></li>
+<li><p>the evidence that supports carrying it forward;</p></li>
+<li><p>important contradictions, limitations or uncertainty; and</p></li>
+<li><p>why the team selected it over its other hypotheses.</p></li>
 </ol>
-<p>You can choose the design of the system, but it has to support the following features:</p>
-<ol class="arabic simple">
-<li><p>Family members must be able to take and send photos from a mobile device.</p></li>
-<li><p>Those photos must be shown on a digital `photo frame’ or tablet in the older person’s house.</p></li>
-<li><p>The older person must touch the photo frame to see new photos that arrive.</p></li>
-<li><p>If there is no photo by 11am on any day, show a previous photo that the older person has `liked’.</p></li>
-<li><p>When the older person interacts with the photo frame for the first time each day, a notification is sent to the family members letting them know.</p></li>
-</ol>
+<p>Do not quietly discard inconvenient evidence or rewrite the Iteration 1 record. Add a new decision that links back to the existing evidence trail.</p>
 </section>
-<section id="exercise-1-paper-prototype">
-<h2>Exercise 1: Paper prototype<a class="headerlink" href="#exercise-1-paper-prototype" title="Link to this heading">#</a></h2>
-<p>⏱️ 30 minutes - Teams</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Design an application that implements the above features and construct a paper prototype for it using the resources provided.</p>
-<p>Note that you need to define BOTH sides of the application: sending photos, receiving photos, and receiving notifications.</p>
+<section id="diverge-create-options">
+<h2>2. Diverge: create options<a class="headerlink" href="#diverge-create-options" title="Link to this heading">#</a></h2>
+<p>⏱️ 20 minutes — individual, then team</p>
+<p>Begin with the selected hypothesis and generate possible solutions or value propositions.</p>
+<p>For the first 10 minutes, work individually and aim for quantity rather than polish. Record every idea, including unusual or impractical ones. Do not evaluate ideas yet.</p>
+<p>For the next 10 minutes, share the ideas and combine related possibilities. Preserve the full set in the project record rather than retaining only the eventual choice.</p>
 </section>
-<section id="exercise-2a-feedback">
-<h2>Exercise 2a: Feedback<a class="headerlink" href="#exercise-2a-feedback" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes - Class</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Now that each team has a prototype, two members of the team will take this to one other team, ask <strong>each person</strong> in that other team  to use it to complete the tasks of sending photos, receiving photos, and notifications.</p>
-<p>Watch how the other team uses your paper prototype and see if there are design choices that would improve it.</p>
-<p>Also, pay attention to how different teams have made different design choices for the same features.</p>
+<section id="converge-make-a-choice">
+<h2>3. Converge: make a choice<a class="headerlink" href="#converge-make-a-choice" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes — team</p>
+<p>Compare the options using the evidence already gathered. Consider:</p>
+<ul class="simple">
+<li><p>how directly each option responds to the selected customer problem;</p></li>
+<li><p>which important assumptions remain untested;</p></li>
+<li><p>what could be learned before implementation;</p></li>
+<li><p>feasibility within the course; and</p></li>
+<li><p>whether the option offers a meaningful value proposition.</p></li>
+</ul>
+<p>Choose one direction to prototype. Record why it was selected and which alternatives were set aside for now.</p>
 </section>
-<section id="exercise-2b-feedback">
-<h2>Exercise 2b: Feedback<a class="headerlink" href="#exercise-2b-feedback" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes - Class</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>Now, switch roles. Those who moved tables should return to their previous table, and the remaining members take the prototype to gain feedback for another team.</p>
+<section id="choose-the-prototype-type-and-fidelity">
+<h2>4. Choose the prototype type and fidelity<a class="headerlink" href="#choose-the-prototype-type-and-fidelity" title="Link to this heading">#</a></h2>
+<p>⏱️ 15 minutes — team</p>
+<p>Write one clear statement of what the team needs to learn about the chosen solution. Then choose the simplest prototype capable of producing useful evidence.</p>
+<p>Possible approaches include:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Approach</p></th>
+<th class="head"><p>Useful when the team needs to learn about</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Sketch or paper prototype</p></td>
+<td><p>concepts, screens, sequence and basic interaction</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wireframe or clickable prototype</p></td>
+<td><p>navigation, information structure and task flow</p></td>
+</tr>
+<tr class="row-even"><td><p>Wizard of Oz or simulated service</p></td>
+<td><p>an experience whose underlying system is expensive or unavailable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Code prototype</p></td>
+<td><p>technical feasibility or an interaction that cannot be represented credibly another way</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="optional-tools">
+<h3>Optional tools<a class="headerlink" href="#optional-tools" title="Link to this heading">#</a></h3>
+<p>For a mid-fidelity wireframe or clickable flow, teams may use <a class="reference external" href="https://www.figma.com/">Figma</a> or <a class="reference external" href="https://uxpilot.ai/">UXPilot</a>. Paper, presentation slides or another familiar tool are also suitable—the tool should match what the team needs to learn.</p>
+<p>If a high-fidelity interaction is justified, teams may use an AI coding agent with an appropriate interface-prototyping or frontend-design skill. Treat the generated result as a prototype: review and test the output, remove unnecessary functionality, retain meaningful team contributions in the repository, and never provide the agent with identifiable participant data.</p>
+<p>Decide what must appear realistic, what must work, and what can remain absent or simulated. More polish is not automatically better.</p>
 </section>
-<section id="exercise-3-digital-prototype">
-<h2>Exercise 3: Digital prototype<a class="headerlink" href="#exercise-3-digital-prototype" title="Link to this heading">#</a></h2>
-<p>⏱️ 30 minutes - Teams</p>
-<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
-<p><a class="reference external" href="https://www.figma.com">Figma</a> is an excellent tool for digital prototyping. It produces clean and beautiful interfaces.</p>
-<p>Split your team into two sub-teams. Then:</p>
-<ol class="arabic simple">
-<li><p>One sub-team should create a digital prototype for the photo frame part of the application used by older people.</p></li>
-<li><p>The other sub-team should create a digital prototype for the part of the application that sends the photos and receives notifications.</p></li>
-</ol>
-</section>
-<section id="exercise-4-discussion">
-<h2>Exercise 4: Discussion<a class="headerlink" href="#exercise-4-discussion" title="Link to this heading">#</a></h2>
-<p>⏱️ 5-10 minutes - Class</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>The legends will lead a discussion about your experience. Think about these questions:</p>
-<ol class="arabic simple">
-<li><p>Which type of prototyping did you prefer? Paper or digital?</p></li>
-<li><p>What are the advantages and disadvantages of each?</p></li>
-<li><p>When would you use one instead of the other?</p></li>
-<li><p>Which was more fun?</p></li>
-</ol>
 </section>
 <section id="break">
 <h2>Break<a class="headerlink" href="#break" title="Link to this heading">#</a></h2>
 <p>⏱️ 10 minutes</p>
 </section>
-<section id="exercise-5-brainstorming-ideas-for-your-solution">
-<h2>Exercise 5: Brainstorming ideas for your solution<a class="headerlink" href="#exercise-5-brainstorming-ideas-for-your-solution" title="Link to this heading">#</a></h2>
-<p>⏱️ 10 minutes - Class</p>
-<p>For the rest of this session, as a team, you are going to brainstorm some ideas for the solutions (value propositions) to the problem that you identified in iteration 1. Some of you may have already chosen an idea, but I’m willing to bet you that it’s not a great idea, and that it has likely already been done. What you need to do now is <strong>get creative</strong>.</p>
-<p>Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology, makes the point that everyone is creative. “Creativity” is not some magical thing that some people are born with. All of us are creative, and by following some simple ideas, we can become more creative.</p>
-<p>Recall the design thinking process from the <a class="reference external" href="https://uq.pressbooks.pub/introduction-software-innovation/chapter/introduction/">introduction to innovation</a> chapter.</p>
-<figure class="align-default" id="fig-design-thinking-process-studio">
-<a class="reference internal image-reference" href="../_images/design_thinking_process.png"><img alt="The design thinking process. Five stages represented a circle to represent that it is iterative. The five stages are: empathise, define, ideate, prototype, and test." src="../_images/design_thinking_process.png" style="height: 300px;" />
-</a>
-<figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">The design thinking process</span><a class="headerlink" href="#fig-design-thinking-process-studio" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<p>Watch <a class="reference external" href="https://vimeo.com/manage/videos/271035075">this killer 5-minute video of what empathy really means</a> from my colleague Professor Tim Kastelle, Director of the Andrew N. Liveris Academy for Innovation and Leadership at the University of Queensland:</p>
-<iframe src="https://player.vimeo.com/video/271035075?h=eef0e60f2e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<section id="ideation">
-<h3>Ideation<a class="headerlink" href="#ideation" title="Link to this heading">#</a></h3>
-<p>Once you have defined a problem, which you hopefully have already for this course, it is time to <strong>ideate</strong> – to come up with creative yet concrete ideas that address the problem.</p>
-<p>One process to ideate is to brainstorm in a group, using the <strong>divergent thinking process</strong>:</p>
-<figure class="align-default" id="fig-divergeny-thinking">
-<a class="reference internal image-reference" href="../_images/divergent_thinking.png"><img alt="The divergent thinking process. Two stages: the first stage, divergence, has a problem with two arrows leading out in a V shape, which generates many ideas; and second stage, convergence, evaluates those ideas and makes choices." src="../_images/divergent_thinking.png" style="height: 300px;" />
-</a>
-<figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Divergent thinking</span><a class="headerlink" href="#fig-divergeny-thinking" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<p>In the <strong>diverge</strong> stage, the aim is to spend 10-20 minutes generating as many ideas as possible. Outrageous ideas should be encouraged – even if they would never work, they may give other people ideas. Don’t criticise ideas, judge their feasibility, etc. Just generate as many ideas as possible, and record them</p>
-<p>In the <strong>converge</strong> stage, take that set of ideas, and start to evaluate, and bring together different ideas, until just 1-3 final ideas remain. Importantly, this isn’t just selecting one of the previous ideas – we should aim to refine them, combine them, and improve on them.</p>
-<p>Even as part of the ideation, you should continue to <strong>empathise</strong> with your customers, considering what solutions would truly be suitable for them.</p>
+<section id="plan-the-prototype">
+<h2>5. Plan the prototype<a class="headerlink" href="#plan-the-prototype" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes — team</p>
+<p>Before building, record:</p>
+<ul class="simple">
+<li><p>the hypothesis and uncertainty the prototype will address;</p></li>
+<li><p>the type and fidelity selected, with a short justification;</p></li>
+<li><p>the specific parts that must be represented or functional;</p></li>
+<li><p>the parts that can be omitted or simulated;</p></li>
+<li><p>the task a participant will attempt; and</p></li>
+<li><p>how observations and feedback will be recorded safely.</p></li>
+</ul>
+<p>Divide the build into small tasks and give each task one accountable owner.</p>
 </section>
-<section id="your-project">
-<h3>Your project<a class="headerlink" href="#your-project" title="Link to this heading">#</a></h3>
-<p>⏱️ 50 minutes - Team</p>
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-<p>In your team, take the problem that you identified and use divergent thinking to generate some potential solutions (value propositions) for your customers’ problems.</p>
-<p>Remember to record your ideas as you generate them, either on a large piece of paper, some post-it notes, or a notebook. Avoid using a digital device such as a laptop, which is slow and makes it difficult take a high-level view of all of the ideas.</p>
+<section id="begin-building">
+<h2>6. Begin building<a class="headerlink" href="#begin-building" title="Link to this heading">#</a></h2>
+<p>⏱️ 40 minutes — team</p>
+<p>Build the smallest useful version of the planned prototype. Review it regularly against the learning goal rather than adding detail simply because there is time.</p>
+<p>Keep evidence of the work in the project repository. Depending on the approach, this may include photographs, exported screens, source files, code, design decisions and links to externally hosted artefacts. Do not commit participant-identifying material.</p>
+<p>The prototype does not need to be complete by the end of the studio.</p>
 </section>
-</section>
-<section id="exit-ticket">
-<h2>Exit ticket<a class="headerlink" href="#exit-ticket" title="Link to this heading">#</a></h2>
+<section id="exit-ticket-and-next-steps">
+<h2>Exit ticket and next steps<a class="headerlink" href="#exit-ticket-and-next-steps" title="Link to this heading">#</a></h2>
+<p>⏱️ 10 minutes — team and legend</p>
+<p>Show your legend:</p>
 <ol class="arabic simple">
-<li><p>Get your legend to use your paper and digital prototypes.</p></li>
-<li><p>Show your legend the notes from your divergent thinking session, and give them a 30 second description of your favourite solution so far.</p></li>
+<li><p>the selected Iteration 1 hypothesis and supporting evidence;</p></li>
+<li><p>the solution options generated and the reason for the final choice;</p></li>
+<li><p>the stated uncertainty and chosen prototype fidelity;</p></li>
+<li><p>the prototype work completed so far; and</p></li>
+<li><p>GitHub Project tasks assigning who will finish the prototype, who will test it, and when each task is due.</p></li>
 </ol>
+<p>After the studio, finish only what is necessary for the planned test. Test the prototype with relevant people, record observations and feedback, and connect the resulting learning to the hypothesis and next project decision for Iteration 2.</p>
 </section>
 </section>
 
@@ -632,11 +630,11 @@
       </div>
     </a>
     <a class="right-next"
-       href="Week_8_feedback_and_presentations.html"
+       href="Week_8_software_workflow_feedback_and_project_work.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Week 8: Giving &amp; receiving feedback; informal presentations</p>
+        <p class="prev-next-title">Week 8: Software workflow, feedback and project work</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -658,20 +656,19 @@
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio Abstract</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-application-keep-in-touch">The application: Keep in touch</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1-paper-prototype">Exercise 1: Paper prototype</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2a-feedback">Exercise 2a: Feedback</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-2b-feedback">Exercise 2b: Feedback</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-3-digital-prototype">Exercise 3: Digital prototype</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4-discussion">Exercise 4: Discussion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-5-brainstorming-ideas-for-your-solution">Exercise 5: Brainstorming ideas for your solution</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ideation">Ideation</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-project">Your project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#studio-abstract">Studio abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#from-the-seminar-to-your-project">From the seminar to your project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#select-a-hypothesis-to-carry-forward">1. Select a hypothesis to carry forward</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diverge-create-options">2. Diverge: create options</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#converge-make-a-choice">3. Converge: make a choice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choose-the-prototype-type-and-fidelity">4. Choose the prototype type and fidelity</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#optional-tools">Optional tools</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket">Exit ticket</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#break">Break</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-the-prototype">5. Plan the prototype</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-building">6. Begin building</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exit-ticket-and-next-steps">Exit ticket and next steps</a></li>
 </ul>
   </nav></div>
 

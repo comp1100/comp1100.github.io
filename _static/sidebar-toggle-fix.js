@@ -1,8 +1,8 @@
 (() => {
   "use strict";
 
-  const initialiseSidebarToggle = () => {
-    const toggles = Array.from(document.querySelectorAll(".primary-toggle"));
+  const forwardAdditionalToggles = (selector) => {
+    const toggles = Array.from(document.querySelectorAll(selector));
     const themeToggle = toggles[0];
 
     if (!themeToggle) {
@@ -10,8 +10,8 @@
     }
 
     // PyData Sphinx Theme currently wires only the first toggle. Sphinx Book
-    // Theme renders another toggle in the article header, which is the visible
-    // hamburger. Forward clicks from any additional toggles to the wired one.
+    // Theme renders additional controls in the article header. Forward clicks
+    // from those controls to the corresponding toggle wired by the theme.
     toggles.slice(1).forEach((toggle) => {
       toggle.addEventListener(
         "click",
@@ -25,9 +25,14 @@
     });
   };
 
+  const initialiseSidebarToggles = () => {
+    forwardAdditionalToggles(".primary-toggle");
+    forwardAdditionalToggles(".secondary-toggle");
+  };
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initialiseSidebarToggle);
+    document.addEventListener("DOMContentLoaded", initialiseSidebarToggles);
   } else {
-    initialiseSidebarToggle();
+    initialiseSidebarToggles();
   }
 })();

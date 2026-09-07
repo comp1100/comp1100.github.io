@@ -1,152 +1,126 @@
-# Week 7: Software prototyping
+# Week 7: Solution ideation, prototyping and testing
 
-## Studio Abstract
+## Studio abstract
 
----
+> In this studio, your team will carry an evidence-supported hypothesis forward from Iteration 1, explore possible solutions, choose an appropriate prototype type and fidelity, and begin building. You will leave with a plan for completing and testing the prototype after class.
 
-> In this studio, we will experiment with paper prototyping, and learn how to gather feedback from it.
+The activities total 140 minutes and begin after the 30-minute innovation seminar and a 10-minute transition.
 
-We will do the following  exercises:
+By the end of the studio, your team should have:
 
-- [ ]  Design and prototype a simple application
-- [ ]  Gain feedback on the prototype from other teams
-- [ ]  Use a digital prototyping tool 
-- [ ]  Compare paper and digital prototyping
-- [ ]  Start brainstorming ideas for your project
----
+- selected an Iteration 1 hypothesis to carry forward;
+- retained several possible solutions generated through divergent thinking;
+- documented its chosen solution and remaining uncertainty;
+- justified the prototype type and fidelity;
+- begun building the prototype; and
+- assigned the work required to finish and test it before Iteration 2.
 
-## The application: Keep in touch
+## From the seminar to your project
 
-⏱️ 5 minutes - Group discussion
+The seminar's shared photo-experience example showed how the same proposed solution could be represented as paper screens, a wireframe, a realistic interface or a Wizard of Oz experience. Each version is useful for a different uncertainty. Use that example as a pattern, but make the fidelity decision for your own hypothesis and learning goal.
 
-We will use the running product example discussed in seminars: the `emergency alarm' system.
+## 1. Select a hypothesis to carry forward
 
-The application you prototype has two main aims:
-1. Older people keeping in touch with the family members.
-2. Families knowing their older family member is OK each day.
+⏱️ 20 minutes — team
 
-You can choose the design of the system, but it has to support the following features:
-1. Family members must be able to take and send photos from a mobile device.
-2. Those photos must be shown on a digital `photo frame' or tablet in the older person's house.
-3. The older person must touch the photo frame to see new photos that arrive.
-4. If there is no photo by 11am on any day, show a previous photo that the older person has `liked'.
-5. When the older person interacts with the photo frame for the first time each day, a notification is sent to the family members letting them know.
+Review your Iteration 1 hypotheses, evidence, learning cards, business model canvas and feedback. Select one hypothesis that is sufficiently supported and important to carry into solution development.
 
-## Exercise 1: Paper prototype
+Record:
 
-⏱️ 30 minutes - Teams
+1. the hypothesis in its current form;
+2. the customer segment and problem it concerns;
+3. the evidence that supports carrying it forward;
+4. important contradictions, limitations or uncertainty; and
+5. why the team selected it over its other hypotheses.
 
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+Do not quietly discard inconvenient evidence or rewrite the Iteration 1 record. Add a new decision that links back to the existing evidence trail.
 
-Design an application that implements the above features and construct a paper prototype for it using the resources provided.
+## 2. Diverge: create options
 
-Note that you need to define BOTH sides of the application: sending photos, receiving photos, and receiving notifications.
+⏱️ 20 minutes — individual, then team
 
-## Exercise 2a: Feedback
+Begin with the selected hypothesis and generate possible solutions or value propositions.
 
-⏱️ 10 minutes - Class
+For the first 10 minutes, work individually and aim for quantity rather than polish. Record every idea, including unusual or impractical ones. Do not evaluate ideas yet.
 
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+For the next 10 minutes, share the ideas and combine related possibilities. Preserve the full set in the project record rather than retaining only the eventual choice.
 
-Now that each team has a prototype, two members of the team will take this to one other team, ask **each person** in that other team  to use it to complete the tasks of sending photos, receiving photos, and notifications.
+## 3. Converge: make a choice
 
-Watch how the other team uses your paper prototype and see if there are design choices that would improve it.
+⏱️ 15 minutes — team
 
-Also, pay attention to how different teams have made different design choices for the same features.
+Compare the options using the evidence already gathered. Consider:
 
+- how directly each option responds to the selected customer problem;
+- which important assumptions remain untested;
+- what could be learned before implementation;
+- feasibility within the course; and
+- whether the option offers a meaningful value proposition.
 
-## Exercise 2b: Feedback
+Choose one direction to prototype. Record why it was selected and which alternatives were set aside for now.
 
-⏱️ 10 minutes - Class
+## 4. Choose the prototype type and fidelity
 
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
+⏱️ 15 minutes — team
 
-Now, switch roles. Those who moved tables should return to their previous table, and the remaining members take the prototype to gain feedback for another team.
+Write one clear statement of what the team needs to learn about the chosen solution. Then choose the simplest prototype capable of producing useful evidence.
 
-## Exercise 3: Digital prototype
+Possible approaches include:
 
-⏱️ 30 minutes - Teams
+| Approach | Useful when the team needs to learn about |
+|---|---|
+| Sketch or paper prototype | concepts, screens, sequence and basic interaction |
+| Wireframe or clickable prototype | navigation, information structure and task flow |
+| Wizard of Oz or simulated service | an experience whose underlying system is expensive or unavailable |
+| Code prototype | technical feasibility or an interaction that cannot be represented credibly another way |
 
-<p style="text-align:center; font-weight:bold;"> Devices required for this exercise </p> 
+### Optional tools
 
-[Figma](https://www.figma.com) is an excellent tool for digital prototyping. It produces clean and beautiful interfaces.
+For a mid-fidelity wireframe or clickable flow, teams may use [Figma](https://www.figma.com/) or [UXPilot](https://uxpilot.ai/). Paper, presentation slides or another familiar tool are also suitable—the tool should match what the team needs to learn.
 
-Split your team into two sub-teams. Then:
-1. One sub-team should create a digital prototype for the photo frame part of the application used by older people.
-2. The other sub-team should create a digital prototype for the part of the application that sends the photos and receives notifications. 
+If a high-fidelity interaction is justified, teams may use an AI coding agent with an appropriate interface-prototyping or frontend-design skill. Treat the generated result as a prototype: review and test the output, remove unnecessary functionality, retain meaningful team contributions in the repository, and never provide the agent with identifiable participant data.
 
-## Exercise 4: Discussion
-
-⏱️ 5-10 minutes - Class
-
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-
-The legends will lead a discussion about your experience. Think about these questions:
-1. Which type of prototyping did you prefer? Paper or digital?
-2. What are the advantages and disadvantages of each?
-3. When would you use one instead of the other?
-4. Which was more fun?
+Decide what must appear realistic, what must work, and what can remain absent or simulated. More polish is not automatically better.
 
 ## Break
 
 ⏱️ 10 minutes
 
-## Exercise 5: Brainstorming ideas for your solution
+## 5. Plan the prototype
 
-⏱️ 10 minutes - Class
+⏱️ 10 minutes — team
 
-For the rest of this session, as a team, you are going to brainstorm some ideas for the solutions (value propositions) to the problem that you identified in iteration 1. Some of you may have already chosen an idea, but I'm willing to bet you that it's not a great idea, and that it has likely already been done. What you need to do now is **get creative**.
+Before building, record:
 
-Professor Marek Kowalkiewicz, Chair of Digitial Economy at Queensland University of Technology, makes the point that everyone is creative. "Creativity" is not some magical thing that some people are born with. All of us are creative, and by following some simple ideas, we can become more creative.
+- the hypothesis and uncertainty the prototype will address;
+- the type and fidelity selected, with a short justification;
+- the specific parts that must be represented or functional;
+- the parts that can be omitted or simulated;
+- the task a participant will attempt; and
+- how observations and feedback will be recorded safely.
 
-Recall the design thinking process from the [introduction to innovation](https://uq.pressbooks.pub/introduction-software-innovation/chapter/introduction/) chapter.
-```{figure} ../assets/innovation-book-figures/design_thinking_process.png
----
-height: 300px
-name: fig:design_thinking_process_studio
-alt: "The design thinking process. Five stages represented a circle to represent that it is iterative. The five stages are: empathise, define, ideate, prototype, and test."
----
-The design thinking process
-```
+Divide the build into small tasks and give each task one accountable owner.
 
-Watch [this killer 5-minute video of what empathy really means](https://vimeo.com/manage/videos/271035075) from my colleague Professor Tim Kastelle, Director of the Andrew N. Liveris Academy for Innovation and Leadership at the University of Queensland:
+## 6. Begin building
 
-<iframe src="https://player.vimeo.com/video/271035075?h=eef0e60f2e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+⏱️ 40 minutes — team
 
-### Ideation
+Build the smallest useful version of the planned prototype. Review it regularly against the learning goal rather than adding detail simply because there is time.
 
-Once you have defined a problem, which you hopefully have already for this course, it is time to **ideate** -- to come up with creative yet concrete ideas that address the problem.
+Keep evidence of the work in the project repository. Depending on the approach, this may include photographs, exported screens, source files, code, design decisions and links to externally hosted artefacts. Do not commit participant-identifying material.
 
-One process to ideate is to brainstorm in a group, using the **divergent thinking process**:
+The prototype does not need to be complete by the end of the studio.
 
-```{figure} ./figs/divergent_thinking.png
----
-height: 300px
-name: fig:divergeny_thinking
-alt: "The divergent thinking process. Two stages: the first stage, divergence, has a problem with two arrows leading out in a V shape, which generates many ideas; and second stage, convergence, evaluates those ideas and makes choices."
----
-Divergent thinking
-```
+## Exit ticket and next steps
 
-In the **diverge** stage, the aim is to spend 10-20 minutes generating as many ideas as possible. Outrageous ideas should be encouraged -- even if they would never work, they may give other people ideas. Don't criticise ideas, judge their feasibility, etc. Just generate as many ideas as possible, and record them
+⏱️ 10 minutes — team and legend
 
-In the **converge** stage, take that set of ideas, and start to evaluate, and bring together different ideas, until just 1-3 final ideas remain. Importantly, this isn't just selecting one of the previous ideas -- we should aim to refine them, combine them, and improve on them.
+Show your legend:
 
-Even as part of the ideation, you should continue to **empathise** with your customers, considering what solutions would truly be suitable for them.
+1. the selected Iteration 1 hypothesis and supporting evidence;
+2. the solution options generated and the reason for the final choice;
+3. the stated uncertainty and chosen prototype fidelity;
+4. the prototype work completed so far; and
+5. GitHub Project tasks assigning who will finish the prototype, who will test it, and when each task is due.
 
-### Your project
-
-⏱️ 50 minutes - Team
-
-<p style="text-align:center; font-weight:bold;"> Devices closed for this exercise </p> 
-
-In your team, take the problem that you identified and use divergent thinking to generate some potential solutions (value propositions) for your customers' problems. 
-
-Remember to record your ideas as you generate them, either on a large piece of paper, some post-it notes, or a notebook. Avoid using a digital device such as a laptop, which is slow and makes it difficult take a high-level view of all of the ideas.
-
-
-## Exit ticket
-
-1. Get your legend to use your paper and digital prototypes.
-
-2. Show your legend the notes from your divergent thinking session, and give them a 30 second description of your favourite solution so far.
+After the studio, finish only what is necessary for the planned test. Test the prototype with relevant people, record observations and feedback, and connect the resulting learning to the hypothesis and next project decision for Iteration 2.
