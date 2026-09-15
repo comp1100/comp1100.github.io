@@ -293,8 +293,8 @@ Each week, the course will be broken into three components:
 | 5 | From interviews to evidence | Reflect, synthesise and organise | — | How do we turn interview data into evidence-supported insights and decisions? |
 | 6 | Building a coherent project record | Iteration 1 readiness and review | **Iteration 1: Testing the problem—due 4:00 pm Friday 4 September 2026** | How do we demonstrate a clear, evidence-supported understanding of the customer problem? |
 | 7 | Prototyping | Solution ideation, prototyping and testing | — | How can we test a possible solution before building it? |
-| 8 | Software processes and staying organised | Software workflow, feedback and project work | — | How does a software team organise and adapt its work from idea to implementation? |
-| 9 | Customer relationships and channels | Iteration 2 readiness and review | **Iteration 2: Testing the solution—due 4:00 pm Friday 25 September 2026** | How will we reach, support and retain the people who need our solution? |
+| 8 | Customer relationships, channels and competitor analysis | Competitor analysis and Iteration 2 project work | — | How will we reach, support and retain customers, and distinguish our solution from its competitors? |
+| 9 | Software processes and staying organised | Iteration 2 readiness and review | **Iteration 2: Testing the solution—due 4:00 pm Friday 25 September 2026** | How do we organise, review and present the evidence that our proposed solution addresses the customer problem? |
 | Mid-semester break | — | — | — | What must we resolve before implementation begins? |
 | 10 | MVPs and scoping | MVP scoping and implementation planning | — | What is the smallest implementation that will test our most important assumption? |
 | 11 | Focus and pitching | Giving a one-minute pitch | — | How do we communicate our problem, evidence and solution clearly and persuasively? |
