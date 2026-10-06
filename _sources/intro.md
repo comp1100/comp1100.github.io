@@ -298,7 +298,7 @@ Each week, the course will be broken into three components:
 | Mid-semester break | — | — | — | What must we resolve before implementation begins? |
 | 10 | MVPs and scoping | MVP scoping and implementation planning | — | What is the smallest implementation that will test our most important assumption? |
 | 11 | Focus and pitching | Giving a one-minute pitch | — | How do we communicate our problem, evidence and solution clearly and persuasively? |
-| 12 | Continuing the project: UniQuest and UQ Ventures | No workshop—use the time to make progress on the MVP | — | How can we continue developing our project after the course if we choose to? |
+| 12 | Continuing the project: UniQuest and UQ Ventures | MVP project work—attendance as usual | — | How can we continue developing our project after the course if we choose to? |
 | 13 | Project showcase | Separate COMP1100 and COMP7110 showcases during each course's usual workshop | **One-minute pitch, poster and product demonstration** | How do we present and defend our work to an external audience? |
 | 14 / Exams week 1 | — | — | **Iteration 3: Minimum viable product—due 4:00 pm Friday 13 November 2026** | How do we demonstrate what we built, tested and learned? |
 
